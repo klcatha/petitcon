@@ -1,9 +1,9 @@
-﻿Log file open, 08/11/17 23:44:18
+﻿Log file open, 08/13/17 12:53:50
 LogInit:Display: Running engine for game: petitcon
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-242995507) SRandInit(-242995507).
+LogInit:Display: RandInit(-592015293) SRandInit(-592015293).
 LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.086319
+LogStats: Stats thread started at 0.087926
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -45,447 +45,372 @@ LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
-LogInit: Command line: -EpicPortal 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.11-14.44.19:045][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.11-14.44.19:045][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.11-14.44.19:056][  0]LogInit: Computer: DESKTOP-QTEU8JE
-[2017.08.11-14.44.19:056][  0]LogInit: User: klca0
-[2017.08.11-14.44.19:056][  0]LogInit: CPU Page size=4096, Cores=2
-[2017.08.11-14.44.19:056][  0]LogInit: High frequency timer resolution =2.437502 MHz
-[2017.08.11-14.44.19:057][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.08.11-14.44.19:057][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.11-14.44.19:057][  0]LogMemory: Process Physical Memory: 272.97 MB used, 272.97 MB peak
-[2017.08.11-14.44.19:057][  0]LogMemory: Process Virtual Memory: 259.88 MB used, 259.88 MB peak
-[2017.08.11-14.44.19:057][  0]LogMemory: Physical Memory: 3636.12 MB used,  4480.99 MB free, 8117.11 MB total
-[2017.08.11-14.44.19:057][  0]LogMemory: Virtual Memory: 633.00 MB used,  4480.99 MB free, 134217728.00 MB total
-[2017.08.11-14.44.19:234][  0]LogInit: Using OS detected language (ja-JP).
-[2017.08.11-14.44.19:234][  0]LogInit: Using OS detected locale (ja-JP).
-[2017.08.11-14.44.19:237][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2017.08.11-14.44.20:237][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.11-14.44.20:245][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2017.08.11-14.44.20:245][  0]LogD3D11RHI:       128/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2017.08.11-14.44.20:247][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.11-14.44.20:247][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.11-14.44.20:247][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.11-14.44.20:250][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.11-14.44.20:250][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.11-14.44.20:250][  0]LogWindows: EnumDisplayDevices:
-[2017.08.11-14.44.20:250][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2017.08.11-14.44.20:251][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2017.08.11-14.44.20:251][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2017.08.11-14.44.20:251][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2017.08.11-14.44.20:251][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
-[2017.08.11-14.44.20:251][  0]LogD3D11RHI:   Driver Version: 21.20.16.4627 (internal:21.20.16.4627, unified:21.20.16.4627)
-[2017.08.11-14.44.20:251][  0]LogD3D11RHI:      Driver Date: 3-9-2017
-[2017.08.11-14.44.20:251][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.11-14.44.20:257][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.11-14.44.20:262][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2017.08.11-14.44.20:264][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/klca0/Documents/petitcon/Intermediate/Shaders/WorkingDirectory/26564/).
-[2017.08.11-14.44.20:264][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/klca0/AppData/Local/Temp/UnrealShaderWorkingDir/6AD7F3AD4964E1218D6C6AB3518C75D4/'.
-[2017.08.11-14.44.20:264][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.11-14.44.21:534][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.11-14.44.21:606][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.08.11-14.44.21:677][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.11-14.44.21:752][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.08.11-14.44.21:826][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.08.11-14.44.21:898][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.11-14.44.21:972][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.11-14.44.22:044][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.11-14.44.22:112][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.11-14.44.22:185][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.08.11-14.44.22:255][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.11-14.44.22:326][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.11-14.44.22:398][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.11-14.44.22:468][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.11-14.44.22:539][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.11-14.44.22:683][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.11-14.44.22:683][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.11-14.44.22:747][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.08.11-14.44.22:878][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.08.11-14.44.22:923][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.08.11-14.44.22:994][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.11-14.44.23:067][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.11-14.44.23:137][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.11-14.44.23:208][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.08.11-14.44.23:208][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.11-14.44.23:963][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.11-14.44.24:038][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/klca0/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.11-14.44.24:038][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/klca0/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.08.11-14.44.24:038][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/klca0/Documents/petitcon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.11-14.44.24:038][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.11-14.44.24:038][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/klca0/Documents/petitcon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.11-14.44.24:038][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.11-14.44.24:058][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.11-14.44.24:070][  0]LogDerivedDataCache: Using Local data cache path C:/Users/klca0/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.11-14.44.24:082][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.11-14.44.24:082][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.11-14.44.24:083][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.11-14.44.24:083][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.11-14.44.24:429][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.11-14.44.24:506][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.11-14.44.24:708][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.11-14.44.24:776][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.11-14.44.24:844][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.11-14.44.24:844][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.11-14.44.24:844][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.11-14.44.25:625][  0]LogNetVersion: petitcon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2069337989)
-[2017.08.11-14.44.25:707][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
-[2017.08.11-14.44.25:822][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.064753 seconds
-[2017.08.11-14.44.25:828][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.08.11-14.44.25:828][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.08.11-14.44.25:828][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.11-14.44.25:985][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.11-14.44.29:611][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.11-14.44.29:674][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.11-14.44.30:424][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.11-14.44.31:000][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.08.11-14.44.31:093][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.08.11-14.44.31:167][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.08.11-14.44.31:235][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.08.11-14.44.32:331][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.11-14.44.33:184][  0]LogEngine: Initializing Engine...
-[2017.08.11-14.44.33:185][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.08.11-14.44.33:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.11-14.44.33:397][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.11-14.44.33:596][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.11-14.44.33:606][  0]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.11-14.44.33:808][  0]LogInit: FAudioDevice initialized.
-[2017.08.11-14.44.33:866][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/klca0/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.11-14.44.33:871][  0]LogInit: Texture streaming: Enabled
-[2017.08.11-14.44.34:029][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.11-14.44.34:357][  0]LogInit: Transaction tracking system initialized
-[2017.08.11-14.44.34:848][  0]BlueprintLog: New page: エディタの読み込み
-[2017.08.11-14.44.36:437][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
-[2017.08.11-14.44.37:534][  0]LogConsoleResponse:Display: 
-[2017.08.11-14.44.37:715][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.11-14.44.37:716][  0]LogCook:Display: Mobile HDR setting 1
-[2017.08.11-14.44.37:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/klca0/Documents/petitcon/Content/' took 0.01s
-[2017.08.11-14.44.39:284][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.08.11-14.44.39:286][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
-[2017.08.11-14.44.39:326][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2017.08.11-14.44.39:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2017.08.11-14.44.39:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2017.08.11-14.44.39:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2017.08.11-14.44.39:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2017.08.11-14.44.39:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2017.08.11-14.44.39:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2017.08.11-14.44.39:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2017.08.11-14.44.39:349][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2017.08.11-14.44.39:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2017.08.11-14.44.39:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2017.08.11-14.44.39:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2017.08.11-14.44.39:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Collapse01.uasset"
-[2017.08.11-14.44.39:369][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Collapse02.uasset"
-[2017.08.11-14.44.39:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2017.08.11-14.44.39:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Explosion01.uasset"
-[2017.08.11-14.44.39:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Explosion02.uasset"
-[2017.08.11-14.44.39:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2017.08.11-14.44.39:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Fire01.uasset"
-[2017.08.11-14.44.39:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2017.08.11-14.44.39:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2017.08.11-14.44.39:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2017.08.11-14.44.39:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Light01.uasset"
-[2017.08.11-14.44.39:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2017.08.11-14.44.39:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Light02.uasset"
-[2017.08.11-14.44.39:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2017.08.11-14.44.39:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Smoke01.uasset"
-[2017.08.11-14.44.39:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2017.08.11-14.44.39:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2017.08.11-14.44.39:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2017.08.11-14.44.39:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2017.08.11-14.44.39:472][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2017.08.11-14.44.39:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2017.08.11-14.44.39:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2017.08.11-14.44.39:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Steam01.uasset"
-[2017.08.11-14.44.39:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2017.08.11-14.44.39:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2017.08.11-14.44.39:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2017.08.11-14.44.39:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2017.08.11-14.44.39:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2017.08.11-14.44.39:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2017.08.11-14.44.39:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2017.08.11-14.44.39:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2017.08.11-14.44.39:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2017.08.11-14.44.39:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2017.08.11-14.44.39:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2017.08.11-14.44.39:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2017.08.11-14.44.39:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2017.08.11-14.44.39:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2017.08.11-14.44.39:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2017.08.11-14.44.39:578][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2017.08.11-14.44.39:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2017.08.11-14.44.39:744][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2017.08.11-14.44.39:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2017.08.11-14.44.39:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2017.08.11-14.44.39:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Maps/Minimal_Default.umap"
-[2017.08.11-14.44.39:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2017.08.11-14.44.39:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Maps/StarterMap.umap"
-[2017.08.11-14.44.39:826][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2017.08.11-14.44.39:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2017.08.11-14.44.39:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2017.08.11-14.44.39:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2017.08.11-14.44.39:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2017.08.11-14.44.39:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2017.08.11-14.44.39:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2017.08.11-14.44.39:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2017.08.11-14.44.39:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2017.08.11-14.44.39:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2017.08.11-14.44.39:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2017.08.11-14.44.39:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2017.08.11-14.44.39:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2017.08.11-14.44.39:882][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2017.08.11-14.44.39:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2017.08.11-14.44.39:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2017.08.11-14.44.39:894][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2017.08.11-14.44.39:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2017.08.11-14.44.39:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Glass.uasset"
-[2017.08.11-14.44.39:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2017.08.11-14.44.39:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2017.08.11-14.44.39:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2017.08.11-14.44.39:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2017.08.11-14.44.39:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2017.08.11-14.44.39:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2017.08.11-14.44.39:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2017.08.11-14.44.39:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2017.08.11-14.44.39:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2017.08.11-14.44.39:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2017.08.11-14.44.39:949][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2017.08.11-14.44.39:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2017.08.11-14.44.39:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2017.08.11-14.44.39:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2017.08.11-14.44.39:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2017.08.11-14.44.39:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2017.08.11-14.44.39:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2017.08.11-14.44.39:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2017.08.11-14.44.39:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2017.08.11-14.44.39:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2017.08.11-14.44.39:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2017.08.11-14.44.39:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2017.08.11-14.44.39:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2017.08.11-14.44.39:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2017.08.11-14.44.39:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2017.08.11-14.44.40:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2017.08.11-14.44.40:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/P_Explosion.uasset"
-[2017.08.11-14.44.40:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/P_Fire.uasset"
-[2017.08.11-14.44.40:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/P_Smoke.uasset"
-[2017.08.11-14.44.40:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/P_Sparks.uasset"
-[2017.08.11-14.44.40:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2017.08.11-14.44.40:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2017.08.11-14.44.40:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2017.08.11-14.44.40:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2017.08.11-14.44.40:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2017.08.11-14.44.40:041][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2017.08.11-14.44.40:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2017.08.11-14.44.40:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2017.08.11-14.44.40:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2017.08.11-14.44.40:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2017.08.11-14.44.40:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2017.08.11-14.44.40:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/MaterialSphere.uasset"
-[2017.08.11-14.44.40:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_Bush.uasset"
-[2017.08.11-14.44.40:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_Chair.uasset"
-[2017.08.11-14.44.40:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2017.08.11-14.44.40:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_Couch.uasset"
-[2017.08.11-14.44.40:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_Door.uasset"
-[2017.08.11-14.44.40:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2017.08.11-14.44.40:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2017.08.11-14.44.40:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2017.08.11-14.44.40:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2017.08.11-14.44.40:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2017.08.11-14.44.40:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2017.08.11-14.44.40:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2017.08.11-14.44.40:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_Rock.uasset"
-[2017.08.11-14.44.40:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_Shelf.uasset"
-[2017.08.11-14.44.40:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_Stairs.uasset"
-[2017.08.11-14.44.40:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_Statue.uasset"
-[2017.08.11-14.44.40:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_TableRound.uasset"
-[2017.08.11-14.44.40:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2017.08.11-14.44.40:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2017.08.11-14.44.40:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2017.08.11-14.44.40:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2017.08.11-14.44.40:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2017.08.11-14.44.40:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2017.08.11-14.44.40:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2017.08.11-14.44.40:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2017.08.11-14.44.40:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2017.08.11-14.44.40:183][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2017.08.11-14.44.40:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2017.08.11-14.44.40:189][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2017.08.11-14.44.40:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2017.08.11-14.44.40:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2017.08.11-14.44.40:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2017.08.11-14.44.40:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2017.08.11-14.44.40:204][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2017.08.11-14.44.40:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2017.08.11-14.44.40:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2017.08.11-14.44.40:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2017.08.11-14.44.40:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2017.08.11-14.44.40:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2017.08.11-14.44.40:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2017.08.11-14.44.40:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2017.08.11-14.44.40:231][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2017.08.11-14.44.40:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2017.08.11-14.44.40:237][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2017.08.11-14.44.40:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2017.08.11-14.44.40:242][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2017.08.11-14.44.40:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2017.08.11-14.44.40:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2017.08.11-14.44.40:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2017.08.11-14.44.40:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2017.08.11-14.44.40:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2017.08.11-14.44.40:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2017.08.11-14.44.40:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2017.08.11-14.44.40:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2017.08.11-14.44.40:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2017.08.11-14.44.40:696][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2017.08.11-14.44.40:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2017.08.11-14.44.40:862][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2017.08.11-14.44.40:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2017.08.11-14.44.40:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2017.08.11-14.44.41:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2017.08.11-14.44.41:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2017.08.11-14.44.41:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2017.08.11-14.44.41:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2017.08.11-14.44.41:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2017.08.11-14.44.41:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2017.08.11-14.44.41:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2017.08.11-14.44.41:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2017.08.11-14.44.41:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2017.08.11-14.44.41:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2017.08.11-14.44.41:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2017.08.11-14.44.41:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2017.08.11-14.44.41:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2017.08.11-14.44.41:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2017.08.11-14.44.41:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2017.08.11-14.44.41:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2017.08.11-14.44.41:345][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2017.08.11-14.44.41:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2017.08.11-14.44.41:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2017.08.11-14.44.41:452][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2017.08.11-14.44.41:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2017.08.11-14.44.41:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2017.08.11-14.44.41:540][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2017.08.11-14.44.41:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2017.08.11-14.44.41:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2017.08.11-14.44.41:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2017.08.11-14.44.41:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2017.08.11-14.44.41:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2017.08.11-14.44.41:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Door_M.uasset"
-[2017.08.11-14.44.41:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Door_N.uasset"
-[2017.08.11-14.44.41:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2017.08.11-14.44.41:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2017.08.11-14.44.41:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2017.08.11-14.44.41:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2017.08.11-14.44.41:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2017.08.11-14.44.41:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2017.08.11-14.44.41:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2017.08.11-14.44.42:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2017.08.11-14.44.42:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2017.08.11-14.44.42:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2017.08.11-14.44.42:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2017.08.11-14.44.42:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2017.08.11-14.44.43:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2017.08.11-14.44.43:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2017.08.11-14.44.43:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2017.08.11-14.44.43:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2017.08.11-14.44.43:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2017.08.11-14.44.43:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2017.08.11-14.44.43:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2017.08.11-14.44.43:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2017.08.11-14.44.43:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2017.08.11-14.44.43:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2017.08.11-14.44.43:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2017.08.11-14.44.43:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2017.08.11-14.44.43:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2017.08.11-14.44.43:545][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2017.08.11-14.44.43:564][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2017.08.11-14.44.43:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2017.08.11-14.44.43:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2017.08.11-14.44.43:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2017.08.11-14.44.43:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2017.08.11-14.44.43:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2017.08.11-14.44.43:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2017.08.11-14.44.43:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2017.08.11-14.44.43:859][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2017.08.11-14.44.43:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2017.08.11-14.44.43:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2017.08.11-14.44.43:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2017.08.11-14.44.43:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2017.08.11-14.44.43:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2017.08.11-14.44.43:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2017.08.11-14.44.43:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2017.08.11-14.44.43:897][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2017.08.11-14.44.43:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2017.08.11-14.44.43:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2017.08.11-14.44.43:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2017.08.11-14.44.43:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2017.08.11-14.44.43:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2017.08.11-14.44.43:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2017.08.11-14.44.43:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2017.08.11-14.44.43:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2017.08.11-14.44.43:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Water_M.uasset"
-[2017.08.11-14.44.43:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Water_N.uasset"
-[2017.08.11-14.44.43:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2017.08.11-14.44.44:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2017.08.11-14.44.44:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2017.08.11-14.44.44:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2017.08.11-14.44.44:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2017.08.11-14.44.44:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2017.08.11-14.44.44:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2017.08.11-14.44.44:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2017.08.11-14.44.44:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2017.08.11-14.44.44:290][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
-[2017.08.11-14.44.44:748][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2017.08.11-14.44.44:790][  0]LogSavePackage: Save=16.65ms
-[2017.08.11-14.44.44:790][  0]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Floor_400x4007B166A1A44EF972AD6FA0D8AF0BDBBCF.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2017.08.11-14.44.44:794][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2017.08.11-14.44.44:794][  0]LogFeaturePack:Warning: Inserted 1 feature packs
-[2017.08.11-14.44.44:797][  0]Cmd: MAP LOAD FILE="../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.11-14.44.44:798][  0]LightingResults: New page: ライティングのビルド
-[2017.08.11-14.44.44:895][  0]MapCheck: New page: マップをチェック
-[2017.08.11-14.44.44:895][  0]LightingResults: New page: <何も選択されていません>
-[2017.08.11-14.44.45:976][  0]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
-[2017.08.11-14.44.46:072][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.11-14.44.46:149][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.11-14.44.46:254][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 104.381ミリ秒かかりました。
-[2017.08.11-14.44.46:254][  0]LogFileHelpers: Loading map 'VehicleAdvExampleMap' took 1.457
-[2017.08.11-14.44.46:438][  0]LogCollectionManager: Loaded 0 collections in 0.001557 seconds
-[2017.08.11-14.44.46:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/klca0/Documents/petitcon/Saved/Collections/' took 0.01s
-[2017.08.11-14.44.46:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/klca0/Documents/petitcon/Content/Developers/klca0/Collections/' took 0.01s
-[2017.08.11-14.44.46:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/klca0/Documents/petitcon/Content/Collections/' took 0.01s
-[2017.08.11-14.44.46:587][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.08.11-14.44.46:598][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2331 classes and 494 folders.
-[2017.08.11-14.44.46:711][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.08.11-14.44.46:749][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.08.11-14.44.46:818][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.08.11-14.44.46:876][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.08.11-14.44.46:882][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.11-14.44.46:885][  0]LogSlate: Took 0.002259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2017.08.11-14.44.46:886][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.11-14.44.46:890][  0]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.11-14.44.46:939][  0]LogRenderer: Reallocating scene render targets to support 860x464 NumSamples 1 (Frame:1).
-[2017.08.11-14.44.47:533][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.11-14.44.47:628][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
-[2017.08.11-14.44.47:775][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.08.11-14.44.47:775][  0]LogLoad: (Engine Initialization) Total time: 31.02 seconds
-[2017.08.11-14.44.47:775][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
-[2017.08.11-14.44.47:775][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.08.11-14.44.47:775][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.08.11-14.44.48:127][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
-[2017.08.11-14.44.48:128][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
-[2017.08.11-14.44.48:136][  0]LogOcInput: OculusInput pre-init called
-[2017.08.11-14.44.48:136][  0]LogRawInputWindows:Warning: Found device 0 devices
-[2017.08.11-14.44.48:136][  0]LogRawInputWindows:Warning: Found device 0 devices
-[2017.08.11-14.44.48:136][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
-[2017.08.11-14.44.48:137][  0]LogRawInputWindows:Warning: Found device 1 devices
-[2017.08.11-14.44.48:137][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
-[2017.08.11-14.44.48:137][  0]LogHMD: Starting GearVRController plugin
-[2017.08.11-14.44.48:428][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.08.11-14.44.48:493][  1]LogAssetRegistry: Asset discovery search completed in 22.8082 seconds
-[2017.08.11-14.44.48:496][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.08.11-14.44.48:496][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
-[2017.08.11-14.45.34:399][367]LogSourceControl:Error: '../../../../../../Users/klca0/Documents/petitcon/' is not part of a Git repository
-[2017.08.11-14.45.41:033][575]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.13-03.53.51:109][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.13-03.53.51:109][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.13-03.53.51:124][  0]LogInit: Computer: DESKTOP-QTEU8JE
+[2017.08.13-03.53.51:124][  0]LogInit: User: klca0
+[2017.08.13-03.53.51:124][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.13-03.53.51:124][  0]LogInit: High frequency timer resolution =2.437502 MHz
+[2017.08.13-03.53.51:124][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.13-03.53.51:124][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.13-03.53.51:124][  0]LogMemory: Process Physical Memory: 273.78 MB used, 273.78 MB peak
+[2017.08.13-03.53.51:124][  0]LogMemory: Process Virtual Memory: 267.74 MB used, 267.74 MB peak
+[2017.08.13-03.53.51:124][  0]LogMemory: Physical Memory: 4743.27 MB used,  3373.84 MB free, 8117.11 MB total
+[2017.08.13-03.53.51:124][  0]LogMemory: Virtual Memory: 641.00 MB used,  3373.84 MB free, 134217728.00 MB total
+[2017.08.13-03.53.51:339][  0]LogInit: Using OS detected language (ja-JP).
+[2017.08.13-03.53.51:339][  0]LogInit: Using OS detected locale (ja-JP).
+[2017.08.13-03.53.51:351][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2017.08.13-03.53.53:044][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.13-03.53.53:054][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.08.13-03.53.53:054][  0]LogD3D11RHI:       128/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.13-03.53.53:056][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.13-03.53.53:056][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.13-03.53.53:056][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.13-03.53.53:062][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.13-03.53.53:062][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.13-03.53.53:062][  0]LogWindows: EnumDisplayDevices:
+[2017.08.13-03.53.53:063][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.08.13-03.53.53:063][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.08.13-03.53.53:063][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.08.13-03.53.53:063][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.13-03.53.53:063][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2017.08.13-03.53.53:063][  0]LogD3D11RHI:   Driver Version: 21.20.16.4627 (internal:21.20.16.4627, unified:21.20.16.4627)
+[2017.08.13-03.53.53:063][  0]LogD3D11RHI:      Driver Date: 3-9-2017
+[2017.08.13-03.53.53:063][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.13-03.53.53:069][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.13-03.53.53:080][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.08.13-03.53.53:081][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/klca0/Documents/petitcon/Intermediate/Shaders/WorkingDirectory/15140/).
+[2017.08.13-03.53.53:081][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/klca0/AppData/Local/Temp/UnrealShaderWorkingDir/9975E0E9428050E5E82698B721F7989A/'.
+[2017.08.13-03.53.53:081][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.13-03.53.55:101][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.13-03.53.55:193][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.13-03.53.55:285][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.13-03.53.55:372][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.13-03.53.55:461][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.13-03.53.55:546][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.13-03.53.55:634][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.13-03.53.55:718][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.13-03.53.55:799][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.13-03.53.55:887][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.13-03.53.55:973][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.13-03.53.56:081][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.13-03.53.56:177][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.13-03.53.56:275][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.13-03.53.56:364][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.13-03.53.56:536][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.13-03.53.56:536][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.13-03.53.56:616][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.13-03.53.56:786][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.13-03.53.56:840][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.13-03.53.56:923][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.13-03.53.57:005][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.13-03.53.57:090][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.13-03.53.57:175][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.13-03.53.57:175][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.13-03.53.58:436][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.13-03.53.58:851][  0]LogDerivedDataCache: Loaded boot cache 0.42s 90MB C:/Users/klca0/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.13-03.53.58:851][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/klca0/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.13-03.53.58:851][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/klca0/Documents/petitcon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.13-03.53.58:851][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.13-03.53.58:851][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/klca0/Documents/petitcon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.13-03.53.58:851][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.13-03.53.58:881][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.13-03.53.58:894][  0]LogDerivedDataCache: Using Local data cache path C:/Users/klca0/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.13-03.53.58:909][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.13-03.53.58:909][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.13-03.53.58:914][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.13-03.53.58:914][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.13-03.53.59:891][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.13-03.54.00:004][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.13-03.54.00:338][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.13-03.54.00:553][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.13-03.54.00:689][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.13-03.54.00:689][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.13-03.54.00:689][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.13-03.54.01:899][  0]LogNetVersion: petitcon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2069337989)
+[2017.08.13-03.54.02:000][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2017.08.13-03.54.02:118][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.061325 seconds
+[2017.08.13-03.54.02:125][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.13-03.54.02:125][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.13-03.54.02:125][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.13-03.54.02:280][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.13-03.54.07:544][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.13-03.54.07:612][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.13-03.54.08:640][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.13-03.54.09:444][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.13-03.54.09:568][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.13-03.54.09:750][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.13-03.54.09:861][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.13-03.54.11:568][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.13-03.54.12:687][  0]LogEngine: Initializing Engine...
+[2017.08.13-03.54.12:690][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.13-03.54.12:975][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.13-03.54.12:975][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.13-03.54.13:231][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.13-03.54.13:249][  0]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-03.54.13:823][  0]LogInit: FAudioDevice initialized.
+[2017.08.13-03.54.13:877][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/klca0/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.13-03.54.13:883][  0]LogInit: Texture streaming: Enabled
+[2017.08.13-03.54.14:095][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.13-03.54.14:611][  0]LogInit: Transaction tracking system initialized
+[2017.08.13-03.54.15:294][  0]BlueprintLog: New page: エディタの読み込み
+[2017.08.13-03.54.17:688][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2017.08.13-03.54.19:257][  0]LogConsoleResponse:Display: 
+[2017.08.13-03.54.19:527][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.13-03.54.19:527][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.13-03.54.20:344][  0]LogFileCache: Scanning file cache for directory 'C:/Users/klca0/Documents/petitcon/Content/' took 0.02s
+[2017.08.13-03.54.22:778][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.13-03.54.22:779][  0]Cmd: MAP LOAD FILE="../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.13-03.54.22:780][  0]LightingResults: New page: ライティングのビルド
+[2017.08.13-03.54.22:920][  0]MapCheck: New page: マップをチェック
+[2017.08.13-03.54.22:920][  0]LightingResults: New page: <何も選択されていません>
+[2017.08.13-03.54.24:440][  0]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.08.13-03.54.24:727][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.13-03.54.24:782][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.13-03.54.24:896][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 112.902ミリ秒かかりました。
+[2017.08.13-03.54.24:896][  0]LogFileHelpers: Loading map 'VehicleAdvExampleMap' took 2.117
+[2017.08.13-03.54.25:022][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.08.13-03.54.25:023][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.08.13-03.54.25:248][  0]LogCollectionManager: Loaded 0 collections in 0.003147 seconds
+[2017.08.13-03.54.25:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/klca0/Documents/petitcon/Saved/Collections/' took 0.01s
+[2017.08.13-03.54.25:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/klca0/Documents/petitcon/Content/Developers/klca0/Collections/' took 0.01s
+[2017.08.13-03.54.25:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/klca0/Documents/petitcon/Content/Collections/' took 0.01s
+[2017.08.13-03.54.25:401][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.13-03.54.25:420][  0]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2331 classes and 494 folders.
+[2017.08.13-03.54.25:616][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.13-03.54.25:771][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.13-03.54.25:885][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.13-03.54.26:032][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.13-03.54.26:057][  0]LogSlate: Took 0.002362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.13-03.54.26:075][  0]LogSlate: Took 0.015563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.08.13-03.54.26:079][  0]LogSlate: Took 0.002657 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.13-03.54.26:087][  0]LogSlate: Took 0.001110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.13-03.54.26:222][  0]LogRenderer: Reallocating scene render targets to support 776x464 NumSamples 1 (Frame:1).
+[2017.08.13-03.54.27:572][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2017.08.13-03.54.27:721][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.13-03.54.27:721][  0]LogLoad: (Engine Initialization) Total time: 39.39 seconds
+[2017.08.13-03.54.27:721][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.38 seconds
+[2017.08.13-03.54.27:721][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.13-03.54.27:721][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.13-03.54.27:748][  0]LogOcInput: OculusInput pre-init called
+[2017.08.13-03.54.27:748][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.08.13-03.54.27:749][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.08.13-03.54.27:749][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.08.13-03.54.27:749][  0]LogRawInputWindows:Warning: Found device 1 devices
+[2017.08.13-03.54.27:749][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.08.13-03.54.27:749][  0]LogHMD: Starting GearVRController plugin
+[2017.08.13-03.54.27:769][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.13-03.54.27:799][  0]LogSlate: Took 0.001670 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.13-03.54.27:836][  1]LogAssetRegistry: Asset discovery search completed in 25.8582 seconds
+[2017.08.13-03.54.27:838][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.13-03.54.27:838][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2017.08.13-03.54.30:514][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full_2)
+[2017.08.13-03.54.33:967][165]Cmd: TRANSACTION UNDO
+[2017.08.13-03.54.33:967][165]LogEditorTransaction: Undo アクタをクリック
+[2017.08.13-03.54.34:013][165]LogSlate: Took 0.000749 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.13-03.54.38:588][434]Cmd: STAT FPS
+[2017.08.13-03.54.49:993][780]LogRenderer: Reallocating scene render targets to support 784x464 NumSamples 1 (Frame:540).
+[2017.08.13-03.54.50:093][781]LogRenderer: Reallocating scene render targets to support 804x464 NumSamples 1 (Frame:542).
+[2017.08.13-03.54.50:205][782]LogRenderer: Reallocating scene render targets to support 848x464 NumSamples 1 (Frame:544).
+[2017.08.13-03.54.50:291][783]LogRenderer: Reallocating scene render targets to support 880x464 NumSamples 1 (Frame:546).
+[2017.08.13-03.54.50:387][784]LogRenderer: Reallocating scene render targets to support 884x464 NumSamples 1 (Frame:548).
+[2017.08.13-03.54.51:795][837]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.13-03.54.52:226][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-03.54.52:232][837]PIE: New page: PIEセッション: VehicleAdvExampleMap (2017/08/13 21:54:52)
+[2017.08.13-03.54.52:232][837]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap
+[2017.08.13-03.54.52:268][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036196s)
+[2017.08.13-03.54.52:269][837]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.08.13-03.54.52:270][837]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2017.08.13-03.54.52:270][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/VehicleAdvExampleMap.VehicleAdvExampleMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap (0.038212s)
+[2017.08.13-03.54.52:303][837]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-03.54.52:313][837]LogInit: FAudioDevice initialized.
+[2017.08.13-03.54.52:367][837]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.13-03.54.52:389][837]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap.VehicleAdvExampleMap up for play (max tick rate 0) at 2017.08.13-12.54.52
+[2017.08.13-03.54.52:393][837]LogWorld: Bringing up level for play took: 0.013554
+[2017.08.13-03.54.52:477][837]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.08.13-03.54.52:481][837]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_VehicleAdvExampleMap -0.185のプレイ イン エディタの開始時間
+[2017.08.13-03.58.46:005][  6]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.13-03.58.46:100][  6]LogSlate: Took 0.001723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.13-04.08.01:467][119]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\klca0\Downloads\TimeAttackSounds\RealisticRender_MusicDay02.WAV)
+[2017.08.13-04.08.01:552][119]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ RealisticRender_MusicDay02 をビルド中...
+[2017.08.13-04.08.03:510][119]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/RealisticRender_MusicDay02.RealisticRender_MusicDay02.
+[2017.08.13-04.08.03:549][119]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:\Users\klca0\Downloads\TimeAttackSounds\Blueprints_TextPop03.WAV)
+[2017.08.13-04.08.03:552][119]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ Blueprints_TextPop03 をビルド中...
+[2017.08.13-04.08.03:565][119]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Audio/Blueprints_TextPop03.Blueprints_TextPop03.
+[2017.08.13-04.08.25:349][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/Blueprints_TextPop03" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Audio/Blueprints_TextPop03.uasset" SILENT=true
+[2017.08.13-04.08.25:384][369]LogSavePackage: Save=33.50ms
+[2017.08.13-04.08.25:384][369]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Blueprints_TextPop03B4E52C7343BC2A3A5A5EDEB8B579F0C3.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Audio/Blueprints_TextPop03.uasset'
+[2017.08.13-04.08.25:388][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Audio/Blueprints_TextPop03.uasset
+[2017.08.13-04.08.25:451][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Audio/RealisticRender_MusicDay02" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Audio/RealisticRender_MusicDay02.uasset" SILENT=true
+[2017.08.13-04.08.25:464][369]LogSavePackage: Save=11.59ms
+[2017.08.13-04.08.25:464][369]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/RealisticRender_MusicDay02440082304A7B14281ADF08A50EC1D25E.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Audio/RealisticRender_MusicDay02.uasset'
+[2017.08.13-04.08.25:468][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Audio/RealisticRender_MusicDay02.uasset
+[2017.08.13-04.09.39:446][127]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.023
+[2017.08.13-04.09.39:464][127]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/NewBlueprint] ([1] browsable assets)...
+[2017.08.13-04.09.39:464][127]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/NewBlueprint]
+[2017.08.13-04.09.39:464][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewBlueprint" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-04.09.39:476][127]LogSavePackage: Save=9.68ms
+[2017.08.13-04.09.39:476][127]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/NewBlueprint_Auto1A735F3504C1E1E2BD5FAD6877BC3E696.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto1.uasset'
+[2017.08.13-04.09.39:477][127]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/NewBlueprint_Auto1.uasset
+[2017.08.13-04.09.39:477][127]LogFileHelpers: Auto-saving content packages took 0.015
+[2017.08.13-04.09.40:439][140]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.08.13-04.09.41:224][140]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.13-04.09.46:795][210]LogRenderer: Reallocating scene render targets to support 884x732 NumSamples 1 (Frame:65).
+[2017.08.13-04.11.35:021][307]LogMetaData: Removing '/Game/Blueprints/MyPlayerContoller.MyPlayerContoller:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/NewBlueprint1.PackageMetaData'
+[2017.08.13-04.11.35:021][307]LogMetaData: Removing '/Game/Blueprints/MyPlayerContoller.SKEL_MyPlayerContoller_C' ref from Metadata '/Game/Blueprints/NewBlueprint1.PackageMetaData'
+[2017.08.13-04.11.35:021][307]LogMetaData: Removing '/Game/Blueprints/MyPlayerContoller.MyPlayerContoller_C' ref from Metadata '/Game/Blueprints/NewBlueprint1.PackageMetaData'
+[2017.08.13-04.11.35:021][307]LogMetaData: Removing '/Game/Blueprints/MyPlayerContoller.MyPlayerContoller:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/NewBlueprint1.PackageMetaData'
+[2017.08.13-04.11.35:021][307]LogMetaData: Removing '/Game/Blueprints/MyPlayerContoller.MyPlayerContoller:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/NewBlueprint1.PackageMetaData'
+[2017.08.13-04.11.35:073][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.13-04.11.35:087][307]LogSavePackage: Save=11.83ms
+[2017.08.13-04.11.35:087][307]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller106347B440A5F700716464855C302B1B.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.13-04.11.35:090][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.13-04.13.00:185][919]LogMetaData: Removing '/Game/Blueprints/SaveGame.SKEL_SaveGame_C' ref from Metadata '/Game/Blueprints/NewBlueprint1.PackageMetaData'
+[2017.08.13-04.13.00:185][919]LogMetaData: Removing '/Game/Blueprints/SaveGame.SaveGame_C' ref from Metadata '/Game/Blueprints/NewBlueprint1.PackageMetaData'
+[2017.08.13-04.13.00:206][919]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/SaveGame" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/SaveGame.uasset" SILENT=true
+[2017.08.13-04.13.00:239][919]LogSavePackage: Save=4.23ms
+[2017.08.13-04.13.00:239][919]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/SaveGame280551664B2D9360CF5CC295EB0C302C.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/SaveGame.uasset'
+[2017.08.13-04.13.00:243][919]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/SaveGame.uasset
+[2017.08.13-04.15.29:702][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TimeConversion" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/TimeConversion.uasset" SILENT=true
+[2017.08.13-04.15.29:709][981]LogSavePackage: Save=4.80ms
+[2017.08.13-04.15.29:709][981]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/TimeConversion02BE9AD149AC73676CBF1585227D2976.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/TimeConversion.uasset'
+[2017.08.13-04.15.29:739][981]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/TimeConversion.uasset
+[2017.08.13-04.18.25:773][778]LogLinker: ファイル '/Game/Blueprints/UI/HUD' が見つかりません
+[2017.08.13-04.18.25:774][778]LogLinker: ファイル '/Game/Blueprints/UI/HUD' が見つかりません
+[2017.08.13-04.18.38:973][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewBlueprint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/NewBlueprint.uasset" SILENT=true
+[2017.08.13-04.18.38:986][871]LogSavePackage: Save=10.63ms
+[2017.08.13-04.18.38:986][871]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/NewBlueprintDEEAD97A4EE30F89F6A0E8B8C868550E.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/NewBlueprint.uasset'
+[2017.08.13-04.18.38:990][871]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/NewBlueprint.uasset
+[2017.08.13-04.18.38:996][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset" SILENT=true
+[2017.08.13-04.18.39:009][871]LogSavePackage: Save=9.82ms
+[2017.08.13-04.18.39:009][871]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/TrackerEC42F3E44E455510B1A034A0C2F35DD0.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset'
+[2017.08.13-04.18.39:013][871]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset
+[2017.08.13-04.18.39:022][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2017.08.13-04.18.39:035][871]LogSavePackage: Save=11.36ms
+[2017.08.13-04.18.39:035][871]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUDCBF9EEC1418C775A44E56087E6006F6F.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset'
+[2017.08.13-04.18.39:039][871]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset
+[2017.08.13-04.19.37:293][743]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.13-04.19.54:471][391]BlueprintLog: New page: VehicleAdvGameMode をコンパイル
+[2017.08.13-04.19.55:811][515]LogSavePackage: Save=8.50ms
+[2017.08.13-04.19.55:811][515]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/VehicleAdvGameMode6800C6944B53B38CE8474D997445B6C2.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Blueprints/VehicleAdvGameMode.uasset'
+[2017.08.13-04.19.55:816][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Blueprints/VehicleAdvGameMode.uasset
+[2017.08.13-04.30.10:679][127]LogRenderer: Reallocating scene render targets to support 1088x732 NumSamples 1 (Frame:396).
+[2017.08.13-04.30.42:396][411]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.069
+[2017.08.13-04.30.42:400][411]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.13-04.30.42:400][411]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.13-04.30.42:463][411]LogSavePackage: Save=22.98ms
+[2017.08.13-04.30.42:463][411]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto2CDA9047C484DA0D2F24A8F9DBC10EC77.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto2.uasset'
+[2017.08.13-04.30.42:464][411]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto2.uasset
+[2017.08.13-04.30.42:464][411]LogFileHelpers: Auto-saving content packages took 0.067
+[2017.08.13-04.31.01:230][506]LogSlate: Took 0.002158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.13-04.42.18:071][621]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.065
+[2017.08.13-04.42.18:073][621]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.13-04.42.18:073][621]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.13-04.42.18:095][621]LogSavePackage: Save=13.38ms
+[2017.08.13-04.42.18:095][621]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto3EC17B3FF4C309C89E110108850C87F39.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto3.uasset'
+[2017.08.13-04.42.18:121][621]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto3.uasset
+[2017.08.13-04.42.18:121][621]LogFileHelpers: Auto-saving content packages took 0.050
+[2017.08.13-04.50.25:940][719]LogClass:Warning: Type mismatch in SaveSlot of SKEL_MyPlayerContoller_C - Previous (StructProperty) Current(StrProperty) for package:  FObjectReader
+[2017.08.13-04.50.45:609][856]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.13-04.51.38:736][668]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.13-04.51.39:742][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.13-04.51.39:769][693]LogSavePackage: Save=20.08ms
+[2017.08.13-04.51.39:769][693]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContollerD531146C496FAA9ED21864A054C3DF6F.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.13-04.51.39:772][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.13-04.53.07:859][555]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.053
+[2017.08.13-04.53.07:861][555]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.13-04.53.07:861][555]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.13-04.53.07:883][555]LogSavePackage: Save=18.40ms
+[2017.08.13-04.53.07:883][555]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto4EBEA527743D05FE56B6AA1963E6F57CE.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto4.uasset'
+[2017.08.13-04.53.07:885][555]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto4.uasset
+[2017.08.13-04.53.07:885][555]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.08.13-04.57.53:143][192]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.13-04.59.08:076][ 21]LogSlate: Took 0.026836 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.13-05.03.08:575][526]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/VehicleAdvExampleMap' took 0.068
+[2017.08.13-05.03.08:579][526]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.13-05.03.08:579][526]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.13-05.03.08:624][526]LogSavePackage: Save=39.07ms
+[2017.08.13-05.03.08:624][526]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto570DF534243837FF9355DEEB6E6C6A198.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto5.uasset'
+[2017.08.13-05.03.08:626][526]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto5.uasset
+[2017.08.13-05.03.08:626][526]LogFileHelpers: Auto-saving content packages took 0.049
+[2017.08.13-05.04.12:085][250]LogBlueprint:Warning: [Compiler ] 警告 Pasted node  CustomEvent   conflicted with  StartGameSetup  and was replaced as a Custom Event!
+[2017.08.13-05.04.12:103][250]BlueprintEditorCompileResults:Warning: 警告 Pasted node  CustomEvent   conflicted with  StartGameSetup  and was replaced as a Custom Event!
+[2017.08.13-05.04.35:666][622]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.13-05.08.26:322][647]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.13-05.08.27:150][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.13-05.08.27:225][678]LogSavePackage: Save=68.27ms
+[2017.08.13-05.08.27:225][678]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller010C8E2C47355D92ABC037854083050B.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.13-05.08.27:229][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.13-05.09.03:948][ 52]BlueprintLog: New page: NewBlueprint をコンパイル
+[2017.08.13-05.09.04:554][ 65]BlueprintLog: New page: NewBlueprint をコンパイル
+[2017.08.13-05.09.05:758][101]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewBlueprint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/NewBlueprint.uasset" SILENT=true
+[2017.08.13-05.09.05:777][101]LogSavePackage: Save=12.41ms
+[2017.08.13-05.09.05:777][101]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/NewBlueprint963A05004796AFED9D5ECA9E374C674A.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/NewBlueprint.uasset'
+[2017.08.13-05.09.05:778][101]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/NewBlueprint.uasset
+[2017.08.13-05.09.28:584][818]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2017.08.13-05.09.46:116][308]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.13-05.09.59:787][599]LogSavePackage: Save=460.34ms
+[2017.08.13-05.09.59:787][599]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/VehicleAdvExampleMap8B386B234A3A49FFDA8BF0B90700007F.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.08.13-05.09.59:791][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.08.13-05.10.02:387][599]LogSavePackage: Save=2513.05ms
+[2017.08.13-05.10.02:387][599]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/VehicleAdvExampleMap_BuiltDataFA1C55A84D710B14772556AEEF02EE41.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset'
+[2017.08.13-05.10.02:391][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap_BuiltData.uasset
+[2017.08.13-05.10.33:472][998]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2017.08.13-05.10.35:631][ 56]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2017.08.13-05.10.58:713][696]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.13-05.13.04:676][657]LogSavePackage: Save=414.20ms
+[2017.08.13-05.13.04:677][657]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/VehicleAdvExampleMap631A542449ED1FE046DFCA9CC9907B03.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap'
+[2017.08.13-05.13.04:687][657]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap.umap
+[2017.08.13-05.13.04:725][657]LogFileHelpers: Saving map 'VehicleAdvExampleMap' took 0.609
+[2017.08.13-05.13.37:137][835]LogAIModule: Creating AISystem for world VehicleAdvExampleMap1
+[2017.08.13-05.13.39:463][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2017.08.13-05.13.39:748][836]LogSavePackage: Save=276.73ms
+[2017.08.13-05.13.39:748][836]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/VehicleBlueprintCE9895A5496108371FF034A14A8F355D.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.08.13-05.13.39:753][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.08.13-05.13.40:353][836]LogSavePackage: Save=435.06ms
+[2017.08.13-05.13.40:353][836]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/VehicleAdvExampleMap191F5532F402049B4808F1EA6840D606A.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap1.umap'
+[2017.08.13-05.13.40:357][836]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap1.umap
+[2017.08.13-05.13.40:364][836]LogFileHelpers: Saving map 'VehicleAdvExampleMap1' took 0.611
+[2017.08.13-05.13.40:372][836]Cmd: MAP LOAD FILE="../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/VehicleAdvExampleMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.13-05.13.40:372][836]LightingResults: New page: ライティングのビルド
+[2017.08.13-05.13.40:374][836]LoadErrors: New page: マップをロード中: VehicleAdvExampleMap1.umap
+[2017.08.13-05.13.40:409][836]MapCheck: New page: マップをチェック
+[2017.08.13-05.13.40:409][836]LightingResults: New page: <何も選択されていません>
+[2017.08.13-05.13.40:473][836]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.13-05.13.40:551][836]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.13-05.13.40:616][836]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 65.418ミリ秒かかりました。
+[2017.08.13-05.13.40:617][836]LogFileHelpers: Loading map 'VehicleAdvExampleMap1' took 0.248
+[2017.08.13-05.14.00:549][239]LogSavePackage: Save=2621.82ms
+[2017.08.13-05.14.00:549][239]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap7D5A294D4C49BC2789141AB2D87259F2.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
+[2017.08.13-05.14.00:553][239]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2017.08.13-05.14.00:575][239]LogFileHelpers: Saving map 'LooptyLoopMap' took 2.755
+[2017.08.13-05.14.18:860][393]Cmd: MAP LOAD FILE="../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.13-05.14.18:860][393]LightingResults: New page: ライティングのビルド
+[2017.08.13-05.14.18:861][393]LoadErrors: New page: マップをロード中: LooptyLoopMap.umap
+[2017.08.13-05.14.18:864][393]MapCheck: New page: マップをチェック
+[2017.08.13-05.14.18:864][393]LightingResults: New page: <何も選択されていません>
+[2017.08.13-05.14.19:089][393]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.13-05.14.19:114][393]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.13-05.14.19:169][393]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.13-05.14.19:242][393]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 72.97ミリ秒かかりました。
+[2017.08.13-05.14.19:243][393]LogFileHelpers: Loading map 'LooptyLoopMap' took 0.384
+[2017.08.13-05.15.30:026][286]LogMetaData: Removing '/Game/Blueprints/CheckPoint.CheckPoint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2017.08.13-05.15.30:026][286]LogMetaData: Removing '/Game/Blueprints/CheckPoint.SKEL_CheckPoint_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2017.08.13-05.15.30:026][286]LogMetaData: Removing '/Game/Blueprints/CheckPoint.CheckPoint_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2017.08.13-05.15.30:026][286]LogMetaData: Removing '/Game/Blueprints/CheckPoint.CheckPoint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2017.08.13-05.15.30:026][286]LogMetaData: Removing '/Game/Blueprints/CheckPoint.CheckPoint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2017.08.13-05.15.30:026][286]LogMetaData: Removing '/Game/Blueprints/CheckPoint.CheckPoint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2017.08.13-05.15.30:046][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CheckPoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/CheckPoint.uasset" SILENT=true
+[2017.08.13-05.15.30:060][286]LogSavePackage: Save=12.20ms
+[2017.08.13-05.15.30:060][286]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/CheckPoint6CA1CBFA4A9BEF659A18C298121C23B3.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/CheckPoint.uasset'
+[2017.08.13-05.15.30:064][286]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/CheckPoint.uasset
+[2017.08.13-05.15.40:657][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/CheckPoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/CheckPoint.uasset" SILENT=true
+[2017.08.13-05.15.40:673][497]LogSavePackage: Save=9.94ms
+[2017.08.13-05.15.40:673][497]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/CheckPointA4CCE4C5462E0CB5D38A79A6B5D6C6D3.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/CheckPoint.uasset'
+[2017.08.13-05.15.40:678][497]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/CheckPoint.uasset
+[2017.08.13-05.16.05:797][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
