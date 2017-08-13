@@ -604,3 +604,92 @@ LogInit: Object subsystem initialized
 [2017.08.13-06.23.41:607][632]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto0.umap
 [2017.08.13-06.23.41:611][632]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 4.001
 [2017.08.13-06.23.41:611][632]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.001
+[2017.08.13-06.42.19:887][800]BlueprintLog: New page: Checkpoint をコンパイル
+[2017.08.13-06.42.26:643][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.08.13-06.42.26:722][884]LogSavePackage: Save=47.01ms
+[2017.08.13-06.42.26:722][884]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Checkpoint3CB1B4FA438D4C1B7F1DB8A0EA3EB8EC.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset'
+[2017.08.13-06.42.26:726][884]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset
+[2017.08.13-06.42.27:743][935]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.13-06.43.02:180][714]LogRenderer: Reallocating scene render targets to support 1120x732 NumSamples 1 (Frame:1).
+[2017.08.13-06.43.30:645][498]LogSavePackage: Save=3023.35ms
+[2017.08.13-06.43.30:645][498]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto1CE9106694ACDCE3FFB06419DCCB558B6.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto1.umap'
+[2017.08.13-06.43.30:647][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto1.umap
+[2017.08.13-06.43.30:650][498]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.105
+[2017.08.13-06.43.30:650][498]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.105
+[2017.08.13-06.43.30:655][498]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tracker] ([1] browsable assets)...
+[2017.08.13-06.43.30:655][498]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tracker]
+[2017.08.13-06.43.30:655][498]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-06.43.30:671][498]LogSavePackage: Save=14.54ms
+[2017.08.13-06.43.30:671][498]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker_Auto1A48D01CC49F0422A6377469E6884B757.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto1.uasset'
+[2017.08.13-06.43.30:673][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto1.uasset
+[2017.08.13-06.43.30:673][498]LogFileHelpers: Auto-saving content packages took 0.020
+[2017.08.13-06.47.52:440][ 60]BlueprintLog: New page: Tracker をコンパイル
+[2017.08.13-06.47.53:424][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset" SILENT=true
+[2017.08.13-06.47.53:446][ 75]LogSavePackage: Save=17.55ms
+[2017.08.13-06.47.53:446][ 75]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker64E940584AD92B1B4B56748E58CD527D.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset'
+[2017.08.13-06.47.53:451][ 75]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset
+[2017.08.13-06.53.32:841][524]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.051
+[2017.08.13-06.53.32:843][524]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tracker] ([1] browsable assets)...
+[2017.08.13-06.53.32:843][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tracker]
+[2017.08.13-06.53.32:843][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-06.53.32:866][524]LogSavePackage: Save=13.94ms
+[2017.08.13-06.53.32:866][524]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker_Auto248D6881443BECC4D33D844B2C835B297.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto2.uasset'
+[2017.08.13-06.53.32:868][524]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto2.uasset
+[2017.08.13-06.53.32:868][524]LogFileHelpers: Auto-saving content packages took 0.026
+[2017.08.13-06.54.40:385][378]BlueprintLog: New page: Tracker をコンパイル
+[2017.08.13-07.03.33:582][999]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.053
+[2017.08.13-07.03.33:587][999]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tracker] ([1] browsable assets)...
+[2017.08.13-07.03.33:587][999]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tracker]
+[2017.08.13-07.03.33:587][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-07.03.33:608][999]LogSavePackage: Save=14.04ms
+[2017.08.13-07.03.33:608][999]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker_Auto3393BE0BF40DD10D2864FFE83F7E0C769.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto3.uasset'
+[2017.08.13-07.03.33:609][999]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto3.uasset
+[2017.08.13-07.03.33:609][999]LogFileHelpers: Auto-saving content packages took 0.024
+[2017.08.13-07.12.46:972][915]LogClass:Warning: Type mismatch in LevelMusic of SKEL_Tracker_C - Previous (StrProperty) Current(ObjectProperty) for package:  FObjectReader
+[2017.08.13-07.14.10:294][901]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.232
+[2017.08.13-07.14.10:297][901]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tracker] ([1] browsable assets)...
+[2017.08.13-07.14.10:297][901]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tracker]
+[2017.08.13-07.14.10:297][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-07.14.10:393][901]LogSavePackage: Save=46.04ms
+[2017.08.13-07.14.10:394][901]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker_Auto408C9068C49E3D54BFFFD13BC8C15A61C.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto4.uasset'
+[2017.08.13-07.14.10:397][901]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto4.uasset
+[2017.08.13-07.14.10:398][901]LogFileHelpers: Auto-saving content packages took 0.103
+[2017.08.13-07.20.36:048][209]BlueprintLog: New page: Tracker をコンパイル
+[2017.08.13-07.24.06:368][997]BlueprintLog: New page: Tracker をコンパイル
+[2017.08.13-07.24.07:359][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset" SILENT=true
+[2017.08.13-07.24.07:384][ 29]LogSavePackage: Save=17.65ms
+[2017.08.13-07.24.07:384][ 29]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker9316DBBE4BA93CDD8B84DB9DEAB6BA7E.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset'
+[2017.08.13-07.24.07:390][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset
+[2017.08.13-07.34.14:334][873]LogSavePackage: Save=3153.86ms
+[2017.08.13-07.34.14:334][873]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto5E7C934AA488D5A77D4B3D6BC70701E72.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto5.umap'
+[2017.08.13-07.34.14:337][873]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto5.umap
+[2017.08.13-07.34.14:342][873]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.250
+[2017.08.13-07.34.14:342][873]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.250
+[2017.08.13-07.36.49:073][230]LogEditorViewport: Clicking on Actor (LMB): Tracker_C (Tracker)
+[2017.08.13-07.40.42:499][502]BlueprintLog: New page: Tracker をコンパイル
+[2017.08.13-07.40.44:024][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset" SILENT=true
+[2017.08.13-07.40.44:049][527]LogSavePackage: Save=16.91ms
+[2017.08.13-07.40.44:049][527]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker8AF573244209943C103C6F832FC162F6.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset'
+[2017.08.13-07.40.44:053][527]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset
+[2017.08.13-07.45.27:602][679]LogSavePackage: Save=2897.85ms
+[2017.08.13-07.45.27:602][679]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto6C9FC225A449194BCD45B59995B6456E2.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto6.umap'
+[2017.08.13-07.45.27:605][679]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto6.umap
+[2017.08.13-07.45.27:608][679]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 2.988
+[2017.08.13-07.45.27:608][679]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.988
+[2017.08.13-07.45.27:612][679]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tracker] ([1] browsable assets)...
+[2017.08.13-07.45.27:612][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tracker]
+[2017.08.13-07.45.27:612][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-07.45.27:633][679]LogSavePackage: Save=15.25ms
+[2017.08.13-07.45.27:633][679]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker_Auto66940785F4402700A6D6CB4A944968AFC.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto6.uasset'
+[2017.08.13-07.45.27:661][679]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto6.uasset
+[2017.08.13-07.45.27:661][679]LogFileHelpers: Auto-saving content packages took 0.051
+[2017.08.13-07.50.09:770][727]BlueprintLog: New page: Tracker をコンパイル
+[2017.08.13-07.50.11:096][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset" SILENT=true
+[2017.08.13-07.50.11:133][758]LogSavePackage: Save=27.36ms
+[2017.08.13-07.50.11:133][758]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker0D3C857F440740BEF12DA797CE1511C8.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset'
+[2017.08.13-07.50.11:139][758]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset
+[2017.08.13-07.55.31:114][768]LogSavePackage: Save=2953.00ms
+[2017.08.13-07.55.31:114][768]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto7789FDF684070CCA5D9B819BF4AB39C6E.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto7.umap'
+[2017.08.13-07.55.31:122][768]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto7.umap
+[2017.08.13-07.55.31:125][768]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.052
+[2017.08.13-07.55.31:125][768]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.052
