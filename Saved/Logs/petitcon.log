@@ -414,3 +414,193 @@ LogInit: Object subsystem initialized
 [2017.08.13-05.15.40:673][497]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/CheckPointA4CCE4C5462E0CB5D38A79A6B5D6C6D3.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/CheckPoint.uasset'
 [2017.08.13-05.15.40:678][497]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/CheckPoint.uasset
 [2017.08.13-05.16.05:797][712]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.13-05.36.32:392][592]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.13-05.36.53:843][157]LogMetaData: Removing '/Game/Blueprints/Checkpoint.Checkpoint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Checkpoints.PackageMetaData'
+[2017.08.13-05.36.53:843][157]LogMetaData: Removing '/Game/Blueprints/Checkpoint.SKEL_Checkpoint_C' ref from Metadata '/Game/Blueprints/Checkpoints.PackageMetaData'
+[2017.08.13-05.36.53:843][157]LogMetaData: Removing '/Game/Blueprints/Checkpoint.Checkpoint_C' ref from Metadata '/Game/Blueprints/Checkpoints.PackageMetaData'
+[2017.08.13-05.36.53:843][157]LogMetaData: Removing '/Game/Blueprints/Checkpoint.Checkpoint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Checkpoints.PackageMetaData'
+[2017.08.13-05.36.53:843][157]LogMetaData: Removing '/Game/Blueprints/Checkpoint.Checkpoint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Checkpoints.PackageMetaData'
+[2017.08.13-05.36.53:843][157]LogMetaData: Removing '/Game/Blueprints/Checkpoint.Checkpoint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Checkpoints.PackageMetaData'
+[2017.08.13-05.36.53:866][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.08.13-05.36.53:880][157]LogSavePackage: Save=11.15ms
+[2017.08.13-05.36.53:880][157]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/CheckpointBA62BFC84986F68AAB9E20BC08B51526.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset'
+[2017.08.13-05.36.53:885][157]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset
+[2017.08.13-05.37.52:408][875]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.068
+[2017.08.13-05.37.52:410][875]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/TimeConversion] ([1] browsable assets)...
+[2017.08.13-05.37.52:410][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TimeConversion]
+[2017.08.13-05.37.52:425][875]LogSavePackage: Save=9.60ms
+[2017.08.13-05.37.52:425][875]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/TimeConversion_Auto6E72D226D424AA4FCC7934DBEB4148F58.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/TimeConversion_Auto6.uasset'
+[2017.08.13-05.37.52:427][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/TimeConversion_Auto6.uasset
+[2017.08.13-05.37.52:428][875]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Checkpoint] ([1] browsable assets)...
+[2017.08.13-05.37.52:428][875]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Checkpoint]
+[2017.08.13-05.37.52:428][875]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-05.37.52:448][875]LogSavePackage: Save=12.29ms
+[2017.08.13-05.37.52:448][875]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Checkpoint_Auto60EE616B34E37817493B1A4B6ECAE9CD9.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto6.uasset'
+[2017.08.13-05.37.52:453][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto6.uasset
+[2017.08.13-05.37.52:453][875]LogFileHelpers: Auto-saving content packages took 0.044
+[2017.08.13-05.43.23:110][277]BlueprintLog: New page: Checkpoint をコンパイル
+[2017.08.13-05.43.24:344][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.08.13-05.43.24:391][300]LogSavePackage: Save=15.81ms
+[2017.08.13-05.43.24:391][300]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Checkpoint01BBE002473362D932B23E9FB7E7D55C.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset'
+[2017.08.13-05.43.24:395][300]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset
+[2017.08.13-05.48.32:505][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full_18)
+[2017.08.13-05.49.17:841][857]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.08.13-05.49.22:653][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full_2)
+[2017.08.13-05.49.23:941][997]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full_2)
+[2017.08.13-05.49.26:001][ 47]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full_2)
+[2017.08.13-05.49.27:029][ 71]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full_2)
+[2017.08.13-05.49.27:829][ 90]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint)
+[2017.08.13-05.49.59:991][295]LogSavePackage: Save=3060.87ms
+[2017.08.13-05.49.59:991][295]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto7387836A24AA2CD1CD752A788B27C715C.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto7.umap'
+[2017.08.13-05.49.59:994][295]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto7.umap
+[2017.08.13-05.49.59:997][295]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.151
+[2017.08.13-05.49.59:997][295]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.151
+[2017.08.13-05.50.28:372][ 53]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint)
+[2017.08.13-05.51.22:487][544]LogEditorViewport: Clicking Background
+[2017.08.13-05.51.27:261][701]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.13-05.51.27:312][701]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2017.08.13-05.51.27:312][701]LogPlayLevel: [PlayLevel] Compiling TimeConversion before play...
+[2017.08.13-05.51.27:615][701]LogPlayLevel: PlayLevel: Blueprint regeneration took 303 ms (1 blueprints)
+[2017.08.13-05.51.27:615][701]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/13 23:51:27)
+[2017.08.13-05.51.27:615][701]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.13-05.51.27:672][701]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055627s)
+[2017.08.13-05.51.27:673][701]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.13-05.51.27:673][701]LogPlayLevel: PIE: World Init took: (0.001831s)
+[2017.08.13-05.51.27:674][701]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.058013s)
+[2017.08.13-05.51.27:738][701]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-05.51.27:760][701]LogInit: FAudioDevice initialized.
+[2017.08.13-05.51.27:800][701]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.13-05.51.27:814][701]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.13-14.51.27
+[2017.08.13-05.51.27:815][701]LogWorld: Bringing up level for play took: 0.012916
+[2017.08.13-05.51.27:852][701]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 1.186のプレイ イン エディタの開始時間
+[2017.08.13-05.51.36:839][987]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.13-05.51.36:882][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-05.51.36:882][987]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/13 23:51:36)
+[2017.08.13-05.51.36:883][987]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.13-05.51.36:946][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063652s)
+[2017.08.13-05.51.36:948][987]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.13-05.51.36:948][987]LogPlayLevel: PIE: World Init took: (0.001850s)
+[2017.08.13-05.51.36:949][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.066108s)
+[2017.08.13-05.51.37:033][987]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-05.51.37:051][987]LogInit: FAudioDevice initialized.
+[2017.08.13-05.51.37:097][987]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.13-05.51.37:110][987]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.13-14.51.37
+[2017.08.13-05.51.37:111][987]LogWorld: Bringing up level for play took: 0.011914
+[2017.08.13-05.51.37:113][987]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.449のプレイ イン エディタの開始時間
+[2017.08.13-06.00.23:565][734]LogSavePackage: Save=2731.93ms
+[2017.08.13-06.00.23:565][734]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto81805CBD747A808C8D6787097295B0B91.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto8.umap'
+[2017.08.13-06.00.23:568][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto8.umap
+[2017.08.13-06.00.23:571][734]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 2.814
+[2017.08.13-06.00.23:571][734]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.814
+[2017.08.13-06.00.23:576][734]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/TimeConversion] ([1] browsable assets)...
+[2017.08.13-06.00.23:576][734]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TimeConversion]
+[2017.08.13-06.00.23:587][734]LogSavePackage: Save=5.56ms
+[2017.08.13-06.00.23:587][734]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/TimeConversion_Auto8CE729C274B7A64E706EC3FB53C3E44D7.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/TimeConversion_Auto8.uasset'
+[2017.08.13-06.00.23:590][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/TimeConversion_Auto8.uasset
+[2017.08.13-06.00.23:591][734]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Checkpoint] ([1] browsable assets)...
+[2017.08.13-06.00.23:591][734]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Checkpoint]
+[2017.08.13-06.00.23:591][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-06.00.23:617][734]LogSavePackage: Save=19.10ms
+[2017.08.13-06.00.23:617][734]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Checkpoint_Auto81A2C6226470A9826680720B612CF3317.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto8.uasset'
+[2017.08.13-06.00.23:619][734]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto8.uasset
+[2017.08.13-06.00.23:619][734]LogFileHelpers: Auto-saving content packages took 0.045
+[2017.08.13-06.02.16:738][ 28]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.13-06.02.16:770][ 28]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2017.08.13-06.02.16:770][ 28]LogPlayLevel: [PlayLevel] Compiling Checkpoint before play...
+[2017.08.13-06.02.17:105][ 28]LogPlayLevel: PlayLevel: Blueprint regeneration took 335 ms (1 blueprints)
+[2017.08.13-06.02.17:105][ 28]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/14 0:02:17)
+[2017.08.13-06.02.17:105][ 28]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.13-06.02.17:132][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026643s)
+[2017.08.13-06.02.17:133][ 28]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.13-06.02.17:133][ 28]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2017.08.13-06.02.17:133][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.027988s)
+[2017.08.13-06.02.17:173][ 28]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-06.02.17:184][ 28]LogInit: FAudioDevice initialized.
+[2017.08.13-06.02.17:229][ 28]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.13-06.02.17:241][ 28]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.13-15.02.17
+[2017.08.13-06.02.17:242][ 28]LogWorld: Bringing up level for play took: 0.010633
+[2017.08.13-06.02.17:243][ 28]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.579のプレイ イン エディタの開始時間
+[2017.08.13-06.02.22:303][228]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.08.13-06.02.24:329][295]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.13-06.02.24:364][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-06.02.24:364][295]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/14 0:02:24)
+[2017.08.13-06.02.24:364][295]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.13-06.02.24:408][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043895s)
+[2017.08.13-06.02.24:409][295]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.13-06.02.24:409][295]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2017.08.13-06.02.24:409][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.045108s)
+[2017.08.13-06.02.24:482][295]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-06.02.24:494][295]LogInit: FAudioDevice initialized.
+[2017.08.13-06.02.24:529][295]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.13-06.02.24:535][295]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.13-15.02.24
+[2017.08.13-06.02.24:536][295]LogWorld: Bringing up level for play took: 0.005755
+[2017.08.13-06.02.24:537][295]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.127のプレイ イン エディタの開始時間
+[2017.08.13-06.03.38:474][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full_26)
+[2017.08.13-06.03.39:010][258]Cmd: SELECT NONE
+[2017.08.13-06.03.40:064][303]Cmd: SELECT NONE
+[2017.08.13-06.03.42:080][394]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.13-06.03.42:096][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-06.03.42:096][394]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/14 0:03:42)
+[2017.08.13-06.03.42:096][394]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.13-06.03.42:130][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034045s)
+[2017.08.13-06.03.42:131][394]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.13-06.03.42:131][394]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2017.08.13-06.03.42:132][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.035763s)
+[2017.08.13-06.03.42:186][394]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-06.03.42:196][394]LogInit: FAudioDevice initialized.
+[2017.08.13-06.03.42:227][394]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.13-06.03.42:234][394]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.13-15.03.42
+[2017.08.13-06.03.42:235][394]LogWorld: Bringing up level for play took: 0.006256
+[2017.08.13-06.03.42:236][394]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.429のプレイ イン エディタの開始時間
+[2017.08.13-06.11.01:095][804]LogEditorTransaction: Undo PIEリンクを作成
+[2017.08.13-06.11.02:003][835]LogEditorTransaction: Undo PIEリンクを作成
+[2017.08.13-06.12.48:294][331]LogSavePackage: Save=4218.65ms
+[2017.08.13-06.12.48:294][331]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto9BCDFC030479D167691F2C4AF46D7133F.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto9.umap'
+[2017.08.13-06.12.48:326][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto9.umap
+[2017.08.13-06.12.48:330][331]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 4.396
+[2017.08.13-06.12.48:330][331]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.396
+[2017.08.13-06.12.48:335][331]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Checkpoint] ([1] browsable assets)...
+[2017.08.13-06.12.48:335][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Checkpoint]
+[2017.08.13-06.12.48:335][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-06.12.48:386][331]LogSavePackage: Save=39.95ms
+[2017.08.13-06.12.48:386][331]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Checkpoint_Auto92E800A3E432B9E4B8D6A7782D61E7623.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto9.uasset'
+[2017.08.13-06.12.48:396][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto9.uasset
+[2017.08.13-06.12.48:396][331]LogFileHelpers: Auto-saving content packages took 0.062
+[2017.08.13-06.17.15:812][658]BlueprintLog: New page: Checkpoint をコンパイル
+[2017.08.13-06.17.17:220][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.08.13-06.17.17:267][699]LogSavePackage: Save=41.95ms
+[2017.08.13-06.17.17:267][699]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/CheckpointE58B840F4EC8A01200749DBF7756BEE7.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset'
+[2017.08.13-06.17.17:273][699]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset
+[2017.08.13-06.18.26:489][ 40]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.13-06.18.26:511][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-06.18.26:511][ 40]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/14 0:18:26)
+[2017.08.13-06.18.26:512][ 40]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.13-06.18.26:556][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044231s)
+[2017.08.13-06.18.26:558][ 40]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.13-06.18.26:559][ 40]LogPlayLevel: PIE: World Init took: (0.002604s)
+[2017.08.13-06.18.26:559][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.047716s)
+[2017.08.13-06.18.26:617][ 40]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-06.18.26:635][ 40]LogInit: FAudioDevice initialized.
+[2017.08.13-06.18.26:672][ 40]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.13-06.18.26:687][ 40]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.13-15.18.26
+[2017.08.13-06.18.26:687][ 40]LogWorld: Bringing up level for play took: 0.011316
+[2017.08.13-06.18.26:690][ 40]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.025のプレイ イン エディタの開始時間
+[2017.08.13-06.18.40:922][672]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.13-06.18.40:959][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.13-06.18.40:960][672]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/14 0:18:40)
+[2017.08.13-06.18.40:960][672]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.13-06.18.40:996][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036096s)
+[2017.08.13-06.18.40:997][672]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.13-06.18.40:997][672]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2017.08.13-06.18.40:997][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.037563s)
+[2017.08.13-06.18.41:052][672]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.13-06.18.41:063][672]LogInit: FAudioDevice initialized.
+[2017.08.13-06.18.41:099][672]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.13-06.18.41:110][672]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.13-15.18.41
+[2017.08.13-06.18.41:111][672]LogWorld: Bringing up level for play took: 0.010185
+[2017.08.13-06.18.41:114][672]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.449のプレイ イン エディタの開始時間
+[2017.08.13-06.23.41:605][632]LogSavePackage: Save=3815.83ms
+[2017.08.13-06.23.41:605][632]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto0FD2AF9CD40C0F91F955A518CCDC9E755.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto0.umap'
+[2017.08.13-06.23.41:607][632]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto0.umap
+[2017.08.13-06.23.41:611][632]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 4.001
+[2017.08.13-06.23.41:611][632]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.001
