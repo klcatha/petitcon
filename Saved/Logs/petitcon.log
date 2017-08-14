@@ -1329,3 +1329,1162 @@ LogInit: Object subsystem initialized
 [2017.08.14-05.51.11:062][ 25]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
 [2017.08.14-05.51.35:105][643]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
 [2017.08.14-05.52.18:515][724]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 3
+[2017.08.14-05.56.26:813][831]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.14-05.56.26:848][831]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-05.56.26:848][831]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/14 23:56:26)
+[2017.08.14-05.56.26:848][831]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.14-05.56.26:881][831]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032900s)
+[2017.08.14-05.56.26:882][831]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.14-05.56.26:882][831]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2017.08.14-05.56.26:883][831]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.034501s)
+[2017.08.14-05.56.26:943][831]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-05.56.26:954][831]LogInit: FAudioDevice initialized.
+[2017.08.14-05.56.26:985][831]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.14-05.56.26:994][831]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.14-14.56.26
+[2017.08.14-05.56.26:995][831]LogWorld: Bringing up level for play took: 0.007323
+[2017.08.14-05.56.26:997][831]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.084のプレイ イン エディタの開始時間
+[2017.08.14-05.56.58:279][141]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.14-05.56.58:298][141]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-05.56.58:298][141]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/14 23:56:58)
+[2017.08.14-05.56.58:298][141]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.14-05.56.58:330][141]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030864s)
+[2017.08.14-05.56.58:330][141]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.14-05.56.58:330][141]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2017.08.14-05.56.58:331][141]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.032025s)
+[2017.08.14-05.56.58:375][141]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-05.56.58:386][141]LogInit: FAudioDevice initialized.
+[2017.08.14-05.56.58:419][141]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.14-05.56.58:427][141]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.14-14.56.58
+[2017.08.14-05.56.58:428][141]LogWorld: Bringing up level for play took: 0.007696
+[2017.08.14-05.56.58:430][141]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.483のプレイ イン エディタの開始時間
+[2017.08.14-05.57.24:492][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-05.57.24:492][832]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/14 23:57:24)
+[2017.08.14-05.57.24:492][832]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.14-05.57.24:523][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030777s)
+[2017.08.14-05.57.24:524][832]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.14-05.57.24:524][832]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2017.08.14-05.57.24:525][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.032220s)
+[2017.08.14-05.57.24:571][832]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-05.57.25:074][832]LogInit: FAudioDevice initialized.
+[2017.08.14-05.57.25:129][832]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.14-05.57.25:138][832]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2017.08.14-14.57.25
+[2017.08.14-05.57.25:140][832]LogWorld: Bringing up level for play took: 0.008972
+[2017.08.14-05.57.25:146][832]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.233のプレイ イン エディタの開始時間
+[2017.08.14-05.58.04:652][524]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.08.14-05.58.04:695][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-05.58.04:695][524]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/14 23:58:04)
+[2017.08.14-05.58.04:696][524]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.14-05.58.04:770][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.073529s)
+[2017.08.14-05.58.04:771][524]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.14-05.58.04:771][524]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2017.08.14-05.58.04:772][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.075435s)
+[2017.08.14-05.58.04:855][524]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-05.58.05:362][524]LogInit: FAudioDevice initialized.
+[2017.08.14-05.58.05:414][524]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.14-05.58.05:423][524]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.14-14.58.05
+[2017.08.14-05.58.05:424][524]LogWorld: Bringing up level for play took: 0.008343
+[2017.08.14-05.58.05:433][524]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.52のプレイ イン エディタの開始時間
+[2017.08.14-05.58.53:332][328]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-05.58.53:332][328]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/14 23:58:53)
+[2017.08.14-05.58.53:333][328]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.14-05.58.53:394][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060876s)
+[2017.08.14-05.58.53:395][328]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.14-05.58.53:395][328]LogPlayLevel: PIE: World Init took: (0.001355s)
+[2017.08.14-05.58.53:395][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.062843s)
+[2017.08.14-05.58.53:468][328]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-05.58.53:969][328]LogInit: FAudioDevice initialized.
+[2017.08.14-05.58.54:006][328]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.14-05.58.54:013][328]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.14-14.58.54
+[2017.08.14-05.58.54:014][328]LogWorld: Bringing up level for play took: 0.006029
+[2017.08.14-05.58.54:017][328]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 1.104のプレイ イン エディタの開始時間
+[2017.08.14-06.10.02:978][311]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.193
+[2017.08.14-06.10.02:981][311]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.14-06.10.02:981][311]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.14-06.10.03:176][311]LogSavePackage: Save=165.71ms
+[2017.08.14-06.10.03:176][311]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto02F94F2B242C3D2EDF64CA2AE70431561.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto0.uasset'
+[2017.08.14-06.10.03:178][311]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto0.uasset
+[2017.08.14-06.10.03:178][311]LogFileHelpers: Auto-saving content packages took 0.199
+[2017.08.14-06.12.02:541][659]LogEditorTransaction: Undo 新たに入力された値
+[2017.08.14-06.12.05:693][767]LogEditorTransaction: Undo 新たに入力された時間
+[2017.08.14-06.13.30:420][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.14-06.13.30:513][457]LogSavePackage: Save=85.31ms
+[2017.08.14-06.13.30:513][457]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContollerCF9EA3A44C075BA48D835E9FF49BB6BF.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.14-06.13.30:523][457]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.14-06.13.32:261][561]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.14-06.20.07:339][366]LogSavePackage: Save=3236.15ms
+[2017.08.14-06.20.07:339][366]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto10F4AB7ED48CC83CAF19A388D39648634.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto1.umap'
+[2017.08.14-06.20.07:343][366]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto1.umap
+[2017.08.14-06.20.07:349][366]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.345
+[2017.08.14-06.20.07:349][366]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.345
+[2017.08.14-06.20.07:362][366]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.14-06.20.07:362][366]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.14-06.20.07:458][366]LogSavePackage: Save=86.11ms
+[2017.08.14-06.20.07:458][366]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto189A779C54DCA07DD10E09BBB68010449.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto1.uasset'
+[2017.08.14-06.20.07:461][366]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto1.uasset
+[2017.08.14-06.20.07:461][366]LogFileHelpers: Auto-saving content packages took 0.100
+[2017.08.14-06.22.27:221][609]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.14-06.24.04:111][ 42]LogSavePackage: Save=2857.05ms
+[2017.08.14-06.24.04:111][ 42]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap429DD87A490CFBFF05484BB1A0CCF393.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
+[2017.08.14-06.24.04:121][ 42]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2017.08.14-06.34.01:533][456]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.112
+[2017.08.14-06.34.01:535][456]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.14-06.34.01:535][456]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.14-06.34.01:681][456]LogSavePackage: Save=133.56ms
+[2017.08.14-06.34.01:682][456]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto2D13A9ECA483F517448E41B99C1BAA246.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto2.uasset'
+[2017.08.14-06.34.01:685][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto2.uasset
+[2017.08.14-06.34.01:686][456]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/TimeConversion] ([1] browsable assets)...
+[2017.08.14-06.34.01:686][456]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TimeConversion]
+[2017.08.14-06.34.01:705][456]LogSavePackage: Save=8.11ms
+[2017.08.14-06.34.01:705][456]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/TimeConversion_Auto23099240B4FD0A4264D2806984FD89697.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/TimeConversion_Auto2.uasset'
+[2017.08.14-06.34.01:708][456]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/TimeConversion_Auto2.uasset
+[2017.08.14-06.34.01:708][456]LogFileHelpers: Auto-saving content packages took 0.174
+[2017.08.14-06.44.01:907][ 18]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.072
+[2017.08.14-06.44.01:910][ 18]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/TimeConversion] ([1] browsable assets)...
+[2017.08.14-06.44.01:910][ 18]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TimeConversion]
+[2017.08.14-06.44.01:942][ 18]LogSavePackage: Save=21.22ms
+[2017.08.14-06.44.01:942][ 18]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/TimeConversion_Auto35633152B4060367088C807AF87A98F66.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/TimeConversion_Auto3.uasset'
+[2017.08.14-06.44.01:944][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/TimeConversion_Auto3.uasset
+[2017.08.14-06.44.01:944][ 18]LogFileHelpers: Auto-saving content packages took 0.036
+[2017.08.14-06.54.41:852][349]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.084
+[2017.08.14-06.54.41:855][349]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/TimeConversion] ([1] browsable assets)...
+[2017.08.14-06.54.41:855][349]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/TimeConversion]
+[2017.08.14-06.54.41:925][349]LogSavePackage: Save=57.65ms
+[2017.08.14-06.54.41:925][349]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/TimeConversion_Auto4DF2EA98C401415D8B67E1EB4B719A7A2.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/TimeConversion_Auto4.uasset'
+[2017.08.14-06.54.41:930][349]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/TimeConversion_Auto4.uasset
+[2017.08.14-06.54.41:930][349]LogFileHelpers: Auto-saving content packages took 0.077
+[2017.08.14-07.02.08:317][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TimeConversion" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/TimeConversion.uasset" SILENT=true
+[2017.08.14-07.02.08:398][453]LogSavePackage: Save=68.61ms
+[2017.08.14-07.02.08:398][453]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/TimeConversionB3289DDA499AF83737674692ECEFFD44.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/TimeConversion.uasset'
+[2017.08.14-07.02.08:403][453]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/TimeConversion.uasset
+[2017.08.14-07.03.25:345][479]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.14-07.04.46:830][860]LogSavePackage: Save=4321.30ms
+[2017.08.14-07.04.46:836][860]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto5D5FB221E43538EA3E09F9F9A0CAC384E.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto5.umap'
+[2017.08.14-07.04.46:841][860]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto5.umap
+[2017.08.14-07.04.46:844][860]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 4.473
+[2017.08.14-07.04.46:844][860]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.473
+[2017.08.14-07.04.46:854][860]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.14-07.04.46:854][860]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.14-07.04.46:992][860]LogSavePackage: Save=105.60ms
+[2017.08.14-07.04.46:992][860]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto5F1DB0BAD460334E4BFA66BBD08D88633.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto5.uasset'
+[2017.08.14-07.04.46:995][860]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto5.uasset
+[2017.08.14-07.04.46:995][860]LogFileHelpers: Auto-saving content packages took 0.144
+[2017.08.14-07.06.53:167][965]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.14-07.07.04:243][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.14-07.07.04:338][ 10]LogSavePackage: Save=88.45ms
+[2017.08.14-07.07.04:338][ 10]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller5892C4684A497CE83D8D5CB76257E1BC.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.14-07.07.04:343][ 10]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.14-07.11.12:952][485]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.14-07.11.15:686][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.14-07.11.15:787][541]LogSavePackage: Save=90.83ms
+[2017.08.14-07.11.15:787][541]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller4BDC300B405DA5A919BA2DB3ABEFAB63.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.14-07.11.15:791][541]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.14-07.12.16:624][  2]LogSavePackage: Save=2863.73ms
+[2017.08.14-07.12.16:624][  2]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap984450054A53956CE967BFB1E17E7C13.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
+[2017.08.14-07.12.16:632][  2]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2017.08.14-07.15.34:135][672]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.14-07.15.34:207][672]BlueprintLog: New page: プレイ前に自動再コンパイル
+[2017.08.14-07.15.34:207][672]LogPlayLevel: [PlayLevel] Compiling TimeConversion before play...
+[2017.08.14-07.15.34:593][672]LogPlayLevel: PlayLevel: Blueprint regeneration took 386 ms (1 blueprints)
+[2017.08.14-07.15.34:594][672]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/15 1:15:34)
+[2017.08.14-07.15.34:594][672]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.14-07.15.34:639][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044864s)
+[2017.08.14-07.15.34:642][672]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.14-07.15.34:642][672]LogPlayLevel: PIE: World Init took: (0.002800s)
+[2017.08.14-07.15.34:642][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.048098s)
+[2017.08.14-07.15.34:691][672]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-07.15.34:706][672]LogInit: FAudioDevice initialized.
+[2017.08.14-07.15.34:744][672]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.14-07.15.34:754][672]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.14-16.15.34
+[2017.08.14-07.15.34:755][672]LogWorld: Bringing up level for play took: 0.009237
+[2017.08.14-07.15.34:784][672]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.129のプレイ イン エディタの開始時間
+[2017.08.14-07.15.34:789][672]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.06
+[2017.08.14-07.15.35:599][673]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.46
+[2017.08.14-07.15.35:621][674]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.48
+[2017.08.14-07.15.35:646][675]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.51
+[2017.08.14-07.15.35:662][676]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.52
+[2017.08.14-07.15.35:704][677]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.57
+[2017.08.14-07.15.35:740][678]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.60
+[2017.08.14-07.15.35:775][679]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.64
+[2017.08.14-07.15.35:807][680]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.67
+[2017.08.14-07.15.35:843][681]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.70
+[2017.08.14-07.15.35:901][682]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.76
+[2017.08.14-07.15.35:950][683]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.81
+[2017.08.14-07.15.35:969][684]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.83
+[2017.08.14-07.15.36:009][685]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.87
+[2017.08.14-07.15.36:029][686]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.89
+[2017.08.14-07.15.36:075][687]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.94
+[2017.08.14-07.15.36:093][688]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.95
+[2017.08.14-07.15.36:143][689]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.00
+[2017.08.14-07.15.36:159][690]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.02
+[2017.08.14-07.15.36:189][691]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.05
+[2017.08.14-07.15.36:222][692]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.08
+[2017.08.14-07.15.36:256][693]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.12
+[2017.08.14-07.15.36:290][694]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.15
+[2017.08.14-07.15.36:341][695]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.20
+[2017.08.14-07.15.36:387][696]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.25
+[2017.08.14-07.15.36:410][697]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.27
+[2017.08.14-07.15.36:454][698]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.32
+[2017.08.14-07.15.36:471][699]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.33
+[2017.08.14-07.15.36:519][700]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.38
+[2017.08.14-07.15.36:557][701]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.42
+[2017.08.14-07.15.36:586][702]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.45
+[2017.08.14-07.15.36:604][703]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.46
+[2017.08.14-07.15.36:629][704]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.49
+[2017.08.14-07.15.36:663][705]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.52
+[2017.08.14-07.15.36:701][706]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.56
+[2017.08.14-07.15.36:736][707]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.60
+[2017.08.14-07.15.36:769][708]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.63
+[2017.08.14-07.15.36:802][709]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.66
+[2017.08.14-07.15.36:858][710]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.72
+[2017.08.14-07.15.36:906][711]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.77
+[2017.08.14-07.15.36:934][712]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.80
+[2017.08.14-07.15.36:975][713]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.83
+[2017.08.14-07.15.37:006][714]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.87
+[2017.08.14-07.15.37:045][715]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.91
+[2017.08.14-07.15.37:062][716]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.92
+[2017.08.14-07.15.37:088][717]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.95
+[2017.08.14-07.15.37:151][718]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.01
+[2017.08.14-07.15.37:182][719]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.04
+[2017.08.14-07.15.37:217][720]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.08
+[2017.08.14-07.15.37:236][721]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.10
+[2017.08.14-07.15.37:260][722]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.12
+[2017.08.14-07.15.37:296][723]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.16
+[2017.08.14-07.15.37:331][724]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.19
+[2017.08.14-07.15.37:368][725]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.23
+[2017.08.14-07.15.37:403][726]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.26
+[2017.08.14-07.15.37:438][727]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.30
+[2017.08.14-07.15.37:472][728]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.33
+[2017.08.14-07.15.37:525][729]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.39
+[2017.08.14-07.15.37:574][730]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.43
+[2017.08.14-07.15.37:612][731]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.47
+[2017.08.14-07.15.37:652][732]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.51
+[2017.08.14-07.15.37:676][733]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.54
+[2017.08.14-07.15.37:719][734]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.58
+[2017.08.14-07.15.37:736][735]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.60
+[2017.08.14-07.15.37:768][736]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.63
+[2017.08.14-07.15.37:828][737]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.69
+[2017.08.14-07.15.37:854][738]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.72
+[2017.08.14-07.15.37:897][739]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.76
+[2017.08.14-07.15.37:918][740]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.78
+[2017.08.14-07.15.37:944][741]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.81
+[2017.08.14-07.15.37:980][742]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.84
+[2017.08.14-07.15.38:017][743]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.88
+[2017.08.14-07.15.38:051][744]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.91
+[2017.08.14-07.15.38:105][745]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:02.97
+[2017.08.14-07.15.38:157][746]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.02
+[2017.08.14-07.15.38:197][747]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.06
+[2017.08.14-07.15.38:241][748]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.10
+[2017.08.14-07.15.38:275][749]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.14
+[2017.08.14-07.15.38:322][750]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.18
+[2017.08.14-07.15.38:360][751]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.22
+[2017.08.14-07.15.38:402][752]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.26
+[2017.08.14-07.15.38:437][753]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.30
+[2017.08.14-07.15.38:473][754]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.33
+[2017.08.14-07.15.38:499][755]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.36
+[2017.08.14-07.15.38:542][756]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.40
+[2017.08.14-07.15.38:559][757]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.42
+[2017.08.14-07.15.38:608][758]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.47
+[2017.08.14-07.15.38:642][759]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.50
+[2017.08.14-07.15.38:663][760]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.52
+[2017.08.14-07.15.38:698][761]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.56
+[2017.08.14-07.15.38:739][762]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.60
+[2017.08.14-07.15.38:794][763]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.66
+[2017.08.14-07.15.38:819][764]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.68
+[2017.08.14-07.15.38:866][765]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.73
+[2017.08.14-07.15.38:890][766]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.75
+[2017.08.14-07.15.38:935][767]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.80
+[2017.08.14-07.15.38:963][768]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.82
+[2017.08.14-07.15.39:010][769]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.87
+[2017.08.14-07.15.39:030][770]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.89
+[2017.08.14-07.15.39:077][771]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.94
+[2017.08.14-07.15.39:105][772]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:03.97
+[2017.08.14-07.15.39:153][773]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.01
+[2017.08.14-07.15.39:172][774]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.03
+[2017.08.14-07.15.39:218][775]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.08
+[2017.08.14-07.15.39:238][776]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.10
+[2017.08.14-07.15.39:278][777]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.14
+[2017.08.14-07.15.39:334][778]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.20
+[2017.08.14-07.15.39:362][779]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.22
+[2017.08.14-07.15.39:405][780]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.27
+[2017.08.14-07.15.39:433][781]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.29
+[2017.08.14-07.15.39:459][782]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.32
+[2017.08.14-07.15.39:514][783]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.38
+[2017.08.14-07.15.39:535][784]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.40
+[2017.08.14-07.15.39:582][785]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.44
+[2017.08.14-07.15.39:599][786]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.46
+[2017.08.14-07.15.39:651][787]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.51
+[2017.08.14-07.15.39:667][788]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.53
+[2017.08.14-07.15.39:697][789]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.56
+[2017.08.14-07.15.39:735][790]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.60
+[2017.08.14-07.15.39:771][791]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.63
+[2017.08.14-07.15.39:833][792]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.69
+[2017.08.14-07.15.39:850][793]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.71
+[2017.08.14-07.15.39:900][794]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.76
+[2017.08.14-07.15.39:917][795]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.78
+[2017.08.14-07.15.39:949][796]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.81
+[2017.08.14-07.15.39:993][797]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.85
+[2017.08.14-07.15.40:045][798]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.91
+[2017.08.14-07.15.40:062][799]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.92
+[2017.08.14-07.15.40:087][800]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.95
+[2017.08.14-07.15.40:127][801]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:04.99
+[2017.08.14-07.15.40:184][802]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.05
+[2017.08.14-07.15.40:201][803]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.06
+[2017.08.14-07.15.40:255][804]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.12
+[2017.08.14-07.15.40:272][805]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.13
+[2017.08.14-07.15.40:300][806]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.16
+[2017.08.14-07.15.40:349][807]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.21
+[2017.08.14-07.15.40:398][808]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.26
+[2017.08.14-07.15.40:425][809]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.29
+[2017.08.14-07.15.40:468][810]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.33
+[2017.08.14-07.15.40:485][811]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.35
+[2017.08.14-07.15.40:509][812]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.37
+[2017.08.14-07.15.40:545][813]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.41
+[2017.08.14-07.15.40:582][814]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.44
+[2017.08.14-07.15.40:617][815]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.48
+[2017.08.14-07.15.40:651][816]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.51
+[2017.08.14-07.15.40:685][817]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.55
+[2017.08.14-07.15.40:721][818]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.58
+[2017.08.14-07.15.40:759][819]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.62
+[2017.08.14-07.15.40:814][820]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.68
+[2017.08.14-07.15.40:831][821]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.69
+[2017.08.14-07.15.40:860][822]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.72
+[2017.08.14-07.15.40:892][823]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.75
+[2017.08.14-07.15.40:931][824]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.79
+[2017.08.14-07.15.40:986][825]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.85
+[2017.08.14-07.15.41:003][826]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.87
+[2017.08.14-07.15.41:033][827]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.89
+[2017.08.14-07.15.41:066][828]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.93
+[2017.08.14-07.15.41:102][829]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:05.96
+[2017.08.14-07.15.41:160][830]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.02
+[2017.08.14-07.15.41:195][831]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.06
+[2017.08.14-07.15.41:235][832]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.10
+[2017.08.14-07.15.41:251][833]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.11
+[2017.08.14-07.15.41:275][834]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.14
+[2017.08.14-07.15.41:315][835]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.18
+[2017.08.14-07.15.41:371][836]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.23
+[2017.08.14-07.15.41:389][837]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.25
+[2017.08.14-07.15.41:439][838]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.30
+[2017.08.14-07.15.41:455][839]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.32
+[2017.08.14-07.15.41:486][840]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.35
+[2017.08.14-07.15.41:544][841]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.41
+[2017.08.14-07.15.41:564][842]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.43
+[2017.08.14-07.15.41:613][843]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.47
+[2017.08.14-07.15.41:630][844]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.49
+[2017.08.14-07.15.41:661][845]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.52
+[2017.08.14-07.15.41:715][846]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.58
+[2017.08.14-07.15.41:732][847]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.59
+[2017.08.14-07.15.41:757][848]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.62
+[2017.08.14-07.15.41:819][849]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.68
+[2017.08.14-07.15.41:844][850]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.71
+[2017.08.14-07.15.41:885][851]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.75
+[2017.08.14-07.15.41:901][852]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.76
+[2017.08.14-07.15.41:926][853]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.79
+[2017.08.14-07.15.41:963][854]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.83
+[2017.08.14-07.15.42:002][855]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.86
+[2017.08.14-07.15.42:061][856]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.92
+[2017.08.14-07.15.42:077][857]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.94
+[2017.08.14-07.15.42:111][858]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:06.97
+[2017.08.14-07.15.42:168][859]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.03
+[2017.08.14-07.15.42:185][860]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.05
+[2017.08.14-07.15.42:216][861]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.08
+[2017.08.14-07.15.42:276][862]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.14
+[2017.08.14-07.15.42:299][863]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.16
+[2017.08.14-07.15.42:346][864]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.21
+[2017.08.14-07.15.42:362][865]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.22
+[2017.08.14-07.15.42:389][866]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.25
+[2017.08.14-07.15.42:448][867]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.31
+[2017.08.14-07.15.42:466][868]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.33
+[2017.08.14-07.15.42:499][869]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.36
+[2017.08.14-07.15.42:554][870]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.42
+[2017.08.14-07.15.42:570][871]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.43
+[2017.08.14-07.15.42:601][872]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.46
+[2017.08.14-07.15.42:658][873]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.52
+[2017.08.14-07.15.42:679][874]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.54
+[2017.08.14-07.15.42:732][875]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.59
+[2017.08.14-07.15.42:749][876]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.61
+[2017.08.14-07.15.42:773][877]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.63
+[2017.08.14-07.15.42:812][878]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.67
+[2017.08.14-07.15.42:869][879]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.73
+[2017.08.14-07.15.42:886][880]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.75
+[2017.08.14-07.15.42:935][881]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.80
+[2017.08.14-07.15.42:952][882]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.81
+[2017.08.14-07.15.42:981][883]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.84
+[2017.08.14-07.15.43:036][884]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.90
+[2017.08.14-07.15.43:052][885]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.91
+[2017.08.14-07.15.43:086][886]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:07.95
+[2017.08.14-07.15.43:142][887]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.00
+[2017.08.14-07.15.43:160][888]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.02
+[2017.08.14-07.15.43:191][889]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.05
+[2017.08.14-07.15.43:247][890]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.11
+[2017.08.14-07.15.43:266][891]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.13
+[2017.08.14-07.15.43:319][892]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.18
+[2017.08.14-07.15.43:336][893]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.20
+[2017.08.14-07.15.43:366][894]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.23
+[2017.08.14-07.15.43:420][895]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.28
+[2017.08.14-07.15.43:438][896]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.30
+[2017.08.14-07.15.43:489][897]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.35
+[2017.08.14-07.15.43:506][898]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.37
+[2017.08.14-07.15.43:533][899]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.39
+[2017.08.14-07.15.43:571][900]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.43
+[2017.08.14-07.15.43:629][901]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.49
+[2017.08.14-07.15.43:645][902]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.51
+[2017.08.14-07.15.43:671][903]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.53
+[2017.08.14-07.15.43:707][904]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.57
+[2017.08.14-07.15.43:747][905]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.61
+[2017.08.14-07.15.43:803][906]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.66
+[2017.08.14-07.15.43:819][907]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.68
+[2017.08.14-07.15.43:851][908]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.71
+[2017.08.14-07.15.43:908][909]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.77
+[2017.08.14-07.15.43:926][910]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.79
+[2017.08.14-07.15.43:955][911]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.82
+[2017.08.14-07.15.43:993][912]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.85
+[2017.08.14-07.15.44:050][913]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.91
+[2017.08.14-07.15.44:067][914]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.93
+[2017.08.14-07.15.44:092][915]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.95
+[2017.08.14-07.15.44:130][916]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:08.99
+[2017.08.14-07.15.44:169][917]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.03
+[2017.08.14-07.15.44:225][918]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.09
+[2017.08.14-07.15.44:242][919]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.10
+[2017.08.14-07.15.44:274][920]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.14
+[2017.08.14-07.15.44:331][921]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.19
+[2017.08.14-07.15.44:347][922]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.21
+[2017.08.14-07.15.44:375][923]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.24
+[2017.08.14-07.15.44:417][924]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.28
+[2017.08.14-07.15.44:469][925]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.33
+[2017.08.14-07.15.44:486][926]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.35
+[2017.08.14-07.15.44:516][927]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.38
+[2017.08.14-07.15.44:574][928]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.44
+[2017.08.14-07.15.44:591][929]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.45
+[2017.08.14-07.15.44:623][930]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.49
+[2017.08.14-07.15.44:680][931]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.54
+[2017.08.14-07.15.44:698][932]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.56
+[2017.08.14-07.15.44:724][933]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.59
+[2017.08.14-07.15.44:784][934]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.65
+[2017.08.14-07.15.44:802][935]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.66
+[2017.08.14-07.15.44:825][936]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.69
+[2017.08.14-07.15.44:866][937]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.73
+[2017.08.14-07.15.44:920][938]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.78
+[2017.08.14-07.15.44:948][939]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.81
+[2017.08.14-07.15.44:986][940]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.85
+[2017.08.14-07.15.45:006][941]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.87
+[2017.08.14-07.15.45:054][942]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.92
+[2017.08.14-07.15.45:083][943]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.94
+[2017.08.14-07.15.45:125][944]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:09.99
+[2017.08.14-07.15.45:155][945]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.02
+[2017.08.14-07.15.45:196][946]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.06
+[2017.08.14-07.15.45:216][947]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.08
+[2017.08.14-07.15.45:260][948]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.12
+[2017.08.14-07.15.45:281][949]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.14
+[2017.08.14-07.15.45:327][950]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.19
+[2017.08.14-07.15.45:359][951]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.22
+[2017.08.14-07.15.45:404][952]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.27
+[2017.08.14-07.15.45:435][953]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.30
+[2017.08.14-07.15.45:471][954]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.33
+[2017.08.14-07.15.45:493][955]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.35
+[2017.08.14-07.15.45:541][956]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.40
+[2017.08.14-07.15.45:561][957]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.42
+[2017.08.14-07.15.45:607][958]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.47
+[2017.08.14-07.15.45:640][959]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.50
+[2017.08.14-07.15.45:677][960]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.54
+[2017.08.14-07.15.45:702][961]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.56
+[2017.08.14-07.15.45:721][962]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.58
+[2017.08.14-07.15.45:778][963]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.64
+[2017.08.14-07.15.45:797][964]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.66
+[2017.08.14-07.15.45:835][965]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.70
+[2017.08.14-07.15.45:882][966]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.74
+[2017.08.14-07.15.45:900][967]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.76
+[2017.08.14-07.15.45:922][968]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.78
+[2017.08.14-07.15.45:962][969]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.82
+[2017.08.14-07.15.46:015][970]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.88
+[2017.08.14-07.15.46:049][971]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.91
+[2017.08.14-07.15.46:080][972]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.94
+[2017.08.14-07.15.46:107][973]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:10.97
+[2017.08.14-07.15.46:149][974]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.01
+[2017.08.14-07.15.46:167][975]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.03
+[2017.08.14-07.15.46:214][976]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.08
+[2017.08.14-07.15.46:236][977]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.10
+[2017.08.14-07.15.46:280][978]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.14
+[2017.08.14-07.15.46:306][979]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.17
+[2017.08.14-07.15.46:348][980]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.21
+[2017.08.14-07.15.46:377][981]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.24
+[2017.08.14-07.15.46:412][982]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.27
+[2017.08.14-07.15.46:430][983]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.29
+[2017.08.14-07.15.46:455][984]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.32
+[2017.08.14-07.15.46:497][985]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.36
+[2017.08.14-07.15.46:547][986]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.41
+[2017.08.14-07.15.46:567][987]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.43
+[2017.08.14-07.15.46:612][988]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.47
+[2017.08.14-07.15.46:633][989]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.49
+[2017.08.14-07.15.46:679][990]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.54
+[2017.08.14-07.15.46:697][991]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.56
+[2017.08.14-07.15.46:743][992]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.60
+[2017.08.14-07.15.46:771][993]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.63
+[2017.08.14-07.15.46:812][994]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.67
+[2017.08.14-07.15.46:836][995]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.70
+[2017.08.14-07.15.46:879][996]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.74
+[2017.08.14-07.15.46:894][997]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.76
+[2017.08.14-07.15.46:919][998]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.78
+[2017.08.14-07.15.46:954][999]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.82
+[2017.08.14-07.15.47:006][  0]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.87
+[2017.08.14-07.15.47:052][  1]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.91
+[2017.08.14-07.15.47:069][  2]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.93
+[2017.08.14-07.15.47:121][  3]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:11.98
+[2017.08.14-07.15.47:138][  4]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.00
+[2017.08.14-07.15.47:162][  5]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.02
+[2017.08.14-07.15.47:201][  6]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.06
+[2017.08.14-07.15.47:252][  7]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.11
+[2017.08.14-07.15.47:269][  8]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.13
+[2017.08.14-07.15.47:294][  9]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.16
+[2017.08.14-07.15.47:327][ 10]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.19
+[2017.08.14-07.15.47:367][ 11]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.23
+[2017.08.14-07.15.47:421][ 12]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.28
+[2017.08.14-07.15.47:439][ 13]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.30
+[2017.08.14-07.15.47:462][ 14]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.32
+[2017.08.14-07.15.47:495][ 15]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.36
+[2017.08.14-07.15.47:532][ 16]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.39
+[2017.08.14-07.15.47:587][ 17]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.45
+[2017.08.14-07.15.47:604][ 18]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.47
+[2017.08.14-07.15.47:630][ 19]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.49
+[2017.08.14-07.15.47:686][ 20]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.55
+[2017.08.14-07.15.47:705][ 21]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.57
+[2017.08.14-07.15.47:734][ 22]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.60
+[2017.08.14-07.15.47:770][ 23]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.63
+[2017.08.14-07.15.47:827][ 24]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.69
+[2017.08.14-07.15.47:847][ 25]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.71
+[2017.08.14-07.15.47:897][ 26]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.76
+[2017.08.14-07.15.47:915][ 27]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.78
+[2017.08.14-07.15.47:939][ 28]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.80
+[2017.08.14-07.15.47:973][ 29]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.83
+[2017.08.14-07.15.48:009][ 30]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.87
+[2017.08.14-07.15.48:066][ 31]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.93
+[2017.08.14-07.15.48:086][ 32]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:12.95
+[2017.08.14-07.15.48:137][ 33]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.00
+[2017.08.14-07.15.48:155][ 34]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.02
+[2017.08.14-07.15.48:208][ 35]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.07
+[2017.08.14-07.15.48:225][ 36]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.09
+[2017.08.14-07.15.48:251][ 37]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.11
+[2017.08.14-07.15.48:316][ 38]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.18
+[2017.08.14-07.15.48:332][ 39]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.19
+[2017.08.14-07.15.48:358][ 40]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.22
+[2017.08.14-07.15.48:417][ 41]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.28
+[2017.08.14-07.15.48:434][ 42]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.30
+[2017.08.14-07.15.48:462][ 43]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.32
+[2017.08.14-07.15.48:501][ 44]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.36
+[2017.08.14-07.15.48:558][ 45]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.42
+[2017.08.14-07.15.48:576][ 46]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.44
+[2017.08.14-07.15.48:607][ 47]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.47
+[2017.08.14-07.15.48:665][ 48]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.53
+[2017.08.14-07.15.48:681][ 49]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.54
+[2017.08.14-07.15.48:737][ 50]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.60
+[2017.08.14-07.15.48:755][ 51]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.62
+[2017.08.14-07.15.48:783][ 52]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.65
+[2017.08.14-07.15.48:842][ 53]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.70
+[2017.08.14-07.15.48:858][ 54]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.72
+[2017.08.14-07.15.48:910][ 55]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.77
+[2017.08.14-07.15.48:930][ 56]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.79
+[2017.08.14-07.15.48:984][ 57]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.85
+[2017.08.14-07.15.49:001][ 58]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.86
+[2017.08.14-07.15.49:049][ 59]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.91
+[2017.08.14-07.15.49:066][ 60]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.93
+[2017.08.14-07.15.49:091][ 61]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.95
+[2017.08.14-07.15.49:129][ 62]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:13.99
+[2017.08.14-07.15.49:168][ 63]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.03
+[2017.08.14-07.15.49:223][ 64]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.08
+[2017.08.14-07.15.49:240][ 65]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.10
+[2017.08.14-07.15.49:271][ 66]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.13
+[2017.08.14-07.15.49:328][ 67]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.19
+[2017.08.14-07.15.49:345][ 68]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.21
+[2017.08.14-07.15.49:373][ 69]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.23
+[2017.08.14-07.15.49:412][ 70]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.27
+[2017.08.14-07.15.49:467][ 71]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.33
+[2017.08.14-07.15.49:484][ 72]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.35
+[2017.08.14-07.15.49:510][ 73]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.37
+[2017.08.14-07.15.49:571][ 74]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.43
+[2017.08.14-07.15.49:588][ 75]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.45
+[2017.08.14-07.15.49:616][ 76]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.48
+[2017.08.14-07.15.49:654][ 77]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.52
+[2017.08.14-07.15.49:710][ 78]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.57
+[2017.08.14-07.15.49:730][ 79]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.59
+[2017.08.14-07.15.49:780][ 80]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.64
+[2017.08.14-07.15.49:797][ 81]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.66
+[2017.08.14-07.15.49:845][ 82]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.71
+[2017.08.14-07.15.49:862][ 83]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.72
+[2017.08.14-07.15.49:914][ 84]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.77
+[2017.08.14-07.15.49:937][ 85]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.80
+[2017.08.14-07.15.49:983][ 86]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.84
+[2017.08.14-07.15.50:002][ 87]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.86
+[2017.08.14-07.15.50:050][ 88]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.91
+[2017.08.14-07.15.50:068][ 89]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.93
+[2017.08.14-07.15.50:118][ 90]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:14.98
+[2017.08.14-07.15.50:136][ 91]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.00
+[2017.08.14-07.15.50:185][ 92]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.05
+[2017.08.14-07.15.50:202][ 93]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.06
+[2017.08.14-07.15.50:251][ 94]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.11
+[2017.08.14-07.15.50:270][ 95]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.13
+[2017.08.14-07.15.50:316][ 96]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.18
+[2017.08.14-07.15.50:335][ 97]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.20
+[2017.08.14-07.15.50:382][ 98]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.24
+[2017.08.14-07.15.50:406][ 99]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.27
+[2017.08.14-07.15.50:447][100]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.31
+[2017.08.14-07.15.50:465][101]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.33
+[2017.08.14-07.15.50:513][102]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.37
+[2017.08.14-07.15.50:531][103]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.39
+[2017.08.14-07.15.50:574][104]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.44
+[2017.08.14-07.15.50:596][105]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.46
+[2017.08.14-07.15.50:643][106]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.51
+[2017.08.14-07.15.50:661][107]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.52
+[2017.08.14-07.15.50:684][108]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.55
+[2017.08.14-07.15.50:719][109]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.58
+[2017.08.14-07.15.50:780][110]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.64
+[2017.08.14-07.15.50:797][111]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.66
+[2017.08.14-07.15.50:820][112]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.68
+[2017.08.14-07.15.50:859][113]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.72
+[2017.08.14-07.15.50:917][114]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.78
+[2017.08.14-07.15.50:934][115]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.80
+[2017.08.14-07.15.50:986][116]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.85
+[2017.08.14-07.15.51:002][117]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.86
+[2017.08.14-07.15.51:026][118]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.89
+[2017.08.14-07.15.51:061][119]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.92
+[2017.08.14-07.15.51:118][120]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:15.98
+[2017.08.14-07.15.51:140][121]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.00
+[2017.08.14-07.15.51:190][122]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.05
+[2017.08.14-07.15.51:213][123]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.07
+[2017.08.14-07.15.51:239][124]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.10
+[2017.08.14-07.15.51:296][125]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.16
+[2017.08.14-07.15.51:324][126]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.19
+[2017.08.14-07.15.51:371][127]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.23
+[2017.08.14-07.15.51:391][128]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.25
+[2017.08.14-07.15.51:442][129]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.30
+[2017.08.14-07.15.51:460][130]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.32
+[2017.08.14-07.15.51:514][131]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.37
+[2017.08.14-07.15.51:547][132]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.41
+[2017.08.14-07.15.51:581][133]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.44
+[2017.08.14-07.15.51:606][134]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.47
+[2017.08.14-07.15.51:632][135]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.49
+[2017.08.14-07.15.51:685][136]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.55
+[2017.08.14-07.15.51:705][137]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.57
+[2017.08.14-07.15.51:734][138]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.60
+[2017.08.14-07.15.51:790][139]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.65
+[2017.08.14-07.15.51:821][140]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.68
+[2017.08.14-07.15.51:863][141]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.72
+[2017.08.14-07.15.51:890][142]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.75
+[2017.08.14-07.15.51:930][143]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.79
+[2017.08.14-07.15.51:950][144]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.81
+[2017.08.14-07.15.51:972][145]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.83
+[2017.08.14-07.15.52:035][146]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.90
+[2017.08.14-07.15.52:058][147]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.92
+[2017.08.14-07.15.52:102][148]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.96
+[2017.08.14-07.15.52:118][149]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:16.98
+[2017.08.14-07.15.52:146][150]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.01
+[2017.08.14-07.15.52:184][151]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.05
+[2017.08.14-07.15.52:239][152]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.10
+[2017.08.14-07.15.52:260][153]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.12
+[2017.08.14-07.15.52:284][154]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.15
+[2017.08.14-07.15.52:317][155]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.18
+[2017.08.14-07.15.52:355][156]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.22
+[2017.08.14-07.15.52:413][157]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.27
+[2017.08.14-07.15.52:434][158]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.30
+[2017.08.14-07.15.52:479][159]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.34
+[2017.08.14-07.15.52:505][160]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.37
+[2017.08.14-07.15.52:545][161]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.41
+[2017.08.14-07.15.52:576][162]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.44
+[2017.08.14-07.15.52:615][163]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.48
+[2017.08.14-07.15.52:632][164]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.49
+[2017.08.14-07.15.52:661][165]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.52
+[2017.08.14-07.15.52:715][166]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.58
+[2017.08.14-07.15.52:764][167]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.63
+[2017.08.14-07.15.52:780][168]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.64
+[2017.08.14-07.15.52:820][169]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.68
+[2017.08.14-07.15.52:838][170]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.70
+[2017.08.14-07.15.52:864][171]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.73
+[2017.08.14-07.15.52:897][172]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.76
+[2017.08.14-07.15.52:935][173]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.80
+[2017.08.14-07.15.52:990][174]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.85
+[2017.08.14-07.15.53:008][175]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.87
+[2017.08.14-07.15.53:040][176]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.90
+[2017.08.14-07.15.53:094][177]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.96
+[2017.08.14-07.15.53:117][178]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:17.98
+[2017.08.14-07.15.53:162][179]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.02
+[2017.08.14-07.15.53:179][180]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.04
+[2017.08.14-07.15.53:214][181]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.07
+[2017.08.14-07.15.53:270][182]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.13
+[2017.08.14-07.15.53:286][183]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.15
+[2017.08.14-07.15.53:316][184]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.18
+[2017.08.14-07.15.53:372][185]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.23
+[2017.08.14-07.15.53:401][186]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.26
+[2017.08.14-07.15.53:446][187]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.31
+[2017.08.14-07.15.53:463][188]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.32
+[2017.08.14-07.15.53:486][189]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.35
+[2017.08.14-07.15.53:530][190]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.39
+[2017.08.14-07.15.53:584][191]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.45
+[2017.08.14-07.15.53:601][192]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.46
+[2017.08.14-07.15.53:649][193]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.51
+[2017.08.14-07.15.53:666][194]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.53
+[2017.08.14-07.15.53:694][195]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.56
+[2017.08.14-07.15.53:752][196]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.61
+[2017.08.14-07.15.53:768][197]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.63
+[2017.08.14-07.15.53:801][198]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.66
+[2017.08.14-07.15.53:858][199]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.72
+[2017.08.14-07.15.53:877][200]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.74
+[2017.08.14-07.15.53:906][201]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.77
+[2017.08.14-07.15.53:965][202]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.83
+[2017.08.14-07.15.53:981][203]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.84
+[2017.08.14-07.15.54:007][204]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.87
+[2017.08.14-07.15.54:044][205]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.90
+[2017.08.14-07.15.54:078][206]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.94
+[2017.08.14-07.15.54:116][207]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:18.98
+[2017.08.14-07.15.54:155][208]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.02
+[2017.08.14-07.15.54:212][209]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.07
+[2017.08.14-07.15.54:229][210]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.09
+[2017.08.14-07.15.54:285][211]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.15
+[2017.08.14-07.15.54:303][212]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.16
+[2017.08.14-07.15.54:331][213]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.19
+[2017.08.14-07.15.54:390][214]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.25
+[2017.08.14-07.15.54:423][215]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.28
+[2017.08.14-07.15.54:460][216]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.32
+[2017.08.14-07.15.54:486][217]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.35
+[2017.08.14-07.15.54:532][218]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.39
+[2017.08.14-07.15.54:569][219]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.43
+[2017.08.14-07.15.54:588][220]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.45
+[2017.08.14-07.15.54:638][221]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.50
+[2017.08.14-07.15.54:666][222]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.53
+[2017.08.14-07.15.54:706][223]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.57
+[2017.08.14-07.15.54:752][224]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.61
+[2017.08.14-07.15.54:769][225]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.63
+[2017.08.14-07.15.54:812][226]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.67
+[2017.08.14-07.15.54:829][227]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.69
+[2017.08.14-07.15.54:854][228]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.72
+[2017.08.14-07.15.54:907][229]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.77
+[2017.08.14-07.15.54:955][230]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.82
+[2017.08.14-07.15.54:979][231]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.84
+[2017.08.14-07.15.55:024][232]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.89
+[2017.08.14-07.15.55:042][233]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.90
+[2017.08.14-07.15.55:071][234]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.93
+[2017.08.14-07.15.55:129][235]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:19.99
+[2017.08.14-07.15.55:146][236]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.01
+[2017.08.14-07.15.55:200][237]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.06
+[2017.08.14-07.15.55:216][238]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.08
+[2017.08.14-07.15.55:243][239]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.10
+[2017.08.14-07.15.55:277][240]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.14
+[2017.08.14-07.15.55:316][241]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.18
+[2017.08.14-07.15.55:373][242]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.23
+[2017.08.14-07.15.55:390][243]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.25
+[2017.08.14-07.15.55:445][244]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.31
+[2017.08.14-07.15.55:462][245]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.32
+[2017.08.14-07.15.55:489][246]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.35
+[2017.08.14-07.15.55:546][247]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.41
+[2017.08.14-07.15.55:563][248]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.42
+[2017.08.14-07.15.55:590][249]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.45
+[2017.08.14-07.15.55:630][250]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.49
+[2017.08.14-07.15.55:685][251]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.55
+[2017.08.14-07.15.55:702][252]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.56
+[2017.08.14-07.15.55:732][253]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.59
+[2017.08.14-07.15.55:789][254]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.65
+[2017.08.14-07.15.55:806][255]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.67
+[2017.08.14-07.15.55:832][256]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.69
+[2017.08.14-07.15.55:870][257]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.73
+[2017.08.14-07.15.55:927][258]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.79
+[2017.08.14-07.15.55:943][259]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.81
+[2017.08.14-07.15.55:969][260]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.83
+[2017.08.14-07.15.56:031][261]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.89
+[2017.08.14-07.15.56:047][262]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.91
+[2017.08.14-07.15.56:070][263]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.93
+[2017.08.14-07.15.56:104][264]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:20.96
+[2017.08.14-07.15.56:141][265]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.00
+[2017.08.14-07.15.56:196][266]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.06
+[2017.08.14-07.15.56:213][267]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.07
+[2017.08.14-07.15.56:265][268]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.13
+[2017.08.14-07.15.56:283][269]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.14
+[2017.08.14-07.15.56:330][270]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.19
+[2017.08.14-07.15.56:347][271]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.21
+[2017.08.14-07.15.56:399][272]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.26
+[2017.08.14-07.15.56:418][273]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.28
+[2017.08.14-07.15.56:465][274]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.33
+[2017.08.14-07.15.56:485][275]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.35
+[2017.08.14-07.15.56:535][276]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.40
+[2017.08.14-07.15.56:556][277]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.42
+[2017.08.14-07.15.56:599][278]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.46
+[2017.08.14-07.15.56:617][279]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.48
+[2017.08.14-07.15.56:664][280]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.52
+[2017.08.14-07.15.56:682][281]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.54
+[2017.08.14-07.15.56:735][282]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.60
+[2017.08.14-07.15.56:755][283]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.62
+[2017.08.14-07.15.56:799][284]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.66
+[2017.08.14-07.15.56:817][285]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.68
+[2017.08.14-07.15.56:871][286]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.73
+[2017.08.14-07.15.56:889][287]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.75
+[2017.08.14-07.15.56:938][288]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.80
+[2017.08.14-07.15.56:956][289]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.82
+[2017.08.14-07.15.57:006][290]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.87
+[2017.08.14-07.15.57:024][291]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.88
+[2017.08.14-07.15.57:074][292]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.94
+[2017.08.14-07.15.57:096][293]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:21.95
+[2017.08.14-07.15.57:140][294]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.00
+[2017.08.14-07.15.57:158][295]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.02
+[2017.08.14-07.15.57:206][296]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.07
+[2017.08.14-07.15.57:224][297]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.09
+[2017.08.14-07.15.57:277][298]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.14
+[2017.08.14-07.15.57:296][299]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.16
+[2017.08.14-07.15.57:343][300]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.20
+[2017.08.14-07.15.57:367][301]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.23
+[2017.08.14-07.15.57:415][302]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.28
+[2017.08.14-07.15.57:439][303]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.30
+[2017.08.14-07.15.57:479][304]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.34
+[2017.08.14-07.15.57:500][305]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.36
+[2017.08.14-07.15.57:547][306]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.41
+[2017.08.14-07.15.57:570][307]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.43
+[2017.08.14-07.15.57:616][308]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.48
+[2017.08.14-07.15.57:637][309]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.50
+[2017.08.14-07.15.57:683][310]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.54
+[2017.08.14-07.15.57:707][311]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.57
+[2017.08.14-07.15.57:752][312]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.61
+[2017.08.14-07.15.57:774][313]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.64
+[2017.08.14-07.15.57:817][314]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.68
+[2017.08.14-07.15.57:842][315]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.70
+[2017.08.14-07.15.57:877][316]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.74
+[2017.08.14-07.15.57:918][317]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.78
+[2017.08.14-07.15.57:940][318]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.80
+[2017.08.14-07.15.57:992][319]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.85
+[2017.08.14-07.15.58:011][320]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.87
+[2017.08.14-07.15.58:032][321]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.89
+[2017.08.14-07.15.58:089][322]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.95
+[2017.08.14-07.15.58:133][323]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:22.99
+[2017.08.14-07.15.58:152][324]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.01
+[2017.08.14-07.15.58:190][325]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.05
+[2017.08.14-07.15.58:207][326]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.07
+[2017.08.14-07.15.58:232][327]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.09
+[2017.08.14-07.15.58:269][328]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.13
+[2017.08.14-07.15.58:322][329]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.18
+[2017.08.14-07.15.58:340][330]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.20
+[2017.08.14-07.15.58:369][331]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.23
+[2017.08.14-07.15.58:425][332]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.29
+[2017.08.14-07.15.58:447][333]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.31
+[2017.08.14-07.15.58:496][334]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.36
+[2017.08.14-07.15.58:520][335]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.38
+[2017.08.14-07.15.58:560][336]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.42
+[2017.08.14-07.15.58:577][337]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.44
+[2017.08.14-07.15.58:615][338]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.47
+[2017.08.14-07.15.58:661][339]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.52
+[2017.08.14-07.15.58:681][340]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.54
+[2017.08.14-07.15.58:706][341]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.57
+[2017.08.14-07.15.58:765][342]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.62
+[2017.08.14-07.15.58:799][343]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.66
+[2017.08.14-07.15.58:841][344]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.70
+[2017.08.14-07.15.58:859][345]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.72
+[2017.08.14-07.15.58:905][346]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.77
+[2017.08.14-07.15.58:922][347]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.78
+[2017.08.14-07.15.58:953][348]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.81
+[2017.08.14-07.15.59:011][349]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.87
+[2017.08.14-07.15.59:046][350]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.91
+[2017.08.14-07.15.59:082][351]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.94
+[2017.08.14-07.15.59:110][352]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:23.97
+[2017.08.14-07.15.59:150][353]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.01
+[2017.08.14-07.15.59:167][354]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.03
+[2017.08.14-07.15.59:220][355]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.08
+[2017.08.14-07.15.59:237][356]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.10
+[2017.08.14-07.15.59:268][357]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.13
+[2017.08.14-07.15.59:324][358]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.18
+[2017.08.14-07.15.59:351][359]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.21
+[2017.08.14-07.15.59:395][360]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.26
+[2017.08.14-07.15.59:411][361]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.27
+[2017.08.14-07.15.59:463][362]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.32
+[2017.08.14-07.15.59:487][363]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.35
+[2017.08.14-07.15.59:531][364]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.39
+[2017.08.14-07.15.59:549][365]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.41
+[2017.08.14-07.15.59:597][366]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.46
+[2017.08.14-07.15.59:635][367]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.50
+[2017.08.14-07.15.59:666][368]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.53
+[2017.08.14-07.15.59:684][369]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.54
+[2017.08.14-07.15.59:714][370]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.58
+[2017.08.14-07.15.59:770][371]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.63
+[2017.08.14-07.15.59:809][372]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.67
+[2017.08.14-07.15.59:824][373]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.69
+[2017.08.14-07.15.59:852][374]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.71
+[2017.08.14-07.15.59:888][375]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.75
+[2017.08.14-07.15.59:947][376]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.81
+[2017.08.14-07.15.59:987][377]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.85
+[2017.08.14-07.16.00:004][378]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.86
+[2017.08.14-07.16.00:035][379]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.90
+[2017.08.14-07.16.00:075][380]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.94
+[2017.08.14-07.16.00:123][381]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:24.99
+[2017.08.14-07.16.00:140][382]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.00
+[2017.08.14-07.16.00:195][383]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.06
+[2017.08.14-07.16.00:233][384]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.10
+[2017.08.14-07.16.00:252][385]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.11
+[2017.08.14-07.16.00:287][386]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.15
+[2017.08.14-07.16.00:320][387]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.18
+[2017.08.14-07.16.00:359][388]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.22
+[2017.08.14-07.16.00:410][389]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.27
+[2017.08.14-07.16.00:429][390]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.29
+[2017.08.14-07.16.00:479][391]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.34
+[2017.08.14-07.16.00:520][392]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.38
+[2017.08.14-07.16.00:549][393]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.41
+[2017.08.14-07.16.00:587][394]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.45
+[2017.08.14-07.16.00:604][395]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.47
+[2017.08.14-07.16.00:647][396]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.51
+[2017.08.14-07.16.00:695][397]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.56
+[2017.08.14-07.16.00:711][398]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.57
+[2017.08.14-07.16.00:742][399]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.60
+[2017.08.14-07.16.00:775][400]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.64
+[2017.08.14-07.16.00:811][401]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.67
+[2017.08.14-07.16.00:846][402]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.71
+[2017.08.14-07.16.00:885][403]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.75
+[2017.08.14-07.16.00:940][404]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.80
+[2017.08.14-07.16.00:964][405]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.83
+[2017.08.14-07.16.01:009][406]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.87
+[2017.08.14-07.16.01:040][407]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.90
+[2017.08.14-07.16.01:083][408]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.94
+[2017.08.14-07.16.01:116][409]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:25.98
+[2017.08.14-07.16.01:152][410]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.01
+[2017.08.14-07.16.01:173][411]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.03
+[2017.08.14-07.16.01:222][412]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.08
+[2017.08.14-07.16.01:245][413]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.11
+[2017.08.14-07.16.01:289][414]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.15
+[2017.08.14-07.16.01:305][415]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.17
+[2017.08.14-07.16.01:361][416]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.22
+[2017.08.14-07.16.01:378][417]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.24
+[2017.08.14-07.16.01:401][418]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.26
+[2017.08.14-07.16.01:453][419]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.31
+[2017.08.14-07.16.01:502][420]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.36
+[2017.08.14-07.16.01:530][421]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.39
+[2017.08.14-07.16.01:570][422]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.43
+[2017.08.14-07.16.01:596][423]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.46
+[2017.08.14-07.16.01:639][424]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.50
+[2017.08.14-07.16.01:655][425]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.52
+[2017.08.14-07.16.01:683][426]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.54
+[2017.08.14-07.16.01:744][427]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.60
+[2017.08.14-07.16.01:776][428]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.64
+[2017.08.14-07.16.01:817][429]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.68
+[2017.08.14-07.16.01:838][430]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.70
+[2017.08.14-07.16.01:887][431]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.75
+[2017.08.14-07.16.01:909][432]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.77
+[2017.08.14-07.16.01:957][433]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.82
+[2017.08.14-07.16.01:996][434]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.86
+[2017.08.14-07.16.02:028][435]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.89
+[2017.08.14-07.16.02:046][436]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.91
+[2017.08.14-07.16.02:068][437]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.93
+[2017.08.14-07.16.02:101][438]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:26.96
+[2017.08.14-07.16.02:160][439]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.02
+[2017.08.14-07.16.02:177][440]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.04
+[2017.08.14-07.16.02:208][441]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.07
+[2017.08.14-07.16.02:263][442]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.12
+[2017.08.14-07.16.02:294][443]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.16
+[2017.08.14-07.16.02:330][444]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.19
+[2017.08.14-07.16.02:346][445]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.21
+[2017.08.14-07.16.02:387][446]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.25
+[2017.08.14-07.16.02:434][447]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.30
+[2017.08.14-07.16.02:450][448]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.31
+[2017.08.14-07.16.02:475][449]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.34
+[2017.08.14-07.16.02:510][450]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.37
+[2017.08.14-07.16.02:566][451]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.43
+[2017.08.14-07.16.02:582][452]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.44
+[2017.08.14-07.16.02:615][453]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.48
+[2017.08.14-07.16.02:671][454]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.53
+[2017.08.14-07.16.02:710][455]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.57
+[2017.08.14-07.16.02:731][456]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.59
+[2017.08.14-07.16.02:775][457]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.64
+[2017.08.14-07.16.02:795][458]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.66
+[2017.08.14-07.16.02:845][459]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.71
+[2017.08.14-07.16.02:880][460]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.74
+[2017.08.14-07.16.02:912][461]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.77
+[2017.08.14-07.16.02:928][462]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.79
+[2017.08.14-07.16.02:962][463]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.82
+[2017.08.14-07.16.03:014][464]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.88
+[2017.08.14-07.16.03:031][465]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.89
+[2017.08.14-07.16.03:057][466]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.92
+[2017.08.14-07.16.03:098][467]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:27.96
+[2017.08.14-07.16.03:151][468]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.01
+[2017.08.14-07.16.03:169][469]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.03
+[2017.08.14-07.16.03:196][470]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.06
+[2017.08.14-07.16.03:256][471]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.12
+[2017.08.14-07.16.03:278][472]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.14
+[2017.08.14-07.16.03:325][473]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.19
+[2017.08.14-07.16.03:342][474]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.20
+[2017.08.14-07.16.03:371][475]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.23
+[2017.08.14-07.16.03:428][476]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.29
+[2017.08.14-07.16.03:447][477]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.31
+[2017.08.14-07.16.03:473][478]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.33
+[2017.08.14-07.16.03:512][479]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.37
+[2017.08.14-07.16.03:565][480]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.43
+[2017.08.14-07.16.03:583][481]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.44
+[2017.08.14-07.16.03:614][482]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.48
+[2017.08.14-07.16.03:667][483]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.53
+[2017.08.14-07.16.03:688][484]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.55
+[2017.08.14-07.16.03:732][485]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.59
+[2017.08.14-07.16.03:753][486]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.61
+[2017.08.14-07.16.03:799][487]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.66
+[2017.08.14-07.16.03:831][488]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.69
+[2017.08.14-07.16.03:868][489]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.73
+[2017.08.14-07.16.03:891][490]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.75
+[2017.08.14-07.16.03:942][491]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.80
+[2017.08.14-07.16.03:967][492]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.83
+[2017.08.14-07.16.04:008][493]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.87
+[2017.08.14-07.16.04:030][494]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.89
+[2017.08.14-07.16.04:052][495]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.91
+[2017.08.14-07.16.04:084][496]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.95
+[2017.08.14-07.16.04:119][497]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:28.98
+[2017.08.14-07.16.04:152][498]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.01
+[2017.08.14-07.16.04:194][499]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.05
+[2017.08.14-07.16.04:245][500]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.11
+[2017.08.14-07.16.04:264][501]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.12
+[2017.08.14-07.16.04:314][502]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.17
+[2017.08.14-07.16.04:348][503]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.21
+[2017.08.14-07.16.04:384][504]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.25
+[2017.08.14-07.16.04:401][505]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.26
+[2017.08.14-07.16.04:429][506]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.29
+[2017.08.14-07.16.04:482][507]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.34
+[2017.08.14-07.16.04:521][508]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.38
+[2017.08.14-07.16.04:563][509]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.42
+[2017.08.14-07.16.04:584][510]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.45
+[2017.08.14-07.16.04:626][511]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.49
+[2017.08.14-07.16.04:645][512]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.50
+[2017.08.14-07.16.04:693][513]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.56
+[2017.08.14-07.16.04:713][514]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.57
+[2017.08.14-07.16.04:757][515]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.62
+[2017.08.14-07.16.04:788][516]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.65
+[2017.08.14-07.16.04:825][517]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.69
+[2017.08.14-07.16.04:843][518]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.70
+[2017.08.14-07.16.04:866][519]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.73
+[2017.08.14-07.16.04:919][520]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.78
+[2017.08.14-07.16.04:943][521]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.80
+[2017.08.14-07.16.04:988][522]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.85
+[2017.08.14-07.16.05:018][523]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.88
+[2017.08.14-07.16.05:053][524]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.91
+[2017.08.14-07.16.05:070][525]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.93
+[2017.08.14-07.16.05:105][526]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:29.97
+[2017.08.14-07.16.05:156][527]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.02
+[2017.08.14-07.16.05:201][528]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.06
+[2017.08.14-07.16.05:217][529]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.08
+[2017.08.14-07.16.05:254][530]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.12
+[2017.08.14-07.16.05:272][531]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.13
+[2017.08.14-07.16.05:302][532]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.16
+[2017.08.14-07.16.05:357][533]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.22
+[2017.08.14-07.16.05:397][534]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.26
+[2017.08.14-07.16.05:416][535]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.28
+[2017.08.14-07.16.05:460][536]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.32
+[2017.08.14-07.16.05:477][537]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.34
+[2017.08.14-07.16.05:527][538]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.39
+[2017.08.14-07.16.05:553][539]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.41
+[2017.08.14-07.16.05:592][540]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.45
+[2017.08.14-07.16.05:609][541]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.47
+[2017.08.14-07.16.05:639][542]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.50
+[2017.08.14-07.16.05:694][543]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.55
+[2017.08.14-07.16.05:720][544]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.58
+[2017.08.14-07.16.05:763][545]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.62
+[2017.08.14-07.16.05:793][546]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.65
+[2017.08.14-07.16.05:827][547]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.69
+[2017.08.14-07.16.05:845][548]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.71
+[2017.08.14-07.16.05:893][549]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.75
+[2017.08.14-07.16.05:935][550]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.80
+[2017.08.14-07.16.05:958][551]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.82
+[2017.08.14-07.16.05:998][552]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.86
+[2017.08.14-07.16.06:015][553]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.88
+[2017.08.14-07.16.06:038][554]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.90
+[2017.08.14-07.16.06:073][555]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.93
+[2017.08.14-07.16.06:129][556]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:30.99
+[2017.08.14-07.16.06:151][557]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.01
+[2017.08.14-07.16.06:183][558]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.04
+[2017.08.14-07.16.06:235][559]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.10
+[2017.08.14-07.16.06:269][560]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.13
+[2017.08.14-07.16.06:288][561]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.15
+[2017.08.14-07.16.06:341][562]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.20
+[2017.08.14-07.16.06:363][563]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.22
+[2017.08.14-07.16.06:409][564]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.27
+[2017.08.14-07.16.06:438][565]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.30
+[2017.08.14-07.16.06:479][566]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.34
+[2017.08.14-07.16.06:511][567]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.37
+[2017.08.14-07.16.06:550][568]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.41
+[2017.08.14-07.16.06:570][569]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.43
+[2017.08.14-07.16.06:617][570]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.48
+[2017.08.14-07.16.06:637][571]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.50
+[2017.08.14-07.16.06:685][572]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.55
+[2017.08.14-07.16.06:704][573]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.57
+[2017.08.14-07.16.06:756][574]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.62
+[2017.08.14-07.16.06:776][575]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.64
+[2017.08.14-07.16.06:826][576]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.69
+[2017.08.14-07.16.06:852][577]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.71
+[2017.08.14-07.16.06:895][578]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.76
+[2017.08.14-07.16.06:917][579]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.78
+[2017.08.14-07.16.06:967][580]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.83
+[2017.08.14-07.16.06:998][581]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.86
+[2017.08.14-07.16.07:040][582]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.90
+[2017.08.14-07.16.07:079][583]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.94
+[2017.08.14-07.16.07:098][584]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:31.96
+[2017.08.14-07.16.07:146][585]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.01
+[2017.08.14-07.16.07:179][586]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.04
+[2017.08.14-07.16.07:221][587]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.08
+[2017.08.14-07.16.07:257][588]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.12
+[2017.08.14-07.16.07:295][589]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.16
+[2017.08.14-07.16.07:318][590]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.18
+[2017.08.14-07.16.07:367][591]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.23
+[2017.08.14-07.16.07:399][592]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.26
+[2017.08.14-07.16.07:439][593]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.30
+[2017.08.14-07.16.07:462][594]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.32
+[2017.08.14-07.16.07:511][595]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.37
+[2017.08.14-07.16.07:545][596]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.41
+[2017.08.14-07.16.07:580][597]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.44
+[2017.08.14-07.16.07:598][598]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.46
+[2017.08.14-07.16.07:620][599]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.48
+[2017.08.14-07.16.07:672][600]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.53
+[2017.08.14-07.16.07:720][601]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.58
+[2017.08.14-07.16.07:752][602]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.61
+[2017.08.14-07.16.07:795][603]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.66
+[2017.08.14-07.16.07:815][604]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.68
+[2017.08.14-07.16.07:846][605]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.71
+[2017.08.14-07.16.07:899][606]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.76
+[2017.08.14-07.16.07:930][607]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.79
+[2017.08.14-07.16.07:966][608]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.83
+[2017.08.14-07.16.07:984][609]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.84
+[2017.08.14-07.16.08:015][610]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.88
+[2017.08.14-07.16.08:072][611]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.93
+[2017.08.14-07.16.08:099][612]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:32.96
+[2017.08.14-07.16.08:139][613]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:33.00
+[2017.08.14-07.16.08:156][614]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:33.02
+[2017.08.14-07.16.08:185][615]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:33.05
+[2017.08.14-07.16.08:246][616]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:33.11
+[2017.08.14-07.18.16:489][ 80]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_loop_big)
+[2017.08.14-07.18.20:246][ 80]Cmd: SELECT NONE
+[2017.08.14-07.18.30:190][412]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.14-07.18.30:235][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-07.18.30:236][412]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/15 1:18:30)
+[2017.08.14-07.18.30:236][412]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.14-07.18.30:293][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056329s)
+[2017.08.14-07.18.30:294][412]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.14-07.18.30:294][412]LogPlayLevel: PIE: World Init took: (0.001232s)
+[2017.08.14-07.18.30:295][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.058000s)
+[2017.08.14-07.18.30:356][412]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-07.18.30:368][412]LogInit: FAudioDevice initialized.
+[2017.08.14-07.18.30:403][412]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.14-07.18.30:411][412]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.14-16.18.30
+[2017.08.14-07.18.30:412][412]LogWorld: Bringing up level for play took: 0.007283
+[2017.08.14-07.18.30:415][412]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.497のプレイ イン エディタの開始時間
+[2017.08.14-07.18.30:418][412]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.03
+[2017.08.14-07.18.31:856][413]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.43
+[2017.08.14-07.18.31:881][414]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.46
+[2017.08.14-07.18.31:907][415]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.49
+[2017.08.14-07.18.31:924][416]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.50
+[2017.08.14-07.18.31:974][417]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.56
+[2017.08.14-07.18.32:035][418]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.62
+[2017.08.14-07.18.32:049][419]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.63
+[2017.08.14-07.18.32:079][420]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.66
+[2017.08.14-07.18.32:111][421]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.69
+[2017.08.14-07.18.32:157][422]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.74
+[2017.08.14-07.18.32:208][423]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.79
+[2017.08.14-07.18.32:236][424]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.82
+[2017.08.14-07.18.32:278][425]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.86
+[2017.08.14-07.18.32:302][426]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.88
+[2017.08.14-07.18.32:345][427]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.93
+[2017.08.14-07.18.32:359][428]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.94
+[2017.08.14-07.18.32:408][429]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:00.99
+[2017.08.14-07.18.32:431][430]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.01
+[2017.08.14-07.18.32:474][431]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.06
+[2017.08.14-07.18.32:488][432]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.07
+[2017.08.14-07.18.32:544][433]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.13
+[2017.08.14-07.18.32:559][434]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.14
+[2017.08.14-07.18.32:589][435]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.17
+[2017.08.14-07.18.32:648][436]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.23
+[2017.08.14-07.18.32:672][437]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.25
+[2017.08.14-07.18.32:715][438]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.30
+[2017.08.14-07.18.32:746][439]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.33
+[2017.08.14-07.18.32:782][440]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.37
+[2017.08.14-07.18.32:807][441]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 00:01.39
