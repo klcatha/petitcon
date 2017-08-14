@@ -754,3 +754,266 @@ LogInit: Object subsystem initialized
 [2017.08.13-08.43.57:891][616]LogSavePackage: Save=2982.46ms
 [2017.08.13-08.43.57:891][616]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap28E1FB0743D7FA6DF911F6B219E4C5A8.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
 [2017.08.13-08.43.57:898][616]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2017.08.13-08.55.24:256][ 67]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.063
+[2017.08.13-08.55.24:258][ 67]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tracker] ([1] browsable assets)...
+[2017.08.13-08.55.24:258][ 67]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tracker]
+[2017.08.13-08.55.24:258][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-08.55.24:358][ 67]LogSavePackage: Save=92.20ms
+[2017.08.13-08.55.24:358][ 67]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker_Auto2B26A73AD440CFFCF6766F08DF4F63FF1.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto2.uasset'
+[2017.08.13-08.55.24:360][ 67]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto2.uasset
+[2017.08.13-08.55.24:360][ 67]LogFileHelpers: Auto-saving content packages took 0.103
+[2017.08.13-09.05.56:622][685]LogSavePackage: Save=3033.26ms
+[2017.08.13-09.05.56:622][685]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto3D6D187F84985F4A8440F1BB0EAE0676F.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto3.umap'
+[2017.08.13-09.05.56:629][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto3.umap
+[2017.08.13-09.05.56:632][685]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.122
+[2017.08.13-09.05.56:632][685]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.122
+[2017.08.13-09.05.56:638][685]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tracker] ([1] browsable assets)...
+[2017.08.13-09.05.56:638][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tracker]
+[2017.08.13-09.05.56:638][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-09.05.56:782][685]LogSavePackage: Save=133.05ms
+[2017.08.13-09.05.56:782][685]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker_Auto334C6244A4C1CDFA00AFCC39A580EA984.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto3.uasset'
+[2017.08.13-09.05.56:785][685]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto3.uasset
+[2017.08.13-09.05.56:785][685]LogFileHelpers: Auto-saving content packages took 0.149
+[2017.08.13-09.16.35:456][796]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.052
+[2017.08.13-09.16.35:459][796]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tracker] ([1] browsable assets)...
+[2017.08.13-09.16.35:459][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tracker]
+[2017.08.13-09.16.35:459][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-09.16.35:585][796]LogSavePackage: Save=117.49ms
+[2017.08.13-09.16.35:585][796]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker_Auto4D625DAB14B651ECCECE0FD8D2A319CA8.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto4.uasset'
+[2017.08.13-09.16.35:587][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto4.uasset
+[2017.08.13-09.16.35:587][796]LogFileHelpers: Auto-saving content packages took 0.129
+[2017.08.13-09.26.04:246][823]BlueprintLog: New page: Tracker をコンパイル
+[2017.08.13-09.26.07:696][862]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset" SILENT=true
+[2017.08.13-09.26.07:873][862]LogSavePackage: Save=140.86ms
+[2017.08.13-09.26.07:873][862]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker73601B584DE1062CE3EF97A4C0855CA4.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset'
+[2017.08.13-09.26.07:877][862]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset
+[2017.08.13-09.27.16:263][595]LogSavePackage: Save=3824.27ms
+[2017.08.13-09.27.16:264][595]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto5F98EEE894870089204C4139A3A014C1D.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto5.umap'
+[2017.08.13-09.27.16:267][595]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto5.umap
+[2017.08.13-09.27.16:270][595]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.902
+[2017.08.13-09.27.16:270][595]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.902
+[2017.08.13-09.27.16:284][595]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tracker] ([1] browsable assets)...
+[2017.08.13-09.27.16:284][595]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tracker]
+[2017.08.13-09.27.16:284][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-09.27.16:584][595]LogSavePackage: Save=289.94ms
+[2017.08.13-09.27.16:584][595]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker_Auto53A81EB2540AB1C70F6D4BE806295987F.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto5.uasset'
+[2017.08.13-09.27.16:586][595]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto5.uasset
+[2017.08.13-09.27.16:586][595]LogFileHelpers: Auto-saving content packages took 0.305
+[2017.08.13-09.37.36:720][331]LogSavePackage: Save=2984.75ms
+[2017.08.13-09.37.36:720][331]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto6F1D12B854F009A2C863B2582227AC8FA.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto6.umap'
+[2017.08.13-09.37.36:749][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto6.umap
+[2017.08.13-09.37.36:753][331]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.097
+[2017.08.13-09.37.36:753][331]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.097
+[2017.08.13-09.37.36:758][331]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tracker] ([1] browsable assets)...
+[2017.08.13-09.37.36:759][331]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tracker]
+[2017.08.13-09.37.36:759][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-09.37.36:953][331]LogSavePackage: Save=185.83ms
+[2017.08.13-09.37.36:955][331]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker_Auto6ED03D5A14B3E8F912EDDAC85B283E2FE.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto6.uasset'
+[2017.08.13-09.37.36:959][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto6.uasset
+[2017.08.13-09.37.36:959][331]LogFileHelpers: Auto-saving content packages took 0.202
+[2017.08.13-09.39.28:264][650]BlueprintLog: New page: Tracker をコンパイル
+[2017.08.13-09.47.40:439][ 99]LogSavePackage: Save=3203.90ms
+[2017.08.13-09.47.40:439][ 99]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto7A27DA31246FB1C9976468D95F0F42C09.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto7.umap'
+[2017.08.13-09.47.40:442][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto7.umap
+[2017.08.13-09.47.40:446][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.315
+[2017.08.13-09.47.40:446][ 99]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.315
+[2017.08.13-09.47.40:451][ 99]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tracker] ([1] browsable assets)...
+[2017.08.13-09.47.40:451][ 99]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tracker]
+[2017.08.13-09.47.40:451][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.08.13-09.47.40:654][ 99]LogSavePackage: Save=194.87ms
+[2017.08.13-09.47.40:654][ 99]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker_Auto73471B92C42BE8217AB8F729B5F286736.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto7.uasset'
+[2017.08.13-09.47.40:657][ 99]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto7.uasset
+[2017.08.13-09.47.40:657][ 99]LogFileHelpers: Auto-saving content packages took 0.208
+[2017.08.13-09.51.04:349][273]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint)
+[2017.08.13-09.51.24:821][914]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint)
+[2017.08.13-09.51.40:734][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_bump_wave)
+[2017.08.13-09.51.45:536][405]LogEditorViewport: Clicking Background
+[2017.08.13-09.51.46:187][432]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint2)
+[2017.08.13-09.54.35:330][530]LogEditorViewport: Clicking Background
+[2017.08.13-09.55.47:121][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full_10)
+[2017.08.13-09.55.51:397][145]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint4)
+[2017.08.13-09.56.08:930][619]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint5)
+[2017.08.13-09.56.36:115][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_turn_53)
+[2017.08.13-09.56.38:335][532]LogEditorViewport: Clicking Background
+[2017.08.13-09.56.40:557][606]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint5)
+[2017.08.13-09.57.07:670][428]LogEditorViewport: Clicking Background
+[2017.08.13-09.57.43:944][614]LogSavePackage: Save=2835.07ms
+[2017.08.13-09.57.43:944][614]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto8EC691B5A4B870D2FFC853CBD900259A0.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto8.umap'
+[2017.08.13-09.57.43:947][614]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto8.umap
+[2017.08.13-09.57.43:953][614]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.097
+[2017.08.13-09.57.43:953][614]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.097
+[2017.08.13-09.57.48:157][788]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint5)
+[2017.08.13-09.59.04:065][ 21]LogEditorViewport: Clicking Background
+[2017.08.13-09.59.08:814][213]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint5)
+[2017.08.13-09.59.43:751][296]LogSavePackage: Save=2860.80ms
+[2017.08.13-09.59.43:751][296]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap5EC00A364807ED253A5511BC3C7F5788.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
+[2017.08.13-09.59.43:758][296]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2017.08.13-10.08.46:320][939]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.09.33:648][ 81]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.11.03:648][351]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.11.41:648][465]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.12.55:647][687]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.13.13:647][741]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.13.19:303][758]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.15.19:382][118]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.16.16:382][289]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.18.02:382][607]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.20.41:382][ 84]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.21.05:054][155]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.21.37:382][252]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.22.01:054][323]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.22.14:382][363]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.23.07:382][522]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.23.42:381][627]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.25.01:054][863]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.26.32:053][136]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.27.59:382][398]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.29.08:382][605]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.29.26:382][659]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.29.44:382][713]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.33.50:383][451]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.34.33:053][579]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.35.11:054][693]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.35.29:054][747]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.36.06:053][858]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.37.07:726][ 43]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.37.22:054][ 86]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.37.43:054][149]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.39.51:054][533]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.41.58:053][914]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.42.16:054][968]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.42.59:726][ 99]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.45.25:725][537]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.48.21:726][ 65]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.49.23:398][250]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.50.47:726][503]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.51.28:726][626]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.52.07:725][743]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.52.25:725][797]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.53.37:725][ 13]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.54.15:725][127]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.55.09:726][289]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.55.27:725][343]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.55.45:726][397]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.56.56:724][610]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.58.06:725][820]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-10.59.00:726][982]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.00.47:725][303]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.02.01:725][525]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.03.46:725][840]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.04.40:726][  2]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.04.58:726][ 56]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.07.42:398][547]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.09.40:726][902]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.11.15:398][186]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.14.16:444][729]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.14.30:772][772]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.17.30:773][312]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.18.07:771][423]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.23.42:444][427]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.25.32:444][757]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.26.32:444][937]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.26.50:444][991]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.28.02:445][207]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.31.51:789][895]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.32.46:788][ 60]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.35.53:460][620]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.36.07:787][663]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.37.51:789][975]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.39.19:788][239]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.39.25:444][256]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.39.43:460][310]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.39.56:788][350]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.40.50:788][512]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.42.20:788][782]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.44.47:460][222]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.46.17:460][492]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.47.47:460][762]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.48.23:460][870]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.52.18:460][575]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.55.03:460][ 70]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.56.34:460][343]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.58.08:132][624]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-11.59.53:131][939]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.00.31:132][ 53]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.03.12:132][536]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.07.21:132][283]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.07.39:132][337]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.10.19:132][817]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.11.14:132][982]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.11.51:132][ 93]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.13.03:132][309]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.14.32:132][576]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.15.10:132][690]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.16.05:132][855]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.17.17:132][ 71]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.18.11:131][233]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.19.04:132][392]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.21.46:132][878]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-12.22.03:162][928]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{4bf42cde-1d67-4a35-bfda-9834cc0bf4fb} was removed. Shutting down audio device.
+[2017.08.13-16.20.16:827][935]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.13-16.20.17:361][937]LogHttp:Warning: 000001BE2D652200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.08.13-16.20.17:361][937]LogHttp:Warning: 000001BE2D652200: libcurl info message cache 0 (Connection 181 seems to be dead!)
+[2017.08.13-16.20.17:361][937]LogHttp:Warning: 000001BE2D652200: libcurl info message cache 1 (Closing connection 181)
+[2017.08.13-16.20.17:361][937]LogHttp:Warning: 000001BE2D652200: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.08.13-16.20.17:361][937]LogHttp:Warning: 000001BE2D652200: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.08.13-16.20.17:361][937]LogHttp:Warning: 000001BE2D652200: libcurl info message cache 4 (Closing connection 182)
+[2017.08.14-03.10.59:799][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset" SILENT=true
+[2017.08.14-03.10.59:955][441]LogSavePackage: Save=146.79ms
+[2017.08.14-03.10.59:955][441]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker3F5842FA40B3B98F8C5210B046A3D371.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset'
+[2017.08.14-03.10.59:984][441]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset
+[2017.08.14-03.11.01:532][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.08.14-03.11.01:603][531]LogSavePackage: Save=37.36ms
+[2017.08.14-03.11.01:603][531]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/CheckpointEAAA0D844AE51B208974FE910E836E64.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset'
+[2017.08.14-03.11.01:605][531]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset
+[2017.08.14-03.11.08:948][760]LogSavePackage: Save=2687.19ms
+[2017.08.14-03.11.08:948][760]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap60719F394BC8C3B250102594298E603F.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
+[2017.08.14-03.11.08:952][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2017.08.14-03.13.55:535][942]LogEditorViewport: Clicking Background
+[2017.08.14-03.14.02:059][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_half_2)
+[2017.08.14-03.14.07:665][264]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint6)
+[2017.08.14-03.14.17:452][615]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint6)
+[2017.08.14-03.15.02:415][186]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint7)
+[2017.08.14-03.17.01:293][234]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint8)
+[2017.08.14-03.18.48:281][ 95]LogEditorViewport: Clicking Background
+[2017.08.14-03.18.57:560][299]LogEditorViewport: Clicking Background
+[2017.08.14-03.19.23:674][820]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint9)
+[2017.08.14-03.20.37:799][492]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint10)
+[2017.08.14-03.21.33:979][347]LogSavePackage: Save=2823.17ms
+[2017.08.14-03.21.33:980][347]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto95E097E6A4528D4185D0B60B580BD37FE.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto9.umap'
+[2017.08.14-03.21.33:982][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto9.umap
+[2017.08.14-03.21.33:984][347]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 2.941
+[2017.08.14-03.21.33:984][347]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.941
+[2017.08.14-03.23.47:057][492]Cmd: TRANSACTION UNDO
+[2017.08.14-03.23.47:057][492]LogEditorTransaction: Undo 範囲選択
+[2017.08.14-03.23.51:241][572]Cmd: TRANSACTION UNDO
+[2017.08.14-03.23.51:241][572]LogEditorTransaction: Undo アクタ を移動
+[2017.08.14-03.24.08:967][945]LogEditorViewport: Clicking Background
+[2017.08.14-03.24.13:133][ 87]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.14-03.24.30:435][540]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint12)
+[2017.08.14-03.24.32:707][541]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint12)
+[2017.08.14-03.24.42:100][825]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint12)
+[2017.08.14-03.24.51:149][ 52]LogEditorViewport: Clicking Background
+[2017.08.14-03.25.04:647][319]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint12)
+[2017.08.14-03.27.48:565][664]LogEditorViewport: Clicking on Actor (LMB): Tracker_C (Tracker)
+[2017.08.14-03.32.37:853][651]LogSavePackage: Save=2840.69ms
+[2017.08.14-03.32.37:853][651]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto0EB8C03E3455A623ABA57AF84C99A79C4.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto0.umap'
+[2017.08.14-03.32.37:857][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto0.umap
+[2017.08.14-03.32.37:860][651]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 2.943
+[2017.08.14-03.32.37:860][651]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.943
+[2017.08.14-03.35.29:076][207]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.08.14-03.36.00:777][674]LogEditorViewport: Clicking on Actor (LMB): Tracker_C (Tracker)
+[2017.08.14-03.37.36:732][218]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.14-03.37.36:759][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.14-03.37.36:760][218]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/14 21:37:36)
+[2017.08.14-03.37.36:760][218]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.14-03.37.36:847][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.086411s)
+[2017.08.14-03.37.36:849][218]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.14-03.37.36:850][218]LogPlayLevel: PIE: World Init took: (0.002717s)
+[2017.08.14-03.37.36:850][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.089970s)
+[2017.08.14-03.37.36:909][218]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.14-03.37.36:921][218]LogInit: FAudioDevice initialized.
+[2017.08.14-03.37.36:960][218]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.14-03.37.36:973][218]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.14-12.37.36
+[2017.08.14-03.37.36:974][218]LogWorld: Bringing up level for play took: 0.011972
+[2017.08.14-03.37.37:005][218]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.34のプレイ イン エディタの開始時間
