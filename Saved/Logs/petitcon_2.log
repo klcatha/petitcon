@@ -5372,3 +5372,412 @@ LogInit: Object subsystem initialized
 [2017.08.15-01.50.58:439][690]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.15-10.50.58
 [2017.08.15-01.50.58:441][690]LogWorld: Bringing up level for play took: 0.011225
 [2017.08.15-01.50.58:444][690]LogLoad: Took 0.201305 seconds to LoadMap(/Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap)
+[2017.08.15-02.12.25:472][179]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.15-02.12.34:909][507]LogMetaData: Removing '/Game/Blueprints/MySaveGame.MySaveGame_C' ref from Metadata '/Game/Blueprints/SaveGame.PackageMetaData'
+[2017.08.15-02.12.34:909][507]LogMetaData: Removing '/Game/Blueprints/MySaveGame.SKEL_MySaveGame_C' ref from Metadata '/Game/Blueprints/SaveGame.PackageMetaData'
+[2017.08.15-02.12.34:960][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MySaveGame" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MySaveGame.uasset" SILENT=true
+[2017.08.15-02.12.34:968][507]LogSavePackage: Save=5.47ms
+[2017.08.15-02.12.34:968][507]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MySaveGameBD1262764B83CF837518CC8728560027.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MySaveGame.uasset'
+[2017.08.15-02.12.34:972][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MySaveGame.uasset
+[2017.08.15-02.15.47:816][485]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.038
+[2017.08.15-02.15.47:821][485]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MySaveGame] ([1] browsable assets)...
+[2017.08.15-02.15.47:821][485]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MySaveGame]
+[2017.08.15-02.15.47:821][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MySaveGame" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MySaveGame_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.15-02.15.47:828][485]LogSavePackage: Save=5.43ms
+[2017.08.15-02.15.47:828][485]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MySaveGame_Auto320A5C85143BD00A837731EA359EE1BA2.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MySaveGame_Auto3.uasset'
+[2017.08.15-02.15.47:830][485]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MySaveGame_Auto3.uasset
+[2017.08.15-02.15.47:830][485]LogFileHelpers: Auto-saving content packages took 0.011
+[2017.08.15-02.16.32:633][528]LogSlate: Took 0.002368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.15-02.17.08:859][215]BlueprintLog: New page: MySaveGame をコンパイル
+[2017.08.15-02.17.09:640][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MySaveGame" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MySaveGame.uasset" SILENT=true
+[2017.08.15-02.17.09:646][252]LogSavePackage: Save=5.59ms
+[2017.08.15-02.17.09:647][252]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MySaveGame53B75E334D4260830B0E54883C34B577.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MySaveGame.uasset'
+[2017.08.15-02.17.09:652][252]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MySaveGame.uasset
+[2017.08.15-02.26.22:182][383]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.080
+[2017.08.15-02.26.22:184][383]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.15-02.26.22:184][383]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.15-02.26.22:405][383]LogSavePackage: Save=207.12ms
+[2017.08.15-02.26.22:405][383]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto439A51F024AB86F211FDF79AF05A75781.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto4.uasset'
+[2017.08.15-02.26.22:413][383]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto4.uasset
+[2017.08.15-02.26.22:413][383]LogFileHelpers: Auto-saving content packages took 0.229
+[2017.08.15-02.33.34:061][723]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.15-02.33.35:099][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.15-02.33.35:261][762]LogSavePackage: Save=153.48ms
+[2017.08.15-02.33.35:261][762]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller81E4BE654EA15217B68A6AB88B183E49.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.15-02.33.35:265][762]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.15-02.34.14:947][513]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.15-02.36.23:195][412]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.051
+[2017.08.15-02.36.23:198][412]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.15-02.36.23:198][412]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.15-02.36.23:359][412]LogSavePackage: Save=155.83ms
+[2017.08.15-02.36.23:359][412]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto5A616283E45FC02761E53E0A432352CB0.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto5.uasset'
+[2017.08.15-02.36.23:362][412]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto5.uasset
+[2017.08.15-02.36.23:362][412]LogFileHelpers: Auto-saving content packages took 0.166
+[2017.08.15-02.42.46:349][824]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.15-02.42.47:164][824]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.15-02.42.47:845][851]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.15-02.42.48:021][851]LogSavePackage: Save=167.83ms
+[2017.08.15-02.42.48:021][851]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContollerD98C4182464ABEA7C2077C86EB28C4FD.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.15-02.42.48:025][851]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.15-02.46.48:721][ 96]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.047
+[2017.08.15-02.46.48:723][ 96]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.15-02.46.48:723][ 96]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.15-02.46.48:914][ 96]LogSavePackage: Save=185.68ms
+[2017.08.15-02.46.48:915][ 96]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto628BF14DB4B29AD855683E490C8CDB96E.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto6.uasset'
+[2017.08.15-02.46.48:917][ 96]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto6.uasset
+[2017.08.15-02.46.48:918][ 96]LogFileHelpers: Auto-saving content packages took 0.196
+[2017.08.15-02.48.36:214][325]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.15-02.48.36:528][325]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.15-02.48.37:477][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.15-02.48.37:665][362]LogSavePackage: Save=180.08ms
+[2017.08.15-02.48.37:666][362]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller8CFAEB7D4AC16A04515FD581AE39FD73.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.15-02.48.37:700][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.15-02.57.53:744][977]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.052
+[2017.08.15-02.57.53:747][977]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.15-02.57.53:747][977]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.15-02.57.53:970][977]LogSavePackage: Save=211.73ms
+[2017.08.15-02.57.53:970][977]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto79DBB637F405955186A877897C1E4A636.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto7.uasset'
+[2017.08.15-02.57.53:971][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto7.uasset
+[2017.08.15-02.57.53:972][977]LogFileHelpers: Auto-saving content packages took 0.226
+[2017.08.15-03.03.52:903][491]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.15-03.03.54:795][491]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.15-03.04.00:244][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.15-03.04.00:472][575]LogSavePackage: Save=219.35ms
+[2017.08.15-03.04.00:472][575]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller095BEE4A42F890C0753DC1891833A2AA.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.15-03.04.00:477][575]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.15-03.05.10:946][904]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.15-03.05.12:678][904]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.15-03.05.18:059][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.15-03.05.18:281][956]LogSavePackage: Save=215.91ms
+[2017.08.15-03.05.18:281][956]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContollerA177B4E6461BEE56BE7D1789DE7F3713.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.15-03.05.18:286][956]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.15-03.08.16:131][742]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.055
+[2017.08.15-03.08.16:134][742]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tracker] ([1] browsable assets)...
+[2017.08.15-03.08.16:134][742]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tracker]
+[2017.08.15-03.08.16:134][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.08.15-03.08.16:364][742]LogSavePackage: Save=217.47ms
+[2017.08.15-03.08.16:364][742]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker_Auto8DC4BCF0240B31F99613C3EAA73B17857.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto8.uasset'
+[2017.08.15-03.08.16:366][742]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Tracker_Auto8.uasset
+[2017.08.15-03.08.16:366][742]LogFileHelpers: Auto-saving content packages took 0.234
+[2017.08.15-03.09.41:579][958]BlueprintLog: New page: Tracker をコンパイル
+[2017.08.15-03.09.57:633][117]BlueprintLog: New page: Tracker をコンパイル
+[2017.08.15-03.10.01:352][153]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset" SILENT=true
+[2017.08.15-03.10.01:501][153]LogSavePackage: Save=143.48ms
+[2017.08.15-03.10.01:501][153]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker4BAAF59E46C32A70650118A0D55030D6.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset'
+[2017.08.15-03.10.01:505][153]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset
+[2017.08.15-03.10.17:228][335]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.15-03.10.17:289][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.15-03.10.17:290][335]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/15 21:10:17)
+[2017.08.15-03.10.17:290][335]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.15-03.10.17:372][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082049s)
+[2017.08.15-03.10.17:374][335]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.15-03.10.17:374][335]LogPlayLevel: PIE: World Init took: (0.001659s)
+[2017.08.15-03.10.17:374][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.084197s)
+[2017.08.15-03.10.17:418][335]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.15-03.10.17:429][335]LogInit: FAudioDevice initialized.
+[2017.08.15-03.10.17:466][335]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.15-03.10.17:475][335]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.15-12.10.17
+[2017.08.15-03.10.17:476][335]LogWorld: Bringing up level for play took: 0.008168
+[2017.08.15-03.10.17:483][335]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.571のプレイ イン エディタの開始時間
+[2017.08.15-03.10.19:814][409]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 01:00.00
+[2017.08.15-03.10.19:814][409]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 02:00.00
+[2017.08.15-03.10.21:296][461]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 01:00.00
+[2017.08.15-03.10.21:296][461]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 02:00.00
+[2017.08.15-03.10.21:882][482]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 01:00.00
+[2017.08.15-03.10.21:882][482]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 02:00.00
+[2017.08.15-03.10.24:637][578]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 01:00.00
+[2017.08.15-03.10.24:637][578]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 02:00.00
+[2017.08.15-03.11.06:450][887]LogSavePackage: Save=3035.45ms
+[2017.08.15-03.11.06:450][887]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMapE1FB353846D4AC68419832A99A348AF5.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
+[2017.08.15-03.11.06:457][887]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2017.08.15-03.11.15:462][142]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.15-03.11.16:161][143]Cmd: QUIT_EDITOR
+[2017.08.15-03.11.18:745][143]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.08.15-03.11.18:757][143]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.08.15-03.11.18:790][143]LogExit: Preparing to exit.
+[2017.08.15-03.11.20:070][143]LogDirectoryWatcher: A directory notification for 'C:/Users/klca0/Documents/petitcon/Content/' was aborted.
+[2017.08.15-03.11.20:205][143]LogExit: Editor shut down
+[2017.08.15-03.11.20:236][143]LogExit: Transaction tracking system shut down
+[2017.08.15-03.11.20:553][143]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.15-03.11.20:554][143]LogExit: Object subsystem successfully closed.
+[2017.08.15-03.11.20:608][143]LogD3D11RHI: Shutdown
+[2017.08.15-03.11.20:608][143]LogD3D11RHI: CleanupD3DDevice
+[2017.08.15-03.11.20:787][143]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.15-03.11.20:836][143]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (534)
+[2017.08.15-03.11.20:836][143]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2017.08.15-03.11.20:837][143]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2017.08.15-03.11.20:837][143]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2017.08.15-03.11.20:837][143]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.08.15-03.11.20:837][143]LogModuleManager: Shutting down and abandoning module CrashTracker (524)
+[2017.08.15-03.11.20:837][143]LogModuleManager: Shutting down and abandoning module SceneOutliner (522)
+[2017.08.15-03.11.20:837][143]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.08.15-03.11.20:837][143]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.15-03.11.20:843][143]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.08.15-03.11.20:843][143]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.08.15-03.11.20:843][143]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.08.15-03.11.20:843][143]LogDirectoryWatcher: A directory notification for 'C:/Users/klca0/Documents/petitcon/Content/Collections/' was aborted.
+[2017.08.15-03.11.20:843][143]LogDirectoryWatcher: A directory notification for 'C:/Users/klca0/Documents/petitcon/Content/Developers/klca0/Collections/' was aborted.
+[2017.08.15-03.11.20:843][143]LogDirectoryWatcher: A directory notification for 'C:/Users/klca0/Documents/petitcon/Saved/Collections/' was aborted.
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module StatsViewer (512)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module FoliageEdit (510)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module LandscapeEditor (508)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module MeshPaintMode (506)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (504)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module ActorPickerMode (502)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module GeometryMode (500)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module TextureAlignMode (498)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module BspMode (496)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module HardwareSurvey (494)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (492)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module AutomationWorker (490)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (488)
+[2017.08.15-03.11.20:844][143]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (486)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module PlacementMode (485)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (482)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (480)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (478)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (476)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (474)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module Media (473)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (470)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module CharacterAI (468)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module AudioCapture (466)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module SequenceRecorder (465)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module SmartSnapping (462)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module SessionServices (460)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module ViewportSnapping (458)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module ViewportInteraction (456)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module ClothPainter (454)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module LogVisualizer (452)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module IntroTutorials (450)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (449)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (446)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (444)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (442)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (440)
+[2017.08.15-03.11.20:845][143]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (439)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (436)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (434)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module InputBindingEditor (432)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module MergeActors (430)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module SizeMap (428)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module TreeMap (426)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module ReferenceViewer (424)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (422)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module LocalizationService (421)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module HardwareTargeting (418)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (416)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module UndoHistory (414)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module UserFeedback (412)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module XmlParser (410)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module Blutility (408)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (406)
+[2017.08.15-03.11.21:157][143]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (405)
+[2017.08.15-03.11.21:158][143]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (402)
+[2017.08.15-03.11.21:158][143]LogModuleManager: Shutting down and abandoning module SettingsEditor (400)
+[2017.08.15-03.11.21:158][143]LogModuleManager: Shutting down and abandoning module ProjectLauncher (398)
+[2017.08.15-03.11.21:158][143]LogModuleManager: Shutting down and abandoning module SessionFrontend (396)
+[2017.08.15-03.11.21:158][143]LogModuleManager: Shutting down and abandoning module ProfilerClient (394)
+[2017.08.15-03.11.21:158][143]LogModuleManager: Shutting down and abandoning module DeviceManager (392)
+[2017.08.15-03.11.21:158][143]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (391)
+[2017.08.15-03.11.21:210][143]LogModuleManager: Shutting down and abandoning module AutomationController (388)
+[2017.08.15-03.11.21:210][143]LogModuleManager: Shutting down and abandoning module AutomationWindow (386)
+[2017.08.15-03.11.21:210][143]LogModuleManager: Shutting down and abandoning module Layers (384)
+[2017.08.15-03.11.21:210][143]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (382)
+[2017.08.15-03.11.21:210][143]LogModuleManager: Shutting down and abandoning module DetailCustomizations (380)
+[2017.08.15-03.11.21:210][143]LogModuleManager: Shutting down and abandoning module PackagesDialog (378)
+[2017.08.15-03.11.21:211][143]LogModuleManager: Shutting down and abandoning module Persona (376)
+[2017.08.15-03.11.21:211][143]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (375)
+[2017.08.15-03.11.21:211][143]LogModuleManager: Shutting down and abandoning module AnimGraph (373)
+[2017.08.15-03.11.21:211][143]LogModuleManager: Shutting down and abandoning module Kismet (370)
+[2017.08.15-03.11.21:230][143]LogModuleManager: Shutting down and abandoning module ClassViewer (368)
+[2017.08.15-03.11.21:235][143]LogModuleManager: Shutting down and abandoning module Toolbox (366)
+[2017.08.15-03.11.21:235][143]LogModuleManager: Shutting down and abandoning module ModuleUI (364)
+[2017.08.15-03.11.21:235][143]LogModuleManager: Shutting down and abandoning module MovieSceneTools (362)
+[2017.08.15-03.11.21:235][143]LogModuleManager: Shutting down and abandoning module OutputLog (360)
+[2017.08.15-03.11.21:235][143]LogModuleManager: Shutting down and abandoning module GammaUI (358)
+[2017.08.15-03.11.21:235][143]LogModuleManager: Shutting down and abandoning module Documentation (356)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module MovieScene (352)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module Niagara (350)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module NiagaraEditor (349)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (346)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module AnalyticsET (344)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module PortalServices (342)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module PortalRpc (340)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module MessagingRpc (338)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module AIModule (336)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module GameplayDebugger (335)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module AITestSuite (333)
+[2017.08.15-03.11.21:236][143]LogModuleManager: Shutting down and abandoning module ProfilerService (330)
+[2017.08.15-03.11.21:429][143]LogModuleManager: Shutting down and abandoning module TaskGraph (328)
+[2017.08.15-03.11.21:429][143]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2017.08.15-03.11.21:429][143]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2017.08.15-03.11.21:429][143]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2017.08.15-03.11.21:429][143]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2017.08.15-03.11.21:429][143]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2017.08.15-03.11.21:429][143]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2017.08.15-03.11.21:429][143]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2017.08.15-03.11.21:429][143]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module RawInput (300)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.15-03.11.21:430][143]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.15-03.11.21:431][143]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.15-03.11.21:434][143]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.15-03.11.21:434][143]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.15-03.11.21:434][143]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.15-03.11.21:460][143]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.15-03.11.21:460][143]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.15-03.11.21:460][143]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.15-03.11.21:460][143]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.15-03.11.21:460][143]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.15-03.11.21:460][143]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.15-03.11.21:561][143]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.15-03.11.21:662][143]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.15-03.11.21:662][143]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.15-03.11.21:662][143]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.15-03.11.21:662][143]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.15-03.11.21:662][143]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.15-03.11.21:662][143]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.15-03.11.21:665][143]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.15-03.11.21:665][143]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.15-03.11.21:665][143]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.15-03.11.21:665][143]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.15-03.11.21:666][143]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.15-03.11.21:666][143]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.15-03.11.21:666][143]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.15-03.11.21:666][143]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.15-03.11.21:667][143]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.15-03.11.21:667][143]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.15-03.11.21:667][143]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.15-03.11.21:667][143]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.15-03.11.21:667][143]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.15-03.11.21:667][143]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.15-03.11.21:667][143]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.15-03.11.21:667][143]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.15-03.11.21:667][143]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.15-03.11.21:667][143]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.15-03.11.21:668][143]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.15-03.11.21:668][143]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.15-03.11.21:668][143]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.15-03.11.21:668][143]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.15-03.11.21:668][143]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.15-03.11.21:672][143]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.15-03.11.21:672][143]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.15-03.11.21:672][143]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.15-03.11.21:672][143]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.15-03.11.21:672][143]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.15-03.11.21:672][143]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.15-03.11.21:842][143]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.15-03.11.21:842][143]LogDirectoryWatcher: A directory notification for '../../../../../../Users/klca0/Documents/petitcon/Content/' was aborted.
+[2017.08.15-03.11.21:842][143]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.15-03.11.21:842][143]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.15-03.11.21:849][143]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.15-03.11.21:855][143]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.15-03.11.21:855][143]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.15-03.11.21:855][143]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.15-03.11.21:855][143]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.15-03.11.21:855][143]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.15-03.11.21:855][143]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.15-03.11.21:855][143]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.15-03.11.21:855][143]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.15-03.11.21:894][143]LogDerivedDataCache: Shutdown
+[2017.08.15-03.11.21:894][143]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.15-03.11.21:894][143]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.15-03.11.21:894][143]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.15-03.11.21:894][143]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.15-03.11.21:894][143]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.15-03.11.21:894][143]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.15-03.11.21:894][143]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.15-03.11.21:894][143]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.15-03.11.21:894][143]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.15-03.11.21:894][143]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.15-03.11.21:894][143]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.15-03.11.21:895][143]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.15-03.11.21:895][143]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.15-03.11.21:896][143]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.15-03.11.21:896][143]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.15-03.11.21:896][143]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2AF98A19-43DC-82D5-117D-E690F9C3AC2B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=4cf2255546bc45faddf9d99979c4c073%7C9b58983219324e548224cd910be150a8%7C19eef1ca-5708-492b-86fc-5fb82cf26228&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.15-03.11.21:927][143]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.15-03.11.21:928][143]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.15-03.11.21:929][143]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.15-03.11.21:929][143]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.15-03.11.21:929][143]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.15-03.11.21:929][143]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.15-03.11.21:929][143]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.15-03.11.21:929][143]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.15-03.11.21:929][143]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.15-03.11.21:944][143]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.15-03.11.21:944][143]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.15-03.11.21:944][143]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.15-03.11.21:944][143]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.15-03.11.21:944][143]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.15-03.11.21:944][143]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.15-03.11.21:944][143]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.15-03.11.21:944][143]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.15-03.11.21:944][143]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.15-03.11.21:944][143]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.15-03.11.21:945][143]LogExit: Exiting.
+[2017.08.15-03.11.21:964][143]Log file closed, 08/15/17 12:11:21
