@@ -551,3 +551,268 @@ LogInit: Object subsystem initialized
 [2017.08.15-05.33.13:814][ 13]LogSavePackage: Save=2743.84ms
 [2017.08.15-05.33.13:814][ 13]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMapB4622FA54043EE7A6FB9CABC06335F77.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
 [2017.08.15-05.33.13:821][ 13]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2017.08.15-05.48.17:268][446]BlueprintLog: New page: Tracker をコンパイル
+[2017.08.15-05.48.19:006][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset" SILENT=true
+[2017.08.15-05.48.19:160][515]LogSavePackage: Save=143.17ms
+[2017.08.15-05.48.19:160][515]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker3B4B52BD468CB5DB8E511A95BC7B2EF8.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset'
+[2017.08.15-05.48.19:165][515]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset
+[2017.08.15-05.48.32:734][ 44]LogSavePackage: Save=2893.38ms
+[2017.08.15-05.48.32:734][ 44]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap66C8E5DB47A04804D93AD78C43E9164C.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
+[2017.08.15-05.48.32:741][ 44]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2017.08.15-05.52.33:021][528]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_14.WidgetTree_80.CanvasPanel_0
+[2017.08.15-05.52.33:021][528]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.08.15-05.52.33:021][528]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0) from referencer (Border /Engine/UMG/Editor/Transient.GameHUD).  Import failed...
+[2017.08.15-05.52.33:021][528]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_0''
+[2017.08.15-05.54.55:052][161]LogEditorTransaction: Undo ウィジットサイズを変更
+[2017.08.15-05.55.07:987][902]LogEditorTransaction: Undo ウィジットサイズを変更
+[2017.08.15-05.58.29:911][614]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.069
+[2017.08.15-05.58.29:913][614]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/HUD] ([1] browsable assets)...
+[2017.08.15-05.58.29:913][614]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2017.08.15-05.58.29:913][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.08.15-05.58.30:027][614]LogSavePackage: Save=100.81ms
+[2017.08.15-05.58.30:027][614]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD_Auto0BBF2E5524E1D842943C90CA8A20A8AE2.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto0.uasset'
+[2017.08.15-05.58.30:029][614]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto0.uasset
+[2017.08.15-05.58.30:029][614]LogFileHelpers: Auto-saving content packages took 0.117
+[2017.08.15-06.00.47:558][175]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_15.WidgetTree_81.VerticalBox_2
+[2017.08.15-06.00.47:558][175]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_16.WidgetTree_82.VerticalBox_2
+[2017.08.15-06.00.47:558][175]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_19.WidgetTree_85.VerticalBox_2
+[2017.08.15-06.00.47:558][175]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_18.WidgetTree_84.VerticalBox_2
+[2017.08.15-06.00.47:558][175]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_20.WidgetTree_86.VerticalBox_2
+[2017.08.15-06.00.47:558][175]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_21.WidgetTree_87.VerticalBox_2
+[2017.08.15-06.00.47:558][175]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_22.WidgetTree_88.VerticalBox_2
+[2017.08.15-06.00.47:558][175]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_23.WidgetTree_89.VerticalBox_2
+[2017.08.15-06.00.47:558][175]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_24.WidgetTree_90.VerticalBox_2
+[2017.08.15-06.00.47:558][175]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2.VerticalBoxSlot_5) from referencer (VerticalBox /Engine/UMG/Editor/Transient.BestOverAllTime).  Import failed...
+[2017.08.15-06.00.47:558][175]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_2.VerticalBoxSlot_5''
+[2017.08.15-06.01.56:107][657]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_15.WidgetTree_81.VerticalBox_2
+[2017.08.15-06.01.56:108][657]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_16.WidgetTree_82.VerticalBox_2
+[2017.08.15-06.01.56:108][657]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_19.WidgetTree_85.VerticalBox_2
+[2017.08.15-06.01.56:108][657]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_18.WidgetTree_84.VerticalBox_2
+[2017.08.15-06.01.56:108][657]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_20.WidgetTree_86.VerticalBox_2
+[2017.08.15-06.01.56:108][657]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_21.WidgetTree_87.VerticalBox_2
+[2017.08.15-06.01.56:108][657]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_22.WidgetTree_88.VerticalBox_2
+[2017.08.15-06.01.56:108][657]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_23.WidgetTree_89.VerticalBox_2
+[2017.08.15-06.01.56:108][657]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_24.WidgetTree_90.VerticalBox_2
+[2017.08.15-06.01.56:108][657]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_25.WidgetTree_91.VerticalBox_2
+[2017.08.15-06.01.56:108][657]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_26.WidgetTree_92.VerticalBox_2
+[2017.08.15-06.01.56:108][657]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_27.WidgetTree_93.VerticalBox_2
+[2017.08.15-06.01.56:108][657]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2.VerticalBoxSlot_9) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_36).  Import failed...
+[2017.08.15-06.01.56:108][657]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_2.VerticalBoxSlot_9''
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_15.WidgetTree_81.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_16.WidgetTree_82.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_19.WidgetTree_85.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_18.WidgetTree_84.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_20.WidgetTree_86.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_21.WidgetTree_87.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_22.WidgetTree_88.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_23.WidgetTree_89.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_24.WidgetTree_90.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_25.WidgetTree_91.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_26.WidgetTree_92.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_27.WidgetTree_93.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2 or VerticalBox /Engine/Transient.World_2:HUD_C_28.WidgetTree_94.VerticalBox_2
+[2017.08.15-06.01.56:290][661]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.VerticalBox_2.VerticalBoxSlot_9) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_36).  Import failed...
+[2017.08.15-06.01.56:290][661]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_2.VerticalBoxSlot_9''
+[2017.08.15-06.08.33:861][481]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.055
+[2017.08.15-06.08.33:866][481]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/HUD] ([1] browsable assets)...
+[2017.08.15-06.08.33:866][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2017.08.15-06.08.33:866][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.15-06.08.33:959][481]LogSavePackage: Save=82.79ms
+[2017.08.15-06.08.33:959][481]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD_Auto1028BFC034980EE14DB75DA800E067BA8.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto1.uasset'
+[2017.08.15-06.08.33:960][481]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto1.uasset
+[2017.08.15-06.08.33:960][481]LogFileHelpers: Auto-saving content packages took 0.096
+[2017.08.15-06.09.28:214][772]LogEditorTransaction: Undo Size を編集
+[2017.08.15-06.12.58:402][829]BlueprintLog: New page: HUD をコンパイル
+[2017.08.15-06.12.58:936][829]BlueprintEditorCompileResults: 情報 Fast Template Successfully Created.
+[2017.08.15-06.15.10:539][266]LogSlate: Took 0.002777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.15-06.15.32:231][724]BlueprintLog: New page: HUD をコンパイル
+[2017.08.15-06.15.32:522][724]BlueprintEditorCompileResults: 情報 Fast Template Successfully Created.
+[2017.08.15-06.15.54:203][126]BlueprintLog: New page: HUD をコンパイル
+[2017.08.15-06.15.54:381][126]BlueprintEditorCompileResults: 情報 Fast Template Successfully Created.
+[2017.08.15-06.16.00:740][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2017.08.15-06.16.00:839][433]LogSavePackage: Save=87.94ms
+[2017.08.15-06.16.00:839][433]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD6A00CEB341245B1C33FFBE9D4C9F30E6.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset'
+[2017.08.15-06.16.00:843][433]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset
+[2017.08.15-06.18.37:649][565]LogSavePackage: Save=3042.06ms
+[2017.08.15-06.18.37:649][565]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto2950739C049E7B3EE256DA8BD702D3E0F.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto2.umap'
+[2017.08.15-06.18.37:652][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto2.umap
+[2017.08.15-06.18.37:656][565]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.135
+[2017.08.15-06.18.37:656][565]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.135
+[2017.08.15-06.18.37:661][565]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/HUD] ([1] browsable assets)...
+[2017.08.15-06.18.37:661][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2017.08.15-06.18.37:661][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.15-06.18.37:743][565]LogSavePackage: Save=75.52ms
+[2017.08.15-06.18.37:743][565]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD_Auto2305AED764B99B0B441390490D21417BC.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto2.uasset'
+[2017.08.15-06.18.37:745][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto2.uasset
+[2017.08.15-06.18.37:746][565]LogFileHelpers: Auto-saving content packages took 0.086
+[2017.08.15-06.25.49:865][391]BlueprintLog: New page: HUD をコンパイル
+[2017.08.15-06.25.50:172][391]BlueprintEditorCompileResults: 情報 Fast Template Successfully Created.
+[2017.08.15-06.26.36:301][101]BlueprintLog: New page: HUD をコンパイル
+[2017.08.15-06.26.36:557][101]BlueprintEditorCompileResults: 情報 Fast Template Successfully Created.
+[2017.08.15-06.27.23:299][349]BlueprintLog: New page: HUD をコンパイル
+[2017.08.15-06.27.23:478][349]BlueprintEditorCompileResults: 情報 Fast Template Successfully Created.
+[2017.08.15-06.27.24:490][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2017.08.15-06.27.24:585][407]LogSavePackage: Save=87.76ms
+[2017.08.15-06.27.24:585][407]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD82829C904D1A73A2E6AFDAA5FF4A3DB5.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset'
+[2017.08.15-06.27.24:590][407]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset
+[2017.08.15-06.29.21:799][537]LogSavePackage: Save=3679.71ms
+[2017.08.15-06.29.21:799][537]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto32BCCBD194E3A9F2E57B9C8B8464ADDCC.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto3.umap'
+[2017.08.15-06.29.21:802][537]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto3.umap
+[2017.08.15-06.29.21:806][537]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.792
+[2017.08.15-06.29.21:806][537]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.792
+[2017.08.15-06.29.21:812][537]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/HUD] ([1] browsable assets)...
+[2017.08.15-06.29.21:812][537]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2017.08.15-06.29.21:812][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.15-06.29.21:899][537]LogSavePackage: Save=82.27ms
+[2017.08.15-06.29.21:899][537]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD_Auto34309D63D418F4DD41E12F98441088F91.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto3.uasset'
+[2017.08.15-06.29.21:901][537]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto3.uasset
+[2017.08.15-06.29.21:901][537]LogFileHelpers: Auto-saving content packages took 0.091
+[2017.08.15-06.29.32:355][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_96:WidgetTree.CanvasPanel_0
+[2017.08.15-06.29.32:355][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_26.WidgetTree_92.CanvasPanel_0
+[2017.08.15-06.29.32:355][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_13.WidgetTree_122.CanvasPanel_0
+[2017.08.15-06.29.32:355][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_27.WidgetTree_93.CanvasPanel_0
+[2017.08.15-06.29.32:355][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_29.WidgetTree_95.CanvasPanel_0
+[2017.08.15-06.29.32:355][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_7.WidgetTree_116.CanvasPanel_0
+[2017.08.15-06.29.32:355][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_12.WidgetTree_121.CanvasPanel_0
+[2017.08.15-06.29.32:355][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_14.WidgetTree_123.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_28.WidgetTree_94.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_11.WidgetTree_120.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_94:WidgetTree.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_17.WidgetTree_124.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Game/Blueprints/UI/HUD.HUD_C:WidgetTree.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_45.WidgetTree_136.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_46.WidgetTree_137.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_47.WidgetTree_138.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_31.WidgetTree_97.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_32.WidgetTree_98.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_33.WidgetTree_99.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_34.WidgetTree_100.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_36.WidgetTree_102.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_37.WidgetTree_103.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_30.WidgetTree_96.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_35.WidgetTree_101.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_44.WidgetTree_135.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_39.WidgetTree_105.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_89:WidgetTree.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_15.WidgetTree_81.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_24.WidgetTree_90.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_1.WidgetTree_112.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_4.WidgetTree_110.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_8.WidgetTree_117.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_9.WidgetTree_118.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_10.WidgetTree_119.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_38.WidgetTree_104.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_5.WidgetTree_129.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_20.WidgetTree_86.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_112:WidgetTree.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_19.WidgetTree_85.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_41.WidgetTree_126.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_16.WidgetTree_82.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_18.WidgetTree_84.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_21.WidgetTree_87.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_22.WidgetTree_88.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_23.WidgetTree_89.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_25.WidgetTree_91.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_40.WidgetTree_125.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_42.WidgetTree_127.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.REINST_HUD_C_110:WidgetTree.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_2.WidgetTree_108.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogUObjectHash:Warning: Ambiguous search, could be CanvasPanel /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0 or CanvasPanel /Engine/Transient.World_2:HUD_C_3.WidgetTree_109.CanvasPanel_0
+[2017.08.15-06.29.32:356][ 15]LogProperty:Warning: Illegal TEXT reference to a private object in external package (CanvasPanelSlot /Game/Blueprints/UI/HUD.HUD:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1) from referencer (Border /Engine/UMG/Editor/Transient.SplashScreen).  Import failed...
+[2017.08.15-06.29.32:356][ 15]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'CanvasPanelSlot'CanvasPanel_0.CanvasPanelSlot_1''
+[2017.08.15-06.39.25:519][253]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.099
+[2017.08.15-06.39.25:522][253]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/HUD] ([1] browsable assets)...
+[2017.08.15-06.39.25:522][253]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2017.08.15-06.39.25:522][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.08.15-06.39.25:679][253]LogSavePackage: Save=142.44ms
+[2017.08.15-06.39.25:679][253]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD_Auto45515E00D4283404EED96659F7C619091.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto4.uasset'
+[2017.08.15-06.39.25:681][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto4.uasset
+[2017.08.15-06.39.25:681][253]LogFileHelpers: Auto-saving content packages took 0.161
+[2017.08.15-06.42.44:154][909]BlueprintLog: New page: HUD をコンパイル
+[2017.08.15-06.42.44:569][909]BlueprintEditorCompileResults: 情報 Fast Template Successfully Created.
+[2017.08.15-06.42.46:801][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2017.08.15-06.42.46:904][ 39]LogSavePackage: Save=97.88ms
+[2017.08.15-06.42.46:904][ 39]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD7E36617A409D326E1B6528A7AFC01B06.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset'
+[2017.08.15-06.42.46:909][ 39]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset
+[2017.08.15-06.50.36:776][725]LogSavePackage: Save=3996.92ms
+[2017.08.15-06.50.36:776][725]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto5DF1DB35E464D659DA15B349EDE3B5A6E.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto5.umap'
+[2017.08.15-06.50.36:779][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto5.umap
+[2017.08.15-06.50.36:781][725]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 4.124
+[2017.08.15-06.50.36:781][725]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.124
+[2017.08.15-06.50.36:797][725]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/MyPlayerContoller] ([1] browsable assets)...
+[2017.08.15-06.50.36:797][725]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/MyPlayerContoller]
+[2017.08.15-06.50.37:239][725]LogSavePackage: Save=425.57ms
+[2017.08.15-06.50.37:239][725]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller_Auto53D6D2EB046385FAA8BEE68AA95729216.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto5.uasset'
+[2017.08.15-06.50.37:245][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/MyPlayerContoller_Auto5.uasset
+[2017.08.15-06.50.37:245][725]LogFileHelpers: Auto-saving content packages took 0.453
+[2017.08.15-06.59.59:794][600]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.15-07.00.01:489][600]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.15-07.00.05:091][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.15-07.00.05:379][660]LogSavePackage: Save=279.35ms
+[2017.08.15-07.00.05:379][660]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller5ED71D50436FBE5564A64CB12220EA17.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.15-07.00.05:384][660]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.15-07.00.07:489][730]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.15-07.00.07:553][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.15-07.00.07:553][730]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/16 1:00:07)
+[2017.08.15-07.00.07:554][730]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.15-07.00.07:613][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059367s)
+[2017.08.15-07.00.07:615][730]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.15-07.00.07:615][730]LogPlayLevel: PIE: World Init took: (0.001668s)
+[2017.08.15-07.00.07:615][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.061495s)
+[2017.08.15-07.00.07:671][730]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.15-07.00.07:682][730]LogInit: FAudioDevice initialized.
+[2017.08.15-07.00.07:723][730]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.15-07.00.07:752][730]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.15-16.00.07
+[2017.08.15-07.00.07:753][730]LogWorld: Bringing up level for play took: 0.020480
+[2017.08.15-07.00.07:762][730]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.849のプレイ イン エディタの開始時間
+[2017.08.15-07.01.11:262][447]LogSavePackage: Save=3331.42ms
+[2017.08.15-07.01.11:262][447]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto68F7AC5F34208449441480A99EBF9C9E3.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto6.umap'
+[2017.08.15-07.01.11:265][447]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto6.umap
+[2017.08.15-07.01.11:268][447]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 3.437
+[2017.08.15-07.01.11:268][447]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.437
+[2017.08.15-07.01.38:509][450]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.15-07.01.39:628][450]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.15-07.01.42:365][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.15-07.01.42:651][487]LogSavePackage: Save=280.91ms
+[2017.08.15-07.01.42:651][487]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller42F4CEA24346DD760A1013BBDEAB6018.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.15-07.01.42:655][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.15-07.03.20:906][958]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.15-07.03.20:951][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.15-07.03.20:951][958]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/16 1:03:20)
+[2017.08.15-07.03.20:951][958]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.15-07.03.20:988][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036747s)
+[2017.08.15-07.03.20:989][958]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.15-07.03.20:989][958]LogPlayLevel: PIE: World Init took: (0.001147s)
+[2017.08.15-07.03.20:989][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.038303s)
+[2017.08.15-07.03.21:049][958]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.15-07.03.21:059][958]LogInit: FAudioDevice initialized.
+[2017.08.15-07.03.21:096][958]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.15-07.03.21:105][958]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.15-16.03.21
+[2017.08.15-07.03.21:106][958]LogWorld: Bringing up level for play took: 0.008190
+[2017.08.15-07.03.21:111][958]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.198のプレイ イン エディタの開始時間
+[2017.08.15-07.04.46:093][ 24]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.15-07.04.47:235][ 24]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.15-07.04.49:574][ 25]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.15-07.04.52:225][ 25]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.15-07.04.55:545][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.15-07.04.55:832][ 26]LogSavePackage: Save=281.62ms
+[2017.08.15-07.04.55:832][ 26]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContollerE9B0AC214C778DBDB3F55C99FFBCD624.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.15-07.04.55:838][ 26]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.15-07.04.57:998][107]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.15-07.04.58:046][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.15-07.04.58:046][107]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/16 1:04:58)
+[2017.08.15-07.04.58:046][107]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.15-07.04.58:079][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032962s)
+[2017.08.15-07.04.58:080][107]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.15-07.04.58:080][107]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2017.08.15-07.04.58:080][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.034305s)
+[2017.08.15-07.04.58:133][107]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.15-07.04.58:143][107]LogInit: FAudioDevice initialized.
+[2017.08.15-07.04.58:195][107]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.15-07.04.58:222][107]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.15-16.04.58
+[2017.08.15-07.04.58:223][107]LogWorld: Bringing up level for play took: 0.022047
+[2017.08.15-07.04.58:231][107]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.682のプレイ イン エディタの開始時間
+[2017.08.15-07.09.19:828][753]LogSavePackage: Save=2638.27ms
+[2017.08.15-07.09.19:828][753]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap8D5EFB1E44FD5DBFAC7016BA4A046990.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
+[2017.08.15-07.09.19:835][753]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2017.08.15-07.09.19:915][753]LogFileHelpers: Saving map 'LooptyLoopMap' took 2.876
