@@ -1,0 +1,895 @@
+﻿Log file open, 08/16/17 11:06:58
+LogInit:Display: Running engine for game: petitcon
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1394995744) SRandInit(1394995744).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.096111
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.16-02.06.59:821][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.16-02.06.59:821][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.16-02.06.59:846][  0]LogInit: Computer: DESKTOP-QTEU8JE
+[2017.08.16-02.06.59:846][  0]LogInit: User: klca0
+[2017.08.16-02.06.59:846][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.08.16-02.06.59:846][  0]LogInit: High frequency timer resolution =2.437502 MHz
+[2017.08.16-02.06.59:846][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.08.16-02.06.59:846][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.16-02.06.59:846][  0]LogMemory: Process Physical Memory: 274.12 MB used, 274.12 MB peak
+[2017.08.16-02.06.59:846][  0]LogMemory: Process Virtual Memory: 267.86 MB used, 267.86 MB peak
+[2017.08.16-02.06.59:846][  0]LogMemory: Physical Memory: 6143.16 MB used,  1973.94 MB free, 8117.11 MB total
+[2017.08.16-02.06.59:846][  0]LogMemory: Virtual Memory: 641.00 MB used,  1973.94 MB free, 134217728.00 MB total
+[2017.08.16-02.07.00:119][  0]LogInit: Using OS detected language (ja-JP).
+[2017.08.16-02.07.00:119][  0]LogInit: Using OS detected locale (ja-JP).
+[2017.08.16-02.07.00:124][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2017.08.16-02.07.01:307][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.16-02.07.01:317][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.08.16-02.07.01:317][  0]LogD3D11RHI:       128/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.08.16-02.07.01:319][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.16-02.07.01:319][  0]LogD3D11RHI:       0/0/4058 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.16-02.07.01:319][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.16-02.07.01:324][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.16-02.07.01:324][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.16-02.07.01:324][  0]LogWindows: EnumDisplayDevices:
+[2017.08.16-02.07.01:324][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.08.16-02.07.01:324][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.08.16-02.07.01:324][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.08.16-02.07.01:325][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.08.16-02.07.01:325][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2017.08.16-02.07.01:325][  0]LogD3D11RHI:   Driver Version: 21.20.16.4627 (internal:21.20.16.4627, unified:21.20.16.4627)
+[2017.08.16-02.07.01:325][  0]LogD3D11RHI:      Driver Date: 3-9-2017
+[2017.08.16-02.07.01:325][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.16-02.07.01:331][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.16-02.07.01:337][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.08.16-02.07.01:339][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../../Users/klca0/Documents/petitcon/Intermediate/Shaders/WorkingDirectory/17944/).
+[2017.08.16-02.07.01:339][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/klca0/AppData/Local/Temp/UnrealShaderWorkingDir/A633BB8E4225EFF92FD0EFB5D0C345BD/'.
+[2017.08.16-02.07.01:339][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.16-02.07.03:115][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.16-02.07.03:199][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.16-02.07.03:286][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.16-02.07.03:376][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.16-02.07.03:467][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.16-02.07.03:552][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.16-02.07.03:641][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.16-02.07.03:733][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.16-02.07.03:817][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.16-02.07.03:901][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.16-02.07.03:983][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.16-02.07.04:084][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.16-02.07.04:209][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.16-02.07.04:292][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.16-02.07.04:377][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.16-02.07.04:549][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.16-02.07.04:549][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.16-02.07.04:622][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.16-02.07.04:771][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.16-02.07.04:824][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.16-02.07.04:909][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.16-02.07.05:000][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.16-02.07.05:085][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.16-02.07.05:173][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.16-02.07.05:173][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.16-02.07.06:271][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.16-02.07.06:375][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/klca0/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.16-02.07.06:375][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/klca0/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.16-02.07.06:375][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/klca0/Documents/petitcon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.16-02.07.06:375][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.16-02.07.06:376][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/klca0/Documents/petitcon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.16-02.07.06:376][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.16-02.07.06:398][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.16-02.07.06:411][  0]LogDerivedDataCache: Using Local data cache path C:/Users/klca0/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.16-02.07.06:422][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.16-02.07.06:422][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.16-02.07.06:423][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.16-02.07.06:423][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.16-02.07.06:882][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.16-02.07.06:963][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.16-02.07.07:211][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.16-02.07.07:293][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.16-02.07.07:441][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.16-02.07.07:441][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.16-02.07.07:441][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.16-02.07.08:302][  0]LogNetVersion: petitcon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2069337989)
+[2017.08.16-02.07.08:415][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.08.16-02.07.08:537][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.064967 seconds
+[2017.08.16-02.07.08:549][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.16-02.07.08:549][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.16-02.07.08:549][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.16-02.07.08:700][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.16-02.07.12:476][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.16-02.07.12:544][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.16-02.07.13:465][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.16-02.07.14:239][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.16-02.07.14:352][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.16-02.07.14:440][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.16-02.07.14:545][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.16-02.07.16:007][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.16-02.07.17:307][  0]LogEngine: Initializing Engine...
+[2017.08.16-02.07.17:308][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.16-02.07.17:549][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.16-02.07.17:549][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.16-02.07.17:777][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.16-02.07.17:789][  0]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.16-02.07.17:804][  0]LogInit: FAudioDevice initialized.
+[2017.08.16-02.07.17:856][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/klca0/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.16-02.07.17:865][  0]LogInit: Texture streaming: Enabled
+[2017.08.16-02.07.18:050][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.16-02.07.18:432][  0]LogInit: Transaction tracking system initialized
+[2017.08.16-02.07.18:988][  0]BlueprintLog: New page: エディタの読み込み
+[2017.08.16-02.07.20:690][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2017.08.16-02.07.21:889][  0]LogConsoleResponse:Display: 
+[2017.08.16-02.07.22:099][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.16-02.07.22:099][  0]LogFileCache: Scanning file cache for directory 'C:/Users/klca0/Documents/petitcon/Content/' took 0.02s
+[2017.08.16-02.07.22:099][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.16-02.07.23:856][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.16-02.07.23:856][  0]Cmd: MAP LOAD FILE="../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.16-02.07.23:856][  0]LightingResults: New page: ライティングのビルド
+[2017.08.16-02.07.23:932][  0]MapCheck: New page: マップをチェック
+[2017.08.16-02.07.23:932][  0]LightingResults: New page: <何も選択されていません>
+[2017.08.16-02.07.25:047][  0]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-02.07.25:096][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.16-02.07.25:168][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.16-02.07.25:236][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 68.514ミリ秒かかりました。
+[2017.08.16-02.07.25:236][  0]LogFileHelpers: Loading map 'LooptyLoopMap' took 1.381
+[2017.08.16-02.07.25:467][  0]LogCollectionManager: Loaded 0 collections in 0.002231 seconds
+[2017.08.16-02.07.25:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/klca0/Documents/petitcon/Saved/Collections/' took 0.01s
+[2017.08.16-02.07.25:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/klca0/Documents/petitcon/Content/Developers/klca0/Collections/' took 0.01s
+[2017.08.16-02.07.25:587][  0]LogFileCache: Scanning file cache for directory 'C:/Users/klca0/Documents/petitcon/Content/Collections/' took 0.01s
+[2017.08.16-02.07.25:587][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.08.16-02.07.25:599][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2331 classes and 494 folders.
+[2017.08.16-02.07.25:724][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.16-02.07.25:767][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.16-02.07.25:843][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.08.16-02.07.25:908][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.16-02.07.25:917][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.16-02.07.25:922][  0]LogSlate: Took 0.003093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.08.16-02.07.25:923][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.16-02.07.25:928][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.16-02.07.26:039][  0]LogRenderer: Reallocating scene render targets to support 892x464 NumSamples 1 (Frame:1).
+[2017.08.16-02.07.26:714][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2017.08.16-02.07.26:815][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.16-02.07.26:815][  0]LogLoad: (Engine Initialization) Total time: 29.85 seconds
+[2017.08.16-02.07.26:815][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.40 seconds
+[2017.08.16-02.07.26:815][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.16-02.07.26:815][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.16-02.07.26:843][  0]LogOcInput: OculusInput pre-init called
+[2017.08.16-02.07.26:844][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.08.16-02.07.26:844][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.08.16-02.07.26:844][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.08.16-02.07.26:844][  0]LogRawInputWindows:Warning: Found device 1 devices
+[2017.08.16-02.07.26:844][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.08.16-02.07.26:844][  0]LogHMD: Starting GearVRController plugin
+[2017.08.16-02.07.26:864][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.16-02.07.26:895][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.16-02.07.26:926][  1]LogAssetRegistry: Asset discovery search completed in 18.5333 seconds
+[2017.08.16-02.07.26:929][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.16-02.07.26:929][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2017.08.16-02.07.29:613][ 74]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.16-02.07.29:665][ 74]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-02.07.29:666][ 74]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/16 20:07:29)
+[2017.08.16-02.07.29:666][ 74]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-02.07.29:700][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033979s)
+[2017.08.16-02.07.29:700][ 74]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-02.07.29:701][ 74]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2017.08.16-02.07.29:701][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.035294s)
+[2017.08.16-02.07.29:732][ 74]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.16-02.07.29:745][ 74]LogInit: FAudioDevice initialized.
+[2017.08.16-02.07.29:799][ 74]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-02.07.29:806][ 74]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-11.07.29
+[2017.08.16-02.07.29:807][ 74]LogWorld: Bringing up level for play took: 0.006419
+[2017.08.16-02.07.29:887][ 74]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.08.16-02.07.29:894][ 74]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.982のプレイ イン エディタの開始時間
+[2017.08.16-02.08.14:262][556]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 1
+[2017.08.16-02.08.20:276][755]Cmd: RestartLevel
+[2017.08.16-02.08.20:307][756]LogNet: Browse: /Game/VehicleAdvBP/Maps/LooptyLoopMap?restart
+[2017.08.16-02.08.20:338][756]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/LooptyLoopMap
+[2017.08.16-02.08.20:342][756]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.16-02.08.20:345][756]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.16-02.08.20:400][756]Cmd: MEM
+[2017.08.16-02.08.20:439][756]LogMemory: Platform Memory Stats for Windows
+[2017.08.16-02.08.20:439][756]LogMemory: Process Physical Memory: 1452.87 MB used, 1460.48 MB peak
+[2017.08.16-02.08.20:439][756]LogMemory: Process Virtual Memory: 1398.48 MB used, 1408.08 MB peak
+[2017.08.16-02.08.20:439][756]LogMemory: Physical Memory: 6472.96 MB used,  1644.14 MB free, 8117.11 MB total
+[2017.08.16-02.08.20:439][756]LogMemory: Virtual Memory: 2217.64 MB used,  1644.14 MB free, 134217728.00 MB total
+[2017.08.16-02.08.20:439][756]LogMemory: 
+[2017.08.16-02.08.20:439][756]Allocator Stats for TBB: (not implemented)
+[2017.08.16-02.08.20:439][756]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-02.08.20:487][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048046s)
+[2017.08.16-02.08.20:488][756]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-02.08.20:488][756]LogPlayLevel: PIE: World Init took: (0.001351s)
+[2017.08.16-02.08.20:488][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.049775s)
+[2017.08.16-02.08.20:488][756]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-02.08.20:501][756]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-11.08.20
+[2017.08.16-02.08.20:502][756]LogWorld: Bringing up level for play took: 0.010933
+[2017.08.16-02.08.20:510][756]LogLoad: Took 0.172113 seconds to LoadMap(/Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap)
+[2017.08.16-02.09.12:287][189]LogSlate: Took 0.000616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.16-02.09.12:896][189]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2017.08.16-02.09.13:773][189]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.16-02.09.13:775][189]LogSlate: Took 0.002023 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.16-02.18.20:137][418]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.057
+[2017.08.16-02.18.20:141][418]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/HUD] ([1] browsable assets)...
+[2017.08.16-02.18.20:141][418]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2017.08.16-02.18.20:141][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.08.16-02.18.20:295][418]LogSavePackage: Save=129.51ms
+[2017.08.16-02.18.20:295][418]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD_Auto1D0F717D0491C553AB4CED2A5BF9D78DC.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto1.uasset'
+[2017.08.16-02.18.20:298][418]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto1.uasset
+[2017.08.16-02.18.20:298][418]LogFileHelpers: Auto-saving content packages took 0.159
+[2017.08.16-02.27.23:029][438]LogEditorTransaction: Undo Left を編集
+[2017.08.16-02.27.24:670][522]LogEditorTransaction: Undo Left を編集
+[2017.08.16-02.27.25:524][565]LogEditorTransaction: Undo Left を編集
+[2017.08.16-02.27.26:628][623]LogEditorTransaction: Undo Left を編集
+[2017.08.16-02.27.27:250][652]LogEditorTransaction: Undo アニメート可能なプロパティを変更しました
+[2017.08.16-02.27.27:850][679]LogEditorTransaction: Undo Left を編集
+[2017.08.16-02.27.28:840][730]LogEditorTransaction: Undo アニメート可能なプロパティを変更しました
+[2017.08.16-02.27.30:967][849]LogEditorTransaction: Undo Left を編集
+[2017.08.16-02.27.31:688][884]LogEditorTransaction: Undo Left を編集
+[2017.08.16-02.27.32:489][924]LogEditorTransaction: Undo Left を編集
+[2017.08.16-02.27.33:477][975]LogEditorTransaction: Undo アニメート可能なプロパティを変更しました
+[2017.08.16-02.28.46:363][974]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.114
+[2017.08.16-02.28.46:366][974]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/HUD] ([1] browsable assets)...
+[2017.08.16-02.28.46:366][974]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2017.08.16-02.28.46:366][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.08.16-02.28.46:559][974]LogSavePackage: Save=176.17ms
+[2017.08.16-02.28.46:559][974]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD_Auto2EC465D104CAF7E733EA16EBA43506051.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto2.uasset'
+[2017.08.16-02.28.46:563][974]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto2.uasset
+[2017.08.16-02.28.46:563][974]LogFileHelpers: Auto-saving content packages took 0.199
+[2017.08.16-02.32.46:185][506]LogEditorTransaction: Undo アニメート可能なプロパティを変更しました
+[2017.08.16-02.32.59:390][283]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2017.08.16-02.32.59:503][283]LogSavePackage: Save=100.68ms
+[2017.08.16-02.32.59:503][283]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUDED4B27964656FCC812FC2DA6F08C497E.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset'
+[2017.08.16-02.32.59:508][283]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset
+[2017.08.16-02.40.48:258][274]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.077
+[2017.08.16-02.40.48:261][274]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/HUD] ([1] browsable assets)...
+[2017.08.16-02.40.48:261][274]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2017.08.16-02.40.48:261][274]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.08.16-02.40.48:392][274]LogSavePackage: Save=123.50ms
+[2017.08.16-02.40.48:392][274]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD_Auto3AA55D2BC4FDAD2DF2F75EAB2D3F4FA9E.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto3.uasset'
+[2017.08.16-02.40.48:419][274]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto3.uasset
+[2017.08.16-02.40.48:419][274]LogFileHelpers: Auto-saving content packages took 0.161
+[2017.08.16-02.51.40:121][106]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.186
+[2017.08.16-02.51.40:128][106]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/HUD] ([1] browsable assets)...
+[2017.08.16-02.51.40:128][106]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2017.08.16-02.51.40:129][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.08.16-02.51.40:435][106]LogSavePackage: Save=285.71ms
+[2017.08.16-02.51.40:435][106]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD_Auto45D19C7D946F8DECD4EB33E94BCE40BE7.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto4.uasset'
+[2017.08.16-02.51.40:463][106]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto4.uasset
+[2017.08.16-02.51.40:463][106]LogFileHelpers: Auto-saving content packages took 0.336
+[2017.08.16-03.01.47:863][452]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.051
+[2017.08.16-03.01.47:868][452]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/UI/HUD] ([1] browsable assets)...
+[2017.08.16-03.01.47:868][452]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/HUD]
+[2017.08.16-03.01.47:868][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.08.16-03.01.48:037][452]LogSavePackage: Save=160.30ms
+[2017.08.16-03.01.48:037][452]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD_Auto5B6C64070460A6EECA9CA379921CFA595.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto5.uasset'
+[2017.08.16-03.01.48:040][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/UI/HUD_Auto5.uasset
+[2017.08.16-03.01.48:040][452]LogFileHelpers: Auto-saving content packages took 0.174
+[2017.08.16-03.04.19:868][594]BlueprintLog: New page: HUD をコンパイル
+[2017.08.16-03.04.20:339][594]BlueprintEditorCompileResults: 情報 Fast Template Successfully Created.
+[2017.08.16-03.04.20:901][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset" SILENT=true
+[2017.08.16-03.04.21:031][623]LogSavePackage: Save=123.27ms
+[2017.08.16-03.04.21:031][623]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/HUD4704FBFE47649537CA5EEDBAA8A3596D.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset'
+[2017.08.16-03.04.21:036][623]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/UI/HUD.uasset
+[2017.08.16-03.06.27:442][566]LogSlate: Took 0.027111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.16-03.10.26:087][117]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.16-03.10.26:830][117]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.16-03.10.27:926][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.16-03.10.28:274][150]LogSavePackage: Save=340.11ms
+[2017.08.16-03.10.28:274][150]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller20AFDDB84D1F6A204126C9B607832321.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.16-03.10.28:279][150]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.16-03.13.11:347][984]LogRenderer: Reallocating scene render targets to support 1064x732 NumSamples 1 (Frame:1).
+[2017.08.16-03.13.11:951][993]LogRenderer: Reallocating scene render targets to support 1192x732 NumSamples 1 (Frame:12).
+[2017.08.16-03.13.22:082][352]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.16-03.13.22:858][352]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.16-03.14.25:218][945]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.16-03.14.26:255][945]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.16-03.14.27:231][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.16-03.14.27:547][970]LogSavePackage: Save=310.42ms
+[2017.08.16-03.14.27:547][970]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContollerEB66CAE9457FE5A04390EAA61FD25B2A.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.16-03.14.27:552][970]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.16-03.16.06:057][ 39]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.16-03.16.07:330][ 39]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.16-03.16.08:059][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.16-03.16.08:373][ 40]LogSavePackage: Save=304.83ms
+[2017.08.16-03.16.08:373][ 40]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller7751BBDE43F838791C1F64A34B11F754.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.16-03.16.08:377][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.16-03.16.09:286][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.16-03.16.09:596][ 87]LogSavePackage: Save=305.05ms
+[2017.08.16-03.16.09:596][ 87]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller501E137D45F6A3E8BEEF01845FF9276C.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.16-03.16.09:598][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.16-03.16.48:138][391]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.16-03.16.48:185][391]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-03.16.48:185][391]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/16 21:16:48)
+[2017.08.16-03.16.48:186][391]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-03.16.48:237][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051149s)
+[2017.08.16-03.16.48:238][391]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-03.16.48:238][391]LogPlayLevel: PIE: World Init took: (0.001449s)
+[2017.08.16-03.16.48:238][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.053070s)
+[2017.08.16-03.16.48:312][391]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.16-03.16.48:322][391]LogInit: FAudioDevice initialized.
+[2017.08.16-03.16.48:368][391]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-03.16.48:386][391]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-12.16.48
+[2017.08.16-03.16.48:387][391]LogWorld: Bringing up level for play took: 0.015276
+[2017.08.16-03.16.48:393][391]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.519のプレイ イン エディタの開始時間
+[2017.08.16-03.17.40:590][126]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 1
+[2017.08.16-03.17.46:575][324]Cmd: RestartLevel
+[2017.08.16-03.17.46:597][325]LogNet: Browse: /Game/VehicleAdvBP/Maps/LooptyLoopMap?restart
+[2017.08.16-03.17.46:632][325]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/LooptyLoopMap
+[2017.08.16-03.17.46:651][325]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.16-03.17.46:657][325]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.16-03.17.46:762][325]Cmd: MEM
+[2017.08.16-03.17.46:811][325]LogMemory: Platform Memory Stats for Windows
+[2017.08.16-03.17.46:811][325]LogMemory: Process Physical Memory: 1325.81 MB used, 1569.20 MB peak
+[2017.08.16-03.17.46:811][325]LogMemory: Process Virtual Memory: 2222.45 MB used, 2226.74 MB peak
+[2017.08.16-03.17.46:811][325]LogMemory: Physical Memory: 6297.10 MB used,  1820.01 MB free, 8117.11 MB total
+[2017.08.16-03.17.46:811][325]LogMemory: Virtual Memory: 3068.80 MB used,  1820.01 MB free, 134217728.00 MB total
+[2017.08.16-03.17.46:811][325]LogMemory: 
+[2017.08.16-03.17.46:811][325]Allocator Stats for TBB: (not implemented)
+[2017.08.16-03.17.46:811][325]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-03.17.46:854][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042792s)
+[2017.08.16-03.17.46:855][325]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-03.17.46:855][325]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2017.08.16-03.17.46:856][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.044346s)
+[2017.08.16-03.17.46:856][325]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-03.17.46:867][325]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-12.17.46
+[2017.08.16-03.17.46:868][325]LogWorld: Bringing up level for play took: 0.010167
+[2017.08.16-03.17.46:878][325]LogLoad: Took 0.246289 seconds to LoadMap(/Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap)
+[2017.08.16-03.17.56:361][562]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.16-03.17.56:418][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-03.17.56:418][562]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/16 21:17:56)
+[2017.08.16-03.17.56:418][562]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-03.17.56:486][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067895s)
+[2017.08.16-03.17.56:487][562]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-03.17.56:488][562]LogPlayLevel: PIE: World Init took: (0.001385s)
+[2017.08.16-03.17.56:488][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.069920s)
+[2017.08.16-03.17.56:562][562]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.16-03.17.56:576][562]LogInit: FAudioDevice initialized.
+[2017.08.16-03.17.56:624][562]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-03.17.56:645][562]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-12.17.56
+[2017.08.16-03.17.56:646][562]LogWorld: Bringing up level for play took: 0.014971
+[2017.08.16-03.17.56:656][562]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.257のプレイ イン エディタの開始時間
+[2017.08.16-03.18.33:120][696]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.16-03.18.33:122][696]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.16-03.18.50:011][229]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 1
+[2017.08.16-03.18.55:969][416]Cmd: RestartLevel
+[2017.08.16-03.18.55:990][417]LogNet: Browse: /Game/VehicleAdvBP/Maps/LooptyLoopMap?restart
+[2017.08.16-03.18.56:030][417]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/LooptyLoopMap
+[2017.08.16-03.18.56:033][417]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.16-03.18.56:037][417]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.16-03.18.56:109][417]Cmd: MEM
+[2017.08.16-03.18.56:167][417]LogMemory: Platform Memory Stats for Windows
+[2017.08.16-03.18.56:167][417]LogMemory: Process Physical Memory: 1375.52 MB used, 1569.20 MB peak
+[2017.08.16-03.18.56:167][417]LogMemory: Process Virtual Memory: 2245.07 MB used, 2261.10 MB peak
+[2017.08.16-03.18.56:167][417]LogMemory: Physical Memory: 6344.65 MB used,  1772.46 MB free, 8117.11 MB total
+[2017.08.16-03.18.56:167][417]LogMemory: Virtual Memory: 3144.68 MB used,  1772.46 MB free, 134217728.00 MB total
+[2017.08.16-03.18.56:167][417]LogMemory: 
+[2017.08.16-03.18.56:167][417]Allocator Stats for TBB: (not implemented)
+[2017.08.16-03.18.56:167][417]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-03.18.56:216][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048256s)
+[2017.08.16-03.18.56:217][417]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-03.18.56:217][417]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2017.08.16-03.18.56:218][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.049838s)
+[2017.08.16-03.18.56:218][417]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-03.18.56:229][417]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-12.18.56
+[2017.08.16-03.18.56:230][417]LogWorld: Bringing up level for play took: 0.010300
+[2017.08.16-03.18.56:241][417]LogLoad: Took 0.211498 seconds to LoadMap(/Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap)
+[2017.08.16-03.37.58:457][ 14]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.08.16-03.48.04:343][884]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.16-03.48.04:471][884]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-03.48.04:471][884]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/16 21:48:04)
+[2017.08.16-03.48.04:472][884]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-03.48.04:536][884]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064350s)
+[2017.08.16-03.48.04:540][884]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-03.48.04:541][884]LogPlayLevel: PIE: World Init took: (0.004650s)
+[2017.08.16-03.48.04:541][884]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.069802s)
+[2017.08.16-03.48.04:634][884]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.16-03.48.04:644][884]LogInit: FAudioDevice initialized.
+[2017.08.16-03.48.04:705][884]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-03.48.04:715][884]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-12.48.04
+[2017.08.16-03.48.04:716][884]LogWorld: Bringing up level for play took: 0.009842
+[2017.08.16-03.48.04:727][884]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.185のプレイ イン エディタの開始時間
+[2017.08.16-03.48.55:686][562]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 1
+[2017.08.16-03.49.01:659][761]Cmd: RestartLevel
+[2017.08.16-03.49.01:678][762]LogNet: Browse: /Game/VehicleAdvBP/Maps/LooptyLoopMap?restart
+[2017.08.16-03.49.01:709][762]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/LooptyLoopMap
+[2017.08.16-03.49.01:712][762]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.16-03.49.01:716][762]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.16-03.49.01:768][762]Cmd: MEM
+[2017.08.16-03.49.01:801][762]LogMemory: Platform Memory Stats for Windows
+[2017.08.16-03.49.01:801][762]LogMemory: Process Physical Memory: 795.02 MB used, 1569.20 MB peak
+[2017.08.16-03.49.01:801][762]LogMemory: Process Virtual Memory: 2293.91 MB used, 2296.33 MB peak
+[2017.08.16-03.49.01:801][762]LogMemory: Physical Memory: 6192.70 MB used,  1924.41 MB free, 8117.11 MB total
+[2017.08.16-03.49.01:801][762]LogMemory: Virtual Memory: 3180.27 MB used,  1924.41 MB free, 134217728.00 MB total
+[2017.08.16-03.49.01:802][762]LogMemory: 
+[2017.08.16-03.49.01:802][762]Allocator Stats for TBB: (not implemented)
+[2017.08.16-03.49.01:802][762]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-03.49.01:832][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030362s)
+[2017.08.16-03.49.01:834][762]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-03.49.01:834][762]LogPlayLevel: PIE: World Init took: (0.001587s)
+[2017.08.16-03.49.01:834][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.032318s)
+[2017.08.16-03.49.01:834][762]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-03.49.01:841][762]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-12.49.01
+[2017.08.16-03.49.01:842][762]LogWorld: Bringing up level for play took: 0.006434
+[2017.08.16-03.49.01:850][762]LogLoad: Took 0.140986 seconds to LoadMap(/Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap)
+[2017.08.16-03.56.12:252][934]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.16-03.56.13:049][934]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.16-03.56.13:698][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.16-03.56.14:091][957]LogSavePackage: Save=381.73ms
+[2017.08.16-03.56.14:091][957]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller19150EC6419D9CDA904AA885A89D9F81.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.16-03.56.14:096][957]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.16-03.56.16:069][ 36]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.16-03.56.16:130][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-03.56.16:131][ 36]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/16 21:56:16)
+[2017.08.16-03.56.16:131][ 36]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-03.56.16:167][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036315s)
+[2017.08.16-03.56.16:168][ 36]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-03.56.16:168][ 36]LogPlayLevel: PIE: World Init took: (0.000961s)
+[2017.08.16-03.56.16:168][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.037652s)
+[2017.08.16-03.56.16:212][ 36]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.16-03.56.16:221][ 36]LogInit: FAudioDevice initialized.
+[2017.08.16-03.56.16:262][ 36]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-03.56.16:285][ 36]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-12.56.16
+[2017.08.16-03.56.16:287][ 36]LogWorld: Bringing up level for play took: 0.019866
+[2017.08.16-03.56.16:297][ 36]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.616のプレイ イン エディタの開始時間
+[2017.08.16-03.56.53:254][271]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.16-03.56.53:256][271]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.16-03.57.08:300][776]LogBlueprintUserMessages: [MyPlayerContoller_C_0] 1
+[2017.08.16-03.57.14:275][976]Cmd: RestartLevel
+[2017.08.16-03.57.14:313][977]LogNet: Browse: /Game/VehicleAdvBP/Maps/LooptyLoopMap?restart
+[2017.08.16-03.57.14:319][977]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/LooptyLoopMap
+[2017.08.16-03.57.14:323][977]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.16-03.57.14:326][977]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.16-03.57.14:400][977]Cmd: MEM
+[2017.08.16-03.57.14:452][977]LogMemory: Platform Memory Stats for Windows
+[2017.08.16-03.57.14:452][977]LogMemory: Process Physical Memory: 1121.09 MB used, 1569.20 MB peak
+[2017.08.16-03.57.14:452][977]LogMemory: Process Virtual Memory: 2266.09 MB used, 2338.13 MB peak
+[2017.08.16-03.57.14:452][977]LogMemory: Physical Memory: 6227.52 MB used,  1889.59 MB free, 8117.11 MB total
+[2017.08.16-03.57.14:452][977]LogMemory: Virtual Memory: 3207.70 MB used,  1889.59 MB free, 134217728.00 MB total
+[2017.08.16-03.57.14:452][977]LogMemory: 
+[2017.08.16-03.57.14:452][977]Allocator Stats for TBB: (not implemented)
+[2017.08.16-03.57.14:452][977]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-03.57.14:499][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046824s)
+[2017.08.16-03.57.14:499][977]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-03.57.14:500][977]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2017.08.16-03.57.14:500][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.048227s)
+[2017.08.16-03.57.14:500][977]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-03.57.14:514][977]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-12.57.14
+[2017.08.16-03.57.14:515][977]LogWorld: Bringing up level for play took: 0.012338
+[2017.08.16-03.57.14:524][977]LogLoad: Took 0.205083 seconds to LoadMap(/Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap)
+[2017.08.16-03.58.02:045][364]BlueprintLog: New page: MyPlayerContoller をコンパイル
+[2017.08.16-03.58.03:085][364]BlueprintEditorCompileResults: 情報 'SaveGameReference' is already a 'My Save Game', you don't need  Cast To MySaveGame .
+[2017.08.16-03.58.04:831][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyPlayerContoller" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset" SILENT=true
+[2017.08.16-03.58.05:138][394]LogSavePackage: Save=302.44ms
+[2017.08.16-03.58.05:138][394]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MyPlayerContoller344E389342EE0FDA3925B880B54FCEDB.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset'
+[2017.08.16-03.58.05:142][394]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/MyPlayerContoller.uasset
+[2017.08.16-03.58.06:911][462]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.16-03.58.06:947][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-03.58.06:947][462]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/16 21:58:06)
+[2017.08.16-03.58.06:947][462]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-03.58.06:993][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045336s)
+[2017.08.16-03.58.06:993][462]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-03.58.06:994][462]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2017.08.16-03.58.06:994][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.046517s)
+[2017.08.16-03.58.07:039][462]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.16-03.58.07:047][462]LogInit: FAudioDevice initialized.
+[2017.08.16-03.58.07:080][462]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-03.58.07:086][462]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-12.58.07
+[2017.08.16-03.58.07:087][462]LogWorld: Bringing up level for play took: 0.005788
+[2017.08.16-03.58.07:093][462]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.18のプレイ イン エディタの開始時間
+[2017.08.16-03.58.58:044][ 85]Cmd: RestartLevel
+[2017.08.16-03.58.58:074][ 86]LogNet: Browse: /Game/VehicleAdvBP/Maps/LooptyLoopMap?restart
+[2017.08.16-03.58.58:103][ 86]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/LooptyLoopMap
+[2017.08.16-03.58.58:106][ 86]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.16-03.58.58:108][ 86]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.16-03.58.58:184][ 86]Cmd: MEM
+[2017.08.16-03.58.58:239][ 86]LogMemory: Platform Memory Stats for Windows
+[2017.08.16-03.58.58:239][ 86]LogMemory: Process Physical Memory: 1170.18 MB used, 1569.20 MB peak
+[2017.08.16-03.58.58:239][ 86]LogMemory: Process Virtual Memory: 2281.92 MB used, 2338.13 MB peak
+[2017.08.16-03.58.58:239][ 86]LogMemory: Physical Memory: 6230.86 MB used,  1886.25 MB free, 8117.11 MB total
+[2017.08.16-03.58.58:239][ 86]LogMemory: Virtual Memory: 3207.70 MB used,  1886.25 MB free, 134217728.00 MB total
+[2017.08.16-03.58.58:239][ 86]LogMemory: 
+[2017.08.16-03.58.58:239][ 86]Allocator Stats for TBB: (not implemented)
+[2017.08.16-03.58.58:239][ 86]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-03.58.58:286][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046797s)
+[2017.08.16-03.58.58:287][ 86]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-03.58.58:288][ 86]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2017.08.16-03.58.58:288][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.048309s)
+[2017.08.16-03.58.58:288][ 86]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-03.58.58:300][ 86]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-12.58.58
+[2017.08.16-03.58.58:301][ 86]LogWorld: Bringing up level for play took: 0.011365
+[2017.08.16-03.58.58:314][ 86]LogLoad: Took 0.210740 seconds to LoadMap(/Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap)
+[2017.08.16-04.02.23:899][281]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.061
+[2017.08.16-04.02.23:901][281]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Particles/P_Firering] ([1] browsable assets)...
+[2017.08.16-04.02.23:913][281]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/StarterContent/Particles/P_Firering.P_Firering]
+[2017.08.16-04.02.23:913][281]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Particles/P_Firering]
+[2017.08.16-04.02.24:122][281]LogSavePackage: Save=206.39ms
+[2017.08.16-04.02.24:122][281]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/P_Firering_Auto675DE45CC40824A340ED538A2790D4170.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/StarterContent/Particles/P_Firering_Auto6.uasset'
+[2017.08.16-04.02.24:133][281]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/StarterContent/Particles/P_Firering_Auto6.uasset
+[2017.08.16-04.02.24:133][281]LogFileHelpers: Auto-saving content packages took 0.234
+[2017.08.16-04.02.55:886][411]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0010 seconds. Added 2 classes and 2 folders.
+[2017.08.16-04.12.34:991][747]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.051
+[2017.08.16-04.12.34:995][747]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Particles/P_Firering] ([1] browsable assets)...
+[2017.08.16-04.12.35:004][747]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/StarterContent/Particles/P_Firering.P_Firering]
+[2017.08.16-04.12.35:004][747]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Particles/P_Firering]
+[2017.08.16-04.12.35:045][747]LogSavePackage: Save=38.84ms
+[2017.08.16-04.12.35:045][747]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/P_Firering_Auto773469C06410EC8DF6039BD86DDCC3A15.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/StarterContent/Particles/P_Firering_Auto7.uasset'
+[2017.08.16-04.12.35:047][747]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/StarterContent/Particles/P_Firering_Auto7.uasset
+[2017.08.16-04.12.35:047][747]LogFileHelpers: Auto-saving content packages took 0.054
+[2017.08.16-04.15.57:643][850]LogCascade: Non-seeded module ParticleModuleParameterDynamic
+[2017.08.16-04.20.24:302][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Firering" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/P_Firering.uasset" SILENT=true
+[2017.08.16-04.20.24:366][606]LogSavePackage: Save=62.04ms
+[2017.08.16-04.20.24:366][606]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/P_Firering04E082BA454509E3839E2A928F5CEACA.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/P_Firering.uasset'
+[2017.08.16-04.20.24:370][606]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/StarterContent/Particles/P_Firering.uasset
+[2017.08.16-04.20.42:278][894]LogCascade: Quitting Cascade. FXSystem=0x00000261016263E0
+[2017.08.16-04.22.41:395][436]LogSlate: Took 0.026028 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.16-04.22.44:269][436]LogSavePackage: Save=4029.41ms
+[2017.08.16-04.22.44:269][436]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap_Auto8E34871C24F5F919CC5F6C78F2B1219B4.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto8.umap'
+[2017.08.16-04.22.44:272][436]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto8.umap
+[2017.08.16-04.22.44:277][436]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 4.241
+[2017.08.16-04.22.44:277][436]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.241
+[2017.08.16-04.22.44:281][436]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Checkpoint] ([1] browsable assets)...
+[2017.08.16-04.22.44:281][436]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Checkpoint]
+[2017.08.16-04.22.44:281][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.08.16-04.22.44:329][436]LogSavePackage: Save=40.23ms
+[2017.08.16-04.22.44:329][436]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Checkpoint_Auto8D90F63C04548E717A501F1A84B1C5E7B.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto8.uasset'
+[2017.08.16-04.22.44:332][436]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto8.uasset
+[2017.08.16-04.22.44:332][436]LogFileHelpers: Auto-saving content packages took 0.052
+[2017.08.16-04.23.40:117][563]BlueprintLog: New page: Checkpoint をコンパイル
+[2017.08.16-04.23.42:701][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.08.16-04.23.42:742][588]LogSavePackage: Save=34.90ms
+[2017.08.16-04.23.42:742][588]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/CheckpointC36E50CD4C2D346B64528798353BE760.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset'
+[2017.08.16-04.23.42:746][588]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset
+[2017.08.16-04.25.31:907][487]BlueprintLog: New page: Checkpoint をコンパイル
+[2017.08.16-04.25.34:294][531]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset" SILENT=true
+[2017.08.16-04.25.34:334][531]LogSavePackage: Save=35.29ms
+[2017.08.16-04.25.34:334][531]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Checkpoint8F7F8D20497B2518793535AB5617292B.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset'
+[2017.08.16-04.25.34:338][531]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Checkpoint.uasset
+[2017.08.16-04.26.21:755][142]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.21:960][142]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.206 s
+[2017.08.16-04.26.21:960][142]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.16-04.26.21:960][142]LogOutputDevice:Error: 
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: Stack: 
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005BD6E2B6
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005BB1B8C2
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005BB31E86
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000406C7556
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000003F43D27B
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000003EAE24AA
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000003E9872CC
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000003E98A6D9
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000003EAA8035
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000006030DB57
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000060314B61
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000605348D3
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000006036F604
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000603477FC
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000006033814C
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005BD615B0
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005BD4B7D1
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005BD633DB
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005BD47B22
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: USER32.dll!0x00000000A1A51C24
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: USER32.dll!0x00000000A1A5156C
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000005BD63CE6
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor.exe!0x00000000BB7ADB44
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor.exe!0x00000000BB79F0B0
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor.exe!0x00000000BB79F12A
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor.exe!0x00000000BB7B0CF9
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: UE4Editor.exe!0x00000000BB7B25F7
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: KERNEL32.DLL!0x00000000A1C18364
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: ntdll.dll!0x00000000A44570D1
+[2017.08.16-04.26.21:961][142]LogOutputDevice:Error: 
+[2017.08.16-04.26.21:965][142]LogStats:                SubmitErrorReport -  0.000 s
+[2017.08.16-04.26.22:823][142]LogStats:                    SendNewReport -  0.858 s
+[2017.08.16-04.26.22:823][142]LogStats:             FDebug::EnsureFailed -  1.068 s
+[2017.08.16-04.26.22:823][142]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.22:838][143]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.22:854][144]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.22:870][145]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.22:887][146]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.22:904][147]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.22:921][148]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.22:937][149]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.22:953][150]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.22:973][151]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.22:988][152]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:004][153]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:021][154]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:040][155]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:054][156]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:072][157]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:087][158]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:104][159]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:121][160]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:138][161]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:154][162]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:172][163]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:188][164]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:204][165]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:221][166]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:239][167]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:254][168]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:271][169]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:288][170]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:305][171]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:321][172]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:338][173]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:354][174]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.23:374][175]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:195][221]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:196][221]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:200][221]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:204][221]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:212][222]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:214][222]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:217][222]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:229][223]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:231][223]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:234][223]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:245][224]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:248][224]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:250][224]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:265][225]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:268][225]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:279][226]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:281][226]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:285][226]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:296][227]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:298][227]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:301][227]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:312][228]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:316][228]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:320][228]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:329][229]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:331][229]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:334][229]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:347][230]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:349][230]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:364][231]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:367][231]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:381][232]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:384][232]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:398][233]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:401][233]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:414][234]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:416][234]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:431][235]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:433][235]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:447][236]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:449][236]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:463][237]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:466][237]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:480][238]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.24:483][238]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:372][350]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:427][351]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:444][352]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:461][353]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:478][354]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:494][355]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:511][356]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:527][357]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:546][358]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:561][359]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:578][360]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:594][361]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:612][362]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:628][363]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:642][364]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:642][364]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:646][364]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:648][364]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:726][369]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.26:727][369]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:235][398]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:247][399]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:248][399]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:251][399]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:253][399]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:264][400]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:267][400]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:270][400]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:283][401]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:286][401]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:299][402]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:302][402]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.27:304][402]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.35:411][885]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.35:412][885]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.35:427][886]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.35:428][886]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.35:432][886]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.35:435][886]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.35:444][887]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.35:447][887]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.35:450][887]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.08.16-04.26.48:776][ 95]BlueprintLog: New page: Tracker をコンパイル
+[2017.08.16-04.26.49:845][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tracker" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset" SILENT=true
+[2017.08.16-04.26.49:996][119]LogSavePackage: Save=142.54ms
+[2017.08.16-04.26.49:996][119]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/Tracker391D9C0D43D2DB23A556A38487121D5F.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset'
+[2017.08.16-04.26.50:026][119]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/Blueprints/Tracker.uasset
+[2017.08.16-04.29.24:247][496]LogEditorViewport: Clicking on Actor (context menu): PostProcessVolume (PostProcessVolume)
+[2017.08.16-04.29.25:786][496]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2017.08.16-04.29.27:492][542]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.08.16-04.29.31:122][611]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint3)
+[2017.08.16-04.29.48:395][159]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint7)
+[2017.08.16-04.30.22:076][421]LogSavePackage: Save=2755.50ms
+[2017.08.16-04.30.22:076][421]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap04212F4E40972D31B415C3B4BB35F310.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
+[2017.08.16-04.30.22:083][421]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2017.08.16-04.31.54:610][949]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.16-04.31.54:653][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-04.31.54:653][949]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/16 22:31:54)
+[2017.08.16-04.31.54:653][949]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-04.31.54:701][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047274s)
+[2017.08.16-04.31.54:702][949]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-04.31.54:702][949]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2017.08.16-04.31.54:703][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.048977s)
+[2017.08.16-04.31.54:780][949]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.16-04.31.54:791][949]LogInit: FAudioDevice initialized.
+[2017.08.16-04.31.54:843][949]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-04.31.54:872][949]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-13.31.54
+[2017.08.16-04.31.54:873][949]LogWorld: Bringing up level for play took: 0.023759
+[2017.08.16-04.31.54:884][949]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.029のプレイ イン エディタの開始時間
+[2017.08.16-04.32.15:970][624]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.16-04.32.15:972][624]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.16-04.32.54:590][804]Cmd: RestartLevel
+[2017.08.16-04.32.55:430][805]LogNet: Browse: /Game/VehicleAdvBP/Maps/LooptyLoopMap?restart
+[2017.08.16-04.32.55:430][805]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/LooptyLoopMap
+[2017.08.16-04.32.55:432][805]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.16-04.32.55:433][805]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.16-04.32.55:482][805]Cmd: MEM
+[2017.08.16-04.32.55:526][805]LogMemory: Platform Memory Stats for Windows
+[2017.08.16-04.32.55:526][805]LogMemory: Process Physical Memory: 1188.78 MB used, 1569.20 MB peak
+[2017.08.16-04.32.55:526][805]LogMemory: Process Virtual Memory: 2840.32 MB used, 2854.88 MB peak
+[2017.08.16-04.32.55:526][805]LogMemory: Physical Memory: 6381.60 MB used,  1735.50 MB free, 8117.11 MB total
+[2017.08.16-04.32.55:526][805]LogMemory: Virtual Memory: 3723.82 MB used,  1735.50 MB free, 134217728.00 MB total
+[2017.08.16-04.32.55:526][805]LogMemory: 
+[2017.08.16-04.32.55:526][805]Allocator Stats for TBB: (not implemented)
+[2017.08.16-04.32.55:526][805]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-04.32.55:560][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033734s)
+[2017.08.16-04.32.55:561][805]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-04.32.55:561][805]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2017.08.16-04.32.55:561][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.035178s)
+[2017.08.16-04.32.55:561][805]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-04.32.55:571][805]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-13.32.55
+[2017.08.16-04.32.55:572][805]LogWorld: Bringing up level for play took: 0.008135
+[2017.08.16-04.32.55:578][805]LogLoad: Took 0.147577 seconds to LoadMap(/Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap)
+[2017.08.16-04.33.05:393][ 13]LogEditorViewport: Clicking on Actor (LMB): Tracker_C (Tracker)
+[2017.08.16-04.33.11:980][170]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.16-04.33.12:165][170]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-04.33.12:165][170]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/16 22:33:12)
+[2017.08.16-04.33.12:165][170]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-04.33.12:213][170]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048006s)
+[2017.08.16-04.33.12:214][170]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-04.33.12:214][170]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2017.08.16-04.33.12:214][170]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.049620s)
+[2017.08.16-04.33.12:282][170]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.16-04.33.12:296][170]LogInit: FAudioDevice initialized.
+[2017.08.16-04.33.12:334][170]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-04.33.12:345][170]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-13.33.12
+[2017.08.16-04.33.12:346][170]LogWorld: Bringing up level for play took: 0.010733
+[2017.08.16-04.33.12:357][170]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.556のプレイ イン エディタの開始時間
+[2017.08.16-04.34.51:343][ 65]Cmd: RestartLevel
+[2017.08.16-04.34.51:376][ 66]LogNet: Browse: /Game/VehicleAdvBP/Maps/LooptyLoopMap?restart
+[2017.08.16-04.34.51:408][ 66]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/LooptyLoopMap
+[2017.08.16-04.34.51:414][ 66]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.16-04.34.51:420][ 66]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.16-04.34.51:509][ 66]Cmd: MEM
+[2017.08.16-04.34.51:578][ 66]LogMemory: Platform Memory Stats for Windows
+[2017.08.16-04.34.51:578][ 66]LogMemory: Process Physical Memory: 1265.74 MB used, 1569.20 MB peak
+[2017.08.16-04.34.51:578][ 66]LogMemory: Process Virtual Memory: 2762.44 MB used, 2867.57 MB peak
+[2017.08.16-04.34.51:578][ 66]LogMemory: Physical Memory: 6345.96 MB used,  1771.15 MB free, 8117.11 MB total
+[2017.08.16-04.34.51:578][ 66]LogMemory: Virtual Memory: 3677.45 MB used,  1771.15 MB free, 134217728.00 MB total
+[2017.08.16-04.34.51:578][ 66]LogMemory: 
+[2017.08.16-04.34.51:578][ 66]Allocator Stats for TBB: (not implemented)
+[2017.08.16-04.34.51:579][ 66]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.16-04.34.51:653][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074650s)
+[2017.08.16-04.34.51:654][ 66]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.16-04.34.51:655][ 66]LogPlayLevel: PIE: World Init took: (0.001412s)
+[2017.08.16-04.34.51:655][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.076716s)
+[2017.08.16-04.34.51:655][ 66]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-04.34.51:670][ 66]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 60) at 2017.08.16-13.34.51
+[2017.08.16-04.34.51:672][ 66]LogWorld: Bringing up level for play took: 0.013799
+[2017.08.16-04.34.51:685][ 66]LogLoad: Took 0.277519 seconds to LoadMap(/Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap)
+[2017.08.16-04.38.09:205][ 58]LogSavePackage: Save=2721.71ms
+[2017.08.16-04.38.09:205][ 58]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/LooptyLoopMap9E97C9BA466807EA711176804D73A53F.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
+[2017.08.16-04.38.09:212][ 58]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
+[2017.08.16-04.38.09:278][ 58]LogFileHelpers: Saving map 'LooptyLoopMap' took 2.967
+[2017.08.16-04.43.36:594][ 81]LogAIModule: Creating AISystem for world VehicleAdvExampleMap
+[2017.08.16-04.43.55:117][415]LogAIModule: Creating AISystem for world MountainMadness
+[2017.08.16-04.44.33:710][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Blueprints/VehicleBlueprint" FILE="../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset" SILENT=true
+[2017.08.16-04.44.34:019][694]LogSavePackage: Save=298.05ms
+[2017.08.16-04.44.34:019][694]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/VehicleBlueprint3155EA7742B38ED8E0BEEDB9844DEFA8.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset'
+[2017.08.16-04.44.34:024][694]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Blueprints/VehicleBlueprint.uasset
+[2017.08.16-04.44.34:672][694]LogSavePackage: Save=472.68ms
+[2017.08.16-04.44.34:672][694]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MountainMadnessE2B4ED954B899B7F7AA5D69BA8668065.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/MountainMadness.umap'
+[2017.08.16-04.44.34:676][694]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/MountainMadness.umap
+[2017.08.16-04.44.34:685][694]LogFileHelpers: Saving map 'MountainMadness' took 0.662
+[2017.08.16-04.44.34:721][694]Cmd: MAP LOAD FILE="../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/MountainMadness.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.16-04.44.34:721][694]LightingResults: New page: ライティングのビルド
+[2017.08.16-04.44.34:722][694]LoadErrors: New page: マップをロード中: MountainMadness.umap
+[2017.08.16-04.44.34:727][694]MapCheck: New page: マップをチェック
+[2017.08.16-04.44.34:727][694]LightingResults: New page: <何も選択されていません>
+[2017.08.16-04.44.35:017][694]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.16-04.44.35:125][694]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.16-04.44.35:210][694]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 84.11ミリ秒かかりました。
+[2017.08.16-04.44.35:211][694]LogFileHelpers: Loading map 'MountainMadness' took 0.522
+[2017.08.16-04.47.30:081][297]LogSavePackage: Save=438.04ms
+[2017.08.16-04.47.30:082][297]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MountainMadnessB773AE19430F62BE187E51ABBACEA72D.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/MountainMadness.umap'
+[2017.08.16-04.47.30:087][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/MountainMadness.umap
+[2017.08.16-04.47.32:505][297]LogSavePackage: Save=2344.09ms
+[2017.08.16-04.47.32:505][297]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MountainMadness_BuiltData6A7AF51D458C7664B1571F98A24E6BE6.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/MountainMadness_BuiltData.uasset'
+[2017.08.16-04.47.32:507][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/MountainMadness_BuiltData.uasset
+[2017.08.16-04.47.33:416][302]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
+[2017.08.16-04.49.10:356][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full_40)
+[2017.08.16-04.49.12:870][265]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full_40)
+[2017.08.16-04.49.15:150][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (AV_straight_full_40)
+[2017.08.16-04.49.21:718][505]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.16-04.50.16:582][525]LogTemp: Repeting last play command: 選択ビューポート
+[2017.08.16-04.50.16:635][525]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.16-04.50.16:635][525]PIE: New page: PIEセッション: MountainMadness (2017/08/16 22:50:16)
+[2017.08.16-04.50.16:635][525]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_MountainMadness
+[2017.08.16-04.50.16:686][525]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051143s)
+[2017.08.16-04.50.16:687][525]LogAIModule: Creating AISystem for world MountainMadness
+[2017.08.16-04.50.16:688][525]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2017.08.16-04.50.16:688][525]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/MountainMadness.MountainMadness to /Game/VehicleAdvBP/Maps/UEDPIE_0_MountainMadness.MountainMadness (0.052778s)
+[2017.08.16-04.50.16:798][525]LogInit: XAudio2 using 'ヘッドホン (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.16-04.50.16:808][525]LogInit: FAudioDevice initialized.
+[2017.08.16-04.50.16:854][525]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.16-04.50.16:874][525]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_MountainMadness.MountainMadness up for play (max tick rate 60) at 2017.08.16-13.50.16
+[2017.08.16-04.50.16:876][525]LogWorld: Bringing up level for play took: 0.015732
+[2017.08.16-04.50.16:886][525]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_MountainMadness -0.026のプレイ イン エディタの開始時間
+[2017.08.16-04.50.24:076][640]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.16-04.51.06:934][995]LogEditorViewport: Clicking on Actor (LMB): VehicleBlueprint_C (VehicleBlueprint)
+[2017.08.16-04.57.33:343][338]LogSavePackage: Save=745.63ms
+[2017.08.16-04.57.33:343][338]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MountainMadness_Auto95D8FAEA747F9151584CA39B136F4B0EF.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/MountainMadness_Auto9.umap'
+[2017.08.16-04.57.33:346][338]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/MountainMadness_Auto9.umap
+[2017.08.16-04.57.33:351][338]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/MountainMadness' took 0.870
+[2017.08.16-04.57.33:351][338]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.870
+[2017.08.16-05.02.52:304][351]LogSavePackage: Save=453.08ms
+[2017.08.16-05.02.52:304][351]LogSavePackage: Moving '../../../../../../Users/klca0/Documents/petitcon/Saved/MountainMadnessC0FA581549D2EDB10BC46D97D12E4A34.tmp' to '../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/MountainMadness.umap'
+[2017.08.16-05.02.52:309][351]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/klca0/Documents/petitcon/Content/VehicleAdvBP/Maps/MountainMadness.umap
+[2017.08.16-05.02.52:350][351]LogFileHelpers: Saving map 'MountainMadness' took 0.638
