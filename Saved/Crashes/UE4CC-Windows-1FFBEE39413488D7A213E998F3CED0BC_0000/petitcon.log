@@ -1,0 +1,1391 @@
+﻿Log file open, 08/26/17 16:34:30
+LogInit:Display: Running engine for game: petitcon
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1431122) SRandInit(-1431122).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.076386
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.26-07.34.30:484][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.26-07.34.30:484][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.26-07.34.30:493][  0]LogInit: Computer: DESKTOP-DL1UF1K
+[2017.08.26-07.34.30:493][  0]LogInit: User: kengomaruyama
+[2017.08.26-07.34.30:493][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.26-07.34.30:493][  0]LogInit: High frequency timer resolution =4.101564 MHz
+[2017.08.26-07.34.30:493][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.26-07.34.30:493][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.26-07.34.30:493][  0]LogMemory: Process Physical Memory: 274.28 MB used, 274.28 MB peak
+[2017.08.26-07.34.30:493][  0]LogMemory: Process Virtual Memory: 260.71 MB used, 260.71 MB peak
+[2017.08.26-07.34.30:493][  0]LogMemory: Physical Memory: 7923.85 MB used,  8403.38 MB free, 16327.22 MB total
+[2017.08.26-07.34.30:493][  0]LogMemory: Virtual Memory: 637.83 MB used,  8403.38 MB free, 134217728.00 MB total
+[2017.08.26-07.34.30:545][  0]LogInit: Using OS detected language (ja-JP).
+[2017.08.26-07.34.30:545][  0]LogInit: Using OS detected locale (ja-JP).
+[2017.08.26-07.34.30:547][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2017.08.26-07.34.31:088][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.26-07.34.31:522][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.08.26-07.34.31:522][  0]LogD3D11RHI:       6084/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.26-07.34.31:523][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.26-07.34.31:523][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.26-07.34.31:523][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.26-07.34.31:547][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.26-07.34.31:547][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.26-07.34.31:547][  0]LogWindows: EnumDisplayDevices:
+[2017.08.26-07.34.31:547][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2017.08.26-07.34.31:547][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.08.26-07.34.31:547][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.26-07.34.31:547][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.26-07.34.31:549][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.26-07.34.31:549][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.08.26-07.34.31:549][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.08.26-07.34.31:549][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.08.26-07.34.31:549][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.26-07.34.31:940][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.26-07.34.31:963][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.26-07.34.32:013][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../../Users/kengo maruyama/petitcon/Intermediate/Shaders/WorkingDirectory/199884/).
+[2017.08.26-07.34.32:013][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kengo maruyama/AppData/Local/Temp/UnrealShaderWorkingDir/8244ADE34DE1DFBFD37896BEFAF452D0/'.
+[2017.08.26-07.34.32:013][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.26-07.34.32:772][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.26-07.34.32:808][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.26-07.34.32:844][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.26-07.34.32:880][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.26-07.34.32:917][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.26-07.34.32:952][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.26-07.34.32:989][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.26-07.34.33:024][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.26-07.34.33:056][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.26-07.34.33:092][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.26-07.34.33:127][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.26-07.34.33:162][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.26-07.34.33:198][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.26-07.34.33:232][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.26-07.34.33:284][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.26-07.34.33:364][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.26-07.34.33:364][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.26-07.34.33:393][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.26-07.34.33:466][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.26-07.34.33:489][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.26-07.34.33:523][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.26-07.34.33:559][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.26-07.34.33:594][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.26-07.34.33:629][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.26-07.34.33:629][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.26-07.34.34:024][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.26-07.34.34:093][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.26-07.34.34:093][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.26-07.34.34:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kengo maruyama/petitcon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.26-07.34.34:093][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.26-07.34.34:093][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kengo maruyama/petitcon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.26-07.34.34:093][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.26-07.34.34:104][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.26-07.34.34:116][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kengo maruyama/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.26-07.34.34:123][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.26-07.34.34:123][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.26-07.34.34:123][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.26-07.34.34:123][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.26-07.34.34:332][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.26-07.34.34:379][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.26-07.34.34:487][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.26-07.34.34:518][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.26-07.34.34:551][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.26-07.34.34:551][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.26-07.34.34:551][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.26-07.34.34:918][  0]LogNetVersion: petitcon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2069337989)
+[2017.08.26-07.34.34:968][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2017.08.26-07.34.35:014][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.029122 seconds
+[2017.08.26-07.34.35:018][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.26-07.34.35:018][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.26-07.34.35:018][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.26-07.34.35:064][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.26-07.34.36:701][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.26-07.34.36:733][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.26-07.34.37:166][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.26-07.34.37:447][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.26-07.34.37:483][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.26-07.34.37:516][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.26-07.34.37:548][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.26-07.34.38:165][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.26-07.34.38:672][  0]LogEngine: Initializing Engine...
+[2017.08.26-07.34.38:672][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.26-07.34.38:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.26-07.34.38:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.26-07.34.38:903][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.26-07.34.38:909][  0]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-07.34.38:928][  0]LogInit: FAudioDevice initialized.
+[2017.08.26-07.34.38:958][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.26-07.34.38:962][  0]LogInit: Texture streaming: Enabled
+[2017.08.26-07.34.39:031][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.26-07.34.39:203][  0]LogInit: Transaction tracking system initialized
+[2017.08.26-07.34.39:443][  0]BlueprintLog: New page: エディタの読み込み
+[2017.08.26-07.34.40:142][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2017.08.26-07.34.40:725][  0]LogConsoleResponse:Display: 
+[2017.08.26-07.34.40:842][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.26-07.34.40:842][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.26-07.34.41:060][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/' took 0.01s
+[2017.08.26-07.34.41:547][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.08.26-07.34.41:547][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.26-07.34.41:547][  0]LightingResults: New page: ライティングのビルド
+[2017.08.26-07.34.41:576][  0]MapCheck: New page: マップをチェック
+[2017.08.26-07.34.41:576][  0]LightingResults: New page: <何も選択されていません>
+[2017.08.26-07.34.42:284][  0]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.26-07.34.42:302][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.26-07.34.42:316][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.26-07.34.42:350][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 34.108ミリ秒かかりました。
+[2017.08.26-07.34.42:350][  0]LogFileHelpers: Loading map 'LooptyLoopMap' took 0.803
+[2017.08.26-07.34.42:419][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.08.26-07.34.42:477][  0]LogCollectionManager: Loaded 0 collections in 0.000964 seconds
+[2017.08.26-07.34.42:563][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Saved/Collections/' took 0.01s
+[2017.08.26-07.34.42:563][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/Developers/kengomaruyama/Collections/' took 0.01s
+[2017.08.26-07.34.42:563][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/Collections/' took 0.01s
+[2017.08.26-07.34.42:563][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.26-07.34.42:571][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2342 classes and 498 folders.
+[2017.08.26-07.34.42:621][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.26-07.34.42:643][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.26-07.34.42:673][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.26-07.34.42:758][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.26-07.34.42:763][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.26-07.34.42:765][  0]LogSlate: Took 0.001816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.08.26-07.34.42:765][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.26-07.34.42:767][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.26-07.34.42:829][  0]LogRenderer: Reallocating scene render targets to support 1092x668 NumSamples 1 (Frame:1).
+[2017.08.26-07.34.42:945][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2017.08.26-07.34.42:998][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.26-07.34.42:998][  0]LogLoad: (Engine Initialization) Total time: 13.75 seconds
+[2017.08.26-07.34.42:998][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.08.26-07.34.42:998][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.26-07.34.43:010][  0]LogOcInput: OculusInput pre-init called
+[2017.08.26-07.34.43:011][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.08.26-07.34.43:011][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.08.26-07.34.43:011][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.08.26-07.34.43:011][  0]LogRawInputWindows:Warning: Found device 1 devices
+[2017.08.26-07.34.43:011][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.08.26-07.34.43:011][  0]LogHMD: Starting GearVRController plugin
+[2017.08.26-07.34.43:023][  0]LogAssetRegistry: Asset discovery search completed in 8.0768 seconds
+[2017.08.26-07.34.43:024][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.26-07.34.43:024][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.08.26-07.34.43:026][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.26-07.34.43:067][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.26-07.34.44:019][100]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.26-07.34.46:315][368]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.08.26-07.34.46:341][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-07.34.46:342][368]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/27 1:34:46)
+[2017.08.26-07.34.46:342][368]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
+[2017.08.26-07.34.46:358][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016899s)
+[2017.08.26-07.34.46:359][368]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.08.26-07.34.46:359][368]LogPlayLevel: PIE: World Init took: (0.000463s)
+[2017.08.26-07.34.46:359][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.017532s)
+[2017.08.26-07.34.46:368][368]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-07.34.46:376][368]LogInit: FAudioDevice initialized.
+[2017.08.26-07.34.46:442][368]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.26-07.34.46:449][368]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2017.08.26-16.34.46
+[2017.08.26-07.34.46:449][368]LogWorld: Bringing up level for play took: 0.003563
+[2017.08.26-07.34.46:479][368]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.08.26-07.34.46:486][368]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.436のプレイ イン エディタの開始時間
+[2017.08.26-07.34.46:543][368]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.08.26-07.35.42:818][757]AssetReimport: New page: 未処理のソースコンテンツ変更 1:35:42
+[2017.08.26-07.35.42:820][757]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/car/EngineSound.wav]
+[2017.08.26-07.35.42:821][757]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/car/EngineSound.wav)
+[2017.08.26-07.35.42:822][757]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:824][757]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/force.wav]
+[2017.08.26-07.35.42:825][757]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/force.wav)
+[2017.08.26-07.35.42:826][757]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:828][757]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_offhigh.wav]
+[2017.08.26-07.35.42:829][757]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_offhigh.wav)
+[2017.08.26-07.35.42:830][757]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:842][758]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_offlow.wav]
+[2017.08.26-07.35.42:843][758]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_offlow.wav)
+[2017.08.26-07.35.42:844][758]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:846][758]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_onhigh.wav]
+[2017.08.26-07.35.42:846][758]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_onhigh.wav)
+[2017.08.26-07.35.42:847][758]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:849][758]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_onlow.wav]
+[2017.08.26-07.35.42:849][758]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_onlow.wav)
+[2017.08.26-07.35.42:850][758]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:852][758]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/idle.wav]
+[2017.08.26-07.35.42:852][758]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/idle.wav)
+[2017.08.26-07.35.42:853][758]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:855][758]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/nope.wav]
+[2017.08.26-07.35.42:855][758]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/nope.wav)
+[2017.08.26-07.35.42:856][758]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:857][758]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/offrumble.wav]
+[2017.08.26-07.35.42:858][758]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/offrumble.wav)
+[2017.08.26-07.35.42:859][758]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:870][759]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onhigh.wav]
+[2017.08.26-07.35.42:871][759]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onhigh.wav)
+[2017.08.26-07.35.42:872][759]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:874][759]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onlow.wav]
+[2017.08.26-07.35.42:874][759]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onlow.wav)
+[2017.08.26-07.35.42:876][759]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:877][759]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onmid.wav]
+[2017.08.26-07.35.42:878][759]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onmid.wav)
+[2017.08.26-07.35.42:879][759]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:881][759]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onverylow.wav]
+[2017.08.26-07.35.42:881][759]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onverylow.wav)
+[2017.08.26-07.35.42:882][759]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:884][759]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/startup.wav]
+[2017.08.26-07.35.42:884][759]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/startup.wav)
+[2017.08.26-07.35.42:885][759]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:898][760]LogAudioEditor: Performing atomic reimport of [C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/Supercharger.wav]
+[2017.08.26-07.35.42:899][760]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/Supercharger.wav)
+[2017.08.26-07.35.42:901][760]LogAudioEditor: -- imported successfully
+[2017.08.26-07.35.42:909][760]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.26-07.35.42:930][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ EngineSound をビルド中...
+[2017.08.26-07.35.42:963][760]LogSavePackage: Save=2.84ms
+[2017.08.26-07.35.42:963][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/EngineSoundF658880A4AA85A892EBCDBAFEDCC9454.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/car/EngineSound.uasset'
+[2017.08.26-07.35.42:964][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/car/EngineSound.uasset
+[2017.08.26-07.35.42:973][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ force をビルド中...
+[2017.08.26-07.35.43:008][760]LogSavePackage: Save=2.70ms
+[2017.08.26-07.35.43:008][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/force1E20D1374F124049EFD60290030C91DF.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/force.uasset'
+[2017.08.26-07.35.43:009][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/force.uasset
+[2017.08.26-07.35.43:013][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ gb_offhigh をビルド中...
+[2017.08.26-07.35.43:043][760]LogSavePackage: Save=2.68ms
+[2017.08.26-07.35.43:043][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/gb_offhighE573A5E346CA935AF09FE9AD52AB9074.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_offhigh.uasset'
+[2017.08.26-07.35.43:044][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_offhigh.uasset
+[2017.08.26-07.35.43:047][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ gb_offlow をビルド中...
+[2017.08.26-07.35.43:079][760]LogSavePackage: Save=2.68ms
+[2017.08.26-07.35.43:079][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/gb_offlowB6AA677045DF50581B2D5CAFEBAA9DA3.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_offlow.uasset'
+[2017.08.26-07.35.43:081][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_offlow.uasset
+[2017.08.26-07.35.43:083][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ gb_onhigh をビルド中...
+[2017.08.26-07.35.43:131][760]LogSavePackage: Save=22.23ms
+[2017.08.26-07.35.43:131][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/gb_onhigh84A30F5B48A00C2688938DB47DE04B52.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_onhigh.uasset'
+[2017.08.26-07.35.43:155][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_onhigh.uasset
+[2017.08.26-07.35.43:158][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ gb_onlow をビルド中...
+[2017.08.26-07.35.43:294][760]LogSavePackage: Save=27.12ms
+[2017.08.26-07.35.43:294][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/gb_onlow57A6F845452508A717D97A84D8D39A87.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_onlow.uasset'
+[2017.08.26-07.35.43:295][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_onlow.uasset
+[2017.08.26-07.35.43:304][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ idle をビルド中...
+[2017.08.26-07.35.43:487][760]LogSavePackage: Save=32.34ms
+[2017.08.26-07.35.43:487][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/idleF873613E43C420325EB545B753D021B5.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/idle.uasset'
+[2017.08.26-07.35.43:502][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/idle.uasset
+[2017.08.26-07.35.43:505][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ nope をビルド中...
+[2017.08.26-07.35.43:665][760]LogSavePackage: Save=37.96ms
+[2017.08.26-07.35.43:665][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/nopeC1408D434FA649E0EC7F778CB18909BC.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/nope.uasset'
+[2017.08.26-07.35.43:667][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/nope.uasset
+[2017.08.26-07.35.43:671][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ offrumble をビルド中...
+[2017.08.26-07.35.43:859][760]LogSavePackage: Save=45.89ms
+[2017.08.26-07.35.43:859][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/offrumble6B79C96847259F093593E5BE88E6BD4D.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/offrumble.uasset'
+[2017.08.26-07.35.43:896][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/offrumble.uasset
+[2017.08.26-07.35.43:899][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ onhigh をビルド中...
+[2017.08.26-07.35.44:092][760]LogSavePackage: Save=47.12ms
+[2017.08.26-07.35.44:092][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/onhighF3C3F175439D22BA845D67B0A0DFBD79.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onhigh.uasset'
+[2017.08.26-07.35.44:129][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onhigh.uasset
+[2017.08.26-07.35.44:132][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ onlow をビルド中...
+[2017.08.26-07.35.44:169][760]LogSavePackage: Save=2.94ms
+[2017.08.26-07.35.44:169][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/onlow28687EC74EA36358DDC71CA9494EEE7A.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onlow.uasset'
+[2017.08.26-07.35.44:170][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onlow.uasset
+[2017.08.26-07.35.44:173][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ onmid をビルド中...
+[2017.08.26-07.35.44:206][760]LogSavePackage: Save=2.66ms
+[2017.08.26-07.35.44:206][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/onmid1F91AB4E497DF77777B74293FE3C9524.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onmid.uasset'
+[2017.08.26-07.35.44:207][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onmid.uasset
+[2017.08.26-07.35.44:210][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ onverylow をビルド中...
+[2017.08.26-07.35.44:233][760]LogSavePackage: Save=2.68ms
+[2017.08.26-07.35.44:233][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/onverylow45782DE847ABE72717C624B2EA901C55.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onverylow.uasset'
+[2017.08.26-07.35.44:234][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onverylow.uasset
+[2017.08.26-07.35.44:237][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ startup をビルド中...
+[2017.08.26-07.35.44:262][760]LogSavePackage: Save=2.80ms
+[2017.08.26-07.35.44:262][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/startup32CC2C6D4696245553B00FAF7F8EE9E1.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/startup.uasset'
+[2017.08.26-07.35.44:263][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/startup.uasset
+[2017.08.26-07.35.44:266][760]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ Supercharger をビルド中...
+[2017.08.26-07.35.44:305][760]LogSavePackage: Save=2.78ms
+[2017.08.26-07.35.44:305][760]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/SuperchargerA78DD49843B7C196D7F64BA419BBE373.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/Supercharger.uasset'
+[2017.08.26-07.35.44:307][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/Supercharger.uasset
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/car/EngineSound.wav からアセット EngineSound を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/force.wav からアセット force を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_offhigh.wav からアセット gb_offhigh を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_offlow.wav からアセット gb_offlow を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_onhigh.wav からアセット gb_onhigh を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/gb_onlow.wav からアセット gb_onlow を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/idle.wav からアセット idle を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/nope.wav からアセット nope を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/offrumble.wav からアセット offrumble を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onhigh.wav からアセット onhigh を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onlow.wav からアセット onlow を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onmid.wav からアセット onmid を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/onverylow.wav からアセット onverylow を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/startup.wav からアセット startup を再インポートする
+[2017.08.26-07.35.47:312][110]AssetReimport: 情報 C:/Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Polycar_Assets/sound/v8_engine/Supercharger.wav からアセット Supercharger を再インポートする
+[2017.08.26-07.36.08:615][383]LogStaticMesh: スタティックメッシュ green をビルド中...
+[2017.08.26-07.36.08:658][383]LogStaticMesh: Built static mesh [0.04s] /Game/PolyCar_Pack/Polycar_Assets/Environment/green.green
+[2017.08.26-07.36.09:718][383]LogRenderer: Reallocating scene render targets to support 1512x924 NumSamples 1 (Frame:1).
+[2017.08.26-07.36.29:858][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.08.26-07.36.29:858][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.08.26-07.36.29:858][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Forward  に不明な軸 'Forward' を参照しています
+[2017.08.26-07.36.29:858][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Steer  に不明な軸 'Steer' を参照しています
+[2017.08.26-07.36.29:858][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Accelerate  に不明なアクション 'Accelerate'' を参照しています
+[2017.08.26-07.36.29:860][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.08.26-07.36.29:860][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.08.26-07.36.29:860][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.08.26-07.36.29:860][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.08.26-07.36.29:860][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Turbo  に不明な軸 'Turbo' を参照しています
+[2017.08.26-07.36.29:860][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Steer  に不明な軸 'Steer' を参照しています
+[2017.08.26-07.36.29:860][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Forward  に不明な軸 'Forward' を参照しています
+[2017.08.26-07.36.29:861][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Camera Pitch  に不明な軸 'Camera Pitch' を参照しています
+[2017.08.26-07.36.29:861][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Camera Yaw  に不明な軸 'Camera Yaw' を参照しています
+[2017.08.26-07.36.29:873][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0120.62] Compile of car_blueprint successful, but with 14 Warning(s) [in 33 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.08.26-07.36.29:873][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0120.62] Compile of car_blueprint successful, but with 15 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.08.26-07.36.29:873][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0120.62] Compile of car_blueprint successful, but with 16 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.08.26-07.36.29:904][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.08.26-07.36.29:904][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.08.26-07.36.29:905][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Forward  に不明な軸 'Forward' を参照しています
+[2017.08.26-07.36.29:905][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Steer  に不明な軸 'Steer' を参照しています
+[2017.08.26-07.36.29:905][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Accelerate  に不明なアクション 'Accelerate'' を参照しています
+[2017.08.26-07.36.29:906][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.08.26-07.36.29:906][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.08.26-07.36.29:906][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.08.26-07.36.29:906][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.08.26-07.36.29:907][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Turbo  に不明な軸 'Turbo' を参照しています
+[2017.08.26-07.36.29:907][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Steer  に不明な軸 'Steer' を参照しています
+[2017.08.26-07.36.29:907][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Forward  に不明な軸 'Forward' を参照しています
+[2017.08.26-07.36.29:907][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Camera Pitch  に不明な軸 'Camera Pitch' を参照しています
+[2017.08.26-07.36.29:907][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Camera Yaw  に不明な軸 'Camera Yaw' を参照しています
+[2017.08.26-07.36.29:920][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0120.67] Compile of car_blueprint successful, but with 14 Warning(s) [in 33 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.08.26-07.36.29:920][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0120.67] Compile of car_blueprint successful, but with 15 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.08.26-07.36.29:920][582]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0120.67] Compile of car_blueprint successful, but with 16 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.08.26-07.36.29:971][582]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.26-07.36.30:384][582]LogAIModule: Creating AISystem for world Test_Level
+[2017.08.26-07.36.30:385][582]LogActorComponent: RegisterComponentWithWorld: (/Game/PolyCar_Pack/Maps/Test_Level.Test_Level:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.26-07.36.30:403][582]Cmd: MAP LOAD FILE="../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Maps/Test_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.26-07.36.30:403][582]LightingResults: New page: ライティングのビルド
+[2017.08.26-07.36.30:403][582]LoadErrors: New page: マップをロード中: Test_Level.umap
+[2017.08.26-07.36.30:405][582]MapCheck: New page: マップをチェック
+[2017.08.26-07.36.30:405][582]LightingResults: New page: <何も選択されていません>
+[2017.08.26-07.36.30:524][582]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.26-07.36.30:544][582]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.26-07.36.30:590][582]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 45.886ミリ秒かかりました。
+[2017.08.26-07.36.30:591][582]LogFileHelpers: Loading map 'Test_Level' took 0.189
+[2017.08.26-07.36.33:197][889]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.08.26-07.36.33:206][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-07.36.33:206][889]PIE: New page: PIEセッション: Test_Level (2017/08/27 1:36:33)
+[2017.08.26-07.36.33:206][889]LogPlayLevel: Creating play world package: /Game/PolyCar_Pack/Maps/UEDPIE_0_Test_Level
+[2017.08.26-07.36.33:209][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003293s)
+[2017.08.26-07.36.33:210][889]LogAIModule: Creating AISystem for world Test_Level
+[2017.08.26-07.36.33:210][889]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.08.26-07.36.33:210][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PolyCar_Pack/Maps/Test_Level.Test_Level to /Game/PolyCar_Pack/Maps/UEDPIE_0_Test_Level.Test_Level (0.004055s)
+[2017.08.26-07.36.33:229][889]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-07.36.33:237][889]LogInit: FAudioDevice initialized.
+[2017.08.26-07.36.33:283][889]LogLoad: Game class is 'PolyCarGame_C'
+[2017.08.26-07.36.33:356][889]LogWorld: Bringing World /Game/PolyCar_Pack/Maps/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 0) at 2017.08.26-16.36.33
+[2017.08.26-07.36.33:356][889]LogWorld: Bringing up level for play took: 0.069855
+[2017.08.26-07.36.33:357][889]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.26-07.36.33:357][889]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.26-07.36.33:357][889]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.26-07.36.33:358][889]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.26-07.36.33:361][889]PIE: 情報 /Game/PolyCar_Pack/Maps/UEDPIE_0_Test_Level -0.69のプレイ イン エディタの開始時間
+[2017.08.26-07.36.33:390][889]LogRenderer: Reallocating scene render targets to support 1936x1132 NumSamples 1 (Frame:1).
+[2017.08.26-07.36.41:297][820]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.26-07.36.41:309][820]Cmd: MAP LOAD FILE="../../../../../../Users/kengo maruyama/petitcon/Content/PolyCar_Pack/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.26-07.36.41:309][820]LightingResults: New page: ライティングのビルド
+[2017.08.26-07.36.41:309][820]LoadErrors: New page: マップをロード中: MainMenu.umap
+[2017.08.26-07.36.41:310][820]MapCheck: New page: マップをチェック
+[2017.08.26-07.36.41:310][820]LightingResults: New page: <何も選択されていません>
+[2017.08.26-07.36.41:380][820]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.26-07.36.41:401][820]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.26-07.36.41:446][820]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 44.525ミリ秒かかりました。
+[2017.08.26-07.36.41:446][820]LogFileHelpers: Loading map 'MainMenu' took 0.138
+[2017.08.26-07.36.45:094][256]Cmd: SELECT NONE
+[2017.08.26-07.36.45:753][335]Cmd: SELECT NONE
+[2017.08.26-07.36.54:203][317]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2017.08.26-07.36.54:581][317]LogSlate: Took 0.000087 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.26-07.37.34:406][ 39]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.26-07.37.34:414][ 39]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.37.34:589][ 39]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.08.26-07.37.35:612][ 39]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.26-07.37.35:660][ 39]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2017.08.26-07.37.40:001][554]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.08.26-07.37.40:011][554]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.26-07.37.40:011][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-07.37.40:012][554]PIE: New page: PIEセッション: MainMenu (2017/08/27 1:37:40)
+[2017.08.26-07.37.40:012][554]LogPlayLevel: Creating play world package: /Game/PolyCar_Pack/Maps/UEDPIE_0_MainMenu
+[2017.08.26-07.37.40:012][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000762s)
+[2017.08.26-07.37.40:013][554]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.26-07.37.40:013][554]LogPlayLevel: PIE: World Init took: (0.000456s)
+[2017.08.26-07.37.40:013][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PolyCar_Pack/Maps/MainMenu.MainMenu to /Game/PolyCar_Pack/Maps/UEDPIE_0_MainMenu.MainMenu (0.001358s)
+[2017.08.26-07.37.40:030][554]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-07.37.40:039][554]LogInit: FAudioDevice initialized.
+[2017.08.26-07.37.40:084][554]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.26-07.37.40:088][554]LogWorld: Bringing World /Game/PolyCar_Pack/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.08.26-16.37.40
+[2017.08.26-07.37.40:088][554]LogWorld: Bringing up level for play took: 0.000604
+[2017.08.26-07.37.40:088][554]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.26-07.37.40:093][554]PIE: 情報 /Game/PolyCar_Pack/Maps/UEDPIE_0_MainMenu 0.043のプレイ イン エディタの開始時間
+[2017.08.26-07.37.40:094][554]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.26-07.37.43:208][924]LogNet: Browse: /Game/PolyCar_Pack/Maps/Test_Level
+[2017.08.26-07.37.43:208][924]LogLoad: LoadMap: /Game/PolyCar_Pack/Maps/Test_Level
+[2017.08.26-07.37.43:209][924]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.26-07.37.43:210][924]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.26-07.37.43:222][924]Cmd: MEM
+[2017.08.26-07.37.43:234][924]LogMemory: Platform Memory Stats for Windows
+[2017.08.26-07.37.43:234][924]LogMemory: Process Physical Memory: 1937.62 MB used, 1940.18 MB peak
+[2017.08.26-07.37.43:234][924]LogMemory: Process Virtual Memory: 3007.63 MB used, 3021.45 MB peak
+[2017.08.26-07.37.43:234][924]LogMemory: Physical Memory: 8820.64 MB used,  7506.58 MB free, 16327.22 MB total
+[2017.08.26-07.37.43:234][924]LogMemory: Virtual Memory: 4170.36 MB used,  7506.58 MB free, 134217728.00 MB total
+[2017.08.26-07.37.43:234][924]LogMemory: 
+[2017.08.26-07.37.43:234][924]Allocator Stats for TBB: (not implemented)
+[2017.08.26-07.37.43:575][924]LogAIModule: Creating AISystem for world Test_Level
+[2017.08.26-07.37.43:575][924]LogLoad: Game class is 'PolyCarGame_C'
+[2017.08.26-07.37.43:578][924]LogActorComponent: RegisterComponentWithWorld: (/Game/PolyCar_Pack/Maps/UEDPIE_0_Test_Level.Test_Level:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.26-07.37.43:584][924]LogWorld: Bringing World /Game/PolyCar_Pack/Maps/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 0) at 2017.08.26-16.37.43
+[2017.08.26-07.37.43:584][924]LogWorld: Bringing up level for play took: 0.006426
+[2017.08.26-07.37.43:585][924]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.26-07.37.43:585][924]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.26-07.37.43:585][924]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.26-07.37.43:586][924]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.26-07.37.43:586][924]LogLoad: Took 0.377997 seconds to LoadMap(/Game/PolyCar_Pack/Maps/Test_Level)
+[2017.08.26-07.37.59:942][886]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.26-07.37.59:979][886]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.26-07.39.22:365][581]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.26-07.39.45:309][153]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.08.26-07.39.45:396][154]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.petitcon
+[2017.08.26-07.39.45:396][154]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.26-07.39.45:396][154]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.08.26-07.39.45:396][154]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.08.26-07.39.45:396][154]LogTemp: BranchPath = DESKTOP-DL1UF1K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-DL1UF1K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.08.26-07.39.45:396][154]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\kengo maruyama\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.26-07.40.46:286][715]BlueprintLog: New page: car_blueprint をコンパイル
+[2017.08.26-07.40.46:350][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.08.26-07.40.46:350][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.08.26-07.40.46:350][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Steer  に不明な軸 'Steer' を参照しています
+[2017.08.26-07.40.46:350][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Accelerate  に不明なアクション 'Accelerate'' を参照しています
+[2017.08.26-07.40.46:351][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.08.26-07.40.46:351][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.08.26-07.40.46:351][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.08.26-07.40.46:351][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.08.26-07.40.46:352][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Turbo  に不明な軸 'Turbo' を参照しています
+[2017.08.26-07.40.46:352][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Steer  に不明な軸 'Steer' を参照しています
+[2017.08.26-07.40.46:352][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Forward  に不明な軸 'Forward' を参照しています
+[2017.08.26-07.40.46:352][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Camera Pitch  に不明な軸 'Camera Pitch' を参照しています
+[2017.08.26-07.40.46:352][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Camera Yaw  に不明な軸 'Camera Yaw' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプット軸イベントは  インプットAxis Steer  に不明な軸 'Steer' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション Accelerate  に不明なアクション 'Accelerate'' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプット軸イベントは  インプットAxis Turbo  に不明な軸 'Turbo' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプット軸イベントは  インプットAxis Steer  に不明な軸 'Steer' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプット軸イベントは  インプットAxis Forward  に不明な軸 'Forward' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプット軸イベントは  インプットAxis Camera Pitch  に不明な軸 'Camera Pitch' を参照しています
+[2017.08.26-07.40.46:509][715]BlueprintEditorCompileResults:Warning: 警告 インプット軸イベントは  インプットAxis Camera Yaw  に不明な軸 'Camera Yaw' を参照しています
+[2017.08.26-07.40.46:509][715]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0377.26] Compile of car_blueprint successful, but with 13 Warning(s) [in 222 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.08.26-07.40.47:896][864]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.08.26-07.40.47:912][864]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.26-07.40.47:912][864]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.26-07.40.47:912][864]PIE: New page: PIEセッション: MainMenu (2017/08/27 1:40:47)
+[2017.08.26-07.40.47:912][864]LogPlayLevel: Creating play world package: /Game/PolyCar_Pack/Maps/UEDPIE_0_MainMenu
+[2017.08.26-07.40.47:913][864]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000749s)
+[2017.08.26-07.40.47:913][864]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.26-07.40.47:913][864]LogPlayLevel: PIE: World Init took: (0.000444s)
+[2017.08.26-07.40.47:914][864]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PolyCar_Pack/Maps/MainMenu.MainMenu to /Game/PolyCar_Pack/Maps/UEDPIE_0_MainMenu.MainMenu (0.001339s)
+[2017.08.26-07.40.47:930][864]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.26-07.40.47:939][864]LogInit: FAudioDevice initialized.
+[2017.08.26-07.40.47:992][864]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.08.26-07.40.47:996][864]LogWorld: Bringing World /Game/PolyCar_Pack/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2017.08.26-16.40.47
+[2017.08.26-07.40.47:997][864]LogWorld: Bringing up level for play took: 0.000604
+[2017.08.26-07.40.47:997][864]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.08.26-07.40.48:008][864]PIE: 情報 /Game/PolyCar_Pack/Maps/UEDPIE_0_MainMenu -0.042のプレイ イン エディタの開始時間
+[2017.08.26-07.40.48:009][864]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.26-07.40.52:192][361]LogNet: Browse: /Game/PolyCar_Pack/Maps/Test_Level
+[2017.08.26-07.40.52:192][361]LogLoad: LoadMap: /Game/PolyCar_Pack/Maps/Test_Level
+[2017.08.26-07.40.52:193][361]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
+[2017.08.26-07.40.52:194][361]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
+[2017.08.26-07.40.52:211][361]Cmd: MEM
+[2017.08.26-07.40.52:223][361]LogMemory: Platform Memory Stats for Windows
+[2017.08.26-07.40.52:223][361]LogMemory: Process Physical Memory: 2269.11 MB used, 2358.46 MB peak
+[2017.08.26-07.40.52:223][361]LogMemory: Process Virtual Memory: 3527.34 MB used, 3557.26 MB peak
+[2017.08.26-07.40.52:223][361]LogMemory: Physical Memory: 9009.92 MB used,  7317.30 MB free, 16327.22 MB total
+[2017.08.26-07.40.52:223][361]LogMemory: Virtual Memory: 4656.94 MB used,  7317.30 MB free, 134217728.00 MB total
+[2017.08.26-07.40.52:223][361]LogMemory: 
+[2017.08.26-07.40.52:223][361]Allocator Stats for TBB: (not implemented)
+[2017.08.26-07.40.52:278][361]LogAIModule: Creating AISystem for world Test_Level
+[2017.08.26-07.40.52:279][361]LogLoad: Game class is 'PolyCarGame_C'
+[2017.08.26-07.40.52:282][361]LogActorComponent: RegisterComponentWithWorld: (/Game/PolyCar_Pack/Maps/UEDPIE_0_Test_Level.Test_Level:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.26-07.40.52:288][361]LogWorld: Bringing World /Game/PolyCar_Pack/Maps/UEDPIE_0_Test_Level.Test_Level up for play (max tick rate 0) at 2017.08.26-16.40.52
+[2017.08.26-07.40.52:288][361]LogWorld: Bringing up level for play took: 0.006656
+[2017.08.26-07.40.52:288][361]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.26-07.40.52:288][361]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.08.26-07.40.52:288][361]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.08.26-07.40.52:290][361]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.08.26-07.40.52:290][361]LogLoad: Took 0.097688 seconds to LoadMap(/Game/PolyCar_Pack/Maps/Test_Level)
+[2017.08.26-07.40.59:223][193]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.26-07.40.59:260][193]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/PolyCar_Pack/Maps/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2017.08.26-07.41.01:489][455]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.02:539][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.05:748][957]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.06:390][ 29]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.06:915][ 88]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.07:275][127]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.07:793][185]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.08:553][272]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.08:854][304]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.09:072][326]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.10:506][494]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.10:741][518]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.10:943][538]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.11:136][557]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.11:328][576]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.11:521][595]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.11:705][613]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.12:056][651]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.12:490][699]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.12:658][715]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.12:817][730]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.41.48:170][521]BlueprintLog: New page: car_blueprint をコンパイル
+[2017.08.26-07.41.48:232][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.08.26-07.41.48:232][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.08.26-07.41.48:233][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Steer  に不明な軸 'Steer' を参照しています
+[2017.08.26-07.41.48:233][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Accelerate  に不明なアクション 'Accelerate'' を参照しています
+[2017.08.26-07.41.48:234][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.08.26-07.41.48:234][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.08.26-07.41.48:234][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.08.26-07.41.48:235][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.08.26-07.41.48:235][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Turbo  に不明な軸 'Turbo' を参照しています
+[2017.08.26-07.41.48:235][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Steer  に不明な軸 'Steer' を参照しています
+[2017.08.26-07.41.48:235][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Forward  に不明な軸 'Forward' を参照しています
+[2017.08.26-07.41.48:235][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Camera Pitch  に不明な軸 'Camera Pitch' を参照しています
+[2017.08.26-07.41.48:236][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプット軸イベントは  インプットAxis Camera Yaw  に不明な軸 'Camera Yaw' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプット軸イベントは  インプットAxis Steer  に不明な軸 'Steer' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション Accelerate  に不明なアクション 'Accelerate'' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプット軸イベントは  インプットAxis Turbo  に不明な軸 'Turbo' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプット軸イベントは  インプットAxis Steer  に不明な軸 'Steer' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプット軸イベントは  インプットAxis Forward  に不明な軸 'Forward' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプット軸イベントは  インプットAxis Camera Pitch  に不明な軸 'Camera Pitch' を参照しています
+[2017.08.26-07.41.48:391][521]BlueprintEditorCompileResults:Warning: 警告 インプット軸イベントは  インプットAxis Camera Yaw  に不明な軸 'Camera Yaw' を参照しています
+[2017.08.26-07.41.48:391][521]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0439.14] Compile of car_blueprint successful, but with 13 Warning(s) [in 221 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.08.26-07.42.11:601][812]LogEditorTransaction: Undo 選択対象を削除
+[2017.08.26-07.42.14:206][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.42.14:254][812]LogEditorTransaction: Undo ノードを追加
+[2017.08.26-07.42.19:116][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.42.19:154][812]LogEditorTransaction: Undo ノードを移動
+[2017.08.26-07.42.26:592][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.42.26:628][812]LogEditorTransaction: Undo ノードを移動
+[2017.08.26-07.42.36:934][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.42.36:969][812]LogEditorTransaction: Undo 選択対象を削除
+[2017.08.26-07.42.50:047][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.42.50:083][812]LogEditorTransaction: Undo ノードを移動
+[2017.08.26-07.43.06:567][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.43.06:602][812]LogEditorTransaction: Undo ノードを追加
+[2017.08.26-07.43.28:061][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.43.28:114][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.43.28:165][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.43.28:216][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.43.28:266][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.43.28:317][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.43.28:368][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.43.28:419][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.43.28:471][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.43.28:521][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.43.28:572][812]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.08.26-07.45.57:168][531]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.26-07.45.57:197][531]LogAIModule: Creating AISystem for world Flat
+[2017.08.26-07.45.57:197][531]LogActorComponent: RegisterComponentWithWorld: (/Game/PolyCar_Pack/Maps/Flat.Flat:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.26-07.45.57:239][531]LogAIModule: Creating AISystem for world Test_Level
+[2017.08.26-07.45.57:239][531]LogActorComponent: RegisterComponentWithWorld: (/Game/PolyCar_Pack/Maps/Test_Level.Test_Level:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2017.08.26-07.45.57:256][531]LogTexture:Display: Building textures: autumn (AutoDXT, 1024X1024)
+[2017.08.26-07.45.57:324][531]LogStaticMesh: スタティックメッシュ autumn_floating_rock をビルド中...
+[2017.08.26-07.45.57:326][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/autumn_floating_rock.autumn_floating_rock
+[2017.08.26-07.45.57:329][531]LogMaterial: Missing cached shader map for material autumn, compiling. 
+[2017.08.26-07.45.57:391][531]LogStaticMesh: スタティックメッシュ autumn_floating_rock_v2 をビルド中...
+[2017.08.26-07.45.57:394][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/autumn_floating_rock_v2.autumn_floating_rock_v2
+[2017.08.26-07.45.57:397][531]LogStaticMesh: スタティックメッシュ autumn_floating_rock_v3 をビルド中...
+[2017.08.26-07.45.57:398][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/autumn_floating_rock_v3.autumn_floating_rock_v3
+[2017.08.26-07.45.57:401][531]LogStaticMesh: スタティックメッシュ autumn_ground_rock をビルド中...
+[2017.08.26-07.45.57:402][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/autumn_ground_rock.autumn_ground_rock
+[2017.08.26-07.45.57:404][531]LogStaticMesh: スタティックメッシュ autumn_ground_rock_v2 をビルド中...
+[2017.08.26-07.45.57:410][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/Environment/autumn_ground_rock_v2.autumn_ground_rock_v2
+[2017.08.26-07.45.57:414][531]LogStaticMesh: スタティックメッシュ bridge_1x1 をビルド中...
+[2017.08.26-07.45.57:424][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/Environment/bridge_1x1.bridge_1x1
+[2017.08.26-07.45.57:434][531]LogTexture:Display: Building textures: bark_light (AutoDXT, 1024X1024)
+[2017.08.26-07.45.57:530][531]LogMaterial: Missing cached shader map for material bark_Mat2, compiling. 
+[2017.08.26-07.45.57:551][531]LogStaticMesh: スタティックメッシュ bridge_base をビルド中...
+[2017.08.26-07.45.57:559][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/Environment/bridge_base.bridge_base
+[2017.08.26-07.45.57:562][531]LogStaticMesh: スタティックメッシュ brown_mountain をビルド中...
+[2017.08.26-07.45.57:703][531]LogStaticMesh: Built static mesh [0.14s] /Game/PolyCar_Pack/Polycar_Assets/Environment/brown_mountain.brown_mountain
+[2017.08.26-07.45.57:706][531]LogStaticMesh: スタティックメッシュ brown_mountain_2 をビルド中...
+[2017.08.26-07.45.57:865][531]LogStaticMesh: Built static mesh [0.16s] /Game/PolyCar_Pack/Polycar_Assets/Environment/brown_mountain_2.brown_mountain_2
+[2017.08.26-07.45.57:869][531]LogStaticMesh: スタティックメッシュ brown_mountain_3 をビルド中...
+[2017.08.26-07.45.58:015][531]LogStaticMesh: Built static mesh [0.15s] /Game/PolyCar_Pack/Polycar_Assets/Environment/brown_mountain_3.brown_mountain_3
+[2017.08.26-07.45.58:031][531]LogTexture:Display: Building textures: winter (AutoDXT, 1024X1024)
+[2017.08.26-07.45.58:147][531]LogMaterial: Missing cached shader map for material cloud_mat, compiling. 
+[2017.08.26-07.45.58:179][531]LogStaticMesh: スタティックメッシュ cloud01 をビルド中...
+[2017.08.26-07.45.58:266][531]LogStaticMesh: Built static mesh [0.09s] /Game/PolyCar_Pack/Polycar_Assets/Environment/cloud01.cloud01
+[2017.08.26-07.45.58:270][531]LogStaticMesh: スタティックメッシュ cloud02 をビルド中...
+[2017.08.26-07.45.58:390][531]LogStaticMesh: Built static mesh [0.12s] /Game/PolyCar_Pack/Polycar_Assets/Environment/cloud02.cloud02
+[2017.08.26-07.45.58:408][531]LogTexture:Display: Building textures: rock (AutoDXT, 1024X1024)
+[2017.08.26-07.45.58:534][531]LogMaterial: Missing cached shader map for material rock_Mat, compiling. 
+[2017.08.26-07.45.58:589][531]LogMaterial: Missing cached shader map for material winter_Mat, compiling. 
+[2017.08.26-07.45.58:659][531]LogStaticMesh: スタティックメッシュ mountain_snow_01 をビルド中...
+[2017.08.26-07.45.58:661][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/mountain_snow_01.mountain_snow_01
+[2017.08.26-07.45.58:664][531]LogStaticMesh: スタティックメッシュ pointyrock01 をビルド中...
+[2017.08.26-07.45.58:665][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/pointyrock01.pointyrock01
+[2017.08.26-07.45.58:669][531]LogStaticMesh: スタティックメッシュ pointyrock02 をビルド中...
+[2017.08.26-07.45.58:766][531]LogStaticMesh: Built static mesh [0.10s] /Game/PolyCar_Pack/Polycar_Assets/Environment/pointyrock02.pointyrock02
+[2017.08.26-07.45.58:769][531]LogStaticMesh: スタティックメッシュ rope_bridge_large をビルド中...
+[2017.08.26-07.45.58:903][531]LogStaticMesh: Built static mesh [0.13s] /Game/PolyCar_Pack/Polycar_Assets/Environment/rope_bridge_large.rope_bridge_large
+[2017.08.26-07.45.58:909][531]LogStaticMesh: スタティックメッシュ rope_bridge_med をビルド中...
+[2017.08.26-07.45.58:959][531]LogStaticMesh: Built static mesh [0.05s] /Game/PolyCar_Pack/Polycar_Assets/Environment/rope_bridge_med.rope_bridge_med
+[2017.08.26-07.45.58:964][531]LogStaticMesh: スタティックメッシュ rope_bridge_small をビルド中...
+[2017.08.26-07.45.58:986][531]LogStaticMesh: Built static mesh [0.02s] /Game/PolyCar_Pack/Polycar_Assets/Environment/rope_bridge_small.rope_bridge_small
+[2017.08.26-07.45.59:020][531]LogMaterial: Missing cached shader map for material water_mat, compiling. 
+[2017.08.26-07.45.59:076][531]LogStaticMesh: スタティックメッシュ winter_floating_rock をビルド中...
+[2017.08.26-07.45.59:079][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/winter_floating_rock.winter_floating_rock
+[2017.08.26-07.45.59:082][531]LogStaticMesh: スタティックメッシュ winter_floating_rock_v2 をビルド中...
+[2017.08.26-07.45.59:086][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/winter_floating_rock_v2.winter_floating_rock_v2
+[2017.08.26-07.45.59:089][531]LogStaticMesh: スタティックメッシュ winter_floating_rock_v3 をビルド中...
+[2017.08.26-07.45.59:091][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/winter_floating_rock_v3.winter_floating_rock_v3
+[2017.08.26-07.45.59:094][531]LogStaticMesh: スタティックメッシュ winter_ground_rock をビルド中...
+[2017.08.26-07.45.59:096][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/winter_ground_rock.winter_ground_rock
+[2017.08.26-07.45.59:103][531]LogStaticMesh: スタティックメッシュ woodenpole_large をビルド中...
+[2017.08.26-07.45.59:104][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/woodenpole_large.woodenpole_large
+[2017.08.26-07.45.59:107][531]LogStaticMesh: スタティックメッシュ woodenpole_med をビルド中...
+[2017.08.26-07.45.59:109][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/woodenpole_med.woodenpole_med
+[2017.08.26-07.45.59:112][531]LogStaticMesh: スタティックメッシュ woodenpole_small をビルド中...
+[2017.08.26-07.45.59:114][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/woodenpole_small.woodenpole_small
+[2017.08.26-07.45.59:120][531]LogMaterial: Missing cached shader map for material M_BackgroundHouses_A, compiling. 
+[2017.08.26-07.45.59:121][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_BackgroundHouses_A.M_BackgroundHouses_A for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:121][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:137][531]LogMaterial: Missing cached shader map for material M_Bush_Clumps, compiling. 
+[2017.08.26-07.45.59:137][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Bush_Clumps.M_Bush_Clumps for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:137][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:142][531]LogMaterial: Missing cached shader map for material M_Bush_Lines, compiling. 
+[2017.08.26-07.45.59:142][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Bush_Lines.M_Bush_Lines for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:142][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:158][531]LogMaterial: Missing cached shader map for material M_cloud_Solid, compiling. 
+[2017.08.26-07.45.59:179][531]LogMaterial: Missing cached shader map for material M_Flag_Waving, compiling. 
+[2017.08.26-07.45.59:230][531]LogMaterial: Missing cached shader map for material M_Grass_Masked, compiling. 
+[2017.08.26-07.45.59:231][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Grass_Masked.M_Grass_Masked for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:231][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:238][531]LogMaterial: Missing cached shader map for material M_Grass_Masked, compiling. 
+[2017.08.26-07.45.59:238][531]LogMaterial:Warning: Failed to compile Material Instance /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Grass_Masked_C_Inst.M_Grass_Masked_C_Inst with Base M_Grass_Masked for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:238][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:242][531]LogMaterial: Missing cached shader map for material M_Grass_Masked, compiling. 
+[2017.08.26-07.45.59:243][531]LogMaterial:Warning: Failed to compile Material Instance /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Grass_Masked_D_Inst.M_Grass_Masked_D_Inst with Base M_Grass_Masked for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:243][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:247][531]LogMaterial: Missing cached shader map for material M_Grass_Masked, compiling. 
+[2017.08.26-07.45.59:248][531]LogMaterial:Warning: Failed to compile Material Instance /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Grass_Masked_E_Inst.M_Grass_Masked_E_Inst with Base M_Grass_Masked for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:248][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:252][531]LogMaterial: Missing cached shader map for material M_Grass_Masked, compiling. 
+[2017.08.26-07.45.59:252][531]LogMaterial:Warning: Failed to compile Material Instance /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Grass_Masked_Water_A_Inst.M_Grass_Masked_Water_A_Inst with Base M_Grass_Masked for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:252][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:259][531]LogMaterial: Missing cached shader map for material M_Mushroom_A, compiling. 
+[2017.08.26-07.45.59:259][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Mushroom_A.M_Mushroom_A for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:259][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:269][531]LogMaterial: Missing cached shader map for material M_PostProcess_Base, compiling. 
+[2017.08.26-07.45.59:288][531]LogMaterial: Missing cached shader map for material M_PostProcess_Paper, compiling. 
+[2017.08.26-07.45.59:288][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_PostProcess_Paper.M_PostProcess_Paper for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:288][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:297][531]LogMaterial: Missing cached shader map for material M_StoneWall_Master, compiling. 
+[2017.08.26-07.45.59:297][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_StoneWall_Master.M_StoneWall_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:297][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:302][531]LogMaterial: Missing cached shader map for material M_StoneWall_FlatColor, compiling. 
+[2017.08.26-07.45.59:331][531]LogMaterial: Missing cached shader map for material M_Stone_Path, compiling. 
+[2017.08.26-07.45.59:332][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Stone_Path.M_Stone_Path for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:332][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:357][531]LogMaterial: Missing cached shader map for material M_Terrain_Ground_A, compiling. 
+[2017.08.26-07.45.59:358][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Terrain_Ground_A.M_Terrain_Ground_A for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:358][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:364][531]LogMaterial: Missing cached shader map for material M_Terrain_Ground_A, compiling. 
+[2017.08.26-07.45.59:365][531]LogMaterial:Warning: Failed to compile Material Instance /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Terrain_Ground_A_Inst.M_Terrain_Ground_A_Inst with Base M_Terrain_Ground_A for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:365][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:369][531]LogMaterial: Missing cached shader map for material M_Tree_Background, compiling. 
+[2017.08.26-07.45.59:370][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Tree_Background.M_Tree_Background for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:370][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:376][531]LogMaterial: Missing cached shader map for material M_Tree_Bark_A, compiling. 
+[2017.08.26-07.45.59:377][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Tree_Bark_A.M_Tree_Bark_A for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:377][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:386][531]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2017.08.26-07.45.59:390][531]LogMaterial: Missing cached shader map for material M_Tree_Leaf_Base, compiling. 
+[2017.08.26-07.45.59:391][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Tree_Leaf_Base.M_Tree_Leaf_Base for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:391][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:398][531]LogMaterial: Missing cached shader map for material M_Tree_Leaf_Base_Solid, compiling. 
+[2017.08.26-07.45.59:399][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Tree_Leaf_Base_Solid.M_Tree_Leaf_Base_Solid for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:399][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:407][531]LogMaterial: Missing cached shader map for material M_Tree_Type_B_Bark, compiling. 
+[2017.08.26-07.45.59:407][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Tree_Type_B_Bark.M_Tree_Type_B_Bark for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:407][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:412][531]LogMaterial: Missing cached shader map for material M_Water_Surface, compiling. 
+[2017.08.26-07.45.59:446][531]LogMaterial: Missing cached shader map for material M_Water_Waves, compiling. 
+[2017.08.26-07.45.59:446][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Water_Waves.M_Water_Waves for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:446][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:450][531]LogMaterial: Missing cached shader map for material M_Water_Waves, compiling. 
+[2017.08.26-07.45.59:450][531]LogMaterial:Warning: Failed to compile Material Instance /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Water_Waves_Inst.M_Water_Waves_Inst with Base M_Water_Waves for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:450][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:462][531]LogMaterial: Missing cached shader map for material M_Wood_Sheet_Master, compiling. 
+[2017.08.26-07.45.59:463][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Wood_Sheet_Master.M_Wood_Sheet_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:463][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:465][531]LogMaterial: Missing cached shader map for material M_Wood_Sheet_Master, compiling. 
+[2017.08.26-07.45.59:465][531]LogMaterial:Warning: Failed to compile Material Instance /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Wood_Sheet_Pillar_Inst.M_Wood_Sheet_Pillar_Inst with Base M_Wood_Sheet_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:465][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:467][531]LogMaterial: Missing cached shader map for material M_Wood_Sheet_Master, compiling. 
+[2017.08.26-07.45.59:467][531]LogMaterial:Warning: Failed to compile Material Instance /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Wood_Sheet_Fence_Inst.M_Wood_Sheet_Fence_Inst with Base M_Wood_Sheet_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:467][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:471][531]LogMaterial: Missing cached shader map for material M_Wood_Sheet_Master, compiling. 
+[2017.08.26-07.45.59:472][531]LogMaterial:Warning: Failed to compile Material Instance /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Wood_Sheet_Rings_Inst.M_Wood_Sheet_Rings_Inst with Base M_Wood_Sheet_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.45.59:472][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.45.59:473][531]LogStaticMesh: スタティックメッシュ LoopBig をビルド中...
+[2017.08.26-07.45.59:478][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/Meshes/LoopBig.LoopBig
+[2017.08.26-07.45.59:482][531]LogStaticMesh: スタティックメッシュ ramp をビルド中...
+[2017.08.26-07.45.59:488][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/Environment/Meshes/ramp.ramp
+[2017.08.26-07.45.59:495][531]LogStaticMesh: スタティックメッシュ SM_Clouds_A をビルド中...
+[2017.08.26-07.45.59:506][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/Environment/Meshes/SM_Clouds_A.SM_Clouds_A
+[2017.08.26-07.45.59:510][531]LogMaterial: Missing cached shader map for material car_color2, compiling. 
+[2017.08.26-07.45.59:525][531]LogMaterial: Missing cached shader map for material headlight, compiling. 
+[2017.08.26-07.45.59:541][531]LogMaterial: Missing cached shader map for material rearlight, compiling. 
+[2017.08.26-07.45.59:555][531]LogStaticMesh: スタティックメッシュ autumn_ivy_circular をビルド中...
+[2017.08.26-07.45.59:575][531]LogStaticMesh: Built static mesh [0.02s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/autumn_ivy_circular.autumn_ivy_circular
+[2017.08.26-07.45.59:581][531]LogStaticMesh: スタティックメッシュ autumn_ivy_long をビルド中...
+[2017.08.26-07.45.59:594][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/autumn_ivy_long.autumn_ivy_long
+[2017.08.26-07.45.59:599][531]LogStaticMesh: スタティックメッシュ autumn_ivy_small をビルド中...
+[2017.08.26-07.45.59:607][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/autumn_ivy_small.autumn_ivy_small
+[2017.08.26-07.45.59:629][531]LogTexture:Display: Building textures: spring (AutoDXT, 1024X1024)
+[2017.08.26-07.45.59:743][531]LogMaterial: Missing cached shader map for material spring, compiling. 
+[2017.08.26-07.45.59:782][531]LogStaticMesh: スタティックメッシュ flower-red をビルド中...
+[2017.08.26-07.45.59:783][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/flower-red.flower-red
+[2017.08.26-07.45.59:786][531]LogMaterial: Missing cached shader map for material red_flower, compiling. 
+[2017.08.26-07.45.59:850][531]LogStaticMesh: スタティックメッシュ flower-yellow をビルド中...
+[2017.08.26-07.45.59:851][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/flower-yellow.flower-yellow
+[2017.08.26-07.45.59:854][531]LogMaterial: Missing cached shader map for material yellow_flower, compiling. 
+[2017.08.26-07.45.59:923][531]LogStaticMesh: スタティックメッシュ grass_single_winter をビルド中...
+[2017.08.26-07.45.59:923][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/grass_single_winter.grass_single_winter
+[2017.08.26-07.45.59:931][531]LogTexture:Display: Building textures: shroomSurface_Color (AutoDXT, 512X512)
+[2017.08.26-07.45.59:965][531]LogStaticMesh: スタティックメッシュ mushroom をビルド中...
+[2017.08.26-07.45.59:967][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/mushroom.mushroom
+[2017.08.26-07.45.59:970][531]LogMaterial: Missing cached shader map for material shroom, compiling. 
+[2017.08.26-07.46.00:041][531]LogStaticMesh: スタティックメッシュ small_rock_brown をビルド中...
+[2017.08.26-07.46.00:071][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/small_rock_brown.small_rock_brown
+[2017.08.26-07.46.00:074][531]LogStaticMesh: スタティックメッシュ small_rock_brown_v2 をビルド中...
+[2017.08.26-07.46.00:153][531]LogStaticMesh: Built static mesh [0.08s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/small_rock_brown_v2.small_rock_brown_v2
+[2017.08.26-07.46.00:156][531]LogStaticMesh: スタティックメッシュ small_rock_grey をビルド中...
+[2017.08.26-07.46.00:185][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/small_rock_grey.small_rock_grey
+[2017.08.26-07.46.00:188][531]LogStaticMesh: スタティックメッシュ small_rock_grey_v2 をビルド中...
+[2017.08.26-07.46.00:216][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/small_rock_grey_v2.small_rock_grey_v2
+[2017.08.26-07.46.00:219][531]LogStaticMesh: スタティックメッシュ small_rock_grey_v3 をビルド中...
+[2017.08.26-07.46.00:244][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/small_rock_grey_v3.small_rock_grey_v3
+[2017.08.26-07.46.00:247][531]LogStaticMesh: スタティックメッシュ summer_ivy_circular をビルド中...
+[2017.08.26-07.46.00:267][531]LogStaticMesh: Built static mesh [0.02s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/summer_ivy_circular.summer_ivy_circular
+[2017.08.26-07.46.00:289][531]LogStaticMesh: スタティックメッシュ winter_ivy_long をビルド中...
+[2017.08.26-07.46.00:301][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/winter_ivy_long.winter_ivy_long
+[2017.08.26-07.46.00:308][531]LogStaticMesh: スタティックメッシュ bush01 をビルド中...
+[2017.08.26-07.46.00:379][531]LogStaticMesh: Built static mesh [0.07s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/plants/bush01.bush01
+[2017.08.26-07.46.00:389][531]LogStaticMesh: スタティックメッシュ bush02 をビルド中...
+[2017.08.26-07.46.00:413][531]LogStaticMesh: Built static mesh [0.02s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/plants/bush02.bush02
+[2017.08.26-07.46.00:447][531]LogStaticMesh: スタティックメッシュ pine_tree-halfsnow をビルド中...
+[2017.08.26-07.46.00:447][531]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.08.26-07.46.00:539][531]LogStaticMesh: Built static mesh [0.09s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/pine_tree-halfsnow.pine_tree-halfsnow
+[2017.08.26-07.46.00:542][531]LogStaticMesh: スタティックメッシュ scary_tree をビルド中...
+[2017.08.26-07.46.00:615][531]LogStaticMesh: Built static mesh [0.07s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/scary_tree.scary_tree
+[2017.08.26-07.46.00:619][531]LogStaticMesh: スタティックメッシュ summer_palm_v1 をビルド中...
+[2017.08.26-07.46.01:046][531]LogStaticMesh: Built static mesh [0.43s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/summer_palm_v1.summer_palm_v1
+[2017.08.26-07.46.01:051][531]LogStaticMesh: スタティックメッシュ summer_palm_v2 をビルド中...
+[2017.08.26-07.46.01:286][531]LogStaticMesh: Built static mesh [0.24s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/summer_palm_v2.summer_palm_v2
+[2017.08.26-07.46.01:290][531]LogStaticMesh: スタティックメッシュ summer_pine_tree をビルド中...
+[2017.08.26-07.46.01:290][531]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.08.26-07.46.01:385][531]LogStaticMesh: Built static mesh [0.10s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/summer_pine_tree.summer_pine_tree
+[2017.08.26-07.46.01:388][531]LogStaticMesh: スタティックメッシュ summer_willow_tree をビルド中...
+[2017.08.26-07.46.01:390][531]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.08.26-07.46.01:460][531]LogStaticMesh: Built static mesh [0.07s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/summer_willow_tree.summer_willow_tree
+[2017.08.26-07.46.01:524][531]LogTexture:Display: Building textures: 01 (AutoDXT, 1920X1080)
+[2017.08.26-07.46.01:949][531]LogTexture:Display: Building textures: 02 (BC5, 1920X1080)
+[2017.08.26-07.46.02:186][531]LogTexture:Display: Building textures: 03 (AutoDXT, 1920X1080)
+[2017.08.26-07.46.02:556][531]LogTexture:Display: Building textures: 04 (AutoDXT, 1920X1080)
+[2017.08.26-07.46.02:980][531]LogTexture:Display: Building textures: 05 (AutoDXT, 1920X1080)
+[2017.08.26-07.46.03:384][531]LogMaterial: Missing cached shader map for material grey_menu, compiling. 
+[2017.08.26-07.46.03:413][531]LogTexture:Display: Building textures: menu_bg (BGRA8, 1920X1080)
+[2017.08.26-07.46.03:611][531]LogMaterial: Missing cached shader map for material ground, compiling. 
+[2017.08.26-07.46.43:993][531]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.26-07.46.44:070][531]LightingResults: New page: ライティングのビルド
+[2017.08.26-07.46.44:070][531]MapCheck: New page: マップをチェック
+[2017.08.26-07.46.44:070][531]LightingResults: New page: <何も選択されていません>
+[2017.08.26-07.46.44:085][531]LogAIModule: Creating AISystem for world Untitled
+[2017.08.26-07.46.44:175][531]LoadErrors: New page: 新規のマップ
+[2017.08.26-07.46.44:199][531]LogAIModule: Creating AISystem for world MainMenu
+[2017.08.26-07.46.45:838][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FadeInOut_SlowMotion_INST' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:838][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'turbo_bar' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:838][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetTree' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:838][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:838][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsCar_Blueprint' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:838][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SetSlowMotion' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:838][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsCar_Blueprint' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:838][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SetTurboBar' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:838][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Construct' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:838][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_car_blueprint_C_3' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:850][531]LogMaterial: Missing cached shader map for material M_Spark, compiling. 
+[2017.08.26-07.46.45:851][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/Materials/M_Spark.M_Spark for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.45:851][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.45:851][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Tick' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:851][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_inGameHud' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:851][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_FunctionEntry_14' or package '/Game/PolyCar_Pack/Blueprints/inGameHud'.
+[2017.08.26-07.46.45:851][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Construct' or package '/Game/PolyCar_Pack/Blueprints/inGameHud'.
+[2017.08.26-07.46.45:851][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Tick' or package '/Game/PolyCar_Pack/Blueprints/inGameHud'.
+[2017.08.26-07.46.45:851][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'FadeInOut_SlowMotion' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:851][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TextBlock_25' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:851][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'turbo_bar' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:852][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_inGameHud_C_1' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:852][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InputActionDelegateBinding_3' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:852][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ComponentDelegateBinding_10' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:852][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InputAxisDelegateBinding_10' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:852][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MovementComp' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:852][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'VehicleMesh' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:852][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:852][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpringArm_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:852][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BrakeTrace' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:955][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:955][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Handbrake_K2Node_InputActionEvent_63' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:955][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Handbrake_K2Node_InputActionEvent_62' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:955][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:955][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ParticleSystem_uitlaat_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:961][531]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2017.08.26-07.46.45:961][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.45:961][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.45:961][531]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2017.08.26-07.46.45:963][531]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2017.08.26-07.46.45:963][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/Materials/M_smoke_subUV.M_smoke_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.45:963][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.45:963][531]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2017.08.26-07.46.45:963][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ParticleSystem_uitlaat2_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:963][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Reverse_K2Node_InputActionEvent_61' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:963][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Reverse_K2Node_InputActionEvent_60' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:963][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Handbrake_K2Node_InputActionEvent_59' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:963][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Handbrake_K2Node_InputActionEvent_58' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:963][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Turbo_K2Node_InputActionEvent_57' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:963][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Turbo_K2Node_InputActionEvent_56' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:963][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Handbrake_K2Node_InputActionEvent_55' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:963][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Handbrake_K2Node_InputActionEvent_54' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:963][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Reverse_K2Node_InputActionEvent_53' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:963][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Reverse_K2Node_InputActionEvent_52' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:963][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Accelerate_K2Node_InputActionEvent_51' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_Accelerate_K2Node_InputActionEvent_50' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_SlowMotionPlus_K2Node_InputActionEvent_49' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpActEvt_SlowMotionMin_K2Node_InputActionEvent_48' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'soundTick' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveHit' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Camera Yaw_K2Node_InputAxisEvent_49' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Camera Pitch_K2Node_InputAxisEvent_59' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ResetCameraView' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpringArmTick' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Mesh_K2Node_ComponentBoundEvent_0_ConstraintBrokenSignature__DelegateSignature' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Mesh_K2Node_ComponentBoundEvent_3_PhysicsVolumeChanged__DelegateSignature' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Forward_K2Node_InputAxisEvent_17' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Steer_K2Node_InputAxisEvent_22' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__PhysicsThruster_K2Node_ComponentBoundEvent_243_PhysicsVolumeChanged__DelegateSignature' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Turbo_K2Node_InputAxisEvent_61' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveTick' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'brakingTick' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'brakeEffects' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'turboTick' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AccelerateTick' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'airTick' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Steer_K2Node_InputAxisEvent_193' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_MoveForward_K2Node_InputAxisEvent_14' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Create_ReturnValue' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_car_blueprint' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'engineSound_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Tire_RR_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Tire_RL_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Tire_FR_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:964][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Tire_FL_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_inGameHud_C_0' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_car_blueprint_C_2' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_car_r_wheel_C_5' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_car_r_wheel_C_4' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_car_f_wheel_C_7' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_car_f_wheel_C_6' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_car_animation' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_Root_F7B891BCEC49A154391AD28B7004E8D5' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_WheelHandler_2C04DE2C44475D5847042BABCBF8E666' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_ComponentToLocalSpace_C50B9101AD49D9FB2AEAE684558C0A13' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimGraphNode_MeshRefPose_78722011994CD26B53068EBF224A73D6' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_car_animation_C_9' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_car_animation_C_8' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_VehicleControl_C_11' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_VehicleControl_C_10' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_1' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_VehicleControl_C_10' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_VehicleCameraManager_C_13' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:965][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:966][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_1' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:966][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_VehicleCameraManager_C_12' or package '/Engine/Transient'.
+[2017.08.26-07.46.45:966][531]LogStaticMesh: スタティックメッシュ green をビルド中...
+[2017.08.26-07.46.45:998][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/Environment/green.green
+[2017.08.26-07.46.46:009][531]LogMaterial: Missing cached shader map for material summer_Mat, compiling. 
+[2017.08.26-07.46.46:009][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Materials/summer_Mat.summer_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.46:009][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.46:009][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ComponentDelegateBinding_2' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:009][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_355' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:009][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_354' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:009][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_353' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:009][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_352' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_118' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_115' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_113' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_80' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_14' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetTree' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Button_113_K2Node_ComponentBoundEvent_365_OnButtonClickedEvent__DelegateSignature' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Button_353_K2Node_ComponentBoundEvent_379_OnButtonClickedEvent__DelegateSignature' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Button_115_K2Node_ComponentBoundEvent_389_OnButtonClickedEvent__DelegateSignature' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_MainMenu' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Tire_RR' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Tire_RL' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Tire_FR' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_80' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_113' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_115' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_118' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_352' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_353' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_354' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_355' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_14' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Tire_FL' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ParticleSystem_uitlaat2' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ParticleSystem_uitlaat' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'engineSound' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpringArm' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'IsCamera Reset' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Steering Angle' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'turboSet' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'brakeLight' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:010][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'blurAmount' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'isBraking' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'isDrifting' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'isTurbo' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'turboMaxTime' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'turboHoldTime' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'turboTimeRemaining' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'turboTimeLeft' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'isAccelerating' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'accelTime' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'inAir' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AirRoll' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Angle Exponent' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cam Rotation Rate' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera Axis Rate' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'camDelay' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera Pitch Offset' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Camera Length Dyn Offset' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SlowMotion' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SlowMotionHud' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SlowMotionPressed' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'test' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'NewVar_0' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialInstanceDynamic_56' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Button_113_K2Node_ComponentBoundEvent_365_OnButtonClickedEvent__DelegateSignature' or package '/Game/PolyCar_Pack/Blueprints/MainMenu'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Button_353_K2Node_ComponentBoundEvent_379_OnButtonClickedEvent__DelegateSignature' or package '/Game/PolyCar_Pack/Blueprints/MainMenu'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Button_115_K2Node_ComponentBoundEvent_389_OnButtonClickedEvent__DelegateSignature' or package '/Game/PolyCar_Pack/Blueprints/MainMenu'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_PolyCarGame_C_172' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_PolyCarGame_C_171' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_MainMenu_C_11' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Image_14' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_80' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_113' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_115' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:011][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_118' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_352' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_353' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MainMenu_C_15' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MainMenu_C_14' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_354' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Button_355' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_MainMenu_C_10' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_VehicleCameraManager_C_170' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_VehicleCameraManager_C_169' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_VehicleControl_C_168' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_VehicleControl_C_167' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_car_animation_C_5' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_car_animation_C_4' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_car_f_wheel_C_166' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_car_f_wheel_C_165' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_car_r_wheel_C_164' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_car_r_wheel_C_163' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_car_blueprint_C_162' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'engineSound_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ParticleSystem_uitlaat_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ParticleSystem_uitlaat2_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_PolyCarGame_C_16' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_2' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_PolyCarGame_C_17' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:012][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Default__DEADCLASS_PolyCarGame_C_16' or package '/Engine/Transient'.
+[2017.08.26-07.46.46:016][531]LogStaticMesh: スタティックメッシュ pion をビルド中...
+[2017.08.26-07.46.46:018][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/testlevel/pion.pion
+[2017.08.26-07.46.46:021][531]LogMaterial: Missing cached shader map for material M_Sun_Sphere, compiling. 
+[2017.08.26-07.46.46:021][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Sun_Sphere.M_Sun_Sphere for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.46:021][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.46:023][531]LogMaterial: Missing cached shader map for material bark_Mat, compiling. 
+[2017.08.26-07.46.46:024][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Materials/bark_Mat.bark_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.46:024][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.46:025][531]LogMaterial: Missing cached shader map for material lowpoly_lines, compiling. 
+[2017.08.26-07.46.46:026][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/PostProcess/PostProcess/lowpoly_lines.lowpoly_lines for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.46:026][531]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2017.08.26-07.46.46:027][531]LogMaterial: Missing cached shader map for material M_Skybox_A, compiling. 
+[2017.08.26-07.46.46:027][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Skybox_A.M_Skybox_A for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.46:027][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.46:028][531]LogStaticMesh: スタティックメッシュ SM_SkyDome をビルド中...
+[2017.08.26-07.46.46:038][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/Environment/Meshes/SM_SkyDome.SM_SkyDome
+[2017.08.26-07.46.46:044][531]LogStaticMesh: スタティックメッシュ test_003 をビルド中...
+[2017.08.26-07.46.46:230][531]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.08.26-07.46.47:205][531]LogStaticMesh: Built static mesh [1.16s] /Game/PolyCar_Pack/Polycar_Assets/Environment/testlevel/test_003.test_003
+[2017.08.26-07.46.47:652][531]LogStaticMesh:Warning: test_003 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.08.26-07.46.54:589][531]LogStaticMesh: スタティックメッシュ grass_single-piece をビルド中...
+[2017.08.26-07.46.54:589][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/grass_single-piece.grass_single-piece
+[2017.08.26-07.46.54:591][531]LogStaticMesh: スタティックメッシュ noleaves をビルド中...
+[2017.08.26-07.46.54:592][531]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.08.26-07.46.54:629][531]LogStaticMesh: Built static mesh [0.04s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/noleaves.noleaves
+[2017.08.26-07.46.54:632][531]LogStaticMesh: スタティックメッシュ noleaves_2 をビルド中...
+[2017.08.26-07.46.54:633][531]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.08.26-07.46.54:669][531]LogStaticMesh: Built static mesh [0.04s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/noleaves_2.noleaves_2
+[2017.08.26-07.46.54:673][531]LogStaticMesh: スタティックメッシュ summer_happy_tree_v1 をビルド中...
+[2017.08.26-07.46.54:674][531]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.08.26-07.46.54:703][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/summer_happy_tree_v1.summer_happy_tree_v1
+[2017.08.26-07.46.54:708][531]LogStaticMesh: スタティックメッシュ summer_happy_tree_v2 をビルド中...
+[2017.08.26-07.46.54:710][531]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.08.26-07.46.54:756][531]LogStaticMesh: Built static mesh [0.05s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/summer_happy_tree_v2.summer_happy_tree_v2
+[2017.08.26-07.46.54:767][531]LogStaticMesh: スタティックメッシュ summer_oak_tree をビルド中...
+[2017.08.26-07.46.54:813][531]LogStaticMesh: Built static mesh [0.05s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/summer_oak_tree.summer_oak_tree
+[2017.08.26-07.46.54:825][531]LogStaticMesh: スタティックメッシュ summer_tall_Tree をビルド中...
+[2017.08.26-07.46.54:838][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/summer_tall_Tree.summer_tall_Tree
+[2017.08.26-07.46.54:853][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Create_ReturnValue' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:853][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SkeletalMeshComponent0' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'car_animation_C_1' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'car_animation_C_2' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_car_blueprint_C_161' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_inGameHud_C_9' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'turbo_bar' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsCar_Blueprint' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_DynamicCast_AsCar_Blueprint' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_inGameHud_C_8' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_52' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_51' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_50' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_49' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_CallFunction_7' or package '/Game/PolyCar_Pack/Maps/MainMenu'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_Deprecated_5444' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_CreateWidget_1' or package '/Game/PolyCar_Pack/Maps/MainMenu'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Create_ReturnValue' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Create_ReturnValue' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_MainMenu' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_CallFunction_3' or package '/Game/PolyCar_Pack/Maps/MainMenu'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_Deprecated_5421' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_CreateWidget_0' or package '/Game/PolyCar_Pack/Maps/MainMenu'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Create_ReturnValue' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_438' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'K2Node_CreateWidget_4' or package '/Game/PolyCar_Pack/Maps/MainMenu'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'EdGraphPin_Deprecated_5462' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'CallFunc_Create_ReturnValue' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_MoveForward_K2Node_InputAxisEvent_14' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Steer_K2Node_InputAxisEvent_193' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'airTick' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AccelerateTick' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'turboTick' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'brakeEffects' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'brakingTick' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveTick' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Turbo_K2Node_InputAxisEvent_61' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__PhysicsThruster_K2Node_ComponentBoundEvent_243_PhysicsVolumeChanged__DelegateSignature' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Steer_K2Node_InputAxisEvent_22' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Forward_K2Node_InputAxisEvent_17' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Mesh_K2Node_ComponentBoundEvent_3_PhysicsVolumeChanged__DelegateSignature' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Mesh_K2Node_ComponentBoundEvent_0_ConstraintBrokenSignature__DelegateSignature' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveBeginPlay' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SpringArmTick' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ResetCameraView' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Camera Pitch_K2Node_InputAxisEvent_59' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'InpAxisEvt_Camera Yaw_K2Node_InputAxisEvent_49' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ReceiveHit' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'soundTick' or package '/Game/PolyCar_Pack/PolyCar/main/car_blueprint'.
+[2017.08.26-07.46.54:854][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_48' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:855][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_31' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:889][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_33' or package '/Engine/Transient'.
+[2017.08.26-07.46.54:891][531]LogMaterial: Missing cached shader map for material autumn, compiling. 
+[2017.08.26-07.46.54:892][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Materials/autumn.autumn for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.54:892][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.54:892][531]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (0 / 0)
+[2017.08.26-07.46.54:892][531]LogStaticMesh: スタティックメッシュ autumn_floating_rock をビルド中...
+[2017.08.26-07.46.54:894][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/autumn_floating_rock.autumn_floating_rock
+[2017.08.26-07.46.54:897][531]LogStaticMesh: スタティックメッシュ autumn_floating_rock_v2 をビルド中...
+[2017.08.26-07.46.54:900][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/autumn_floating_rock_v2.autumn_floating_rock_v2
+[2017.08.26-07.46.54:903][531]LogStaticMesh: スタティックメッシュ autumn_floating_rock_v3 をビルド中...
+[2017.08.26-07.46.54:905][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/autumn_floating_rock_v3.autumn_floating_rock_v3
+[2017.08.26-07.46.54:908][531]LogStaticMesh: スタティックメッシュ autumn_ground_rock をビルド中...
+[2017.08.26-07.46.54:909][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/autumn_ground_rock.autumn_ground_rock
+[2017.08.26-07.46.54:911][531]LogStaticMesh: スタティックメッシュ autumn_ground_rock_v2 をビルド中...
+[2017.08.26-07.46.54:916][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/autumn_ground_rock_v2.autumn_ground_rock_v2
+[2017.08.26-07.46.54:921][531]LogMaterial: Missing cached shader map for material bark_Mat2, compiling. 
+[2017.08.26-07.46.54:921][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Materials/bark_Mat2.bark_Mat2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.54:921][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.54:922][531]LogStaticMesh: スタティックメッシュ bridge_1x1 をビルド中...
+[2017.08.26-07.46.54:930][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/Environment/bridge_1x1.bridge_1x1
+[2017.08.26-07.46.54:934][531]LogStaticMesh: スタティックメッシュ bridge_base をビルド中...
+[2017.08.26-07.46.54:940][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/Environment/bridge_base.bridge_base
+[2017.08.26-07.46.54:943][531]LogStaticMesh: スタティックメッシュ brown_mountain をビルド中...
+[2017.08.26-07.46.54:977][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/Environment/brown_mountain.brown_mountain
+[2017.08.26-07.46.54:978][531]LogStaticMesh: スタティックメッシュ brown_mountain_2 をビルド中...
+[2017.08.26-07.46.55:009][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/Environment/brown_mountain_2.brown_mountain_2
+[2017.08.26-07.46.55:010][531]LogStaticMesh: スタティックメッシュ brown_mountain_3 をビルド中...
+[2017.08.26-07.46.55:042][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/Environment/brown_mountain_3.brown_mountain_3
+[2017.08.26-07.46.55:046][531]LogMaterial: Missing cached shader map for material cloud_mat, compiling. 
+[2017.08.26-07.46.55:046][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Materials/cloud_mat.cloud_mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:046][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.55:046][531]LogStaticMesh: スタティックメッシュ cloud01 をビルド中...
+[2017.08.26-07.46.55:071][531]LogStaticMesh: Built static mesh [0.02s] /Game/PolyCar_Pack/Polycar_Assets/Environment/cloud01.cloud01
+[2017.08.26-07.46.55:072][531]LogStaticMesh: スタティックメッシュ cloud02 をビルド中...
+[2017.08.26-07.46.55:102][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/Environment/cloud02.cloud02
+[2017.08.26-07.46.55:105][531]LogMaterial: Missing cached shader map for material rock_Mat, compiling. 
+[2017.08.26-07.46.55:105][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Materials/rock_Mat.rock_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:105][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.55:110][531]LogMaterial: Missing cached shader map for material winter_Mat, compiling. 
+[2017.08.26-07.46.55:110][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Materials/winter_Mat.winter_Mat for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:110][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.55:113][531]LogStaticMesh: スタティックメッシュ mountain_snow_01 をビルド中...
+[2017.08.26-07.46.55:115][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/mountain_snow_01.mountain_snow_01
+[2017.08.26-07.46.55:117][531]LogStaticMesh: スタティックメッシュ pointyrock01 をビルド中...
+[2017.08.26-07.46.55:118][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/pointyrock01.pointyrock01
+[2017.08.26-07.46.55:120][531]LogStaticMesh: スタティックメッシュ pointyrock02 をビルド中...
+[2017.08.26-07.46.55:146][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/Environment/pointyrock02.pointyrock02
+[2017.08.26-07.46.55:147][531]LogStaticMesh: スタティックメッシュ rope_bridge_large をビルド中...
+[2017.08.26-07.46.55:182][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/Environment/rope_bridge_large.rope_bridge_large
+[2017.08.26-07.46.55:189][531]LogStaticMesh: スタティックメッシュ rope_bridge_med をビルド中...
+[2017.08.26-07.46.55:207][531]LogStaticMesh: Built static mesh [0.02s] /Game/PolyCar_Pack/Polycar_Assets/Environment/rope_bridge_med.rope_bridge_med
+[2017.08.26-07.46.55:212][531]LogStaticMesh: スタティックメッシュ rope_bridge_small をビルド中...
+[2017.08.26-07.46.55:225][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/Environment/rope_bridge_small.rope_bridge_small
+[2017.08.26-07.46.55:248][531]LogStaticMesh: スタティックメッシュ winter_floating_rock をビルド中...
+[2017.08.26-07.46.55:250][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/winter_floating_rock.winter_floating_rock
+[2017.08.26-07.46.55:253][531]LogStaticMesh: スタティックメッシュ winter_floating_rock_v2 をビルド中...
+[2017.08.26-07.46.55:255][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/winter_floating_rock_v2.winter_floating_rock_v2
+[2017.08.26-07.46.55:258][531]LogStaticMesh: スタティックメッシュ winter_floating_rock_v3 をビルド中...
+[2017.08.26-07.46.55:260][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/winter_floating_rock_v3.winter_floating_rock_v3
+[2017.08.26-07.46.55:263][531]LogStaticMesh: スタティックメッシュ winter_ground_rock をビルド中...
+[2017.08.26-07.46.55:264][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/winter_ground_rock.winter_ground_rock
+[2017.08.26-07.46.55:269][531]LogStaticMesh: スタティックメッシュ woodenpole_large をビルド中...
+[2017.08.26-07.46.55:271][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/woodenpole_large.woodenpole_large
+[2017.08.26-07.46.55:273][531]LogStaticMesh: スタティックメッシュ woodenpole_med をビルド中...
+[2017.08.26-07.46.55:274][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/woodenpole_med.woodenpole_med
+[2017.08.26-07.46.55:276][531]LogStaticMesh: スタティックメッシュ woodenpole_small をビルド中...
+[2017.08.26-07.46.55:278][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/Environment/woodenpole_small.woodenpole_small
+[2017.08.26-07.46.55:280][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_35' or package '/Engine/Transient'.
+[2017.08.26-07.46.55:280][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_36' or package '/Engine/Transient'.
+[2017.08.26-07.46.55:280][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_37' or package '/Engine/Transient'.
+[2017.08.26-07.46.55:280][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_39' or package '/Engine/Transient'.
+[2017.08.26-07.46.55:280][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_40' or package '/Engine/Transient'.
+[2017.08.26-07.46.55:280][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_42' or package '/Engine/Transient'.
+[2017.08.26-07.46.55:280][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_45' or package '/Engine/Transient'.
+[2017.08.26-07.46.55:280][531]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialParameterCollectionInstance_46' or package '/Engine/Transient'.
+[2017.08.26-07.46.55:281][531]LogMaterial: Missing cached shader map for material M_cloud_Solid, compiling. 
+[2017.08.26-07.46.55:282][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_cloud_Solid.M_cloud_Solid for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:282][531]LogMaterial:Warning: 	(Node CollectionParameter) CollectionParameter has invalid Collection!
+[2017.08.26-07.46.55:289][531]LogMaterial: Missing cached shader map for material M_Terrain_Ground_A, compiling. 
+[2017.08.26-07.46.55:289][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Environment/Materials/M_Terrain_Ground_A.M_Terrain_Ground_A for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:289][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.55:293][531]LogStaticMesh: スタティックメッシュ SM_Clouds_A をビルド中...
+[2017.08.26-07.46.55:302][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/Environment/Meshes/SM_Clouds_A.SM_Clouds_A
+[2017.08.26-07.46.55:304][531]LogStaticMesh: スタティックメッシュ autumn_ivy_circular をビルド中...
+[2017.08.26-07.46.55:318][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/autumn_ivy_circular.autumn_ivy_circular
+[2017.08.26-07.46.55:321][531]LogStaticMesh: スタティックメッシュ autumn_ivy_long をビルド中...
+[2017.08.26-07.46.55:329][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/autumn_ivy_long.autumn_ivy_long
+[2017.08.26-07.46.55:332][531]LogStaticMesh: スタティックメッシュ autumn_ivy_small をビルド中...
+[2017.08.26-07.46.55:336][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/autumn_ivy_small.autumn_ivy_small
+[2017.08.26-07.46.55:340][531]LogMaterial: Missing cached shader map for material red_flower, compiling. 
+[2017.08.26-07.46.55:340][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Materials/red_flower.red_flower for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:340][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.55:342][531]LogMaterial: Missing cached shader map for material spring, compiling. 
+[2017.08.26-07.46.55:342][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Materials/spring.spring for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:342][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.55:343][531]LogStaticMesh: スタティックメッシュ flower-red をビルド中...
+[2017.08.26-07.46.55:344][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/flower-red.flower-red
+[2017.08.26-07.46.55:348][531]LogMaterial: Missing cached shader map for material yellow_flower, compiling. 
+[2017.08.26-07.46.55:349][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Materials/yellow_flower.yellow_flower for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:349][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.55:349][531]LogStaticMesh: スタティックメッシュ flower-yellow をビルド中...
+[2017.08.26-07.46.55:350][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/flower-yellow.flower-yellow
+[2017.08.26-07.46.55:354][531]LogStaticMesh: スタティックメッシュ grass_single_winter をビルド中...
+[2017.08.26-07.46.55:354][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/grass_single_winter.grass_single_winter
+[2017.08.26-07.46.55:358][531]LogMaterial: Missing cached shader map for material shroom, compiling. 
+[2017.08.26-07.46.55:358][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/Materials/shroom.shroom for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:358][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.55:358][531]LogStaticMesh: スタティックメッシュ mushroom をビルド中...
+[2017.08.26-07.46.55:360][531]LogStaticMesh: Built static mesh [0.00s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/mushroom.mushroom
+[2017.08.26-07.46.55:361][531]LogStaticMesh: スタティックメッシュ small_rock_brown をビルド中...
+[2017.08.26-07.46.55:373][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/small_rock_brown.small_rock_brown
+[2017.08.26-07.46.55:374][531]LogStaticMesh: スタティックメッシュ small_rock_brown_v2 をビルド中...
+[2017.08.26-07.46.55:397][531]LogStaticMesh: Built static mesh [0.02s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/small_rock_brown_v2.small_rock_brown_v2
+[2017.08.26-07.46.55:399][531]LogStaticMesh: スタティックメッシュ small_rock_grey をビルド中...
+[2017.08.26-07.46.55:410][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/small_rock_grey.small_rock_grey
+[2017.08.26-07.46.55:412][531]LogStaticMesh: スタティックメッシュ small_rock_grey_v2 をビルド中...
+[2017.08.26-07.46.55:424][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/small_rock_grey_v2.small_rock_grey_v2
+[2017.08.26-07.46.55:425][531]LogStaticMesh: スタティックメッシュ small_rock_grey_v3 をビルド中...
+[2017.08.26-07.46.55:437][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/small_rock_grey_v3.small_rock_grey_v3
+[2017.08.26-07.46.55:438][531]LogStaticMesh: スタティックメッシュ summer_ivy_circular をビルド中...
+[2017.08.26-07.46.55:454][531]LogStaticMesh: Built static mesh [0.02s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/summer_ivy_circular.summer_ivy_circular
+[2017.08.26-07.46.55:466][531]LogStaticMesh: スタティックメッシュ winter_ivy_long をビルド中...
+[2017.08.26-07.46.55:473][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/foliage/winter_ivy_long.winter_ivy_long
+[2017.08.26-07.46.55:477][531]LogStaticMesh: スタティックメッシュ bush01 をビルド中...
+[2017.08.26-07.46.55:499][531]LogStaticMesh: Built static mesh [0.02s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/plants/bush01.bush01
+[2017.08.26-07.46.55:508][531]LogStaticMesh: スタティックメッシュ bush02 をビルド中...
+[2017.08.26-07.46.55:517][531]LogStaticMesh: Built static mesh [0.01s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/plants/bush02.bush02
+[2017.08.26-07.46.55:553][531]LogStaticMesh: スタティックメッシュ pine_tree-halfsnow をビルド中...
+[2017.08.26-07.46.55:553][531]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.08.26-07.46.55:579][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/pine_tree-halfsnow.pine_tree-halfsnow
+[2017.08.26-07.46.55:583][531]LogStaticMesh: スタティックメッシュ scary_tree をビルド中...
+[2017.08.26-07.46.55:617][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/scary_tree.scary_tree
+[2017.08.26-07.46.55:622][531]LogStaticMesh: スタティックメッシュ summer_palm_v1 をビルド中...
+[2017.08.26-07.46.55:724][531]LogStaticMesh: Built static mesh [0.10s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/summer_palm_v1.summer_palm_v1
+[2017.08.26-07.46.55:728][531]LogStaticMesh: スタティックメッシュ summer_palm_v2 をビルド中...
+[2017.08.26-07.46.55:806][531]LogStaticMesh: Built static mesh [0.08s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/summer_palm_v2.summer_palm_v2
+[2017.08.26-07.46.55:809][531]LogStaticMesh: スタティックメッシュ summer_pine_tree をビルド中...
+[2017.08.26-07.46.55:809][531]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.08.26-07.46.55:836][531]LogStaticMesh: Built static mesh [0.03s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/summer_pine_tree.summer_pine_tree
+[2017.08.26-07.46.55:838][531]LogStaticMesh: スタティックメッシュ summer_willow_tree をビルド中...
+[2017.08.26-07.46.55:839][531]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.08.26-07.46.55:874][531]LogStaticMesh: Built static mesh [0.04s] /Game/PolyCar_Pack/Polycar_Assets/lowpoly_objects/tree_models/summer_willow_tree.summer_willow_tree
+[2017.08.26-07.46.55:888][531]LogMaterial: Missing cached shader map for material M_Dust_Particle, compiling. 
+[2017.08.26-07.46.55:888][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/Materials/M_Dust_Particle.M_Dust_Particle for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:888][531]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2017.08.26-07.46.55:897][531]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_0 (/Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust)
+[2017.08.26-07.46.55:897][531]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_1 (/Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust)
+[2017.08.26-07.46.55:897][531]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_2 (/Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust)
+[2017.08.26-07.46.55:897][531]LogParticles:Warning: MaxCount =  502 for Emitter ParticleSpriteEmitter_3 (/Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/P_Ambient_Dust.P_Ambient_Dust)
+[2017.08.26-07.46.55:899][531]LogMaterial: Missing cached shader map for material M_Burst, compiling. 
+[2017.08.26-07.46.55:899][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/Materials/M_Burst.M_Burst for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:899][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.55:901][531]LogMaterial: Missing cached shader map for material M_explosion_subUV, compiling. 
+[2017.08.26-07.46.55:901][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/Materials/M_explosion_subUV.M_explosion_subUV for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:901][531]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2017.08.26-07.46.55:909][531]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2017.08.26-07.46.55:909][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/Materials/M_Fire_SubUV.M_Fire_SubUV for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:909][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.55:909][531]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2017.08.26-07.46.55:910][531]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2017.08.26-07.46.55:911][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/Materials/M_Fire_SubUV.M_Fire_SubUV for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:911][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.55:911][531]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2017.08.26-07.46.55:912][531]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2017.08.26-07.46.55:912][531]LogMaterial:Warning: Failed to compile Material /Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/Materials/M_Heat_Distortion.M_Heat_Distortion for platform PCD3D_SM5, Default Material will be used in game.
+[2017.08.26-07.46.55:912][531]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.08.26-07.46.55:934][531]LogParticles:Warning: MaxCount =  659 for Emitter ParticleSpriteEmitter_4 (/Game/PolyCar_Pack/Polycar_Assets/StarterContent/Particles/P_Sparks.P_Sparks)
+[2017.08.26-07.46.57:743][531]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.156 s
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: 
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: Ensure condition failed: CurObject != NULL [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\ObjectTools.cpp] [Line: 2314]
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: 
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: Stack: 
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7DBE1C6
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7B6B7D2
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7B81D96
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BF4F8BFD
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BED5BDE9
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BEFC9A82
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BEF45CE2
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BEF48719
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BEFC3905
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E6B98F57
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E6BC5D7B
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E69E9E9C
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E69B9835
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E6A5E5E2
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E6A4720F
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E6A38391
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7DB166B
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7D9B6E1
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7DB32EB
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7D97A32
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: USER32.dll!0x000000001863BC50
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: USER32.dll!0x000000001863B5CF
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7DB3B59
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E6A69A86
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E69F3013
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BF054A0F
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BF4EC4B5
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000A5E5247D
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000A5E5A426
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000A5DD3D1E
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000A5DD6969
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000A5E567D5
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000A5E54437
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000A5EB80B9
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000A5DD4092
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000A5DD6C39
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-ContentBrowser.dll!0x00000000A5E574A5
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E6B98F57
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E6BC5D7B
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E69E9E9C
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E69B9835
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E6A5E5E2
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E6A4720F
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000E6A38391
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7DB166B
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7D9B6E1
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7DB32EB
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7D97A32
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: USER32.dll!0x000000001863BC50
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: USER32.dll!0x000000001863B5CF
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C7DB3BF6
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor.exe!0x00000000C529DB44
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor.exe!0x00000000C528F0B0
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor.exe!0x00000000C528F12A
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor.exe!0x00000000C52A0CF9
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: UE4Editor.exe!0x00000000C52A25F7
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: KERNEL32.DLL!0x0000000017A22774
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: ntdll.dll!0x0000000019040D51
+[2017.08.26-07.46.57:743][531]LogOutputDevice:Error: 
+[2017.08.26-07.46.57:746][531]LogStats:                SubmitErrorReport -  0.000 s

@@ -1,0 +1,518 @@
+﻿Log file open, 09/02/17 14:05:14
+LogInit:Display: Running engine for game: petitcon
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(78962967) SRandInit(78962967).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.084629
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.02-05.05.15:041][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.02-05.05.15:041][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.02-05.05.15:046][  0]LogInit: Computer: DESKTOP-DL1UF1K
+[2017.09.02-05.05.15:046][  0]LogInit: User: kengomaruyama
+[2017.09.02-05.05.15:046][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.02-05.05.15:046][  0]LogInit: High frequency timer resolution =4.101564 MHz
+[2017.09.02-05.05.15:046][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.02-05.05.15:046][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.02-05.05.15:046][  0]LogMemory: Process Physical Memory: 273.49 MB used, 273.49 MB peak
+[2017.09.02-05.05.15:046][  0]LogMemory: Process Virtual Memory: 260.89 MB used, 260.89 MB peak
+[2017.09.02-05.05.15:046][  0]LogMemory: Physical Memory: 7794.51 MB used,  8532.71 MB free, 16327.22 MB total
+[2017.09.02-05.05.15:046][  0]LogMemory: Virtual Memory: 637.83 MB used,  8532.71 MB free, 134217728.00 MB total
+[2017.09.02-05.05.15:103][  0]LogInit: Using OS detected language (ja-JP).
+[2017.09.02-05.05.15:103][  0]LogInit: Using OS detected locale (ja-JP).
+[2017.09.02-05.05.15:105][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2017.09.02-05.05.15:719][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.02-05.05.16:182][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.09.02-05.05.16:182][  0]LogD3D11RHI:       6084/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.02-05.05.16:183][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.02-05.05.16:183][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.02-05.05.16:183][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.02-05.05.16:227][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.02-05.05.16:227][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.02-05.05.16:227][  0]LogWindows: EnumDisplayDevices:
+[2017.09.02-05.05.16:227][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2017.09.02-05.05.16:227][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.09.02-05.05.16:227][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.09.02-05.05.16:227][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.09.02-05.05.16:228][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.02-05.05.16:228][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.09.02-05.05.16:228][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.09.02-05.05.16:228][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.09.02-05.05.16:228][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.02-05.05.16:653][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.02-05.05.16:677][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.02-05.05.16:726][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../../Users/kengo maruyama/petitcon/Intermediate/Shaders/WorkingDirectory/362744/).
+[2017.09.02-05.05.16:726][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kengo maruyama/AppData/Local/Temp/UnrealShaderWorkingDir/C6D3DB7D4D727C709D4B6DB5CE1F48C7/'.
+[2017.09.02-05.05.16:726][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.02-05.05.17:470][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.02-05.05.17:509][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.02-05.05.17:550][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.02-05.05.17:596][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.02-05.05.17:638][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.02-05.05.17:681][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.02-05.05.17:719][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.02-05.05.17:766][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.02-05.05.17:800][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.02-05.05.17:839][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.02-05.05.17:878][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.02-05.05.17:916][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.02-05.05.17:955][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.02-05.05.17:992][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.02-05.05.18:028][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.02-05.05.18:106][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.02-05.05.18:106][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.02-05.05.18:139][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.02-05.05.18:216][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.02-05.05.18:241][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.02-05.05.18:278][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.02-05.05.18:316][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.02-05.05.18:356][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.02-05.05.18:394][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.02-05.05.18:394][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.02-05.05.18:780][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.02-05.05.18:850][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.02-05.05.18:850][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.02-05.05.18:850][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kengo maruyama/petitcon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.02-05.05.18:850][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.02-05.05.18:850][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kengo maruyama/petitcon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.02-05.05.18:850][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.02-05.05.18:863][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.02-05.05.18:874][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kengo maruyama/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.02-05.05.18:881][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.02-05.05.18:881][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.02-05.05.18:881][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.02-05.05.18:881][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.02-05.05.19:117][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.02-05.05.19:171][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.02-05.05.19:288][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.02-05.05.19:321][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.02-05.05.19:356][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.02-05.05.19:356][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.02-05.05.19:356][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.02-05.05.19:764][  0]LogNetVersion: petitcon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2069337989)
+[2017.09.02-05.05.19:816][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
+[2017.09.02-05.05.19:861][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.025986 seconds
+[2017.09.02-05.05.19:865][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.02-05.05.19:865][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.09.02-05.05.19:865][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.02-05.05.19:917][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.02-05.05.21:706][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.02-05.05.21:738][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.02-05.05.22:152][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.02-05.05.22:436][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-05.05.22:476][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-05.05.22:511][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-05.05.22:543][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-05.05.23:103][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.02-05.05.23:515][  0]LogEngine: Initializing Engine...
+[2017.09.02-05.05.23:515][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.02-05.05.23:663][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.02-05.05.23:663][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.02-05.05.23:762][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-05.05.23:770][  0]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-05.05.23:790][  0]LogInit: FAudioDevice initialized.
+[2017.09.02-05.05.23:824][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.02-05.05.23:828][  0]LogInit: Texture streaming: Enabled
+[2017.09.02-05.05.23:900][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.02-05.05.24:100][  0]LogInit: Transaction tracking system initialized
+[2017.09.02-05.05.24:347][  0]BlueprintLog: New page: エディタの読み込み
+[2017.09.02-05.05.25:033][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2017.09.02-05.05.25:578][  0]LogConsoleResponse:Display: 
+[2017.09.02-05.05.25:692][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.02-05.05.25:692][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.02-05.05.26:167][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/' took 0.02s
+[2017.09.02-05.05.26:407][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-05.05.26:407][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.02-05.05.26:408][  0]LightingResults: New page: ライティングのビルド
+[2017.09.02-05.05.26:436][  0]MapCheck: New page: マップをチェック
+[2017.09.02-05.05.26:436][  0]LightingResults: New page: <何も選択されていません>
+[2017.09.02-05.05.26:558][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.09.02-05.05.26:558][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.09.02-05.05.26:559][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-05.05.26:559][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-05.05.26:559][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-05.05.26:559][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-05.05.26:572][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.93] Compile of car_blueprint successful, but with 6 Warning(s) [in 23 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-05.05.26:572][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.93] Compile of car_blueprint successful, but with 7 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-05.05.26:572][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.93] Compile of car_blueprint successful, but with 8 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-05.05.26:592][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.09.02-05.05.26:592][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.09.02-05.05.26:594][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-05.05.26:594][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-05.05.26:594][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-05.05.26:594][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-05.05.26:609][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.97] Compile of car_blueprint successful, but with 6 Warning(s) [in 25 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-05.05.26:609][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.97] Compile of car_blueprint successful, but with 7 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-05.05.26:609][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.97] Compile of car_blueprint successful, but with 8 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-05.05.26:769][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveForward  に不明な軸 'MoveForward' を参照しています
+[2017.09.02-05.05.26:769][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookUp を取得  にインプット軸参照の不明な軸 'LookUp' を取得
+[2017.09.02-05.05.26:769][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookRight を取得  にインプット軸参照の不明な軸 'LookRight' を取得
+[2017.09.02-05.05.26:769][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveRight  に不明な軸 'MoveRight' を参照しています
+[2017.09.02-05.05.26:776][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0013.13] Compile of VehicleBlueprint successful, but with 4 Warning(s) [in 10 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-05.05.26:776][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0013.13] Compile of VehicleBlueprint successful, but with 5 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-05.05.26:776][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0013.13] Compile of VehicleBlueprint successful, but with 6 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-05.05.26:825][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveForward  に不明な軸 'MoveForward' を参照しています
+[2017.09.02-05.05.26:825][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookUp を取得  にインプット軸参照の不明な軸 'LookUp' を取得
+[2017.09.02-05.05.26:825][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookRight を取得  にインプット軸参照の不明な軸 'LookRight' を取得
+[2017.09.02-05.05.26:825][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveRight  に不明な軸 'MoveRight' を参照しています
+[2017.09.02-05.05.26:831][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0013.19] Compile of VehicleBlueprint successful, but with 4 Warning(s) [in 9 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-05.05.26:831][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0013.19] Compile of VehicleBlueprint successful, but with 5 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-05.05.26:832][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0013.19] Compile of VehicleBlueprint successful, but with 6 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-05.05.27:425][  0]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.09.02-05.05.27:442][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.02-05.05.27:459][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.02-05.05.27:501][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 41.889ミリ秒かかりました。
+[2017.09.02-05.05.27:501][  0]LogFileHelpers: Loading map 'LooptyLoopMap' took 1.094
+[2017.09.02-05.05.27:637][  0]LogCollectionManager: Loaded 0 collections in 0.001092 seconds
+[2017.09.02-05.05.27:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Saved/Collections/' took 0.01s
+[2017.09.02-05.05.27:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/Developers/kengomaruyama/Collections/' took 0.01s
+[2017.09.02-05.05.27:716][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/Collections/' took 0.01s
+[2017.09.02-05.05.27:716][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.02-05.05.27:724][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2342 classes and 498 folders.
+[2017.09.02-05.05.27:777][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.02-05.05.27:800][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.02-05.05.27:833][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.02-05.05.27:916][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.02-05.05.27:920][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.02-05.05.27:923][  0]LogSlate: Took 0.001833 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.09.02-05.05.27:923][  0]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.02-05.05.27:925][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.02-05.05.27:989][  0]LogRenderer: Reallocating scene render targets to support 1108x584 NumSamples 1 (Frame:1).
+[2017.09.02-05.05.28:082][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2017.09.02-05.05.28:136][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.02-05.05.28:136][  0]LogLoad: (Engine Initialization) Total time: 14.49 seconds
+[2017.09.02-05.05.28:136][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.30 seconds
+[2017.09.02-05.05.28:136][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.02-05.05.28:482][  0]LogOcInput: OculusInput pre-init called
+[2017.09.02-05.05.28:483][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.09.02-05.05.28:483][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.09.02-05.05.28:483][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.09.02-05.05.28:483][  0]LogRawInputWindows:Warning: Found device 1 devices
+[2017.09.02-05.05.28:483][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.09.02-05.05.28:483][  0]LogHMD: Starting GearVRController plugin
+[2017.09.02-05.05.28:513][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.02-05.05.28:555][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.02-05.05.28:815][  1]LogAssetRegistry: Asset discovery search completed in 9.0213 seconds
+[2017.09.02-05.05.28:817][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.02-05.05.28:817][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.09.02-05.06.17:354][474]LogSlate: Took 0.000817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.02-05.06.17:406][474]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-05.06.17:419][474]Cmd: MAP LOAD FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.02-05.06.17:419][474]LightingResults: New page: ライティングのビルド
+[2017.09.02-05.06.17:420][474]LoadErrors: New page: マップをロード中: Untitled.umap
+[2017.09.02-05.06.17:422][474]MapCheck: New page: マップをチェック
+[2017.09.02-05.06.17:422][474]LightingResults: New page: <何も選択されていません>
+[2017.09.02-05.06.17:593][474]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.02-05.06.17:617][474]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.02-05.06.17:749][474]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 132.416ミリ秒かかりました。
+[2017.09.02-05.06.17:749][474]LogFileHelpers: Loading map 'Untitled' took 0.331
+[2017.09.02-05.06.29:516][848]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.09.02-05.07.25:658][500]Cmd: TRANSACTION UNDO
+[2017.09.02-05.07.25:658][500]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-05.07.25:693][500]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.02-05.07.26:299][571]Cmd: TRANSACTION UNDO
+[2017.09.02-05.07.26:299][571]LogEditorTransaction: Undo ランドスケープスプライン制御点を修正
+[2017.09.02-05.07.27:236][679]Cmd: TRANSACTION UNDO
+[2017.09.02-05.07.27:236][679]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-05.07.37:546][891]Cmd: TRANSACTION UNDO
+[2017.09.02-05.07.37:546][891]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-05.08.13:332][110]Cmd: TRANSACTION UNDO
+[2017.09.02-05.08.13:332][110]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-05.08.28:566][897]Cmd: TRANSACTION UNDO
+[2017.09.02-05.08.28:566][897]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-05.08.38:505][ 57]Cmd: TRANSACTION UNDO
+[2017.09.02-05.08.38:505][ 57]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-05.08.42:462][517]Cmd: TRANSACTION UNDO
+[2017.09.02-05.08.42:462][517]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-05.08.51:872][622]Cmd: TRANSACTION UNDO
+[2017.09.02-05.08.51:872][622]LogEditorTransaction: Undo ランドスケープスプライン制御点を修正
+[2017.09.02-05.08.52:509][693]Cmd: TRANSACTION UNDO
+[2017.09.02-05.08.52:509][693]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-05.08.55:092][992]Cmd: TRANSACTION UNDO
+[2017.09.02-05.08.55:092][992]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-05.10.11:444][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/Untitled" FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.02-05.10.11:459][ 84]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2017.09.02-05.10.11:711][ 84]LogSavePackage: Save=255.05ms
+[2017.09.02-05.10.11:711][ 84]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/Untitled241FE6F74EC48A83B6FCF2AF8B1A3586.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap'
+[2017.09.02-05.10.11:714][ 84]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap
+[2017.09.02-05.10.47:890][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/Untitled" FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.02-05.10.48:258][358]LogSavePackage: Save=358.69ms
+[2017.09.02-05.10.48:258][358]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/Untitled76A28CF3480D27AD36241BA7F3C09A08.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap'
+[2017.09.02-05.10.48:259][358]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap
+[2017.09.02-05.10.48:878][430]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-05.10.48:913][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-05.10.48:914][430]PIE: New page: PIEセッション: Untitled (2017/09/02 23:10:48)
+[2017.09.02-05.10.48:914][430]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-05.10.48:949][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034887s)
+[2017.09.02-05.10.48:949][430]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-05.10.48:949][430]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.09.02-05.10.48:949][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.035615s)
+[2017.09.02-05.10.48:961][430]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-05.10.48:969][430]LogInit: FAudioDevice initialized.
+[2017.09.02-05.10.49:033][430]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-05.10.49:042][430]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-14.10.49
+[2017.09.02-05.10.49:042][430]LogWorld: Bringing up level for play took: 0.004246
+[2017.09.02-05.10.49:093][430]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.09.02-05.10.49:101][430]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled 0.62のプレイ イン エディタの開始時間
+[2017.09.02-05.10.49:148][430]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.09.02-05.11.06:394][485]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-05.11.06:408][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-05.11.06:408][485]PIE: New page: PIEセッション: Untitled (2017/09/02 23:11:06)
+[2017.09.02-05.11.06:408][485]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-05.11.06:443][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035102s)
+[2017.09.02-05.11.06:444][485]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-05.11.06:444][485]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2017.09.02-05.11.06:444][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.035770s)
+[2017.09.02-05.11.06:457][485]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-05.11.06:465][485]LogInit: FAudioDevice initialized.
+[2017.09.02-05.11.06:508][485]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-05.11.06:515][485]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-14.11.06
+[2017.09.02-05.11.06:515][485]LogWorld: Bringing up level for play took: 0.004424
+[2017.09.02-05.11.06:522][485]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled 0.042のプレイ イン エディタの開始時間
+[2017.09.02-05.11.22:258][357]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-05.11.22:267][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-05.11.22:268][357]PIE: New page: PIEセッション: Untitled (2017/09/02 23:11:22)
+[2017.09.02-05.11.22:268][357]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-05.11.22:305][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037709s)
+[2017.09.02-05.11.22:306][357]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-05.11.22:306][357]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2017.09.02-05.11.22:306][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.038497s)
+[2017.09.02-05.11.22:318][357]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-05.11.22:325][357]LogInit: FAudioDevice initialized.
+[2017.09.02-05.11.22:373][357]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-05.11.22:379][357]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-14.11.22
+[2017.09.02-05.11.22:379][357]LogWorld: Bringing up level for play took: 0.004170
+[2017.09.02-05.11.22:386][357]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled -0.094のプレイ イン エディタの開始時間
+[2017.09.02-05.12.07:760][796]LogParticles:Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2017.09.02-05.12.07:760][796]LogParticles:Error: SystemPositionForMacroUVs: {-24628.812500, 7164.000000, 6185.847168}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: ObjectPostProjectionPositionWithW: {-105.105469, -568.635620, 10.000000, -0.000488}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: RightPostProjectionPosition: {34.937500, -568.635376, 10.000000, -0.000732}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: UpPostProjectionPosition: {-105.105469, -319.672729, 10.000000, 0.000000}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: ObjectNDCPosition: {-10510547.000000, -56863564.000000}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: RightNDCPosX: -47701.332031
+[2017.09.02-05.12.07:760][796]LogParticles:Error: UpNDCPosY: -inf
+[2017.09.02-05.12.07:760][796]LogParticles:Error: MacroUVPosition: {-24628.812500, 7164.000000, 6185.847168}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: MacroUVRadius: 200.000000
+[2017.09.02-05.12.07:760][796]LogParticles:Error: DX: 2097152.000000
+[2017.09.02-05.12.07:760][796]LogParticles:Error: DY: -inf
+[2017.09.02-05.12.07:760][796]LogParticles:Error: View0: {-0.991952, 0.126614, -0.000000, 1.000000}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: View1: {0.045203, 0.354147, 0.934097, 1.000000}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: View2: {0.118270, 0.926579, -0.357020, 1.000000}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: ViewProj0: {-0.694572, 0.088656, -0.000000, 1.000000}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: ViewProj1: {0.056270, 0.440847, 1.162776, 1.000000}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2017.09.02-05.12.07:760][796]LogParticles:Error: ViewProj3: {0.118270, 0.926579, -0.357020, 1.000000}
+[2017.09.02-05.13.00:931][157]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-05.13.00:941][157]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-05.13.00:941][157]PIE: New page: PIEセッション: Untitled (2017/09/02 23:13:00)
+[2017.09.02-05.13.00:941][157]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-05.13.00:980][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037673s)
+[2017.09.02-05.13.00:980][157]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-05.13.00:980][157]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.09.02-05.13.00:980][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.038401s)
+[2017.09.02-05.13.00:990][157]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-05.13.00:997][157]LogInit: FAudioDevice initialized.
+[2017.09.02-05.13.01:042][157]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-05.13.01:048][157]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-14.13.01
+[2017.09.02-05.13.01:048][157]LogWorld: Bringing up level for play took: 0.004194
+[2017.09.02-05.13.01:055][157]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled 0.575のプレイ イン エディタの開始時間
+[2017.09.02-05.13.29:182][517]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-05.13.29:192][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-05.13.29:192][517]PIE: New page: PIEセッション: Untitled (2017/09/02 23:13:29)
+[2017.09.02-05.13.29:192][517]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-05.13.29:226][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034023s)
+[2017.09.02-05.13.29:227][517]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-05.13.29:227][517]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2017.09.02-05.13.29:227][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.034730s)
+[2017.09.02-05.13.29:238][517]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-05.13.29:246][517]LogInit: FAudioDevice initialized.
+[2017.09.02-05.13.29:293][517]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-05.13.29:300][517]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-14.13.29
+[2017.09.02-05.13.29:300][517]LogWorld: Bringing up level for play took: 0.004245
+[2017.09.02-05.13.29:307][517]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled 0.827のプレイ イン エディタの開始時間
+[2017.09.02-05.15.25:243][422]LogParticles:Error: Bad values in FParticleSystemSceneProxy::GetObjectPositionAndScale
+[2017.09.02-05.15.25:243][422]LogParticles:Error: SystemPositionForMacroUVs: {16888.820313, -20221.218750, 5453.289063}
+[2017.09.02-05.15.25:243][422]LogParticles:Error: ObjectPostProjectionPositionWithW: {145.448486, -402.193359, 10.000000, -0.001953}
+[2017.09.02-05.15.25:243][422]LogParticles:Error: RightPostProjectionPosition: {285.490479, -402.193359, 10.000000, -0.001953}
+[2017.09.02-05.15.25:243][422]LogParticles:Error: UpPostProjectionPosition: {145.447998, -153.230469, 10.000000, 0.000000}
+[2017.09.02-05.15.25:243][422]LogParticles:Error: ObjectNDCPosition: {14544849.000000, -40219336.000000}
+[2017.09.02-05.15.25:243][422]LogParticles:Error: RightNDCPosX: -146171.125000
+[2017.09.02-05.15.25:243][422]LogParticles:Error: UpNDCPosY: -inf
+[2017.09.02-05.15.25:243][422]LogParticles:Error: MacroUVPosition: {16888.820313, -20221.218750, 5453.289063}
+[2017.09.02-05.15.25:243][422]LogParticles:Error: MacroUVRadius: 200.000000
+[2017.09.02-05.15.25:243][422]LogParticles:Error: DX: -14691020.000000
+[2017.09.02-05.15.25:243][422]LogParticles:Error: DY: -inf
+[2017.09.02-05.15.25:243][422]LogParticles:Error: View0: {0.663570, 0.748114, -0.000000, 1.000000}
+[2017.09.02-05.15.25:243][422]LogParticles:Error: View1: {0.200409, -0.177761, 0.963451, 1.000000}
+[2017.09.02-05.15.25:244][422]LogParticles:Error: View2: {0.720771, -0.639317, -0.267885, 1.000000}
+[2017.09.02-05.15.25:244][422]LogParticles:Error: View3: {0.000000, 0.000000, 0.000000, 1.000000}
+[2017.09.02-05.15.25:244][422]LogParticles:Error: ViewProj0: {0.464637, 0.523835, -0.000000, 1.000000}
+[2017.09.02-05.15.25:244][422]LogParticles:Error: ViewProj1: {0.249472, -0.221279, 1.199317, 1.000000}
+[2017.09.02-05.15.25:244][422]LogParticles:Error: ViewProj2: {0.000000, 0.000000, 0.000000, 1.000000}
+[2017.09.02-05.15.25:244][422]LogParticles:Error: ViewProj3: {0.720771, -0.639317, -0.267885, 1.000000}
+[2017.09.02-05.16.15:343][359]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.02-05.19.39:075][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/Untitled" FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.02-05.19.39:564][241]LogSavePackage: Save=436.62ms
+[2017.09.02-05.19.39:564][241]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/UntitledD7B5B176457A2BD8180D54B1E92F6A08.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap'
+[2017.09.02-05.19.39:565][241]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap
+[2017.09.02-05.19.58:048][370]LogCrashTracker: 
+
+
+[2017.09.02-05.19.58:048][370]LogCrashTracker: 
+
+
+[2017.09.02-05.19.58:048][370]LogWindows:Error: === Critical error: ===
+[2017.09.02-05.19.58:048][370]LogWindows:Error: 
+[2017.09.02-05.19.58:048][370]LogWindows:Error: Fatal error!
+[2017.09.02-05.19.58:048][370]LogWindows:Error: 
+[2017.09.02-05.19.58:048][370]LogWindows:Error: Unhandled Exception: EXCEPTION_STACK_OVERFLOW
+[2017.09.02-05.19.58:048][370]LogWindows:Error: 
+[2017.09.02-05.19.58:049][370]LogWindows:Error: UE4Editor-Core.dll!0x00000000ED5FE369
+[2017.09.02-05.19.58:049][370]LogWindows:Error: UE4Editor-Core.dll!0x00000000ED2C6131
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PxFoundationPROFILE_x64.dll!0x00000000F95941CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80B9833
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BA7CF
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB5C8
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: PhysX3CookingPROFILE_x64.dll!0x00000000B80BB9CC
+[2017.09.02-05.19.58:049][370]LogWindows:Error: 
+[2017.09.02-05.19.58:055][370]LogExit: Executing StaticShutdownAfterError
+[2017.09.02-05.19.58:058][370]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.09.02-05.19.58:058][370]Log file closed, 09/02/17 14:19:58

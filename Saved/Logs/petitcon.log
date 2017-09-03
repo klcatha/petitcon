@@ -1,9 +1,9 @@
-﻿Log file open, 08/17/17 00:33:48
+﻿Log file open, 09/02/17 15:08:59
 LogInit:Display: Running engine for game: petitcon
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(295299213) SRandInit(295299213).
+LogInit:Display: RandInit(-1412459318) SRandInit(-1412459318).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.074813
+LogStats: Stats thread started at 0.075872
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,313 +50,862 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.16-15.33.48:978][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.16-15.33.48:978][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.16-15.33.49:005][  0]LogInit: Computer: DESKTOP-DL1UF1K
-[2017.08.16-15.33.49:005][  0]LogInit: User: kengomaruyama
-[2017.08.16-15.33.49:005][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.08.16-15.33.49:005][  0]LogInit: High frequency timer resolution =4.101569 MHz
-[2017.08.16-15.33.49:005][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.08.16-15.33.49:005][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.16-15.33.49:005][  0]LogMemory: Process Physical Memory: 274.25 MB used, 274.25 MB peak
-[2017.08.16-15.33.49:005][  0]LogMemory: Process Virtual Memory: 260.73 MB used, 260.73 MB peak
-[2017.08.16-15.33.49:005][  0]LogMemory: Physical Memory: 4512.11 MB used,  11815.11 MB free, 16327.22 MB total
-[2017.08.16-15.33.49:005][  0]LogMemory: Virtual Memory: 637.83 MB used,  11815.11 MB free, 134217728.00 MB total
-[2017.08.16-15.33.49:078][  0]LogInit: Using OS detected language (ja-JP).
-[2017.08.16-15.33.49:078][  0]LogInit: Using OS detected locale (ja-JP).
-[2017.08.16-15.33.49:080][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
-[2017.08.16-15.33.49:608][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.16-15.33.50:022][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2017.08.16-15.33.50:022][  0]LogD3D11RHI:       6084/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.08.16-15.33.50:024][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.16-15.33.50:024][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.16-15.33.50:024][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.16-15.33.50:033][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.16-15.33.50:033][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.16-15.33.50:033][  0]LogWindows: EnumDisplayDevices:
-[2017.08.16-15.33.50:033][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
-[2017.08.16-15.33.50:034][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
-[2017.08.16-15.33.50:034][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.08.16-15.33.50:034][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2017.08.16-15.33.50:034][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.08.16-15.33.50:034][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2017.08.16-15.33.50:034][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
-[2017.08.16-15.33.50:034][  0]LogD3D11RHI:      Driver Date: 5-17-2017
-[2017.08.16-15.33.50:034][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.16-15.33.50:426][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.16-15.33.50:448][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.08.16-15.33.50:497][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (../../../../../../Users/kengo maruyama/petitcon/Intermediate/Shaders/WorkingDirectory/8480/).
-[2017.08.16-15.33.50:498][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kengo maruyama/AppData/Local/Temp/UnrealShaderWorkingDir/B06ECC9F44A07E85F23FF4A30CA08CC9/'.
-[2017.08.16-15.33.50:498][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.16-15.33.51:215][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.16-15.33.51:252][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.08.16-15.33.51:289][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.16-15.33.51:325][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.08.16-15.33.51:362][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.08.16-15.33.51:398][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.16-15.33.51:433][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.16-15.33.51:469][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.16-15.33.51:500][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.16-15.33.51:534][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.08.16-15.33.51:571][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.16-15.33.51:606][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.16-15.33.51:642][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.16-15.33.51:680][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.16-15.33.51:715][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.16-15.33.51:786][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.16-15.33.51:786][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.16-15.33.51:814][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.08.16-15.33.51:886][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.08.16-15.33.51:930][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.08.16-15.33.51:968][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.16-15.33.52:002][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.16-15.33.52:038][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.16-15.33.52:075][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.08.16-15.33.52:075][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.16-15.33.52:427][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.16-15.33.52:499][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.16-15.33.52:499][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.08.16-15.33.52:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kengo maruyama/petitcon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.16-15.33.52:499][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.16-15.33.52:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kengo maruyama/petitcon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.16-15.33.52:499][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.16-15.33.52:510][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.16-15.33.52:523][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kengo maruyama/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.16-15.33.52:530][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.16-15.33.52:530][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.16-15.33.52:530][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.16-15.33.52:530][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.16-15.33.52:759][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.16-15.33.52:806][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.16-15.33.52:914][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.16-15.33.52:946][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.16-15.33.52:979][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.16-15.33.52:979][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.16-15.33.52:979][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.16-15.33.53:347][  0]LogNetVersion: petitcon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2069337989)
-[2017.08.16-15.33.53:398][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
-[2017.08.16-15.33.53:439][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.024387 seconds
-[2017.08.16-15.33.53:442][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.08.16-15.33.53:442][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2017.08.16-15.33.53:442][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.16-15.33.53:491][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.16-15.33.55:225][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.16-15.33.55:261][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.16-15.33.55:672][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.16-15.33.55:955][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.08.16-15.33.55:998][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.08.16-15.33.56:035][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.08.16-15.33.56:070][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.08.16-15.33.56:609][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.16-15.33.57:019][  0]LogEngine: Initializing Engine...
-[2017.08.16-15.33.57:019][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.08.16-15.33.57:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.16-15.33.57:157][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.16-15.33.57:247][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.16-15.33.57:254][  0]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.16-15.33.57:275][  0]LogInit: FAudioDevice initialized.
-[2017.08.16-15.33.57:306][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.16-15.33.57:314][  0]LogInit: Texture streaming: Enabled
-[2017.08.16-15.33.57:386][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.16-15.33.57:540][  0]LogInit: Transaction tracking system initialized
-[2017.08.16-15.33.57:772][  0]BlueprintLog: New page: エディタの読み込み
-[2017.08.16-15.33.58:452][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
-[2017.08.16-15.33.58:933][  0]LogConsoleResponse:Display: 
-[2017.08.16-15.33.59:036][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.16-15.33.59:036][  0]LogCook:Display: Mobile HDR setting 1
-[2017.08.16-15.33.59:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/' took 0.01s
-[2017.08.16-15.33.59:764][  0]SourceControl: 情報 ソースコントロールは無効です
-[2017.08.16-15.33.59:764][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.16-15.33.59:764][  0]LightingResults: New page: ライティングのビルド
-[2017.08.16-15.33.59:794][  0]MapCheck: New page: マップをチェック
-[2017.08.16-15.33.59:794][  0]LightingResults: New page: <何も選択されていません>
-[2017.08.16-15.34.00:467][  0]LogAIModule: Creating AISystem for world LooptyLoopMap
-[2017.08.16-15.34.00:485][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.16-15.34.00:501][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.16-15.34.00:534][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 32.982ミリ秒かかりました。
-[2017.08.16-15.34.00:534][  0]LogFileHelpers: Loading map 'LooptyLoopMap' took 0.770
-[2017.08.16-15.34.00:661][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
-[2017.08.16-15.34.00:756][  0]LogCollectionManager: Loaded 0 collections in 0.001035 seconds
-[2017.08.16-15.34.00:858][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Saved/Collections/' took 0.01s
-[2017.08.16-15.34.00:858][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/Developers/kengomaruyama/Collections/' took 0.01s
-[2017.08.16-15.34.00:858][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/Collections/' took 0.01s
-[2017.08.16-15.34.00:858][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.08.16-15.34.00:874][  0]LogContentBrowser: Native class hierarchy populated in 0.0155 seconds. Added 2342 classes and 498 folders.
-[2017.08.16-15.34.00:937][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.08.16-15.34.00:959][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.08.16-15.34.00:990][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.08.16-15.34.01:072][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.08.16-15.34.01:076][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.16-15.34.01:078][  0]LogSlate: Took 0.001819 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2017.08.16-15.34.01:078][  0]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.16-15.34.01:080][  0]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.16-15.34.01:142][  0]LogRenderer: Reallocating scene render targets to support 1092x668 NumSamples 1 (Frame:1).
-[2017.08.16-15.34.01:218][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
-[2017.08.16-15.34.01:287][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.08.16-15.34.01:287][  0]LogLoad: (Engine Initialization) Total time: 13.54 seconds
-[2017.08.16-15.34.01:287][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.22 seconds
-[2017.08.16-15.34.01:287][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.08.16-15.34.01:300][  0]LogOcInput: OculusInput pre-init called
-[2017.08.16-15.34.01:300][  0]LogRawInputWindows:Warning: Found device 0 devices
-[2017.08.16-15.34.01:300][  0]LogRawInputWindows:Warning: Found device 0 devices
-[2017.08.16-15.34.01:300][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
-[2017.08.16-15.34.01:300][  0]LogRawInputWindows:Warning: Found device 1 devices
-[2017.08.16-15.34.01:300][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
-[2017.08.16-15.34.01:300][  0]LogHMD: Starting GearVRController plugin
-[2017.08.16-15.34.01:314][  0]LogAssetRegistry: Asset discovery search completed in 7.9385 seconds
-[2017.08.16-15.34.01:315][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.08.16-15.34.01:315][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2017.08.16-15.34.01:318][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.08.16-15.34.01:360][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.16-15.38.52:984][982]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.16-15.39.17:863][913]LogTemp: Repeting last play command: 選択ビューポート
-[2017.08.16-15.39.17:885][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.16-15.39.17:885][913]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/17 9:39:17)
-[2017.08.16-15.39.17:885][913]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
-[2017.08.16-15.39.17:903][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017584s)
-[2017.08.16-15.39.17:903][913]LogAIModule: Creating AISystem for world LooptyLoopMap
-[2017.08.16-15.39.17:903][913]LogPlayLevel: PIE: World Init took: (0.000605s)
-[2017.08.16-15.39.17:903][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.018404s)
-[2017.08.16-15.39.17:915][913]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.08.16-15.39.17:923][913]LogInit: FAudioDevice initialized.
-[2017.08.16-15.39.17:970][913]LogLoad: Game class is 'VehicleAdvGameMode_C'
-[2017.08.16-15.39.17:977][913]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2017.08.17-00.39.17
-[2017.08.16-15.39.17:977][913]LogWorld: Bringing up level for play took: 0.003890
-[2017.08.16-15.39.18:025][913]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2017.08.16-15.39.18:029][913]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.185のプレイ イン エディタの開始時間
-[2017.08.16-15.39.38:497][362]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
-[2017.08.16-15.39.38:497][362]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
-[2017.08.16-15.40.29:272][397]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
-[2017.08.16-15.40.37:338][354]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkyShereBlueprint)
-[2017.08.16-15.40.37:402][360]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
-[2017.08.16-15.40.48:897][456]LogEditorActor: Deleted 0 Actors (2.064 secs)
-[2017.08.16-15.40.53:349][959]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.08.16-15.40.59:760][723]Cmd: TRANSACTION UNDO
-[2017.08.16-15.40.59:760][723]LogEditorTransaction: Undo Zenith Color を編集
-[2017.08.16-15.41.08:126][719]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.16-15.41.08:924][719]LogSavePackage: Save=766.18ms
-[2017.08.16-15.41.08:924][719]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/LooptyLoopMap8B977285415B965F6098C0BBC20B6F09.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap'
-[2017.08.16-15.41.08:927][719]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap
-[2017.08.16-15.41.08:941][719]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.16-15.44.01:839][909]LogEditorViewport: Clicking on Actor (LMB): Checkpoint_C (Checkpoint12)
-[2017.08.16-15.44.09:728][821]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
-[2017.08.16-15.44.10:150][821]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.08.16-15.44.11:864][ 14]LogRenderer: Reallocating scene render targets to support 1532x900 NumSamples 1 (Frame:1).
-[2017.08.16-15.49.30:115][982]BlueprintLog: New page: Checkpoint をコンパイル
-[2017.08.16-15.52.33:743][332]LogSavePackage: Save=760.61ms
-[2017.08.16-15.52.33:743][332]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/LooptyLoopMap_Auto1A7A649F043E39A57C98028BBE5A1A86E.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto1.umap'
-[2017.08.16-15.52.33:745][332]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto1.umap
-[2017.08.16-15.52.33:746][332]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.796
-[2017.08.16-15.52.33:746][332]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.796
-[2017.08.16-15.52.33:748][332]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Checkpoint] ([1] browsable assets)...
-[2017.08.16-15.52.33:748][332]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Checkpoint]
-[2017.08.16-15.52.33:748][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.08.16-15.52.33:770][332]LogSavePackage: Save=20.10ms
-[2017.08.16-15.52.33:770][332]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/Checkpoint_Auto1362BBBA7437BD388E24522BE8D8E8D90.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto1.uasset'
-[2017.08.16-15.52.33:770][332]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/Blueprints/Checkpoint_Auto1.uasset
-[2017.08.16-15.52.33:770][332]LogFileHelpers: Auto-saving content packages took 0.023
-[2017.08.16-15.53.23:695][306]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ Engine_Speed_02_Loop をビルド中...
-[2017.08.16-15.53.23:757][306]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ Engine_Speed_04_Loop をビルド中...
-[2017.08.16-15.53.23:792][306]LogAudioDerivedData:Display: 圧縮オーディオ フォーマット OGG ウェーブ Engine_Speed_06_Loop をビルド中...
-[2017.08.16-15.53.43:496][632]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.08.16-15.53.43:607][632]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2017.08.16-15.53.43:774][632]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2017.08.16-15.53.44:844][632]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0004 seconds. Added 1 classes and 0 folders.
-[2017.08.16-15.54.50:321][237]LogScript:Warning: Accessed None trying to read property ControllerReference
-	VehicleBlueprint_C /Engine/Transient.World_9:PersistentLevel.VehicleBlueprint_C_1
-	Function /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint_C:ExecuteUbergraph_VehicleBlueprint:0734
-[2017.08.16-15.54.50:322][237]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.08.16-15.55.18:801][564]BlueprintLog: New page: Checkpoint をコンパイル
-[2017.08.16-15.55.20:306][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Checkpoint" FILE="../../../../../../Users/kengo maruyama/petitcon/Content/Blueprints/Checkpoint.uasset" SILENT=true
-[2017.08.16-15.55.20:328][654]LogSavePackage: Save=19.41ms
-[2017.08.16-15.55.20:328][654]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/Checkpoint30284F9040F6643AC4D8B0BB9E281E53.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/Blueprints/Checkpoint.uasset'
-[2017.08.16-15.55.20:329][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/Blueprints/Checkpoint.uasset
-[2017.08.16-15.55.21:212][760]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.08.16-16.00.10:052][546]Cmd: STAT FPS
-[2017.08.16-16.00.15:865][240]LogTemp: Repeting last play command: 選択ビューポート
-[2017.08.16-16.00.15:882][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.16-16.00.15:882][240]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/17 10:00:15)
-[2017.08.16-16.00.15:882][240]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
-[2017.08.16-16.00.15:901][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018838s)
-[2017.08.16-16.00.15:902][240]LogAIModule: Creating AISystem for world LooptyLoopMap
-[2017.08.16-16.00.15:902][240]LogPlayLevel: PIE: World Init took: (0.000699s)
-[2017.08.16-16.00.15:902][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.019794s)
-[2017.08.16-16.00.15:921][240]LogInit: XAudio2 using 'スピーカー (SB EVO USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.16-16.00.15:929][240]LogInit: FAudioDevice initialized.
-[2017.08.16-16.00.15:961][240]LogLoad: Game class is 'VehicleAdvGameMode_C'
-[2017.08.16-16.00.15:967][240]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2017.08.17-01.00.15
-[2017.08.16-16.00.15:968][240]LogWorld: Bringing up level for play took: 0.003577
-[2017.08.16-16.00.15:971][240]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap 0.127のプレイ イン エディタの開始時間
-[2017.08.16-16.03.01:333][327]LogSavePackage: Save=761.13ms
-[2017.08.16-16.03.01:333][327]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/LooptyLoopMap_Auto29FCA37EC4E2C003D107D169BFA227D01.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto2.umap'
-[2017.08.16-16.03.01:348][327]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto2.umap
-[2017.08.16-16.03.01:349][327]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.805
-[2017.08.16-16.03.01:349][327]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.805
-[2017.08.16-16.16.37:899][461]BlueprintLog: New page: VehicleBlueprint をコンパイル
-[2017.08.16-16.16.41:530][832]LogTemp: Repeting last play command: 選択ビューポート
-[2017.08.16-16.16.41:543][832]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.16-16.16.41:543][832]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/17 10:16:41)
-[2017.08.16-16.16.41:543][832]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
-[2017.08.16-16.16.41:561][832]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017698s)
-[2017.08.16-16.16.41:561][832]LogAIModule: Creating AISystem for world LooptyLoopMap
-[2017.08.16-16.16.41:561][832]LogPlayLevel: PIE: World Init took: (0.000566s)
-[2017.08.16-16.16.41:562][832]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.018500s)
-[2017.08.16-16.16.41:579][832]LogInit: XAudio2 using 'スピーカー (SB EVO USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.16-16.16.41:586][832]LogInit: FAudioDevice initialized.
-[2017.08.16-16.16.41:617][832]LogLoad: Game class is 'VehicleAdvGameMode_C'
-[2017.08.16-16.16.41:625][832]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2017.08.17-01.16.41
-[2017.08.16-16.16.41:626][832]LogWorld: Bringing up level for play took: 0.006088
-[2017.08.16-16.16.41:634][832]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.21のプレイ イン エディタの開始時間
-[2017.08.16-16.17.01:955][264]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
-[2017.08.16-16.17.01:956][264]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
-[2017.08.16-16.17.57:574][937]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
-[2017.08.16-16.17.57:575][937]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
-[2017.08.16-16.18.26:948][462]Cmd: RestartLevel
-[2017.08.16-16.18.26:956][463]LogNet: Browse: /Game/VehicleAdvBP/Maps/LooptyLoopMap?restart
-[2017.08.16-16.18.26:957][463]LogLoad: LoadMap: /Game/VehicleAdvBP/Maps/LooptyLoopMap
-[2017.08.16-16.18.26:958][463]PIE:Warning: 警告 Attempting to move a fully simulated skeletal mesh VehicleMesh. Please use the Teleport flag
-[2017.08.16-16.18.26:958][463]LogPawn:Error: DisableInput can only be specified on a Pawn for its Controller
-[2017.08.16-16.18.26:977][463]Cmd: MEM
-[2017.08.16-16.18.26:989][463]LogMemory: Platform Memory Stats for Windows
-[2017.08.16-16.18.26:989][463]LogMemory: Process Physical Memory: 1826.80 MB used, 1886.07 MB peak
-[2017.08.16-16.18.26:989][463]LogMemory: Process Virtual Memory: 3053.02 MB used, 3115.16 MB peak
-[2017.08.16-16.18.26:989][463]LogMemory: Physical Memory: 6780.39 MB used,  9546.84 MB free, 16327.22 MB total
-[2017.08.16-16.18.26:989][463]LogMemory: Virtual Memory: 4101.12 MB used,  9546.84 MB free, 134217728.00 MB total
-[2017.08.16-16.18.26:989][463]LogMemory: 
-[2017.08.16-16.18.26:989][463]Allocator Stats for TBB: (not implemented)
-[2017.08.16-16.18.26:989][463]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
-[2017.08.16-16.18.27:005][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016619s)
-[2017.08.16-16.18.27:006][463]LogAIModule: Creating AISystem for world LooptyLoopMap
-[2017.08.16-16.18.27:006][463]LogPlayLevel: PIE: World Init took: (0.000480s)
-[2017.08.16-16.18.27:006][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.017276s)
-[2017.08.16-16.18.27:006][463]LogLoad: Game class is 'VehicleAdvGameMode_C'
-[2017.08.16-16.18.27:012][463]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2017.08.17-01.18.27
-[2017.08.16-16.18.27:012][463]LogWorld: Bringing up level for play took: 0.003603
-[2017.08.16-16.18.27:016][463]LogLoad: Took 0.059281 seconds to LoadMap(/Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap)
-[2017.08.16-16.19.09:973][747]LogSavePackage: Save=773.72ms
-[2017.08.16-16.19.09:973][747]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/LooptyLoopMap_Auto3B4CAC7294724D560A69EFD844561495A.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto3.umap'
-[2017.08.16-16.19.09:975][747]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/LooptyLoopMap_Auto3.umap
-[2017.08.16-16.19.09:976][747]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/LooptyLoopMap' took 0.846
-[2017.08.16-16.19.09:976][747]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.846
-[2017.08.16-16.19.09:979][747]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/VehicleAdvBP/Blueprints/VehicleBlueprint] ([1] browsable assets)...
-[2017.08.16-16.19.09:995][747]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint]
-[2017.08.16-16.19.09:995][747]OBJ SavePackage: Finished generating thumbnails for package [/Game/VehicleAdvBP/Blueprints/VehicleBlueprint]
-[2017.08.16-16.19.10:146][747]LogSavePackage: Save=148.04ms
-[2017.08.16-16.19.10:146][747]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/VehicleBlueprint_Auto3572C21614C79D8CC28F5A2BD63CD70EE.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/VehicleBlueprint_Auto3.uasset'
-[2017.08.16-16.19.10:147][747]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Blueprints/VehicleBlueprint_Auto3.uasset
-[2017.08.16-16.19.10:147][747]LogFileHelpers: Auto-saving content packages took 0.169
-[2017.08.16-16.20.22:012][535]BlueprintLog: New page: VehicleBlueprint をコンパイル
-[2017.08.16-16.20.23:343][630]LogTemp: Repeting last play command: 選択ビューポート
-[2017.08.16-16.20.23:355][630]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.16-16.20.23:356][630]PIE: New page: PIEセッション: LooptyLoopMap (2017/08/17 10:20:23)
-[2017.08.16-16.20.23:356][630]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap
-[2017.08.16-16.20.23:372][630]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016520s)
-[2017.08.16-16.20.23:372][630]LogAIModule: Creating AISystem for world LooptyLoopMap
-[2017.08.16-16.20.23:373][630]LogPlayLevel: PIE: World Init took: (0.000528s)
-[2017.08.16-16.20.23:373][630]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/LooptyLoopMap.LooptyLoopMap to /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap (0.017222s)
-[2017.08.16-16.20.23:390][630]LogInit: XAudio2 using 'スピーカー (SB EVO USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.16-16.20.23:396][630]LogInit: FAudioDevice initialized.
-[2017.08.16-16.20.23:438][630]LogLoad: Game class is 'VehicleAdvGameMode_C'
-[2017.08.16-16.20.23:444][630]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap.LooptyLoopMap up for play (max tick rate 0) at 2017.08.17-01.20.23
-[2017.08.16-16.20.23:444][630]LogWorld: Bringing up level for play took: 0.003706
-[2017.08.16-16.20.23:449][630]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_LooptyLoopMap -0.395のプレイ イン エディタの開始時間
+[2017.09.02-06.08.59:795][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.02-06.08.59:795][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.02-06.08.59:801][  0]LogInit: Computer: DESKTOP-DL1UF1K
+[2017.09.02-06.08.59:801][  0]LogInit: User: kengomaruyama
+[2017.09.02-06.08.59:801][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.02-06.08.59:801][  0]LogInit: High frequency timer resolution =4.101564 MHz
+[2017.09.02-06.08.59:801][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.02-06.08.59:801][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.02-06.08.59:801][  0]LogMemory: Process Physical Memory: 273.20 MB used, 273.20 MB peak
+[2017.09.02-06.08.59:801][  0]LogMemory: Process Virtual Memory: 260.65 MB used, 260.65 MB peak
+[2017.09.02-06.08.59:801][  0]LogMemory: Physical Memory: 7257.98 MB used,  9069.24 MB free, 16327.22 MB total
+[2017.09.02-06.08.59:801][  0]LogMemory: Virtual Memory: 637.83 MB used,  9069.24 MB free, 134217728.00 MB total
+[2017.09.02-06.08.59:865][  0]LogInit: Using OS detected language (ja-JP).
+[2017.09.02-06.08.59:865][  0]LogInit: Using OS detected locale (ja-JP).
+[2017.09.02-06.08.59:869][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2017.09.02-06.09.00:454][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.02-06.09.00:899][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.09.02-06.09.00:899][  0]LogD3D11RHI:       6084/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.02-06.09.00:900][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.02-06.09.00:900][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.02-06.09.00:900][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.02-06.09.00:943][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.02-06.09.00:943][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.02-06.09.00:943][  0]LogWindows: EnumDisplayDevices:
+[2017.09.02-06.09.00:943][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2017.09.02-06.09.00:943][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.09.02-06.09.00:943][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.09.02-06.09.00:943][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.09.02-06.09.00:943][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.02-06.09.00:943][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.09.02-06.09.00:943][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.09.02-06.09.00:943][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.09.02-06.09.00:943][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.02-06.09.01:339][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.02-06.09.01:362][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.02-06.09.01:411][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../../Users/kengo maruyama/petitcon/Intermediate/Shaders/WorkingDirectory/86788/).
+[2017.09.02-06.09.01:411][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kengo maruyama/AppData/Local/Temp/UnrealShaderWorkingDir/06738C024E1021077AE03CB280F65DEB/'.
+[2017.09.02-06.09.01:411][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.02-06.09.02:165][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.02-06.09.02:201][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.02-06.09.02:238][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.02-06.09.02:276][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.02-06.09.02:312][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.02-06.09.02:349][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.02-06.09.02:386][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.02-06.09.02:423][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.02-06.09.02:456][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.02-06.09.02:493][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.02-06.09.02:529][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.02-06.09.02:564][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.02-06.09.02:600][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.02-06.09.02:636][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.02-06.09.02:672][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.02-06.09.02:761][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.02-06.09.02:761][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.02-06.09.02:794][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.02-06.09.02:868][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.02-06.09.02:890][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.02-06.09.02:926][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.02-06.09.02:963][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.02-06.09.02:999][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.02-06.09.03:036][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.02-06.09.03:036][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.02-06.09.03:434][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.02-06.09.03:503][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.02-06.09.03:503][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.02-06.09.03:503][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kengo maruyama/petitcon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.02-06.09.03:504][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.02-06.09.03:504][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kengo maruyama/petitcon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.02-06.09.03:504][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.02-06.09.03:515][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.02-06.09.03:527][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kengo maruyama/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.02-06.09.03:534][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.02-06.09.03:534][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.02-06.09.03:535][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.02-06.09.03:535][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.02-06.09.03:752][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.02-06.09.03:805][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.02-06.09.03:919][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.02-06.09.03:952][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.02-06.09.03:985][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.02-06.09.03:985][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.02-06.09.03:985][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.02-06.09.04:378][  0]LogNetVersion: petitcon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2069337989)
+[2017.09.02-06.09.04:429][  0]LogAssetRegistry: FAssetRegistry took 0.0239 seconds to start up
+[2017.09.02-06.09.04:481][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.033851 seconds
+[2017.09.02-06.09.04:486][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.02-06.09.04:486][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.02-06.09.04:486][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.02-06.09.04:534][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.02-06.09.06:303][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.02-06.09.06:336][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.02-06.09.06:748][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.02-06.09.07:028][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-06.09.07:067][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-06.09.07:102][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-06.09.07:137][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-06.09.07:741][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.02-06.09.08:182][  0]LogEngine: Initializing Engine...
+[2017.09.02-06.09.08:183][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.02-06.09.08:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.02-06.09.08:333][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.02-06.09.08:426][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-06.09.08:434][  0]LogInit: XAudio2 using 'スピーカー (SB EVO USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.02-06.09.08:443][  0]LogInit: FAudioDevice initialized.
+[2017.09.02-06.09.08:475][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.02-06.09.08:479][  0]LogInit: Texture streaming: Enabled
+[2017.09.02-06.09.08:554][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.02-06.09.08:751][  0]LogInit: Transaction tracking system initialized
+[2017.09.02-06.09.08:973][  0]BlueprintLog: New page: エディタの読み込み
+[2017.09.02-06.09.09:645][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2017.09.02-06.09.10:133][  0]LogConsoleResponse:Display: 
+[2017.09.02-06.09.10:240][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.02-06.09.10:240][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.02-06.09.10:463][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/' took 0.02s
+[2017.09.02-06.09.10:965][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-06.09.10:965][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.02-06.09.10:965][  0]LightingResults: New page: ライティングのビルド
+[2017.09.02-06.09.10:994][  0]MapCheck: New page: マップをチェック
+[2017.09.02-06.09.10:994][  0]LightingResults: New page: <何も選択されていません>
+[2017.09.02-06.09.11:120][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.09.02-06.09.11:120][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.09.02-06.09.11:122][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-06.09.11:122][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-06.09.11:122][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-06.09.11:122][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-06.09.11:134][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.49] Compile of car_blueprint successful, but with 6 Warning(s) [in 24 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-06.09.11:135][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.49] Compile of car_blueprint successful, but with 7 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-06.09.11:135][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.49] Compile of car_blueprint successful, but with 8 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-06.09.11:156][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.09.02-06.09.11:156][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.09.02-06.09.11:158][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-06.09.11:158][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-06.09.11:158][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-06.09.11:158][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-06.09.11:171][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.53] Compile of car_blueprint successful, but with 6 Warning(s) [in 24 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-06.09.11:171][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.53] Compile of car_blueprint successful, but with 7 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-06.09.11:171][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.53] Compile of car_blueprint successful, but with 8 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-06.09.11:329][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveForward  に不明な軸 'MoveForward' を参照しています
+[2017.09.02-06.09.11:329][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookUp を取得  にインプット軸参照の不明な軸 'LookUp' を取得
+[2017.09.02-06.09.11:329][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookRight を取得  にインプット軸参照の不明な軸 'LookRight' を取得
+[2017.09.02-06.09.11:329][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveRight  に不明な軸 'MoveRight' を参照しています
+[2017.09.02-06.09.11:336][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0012.70] Compile of VehicleBlueprint successful, but with 4 Warning(s) [in 10 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-06.09.11:336][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0012.70] Compile of VehicleBlueprint successful, but with 5 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-06.09.11:336][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0012.70] Compile of VehicleBlueprint successful, but with 6 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-06.09.11:384][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveForward  に不明な軸 'MoveForward' を参照しています
+[2017.09.02-06.09.11:384][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookUp を取得  にインプット軸参照の不明な軸 'LookUp' を取得
+[2017.09.02-06.09.11:384][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookRight を取得  にインプット軸参照の不明な軸 'LookRight' を取得
+[2017.09.02-06.09.11:384][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveRight  に不明な軸 'MoveRight' を参照しています
+[2017.09.02-06.09.11:390][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0012.75] Compile of VehicleBlueprint successful, but with 4 Warning(s) [in 9 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-06.09.11:390][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0012.75] Compile of VehicleBlueprint successful, but with 5 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-06.09.11:391][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0012.75] Compile of VehicleBlueprint successful, but with 6 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-06.09.12:015][  0]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.09.02-06.09.12:032][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.02-06.09.12:051][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.02-06.09.12:090][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 38.685ミリ秒かかりました。
+[2017.09.02-06.09.12:090][  0]LogFileHelpers: Loading map 'LooptyLoopMap' took 1.126
+[2017.09.02-06.09.12:151][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.09.02-06.09.12:212][  0]LogCollectionManager: Loaded 0 collections in 0.000999 seconds
+[2017.09.02-06.09.12:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Saved/Collections/' took 0.01s
+[2017.09.02-06.09.12:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/Developers/kengomaruyama/Collections/' took 0.01s
+[2017.09.02-06.09.12:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/Collections/' took 0.01s
+[2017.09.02-06.09.12:281][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.02-06.09.12:287][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2342 classes and 498 folders.
+[2017.09.02-06.09.12:344][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.09.02-06.09.12:374][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.02-06.09.12:407][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.02-06.09.12:517][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.02-06.09.12:522][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.02-06.09.12:526][  0]LogSlate: Took 0.002891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.09.02-06.09.12:526][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.02-06.09.12:528][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.02-06.09.12:615][  0]LogRenderer: Reallocating scene render targets to support 1108x584 NumSamples 1 (Frame:1).
+[2017.09.02-06.09.12:733][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2017.09.02-06.09.12:788][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.02-06.09.12:788][  0]LogLoad: (Engine Initialization) Total time: 14.15 seconds
+[2017.09.02-06.09.12:788][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.29 seconds
+[2017.09.02-06.09.12:788][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.02-06.09.12:801][  0]LogOcInput: OculusInput pre-init called
+[2017.09.02-06.09.12:802][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.09.02-06.09.12:802][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.09.02-06.09.12:802][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.09.02-06.09.12:802][  0]LogRawInputWindows:Warning: Found device 1 devices
+[2017.09.02-06.09.12:802][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.09.02-06.09.12:802][  0]LogHMD: Starting GearVRController plugin
+[2017.09.02-06.09.12:819][  0]LogAssetRegistry: Asset discovery search completed in 8.4116 seconds
+[2017.09.02-06.09.12:821][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.02-06.09.12:821][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.09.02-06.09.12:823][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.02-06.09.12:866][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.02-06.09.19:568][791]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.02-06.09.19:668][791]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-06.09.19:682][791]Cmd: MAP LOAD FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.02-06.09.19:682][791]LightingResults: New page: ライティングのビルド
+[2017.09.02-06.09.19:683][791]LoadErrors: New page: マップをロード中: Untitled.umap
+[2017.09.02-06.09.19:684][791]MapCheck: New page: マップをチェック
+[2017.09.02-06.09.19:684][791]LightingResults: New page: <何も選択されていません>
+[2017.09.02-06.09.19:763][791]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.02-06.09.19:790][791]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.02-06.09.19:831][791]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 41.067ミリ秒かかりました。
+[2017.09.02-06.09.19:831][791]LogFileHelpers: Loading map 'Untitled' took 0.149
+[2017.09.02-06.09.54:775][953]LogStaticMesh: スタティックメッシュ SM_Bush02 をビルド中...
+[2017.09.02-06.09.54:789][953]LogStaticMesh: Built static mesh [0.01s] /Game/ForestSet/Meshes/SM_Bush02.SM_Bush02
+[2017.09.02-06.09.54:805][953]LogTexture:Display: Building textures: t_grass01 (AutoDXT, 1024X1024)
+[2017.09.02-06.09.55:181][953]LogTexture:Display: Building textures: t_grass01_normals (BC5, 1024X1024)
+[2017.09.02-06.09.55:281][953]LogMaterial: Missing cached shader map for material MASTER_FOLIAGE, compiling. 
+[2017.09.02-06.09.55:374][953]LogTexture:Display: Building textures: t_bush02 (AutoDXT, 1024X1024)
+[2017.09.02-06.09.55:706][953]LogTexture:Display: Building textures: t_bush02_normals (BC5, 1024X1024)
+[2017.09.02-06.10.06:110][971]LogTexture:Display: Building textures: t_treeleaves01 (AutoDXT, 2048X2048)
+[2017.09.02-06.10.07:760][971]LogTexture:Display: Building textures: t_treeleaves01_normals (BC5, 2048X2048)
+[2017.09.02-06.10.08:259][971]LogTexture:Display: Building textures: t_treeleaves01_SPEC (AutoDXT, 2048X2048)
+[2017.09.02-06.10.09:937][971]LogMaterial: Missing cached shader map for material MASTER_TREELEAVES, compiling. 
+[2017.09.02-06.10.10:021][971]LogTexture:Display: Building textures: t_treebark01 (AutoDXT, 1024X1024)
+[2017.09.02-06.10.10:600][971]LogTexture:Display: Building textures: t_treebark01_normals (BC5, 1024X1024)
+[2017.09.02-06.10.10:683][971]LogStaticMesh: スタティックメッシュ SM_Tree04 をビルド中...
+[2017.09.02-06.10.10:690][971]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.02-06.10.11:154][971]LogStaticMesh: Built static mesh [0.47s] /Game/ForestSet/Meshes/SM_Tree04.SM_Tree04
+[2017.09.02-06.10.11:159][971]LogMaterial: Missing cached shader map for material M_TreeBark01, compiling. 
+[2017.09.02-06.10.12:994][971]LogRenderer: Reallocating scene render targets to support 1512x924 NumSamples 1 (Frame:1).
+[2017.09.02-06.10.21:963][755]LogStaticMesh: スタティックメッシュ SM_Tree01 をビルド中...
+[2017.09.02-06.10.22:162][755]LogStaticMesh: Built static mesh [0.20s] /Game/ForestSet/Meshes/SM_Tree01.SM_Tree01
+[2017.09.02-06.10.49:314][816]LogMaterial: Missing cached shader map for material M_Concrete_Panels, compiling. 
+[2017.09.02-06.10.49:338][816]LogStaticMesh: スタティックメッシュ R_GuardRail をビルド中...
+[2017.09.02-06.10.49:353][816]LogStaticMesh: Built static mesh [0.02s] /Game/Props/R_GuardRail.R_GuardRail
+[2017.09.02-06.10.49:360][816]LogMaterial: Missing cached shader map for material M_Metal_Burnished_Steel, compiling. 
+[2017.09.02-06.11.02:641][ 78]LogStaticMesh: スタティックメッシュ L_GuardRail をビルド中...
+[2017.09.02-06.11.02:658][ 78]LogStaticMesh: Built static mesh [0.02s] /Game/Props/L_GuardRail.L_GuardRail
+[2017.09.02-06.11.55:203][840]LogActorFactory: Actor Factory created L_GuardRail
+[2017.09.02-06.11.55:902][921]LogActorFactory: Actor Factory created L_GuardRail
+[2017.09.02-06.12.11:340][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (L_GuardRail)
+[2017.09.02-06.12.26:861][588]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.02-06.12.32:381][220]LogSlate: Took 0.000531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.02-06.12.36:004][651]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (L_GuardRail)
+[2017.09.02-06.12.50:399][367]Cmd: DELETE
+[2017.09.02-06.12.50:399][367]Cmd: ACTOR DELETE
+[2017.09.02-06.12.50:399][367]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.02-06.12.50:409][367]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.09.02-06.12.53:281][699]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.09.02-06.16.09:253][646]Cmd: TRANSACTION UNDO
+[2017.09.02-06.16.09:253][646]LogEditorTransaction: Undo X を編集
+[2017.09.02-06.16.09:277][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:278][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_144] ScaledElem[0] invalid
+[2017.09.02-06.16.09:278][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:278][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_144] ScaledElem[1] invalid
+[2017.09.02-06.16.09:278][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:278][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_144] ScaledElem[2] invalid
+[2017.09.02-06.16.09:278][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:278][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_144] ScaledElem[3] invalid
+[2017.09.02-06.16.09:279][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:279][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_143] ScaledElem[0] invalid
+[2017.09.02-06.16.09:279][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:279][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_143] ScaledElem[1] invalid
+[2017.09.02-06.16.09:279][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:279][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_143] ScaledElem[2] invalid
+[2017.09.02-06.16.09:279][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:279][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_143] ScaledElem[3] invalid
+[2017.09.02-06.16.09:280][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:280][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_149] ScaledElem[0] invalid
+[2017.09.02-06.16.09:280][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:280][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_149] ScaledElem[1] invalid
+[2017.09.02-06.16.09:280][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:280][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_149] ScaledElem[2] invalid
+[2017.09.02-06.16.09:280][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:280][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_149] ScaledElem[3] invalid
+[2017.09.02-06.16.09:281][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:281][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_150] ScaledElem[0] invalid
+[2017.09.02-06.16.09:281][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:281][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_150] ScaledElem[1] invalid
+[2017.09.02-06.16.09:281][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:281][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_150] ScaledElem[2] invalid
+[2017.09.02-06.16.09:281][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:281][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_150] ScaledElem[3] invalid
+[2017.09.02-06.16.09:284][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:284][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_87] ScaledElem[0] invalid
+[2017.09.02-06.16.09:284][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:284][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_87] ScaledElem[1] invalid
+[2017.09.02-06.16.09:284][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:284][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_87] ScaledElem[2] invalid
+[2017.09.02-06.16.09:284][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:284][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_87] ScaledElem[3] invalid
+[2017.09.02-06.16.09:286][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:286][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_139] ScaledElem[0] invalid
+[2017.09.02-06.16.09:286][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:286][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_139] ScaledElem[1] invalid
+[2017.09.02-06.16.09:286][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:286][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_139] ScaledElem[2] invalid
+[2017.09.02-06.16.09:286][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:286][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_139] ScaledElem[3] invalid
+[2017.09.02-06.16.09:287][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:287][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_78] ScaledElem[0] invalid
+[2017.09.02-06.16.09:287][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:287][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_78] ScaledElem[1] invalid
+[2017.09.02-06.16.09:287][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:287][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_78] ScaledElem[2] invalid
+[2017.09.02-06.16.09:287][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:287][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_78] ScaledElem[3] invalid
+[2017.09.02-06.16.09:291][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:291][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_174] ScaledElem[0] invalid
+[2017.09.02-06.16.09:291][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:291][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_174] ScaledElem[1] invalid
+[2017.09.02-06.16.09:291][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:291][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_174] ScaledElem[2] invalid
+[2017.09.02-06.16.09:291][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:291][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_174] ScaledElem[3] invalid
+[2017.09.02-06.16.09:292][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:292][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_157] ScaledElem[0] invalid
+[2017.09.02-06.16.09:292][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:292][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_157] ScaledElem[1] invalid
+[2017.09.02-06.16.09:292][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:292][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_157] ScaledElem[2] invalid
+[2017.09.02-06.16.09:292][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:292][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_157] ScaledElem[3] invalid
+[2017.09.02-06.16.09:293][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:293][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_154] ScaledElem[0] invalid
+[2017.09.02-06.16.09:293][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:293][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_154] ScaledElem[1] invalid
+[2017.09.02-06.16.09:293][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:293][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_154] ScaledElem[2] invalid
+[2017.09.02-06.16.09:293][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:293][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_154] ScaledElem[3] invalid
+[2017.09.02-06.16.09:295][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:295][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_167] ScaledElem[0] invalid
+[2017.09.02-06.16.09:295][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:295][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_167] ScaledElem[1] invalid
+[2017.09.02-06.16.09:295][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:295][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_167] ScaledElem[2] invalid
+[2017.09.02-06.16.09:295][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:295][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_167] ScaledElem[3] invalid
+[2017.09.02-06.16.09:296][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:296][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_169] ScaledElem[0] invalid
+[2017.09.02-06.16.09:296][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:296][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_169] ScaledElem[1] invalid
+[2017.09.02-06.16.09:296][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:296][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_169] ScaledElem[2] invalid
+[2017.09.02-06.16.09:296][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:296][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_169] ScaledElem[3] invalid
+[2017.09.02-06.16.09:298][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:298][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_130] ScaledElem[0] invalid
+[2017.09.02-06.16.09:298][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:298][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_130] ScaledElem[1] invalid
+[2017.09.02-06.16.09:298][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:298][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_130] ScaledElem[2] invalid
+[2017.09.02-06.16.09:298][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:298][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_130] ScaledElem[3] invalid
+[2017.09.02-06.16.09:299][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:299][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_176] ScaledElem[0] invalid
+[2017.09.02-06.16.09:299][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:299][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_176] ScaledElem[1] invalid
+[2017.09.02-06.16.09:299][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:299][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_176] ScaledElem[2] invalid
+[2017.09.02-06.16.09:299][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:299][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_176] ScaledElem[3] invalid
+[2017.09.02-06.16.09:302][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:302][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_128] ScaledElem[0] invalid
+[2017.09.02-06.16.09:302][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:302][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_128] ScaledElem[1] invalid
+[2017.09.02-06.16.09:302][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:302][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_128] ScaledElem[2] invalid
+[2017.09.02-06.16.09:302][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:302][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_128] ScaledElem[3] invalid
+[2017.09.02-06.16.09:303][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:303][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_125] ScaledElem[0] invalid
+[2017.09.02-06.16.09:303][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:303][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_125] ScaledElem[1] invalid
+[2017.09.02-06.16.09:303][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:303][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_125] ScaledElem[2] invalid
+[2017.09.02-06.16.09:303][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:303][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_125] ScaledElem[3] invalid
+[2017.09.02-06.16.09:304][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:304][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_2] ScaledElem[0] invalid
+[2017.09.02-06.16.09:304][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:304][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_2] ScaledElem[1] invalid
+[2017.09.02-06.16.09:304][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:304][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_2] ScaledElem[2] invalid
+[2017.09.02-06.16.09:304][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:304][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_2] ScaledElem[3] invalid
+[2017.09.02-06.16.09:306][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:306][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_183] ScaledElem[0] invalid
+[2017.09.02-06.16.09:306][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:306][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_183] ScaledElem[1] invalid
+[2017.09.02-06.16.09:306][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:306][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_183] ScaledElem[2] invalid
+[2017.09.02-06.16.09:306][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:306][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_183] ScaledElem[3] invalid
+[2017.09.02-06.16.09:309][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:309][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_178] ScaledElem[0] invalid
+[2017.09.02-06.16.09:309][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:309][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_178] ScaledElem[1] invalid
+[2017.09.02-06.16.09:309][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:309][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_178] ScaledElem[2] invalid
+[2017.09.02-06.16.09:309][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:309][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_178] ScaledElem[3] invalid
+[2017.09.02-06.16.09:310][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:310][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_5] ScaledElem[0] invalid
+[2017.09.02-06.16.09:310][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:310][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_5] ScaledElem[1] invalid
+[2017.09.02-06.16.09:310][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:310][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_5] ScaledElem[2] invalid
+[2017.09.02-06.16.09:310][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:310][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_5] ScaledElem[3] invalid
+[2017.09.02-06.16.09:312][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:312][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_181] ScaledElem[0] invalid
+[2017.09.02-06.16.09:312][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:312][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_181] ScaledElem[1] invalid
+[2017.09.02-06.16.09:312][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:312][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_181] ScaledElem[2] invalid
+[2017.09.02-06.16.09:312][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:312][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_181] ScaledElem[3] invalid
+[2017.09.02-06.16.09:313][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:313][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_180] ScaledElem[0] invalid
+[2017.09.02-06.16.09:313][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:313][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_180] ScaledElem[1] invalid
+[2017.09.02-06.16.09:313][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:313][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_180] ScaledElem[2] invalid
+[2017.09.02-06.16.09:313][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:313][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_180] ScaledElem[3] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_102] ScaledElem[0] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_102] ScaledElem[1] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_102] ScaledElem[2] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_102] ScaledElem[3] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_111] ScaledElem[0] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_111] ScaledElem[1] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_111] ScaledElem[2] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_111] ScaledElem[3] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_115] ScaledElem[0] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_115] ScaledElem[1] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_115] ScaledElem[2] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_115] ScaledElem[3] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_118] ScaledElem[0] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_118] ScaledElem[1] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_118] ScaledElem[2] invalid
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:315][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_118] ScaledElem[3] invalid
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_90] ScaledElem[0] invalid
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_90] ScaledElem[1] invalid
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_90] ScaledElem[2] invalid
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_90] ScaledElem[3] invalid
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_92] ScaledElem[0] invalid
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_92] ScaledElem[1] invalid
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_92] ScaledElem[2] invalid
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_92] ScaledElem[3] invalid
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_95] ScaledElem[0] invalid
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_95] ScaledElem[1] invalid
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_95] ScaledElem[2] invalid
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:316][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_95] ScaledElem[3] invalid
+[2017.09.02-06.16.09:317][646]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_99) Component already registered.
+[2017.09.02-06.16.09:317][646]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_95) Component already registered.
+[2017.09.02-06.16.09:317][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:317][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_95] ScaledElem[0] invalid
+[2017.09.02-06.16.09:317][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:317][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_95] ScaledElem[1] invalid
+[2017.09.02-06.16.09:317][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:317][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_95] ScaledElem[2] invalid
+[2017.09.02-06.16.09:317][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:317][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_95] ScaledElem[3] invalid
+[2017.09.02-06.16.09:319][646]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_102) Component already registered.
+[2017.09.02-06.16.09:319][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:319][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_102] ScaledElem[0] invalid
+[2017.09.02-06.16.09:319][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:319][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_102] ScaledElem[1] invalid
+[2017.09.02-06.16.09:319][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:319][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_102] ScaledElem[2] invalid
+[2017.09.02-06.16.09:319][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:319][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_102] ScaledElem[3] invalid
+[2017.09.02-06.16.09:320][646]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_92) Component already registered.
+[2017.09.02-06.16.09:320][646]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_90) Component already registered.
+[2017.09.02-06.16.09:320][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:320][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_90] ScaledElem[0] invalid
+[2017.09.02-06.16.09:320][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:320][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_90] ScaledElem[1] invalid
+[2017.09.02-06.16.09:320][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:320][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_90] ScaledElem[2] invalid
+[2017.09.02-06.16.09:320][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:320][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_90] ScaledElem[3] invalid
+[2017.09.02-06.16.09:321][646]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_112) Component already registered.
+[2017.09.02-06.16.09:322][646]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_113) Component already registered.
+[2017.09.02-06.16.09:323][646]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_118) Component already registered.
+[2017.09.02-06.16.09:323][646]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_115) Component already registered.
+[2017.09.02-06.16.09:323][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:323][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_115] ScaledElem[0] invalid
+[2017.09.02-06.16.09:323][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:323][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_115] ScaledElem[1] invalid
+[2017.09.02-06.16.09:323][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:323][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_115] ScaledElem[2] invalid
+[2017.09.02-06.16.09:323][646]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.09:323][646]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_115] ScaledElem[3] invalid
+[2017.09.02-06.16.09:325][646]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_106) Component already registered.
+[2017.09.02-06.16.09:325][646]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_111) Component already registered.
+[2017.09.02-06.16.09:325][646]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_109) Component already registered.
+[2017.09.02-06.16.09:923][714]Cmd: TRANSACTION UNDO
+[2017.09.02-06.16.09:923][714]LogEditorTransaction: Undo Z を編集
+[2017.09.02-06.16.10:895][829]Cmd: TRANSACTION UNDO
+[2017.09.02-06.16.10:896][829]LogEditorTransaction: Undo Y を編集
+[2017.09.02-06.16.20:808][  8]Cmd: TRANSACTION UNDO
+[2017.09.02-06.16.20:808][  8]LogEditorTransaction: Undo X を編集
+[2017.09.02-06.16.20:811][  8]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.20:811][  8]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_187] ScaledElem[0] invalid
+[2017.09.02-06.16.20:811][  8]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.20:811][  8]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_187] ScaledElem[1] invalid
+[2017.09.02-06.16.20:811][  8]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.20:811][  8]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_187] ScaledElem[2] invalid
+[2017.09.02-06.16.20:811][  8]LogPhysics:Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.09.02-06.16.20:811][  8]LogPhysics:Warning: ForeachShape(Convex): [/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_187] ScaledElem[3] invalid
+[2017.09.02-06.16.22:053][151]Cmd: TRANSACTION UNDO
+[2017.09.02-06.16.22:053][151]LogEditorTransaction: Undo ベクタープロパティを設定
+[2017.09.02-06.19.20:529][688]LogSavePackage: Save=425.75ms
+[2017.09.02-06.19.20:529][688]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/Untitled_Auto176AA512347D4700D41EA79B68BD6CFA4.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/Untitled_Auto1.umap'
+[2017.09.02-06.19.20:532][688]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Saved/Autosaves/Game/VehicleAdvBP/Maps/Untitled_Auto1.umap
+[2017.09.02-06.19.20:533][688]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VehicleAdvBP/Maps/Untitled' took 0.454
+[2017.09.02-06.19.20:533][688]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.454
+[2017.09.02-06.25.04:109][ 63]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-06.25.04:157][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-06.25.04:157][ 63]PIE: New page: PIEセッション: Untitled (2017/09/03 0:25:04)
+[2017.09.02-06.25.04:158][ 63]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-06.25.04:194][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036237s)
+[2017.09.02-06.25.04:195][ 63]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-06.25.04:195][ 63]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2017.09.02-06.25.04:195][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.037225s)
+[2017.09.02-06.25.04:210][ 63]LogInit: XAudio2 using 'スピーカー (SB EVO USB)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.02-06.25.04:218][ 63]LogInit: FAudioDevice initialized.
+[2017.09.02-06.25.04:282][ 63]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-06.25.04:291][ 63]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-15.25.04
+[2017.09.02-06.25.04:291][ 63]LogWorld: Bringing up level for play took: 0.005128
+[2017.09.02-06.25.04:327][ 63]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.09.02-06.25.04:334][ 63]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled -0.146のプレイ イン エディタの開始時間
+[2017.09.02-06.25.22:371][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/Untitled" FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.02-06.25.22:766][186]LogSavePackage: Save=384.01ms
+[2017.09.02-06.25.22:766][186]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/Untitled6CA251C24BE9BFDE56658690C5E1B41F.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap'
+[2017.09.02-06.25.22:769][186]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap
+[2017.09.02-06.26.25:513][412]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.09.02-06.26.27:714][674]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.09.02-06.26.43:756][587]Cmd: TRANSACTION UNDO
+[2017.09.02-06.26.43:756][587]LogEditorTransaction: Undo Y を編集
+[2017.09.02-06.27.42:883][139]LogActorComponent: UnregisterComponent: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.ControlPointMeshComponent_0) Not registered. Aborting.
+[2017.09.02-06.27.44:918][383]Cmd: TRANSACTION UNDO
+[2017.09.02-06.27.44:918][383]LogEditorTransaction: Undo Mesh を編集
+[2017.09.02-06.27.44:923][383]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_466) Component already registered.
+[2017.09.02-06.27.53:025][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/Untitled" FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.02-06.27.53:533][348]LogSavePackage: Save=494.05ms
+[2017.09.02-06.27.53:533][348]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/Untitled7B70EB5F446E1E913772CA9AE1C12827.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap'
+[2017.09.02-06.27.53:535][348]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap
+[2017.09.02-06.28.11:636][500]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.09.02-06.28.53:293][448]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.09.02-06.28.53:448][449]Cmd: QUIT_EDITOR
+[2017.09.02-06.28.54:270][449]LogExit: Preparing to exit.
+[2017.09.02-06.28.54:799][449]LogDirectoryWatcher: A directory notification for 'C:/Users/kengo maruyama/petitcon/Content/' was aborted.
+[2017.09.02-06.28.54:820][449]LogExit: Editor shut down
+[2017.09.02-06.28.54:823][449]LogExit: Transaction tracking system shut down
+[2017.09.02-06.28.54:879][449]LogObj: Freed 0b from 0 cluster array pools.
+[2017.09.02-06.28.54:879][449]LogExit: Object subsystem successfully closed.
+[2017.09.02-06.28.54:898][449]LogD3D11RHI: Shutdown
+[2017.09.02-06.28.54:898][449]LogD3D11RHI: CleanupD3DDevice
+[2017.09.02-06.28.54:961][449]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.02-06.28.54:973][449]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.09.02-06.28.54:973][449]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
+[2017.09.02-06.28.54:973][449]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (530)
+[2017.09.02-06.28.54:973][449]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2017.09.02-06.28.54:973][449]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2017.09.02-06.28.54:973][449]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2017.09.02-06.28.54:973][449]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2017.09.02-06.28.54:973][449]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2017.09.02-06.28.54:974][449]LogDirectoryWatcher: A directory notification for 'C:/Users/kengo maruyama/petitcon/Content/Collections/' was aborted.
+[2017.09.02-06.28.54:974][449]LogDirectoryWatcher: A directory notification for 'C:/Users/kengo maruyama/petitcon/Content/Developers/kengomaruyama/Collections/' was aborted.
+[2017.09.02-06.28.54:974][449]LogDirectoryWatcher: A directory notification for 'C:/Users/kengo maruyama/petitcon/Saved/Collections/' was aborted.
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module Media (475)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2017.09.02-06.28.54:974][449]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2017.09.02-06.28.55:256][449]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2017.09.02-06.28.55:256][449]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2017.09.02-06.28.55:256][449]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2017.09.02-06.28.55:257][449]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2017.09.02-06.28.55:308][449]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2017.09.02-06.28.55:308][449]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2017.09.02-06.28.55:308][449]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2017.09.02-06.28.55:308][449]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2017.09.02-06.28.55:308][449]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2017.09.02-06.28.55:308][449]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2017.09.02-06.28.55:308][449]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2017.09.02-06.28.55:308][449]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2017.09.02-06.28.55:308][449]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2017.09.02-06.28.55:308][449]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2017.09.02-06.28.55:309][449]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2017.09.02-06.28.55:310][449]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2017.09.02-06.28.55:310][449]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2017.09.02-06.28.55:310][449]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module SteamVRController (328)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module SteamVR (326)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (324)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (322)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module OculusLibrary (320)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module OculusInput (318)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (316)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (314)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module CableComponent (312)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (310)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module AndroidPermission (308)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (304)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module IM4U (302)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module RawInput (300)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.09.02-06.28.55:444][449]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.09.02-06.28.55:445][449]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.09.02-06.28.55:446][449]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.09.02-06.28.55:446][449]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.09.02-06.28.55:446][449]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.09.02-06.28.55:446][449]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.09.02-06.28.55:446][449]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.09.02-06.28.55:446][449]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.09.02-06.28.55:546][449]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.09.02-06.28.55:670][449]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.09.02-06.28.55:671][449]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.09.02-06.28.55:672][449]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.09.02-06.28.55:672][449]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.09.02-06.28.55:672][449]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.09.02-06.28.55:672][449]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.09.02-06.28.55:672][449]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.09.02-06.28.55:672][449]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.09.02-06.28.55:673][449]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.09.02-06.28.55:673][449]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.09.02-06.28.55:673][449]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.09.02-06.28.55:673][449]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.09.02-06.28.55:673][449]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.09.02-06.28.55:673][449]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.09.02-06.28.55:835][449]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.02-06.28.55:835][449]LogDirectoryWatcher: A directory notification for '../../../../../../Users/kengo maruyama/petitcon/Content/' was aborted.
+[2017.09.02-06.28.55:835][449]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.02-06.28.55:835][449]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/IM4U/Content/' was aborted.
+[2017.09.02-06.28.55:835][449]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.09.02-06.28.55:837][449]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.09.02-06.28.55:837][449]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.09.02-06.28.55:837][449]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.09.02-06.28.55:837][449]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.09.02-06.28.55:837][449]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.09.02-06.28.55:837][449]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.09.02-06.28.55:837][449]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.09.02-06.28.55:837][449]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.09.02-06.28.55:837][449]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.02-06.28.55:875][449]LogDerivedDataCache: Shutdown
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.02-06.28.55:875][449]LogOnline:Display: Unloading online subsystem: NULL
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.02-06.28.55:875][449]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.02-06.28.55:875][449]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.02-06.28.55:876][449]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF458FAF8-450D-A139-ACD4-AEB1B733398F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.1-3466753%2B%2B%2BUE4%2BRelease-4.16&UserID=2c127a1545a89edf8c04e59bed9bc38d%7C9b58983219324e548224cd910be150a8%7Cd6a86ae9-d97b-48b6-acc2-2f734812868e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.02-06.28.55:887][449]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.02-06.28.55:888][449]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.09.02-06.28.55:888][449]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.09.02-06.28.55:888][449]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.09.02-06.28.55:888][449]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.09.02-06.28.55:888][449]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.09.02-06.28.55:888][449]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.09.02-06.28.55:888][449]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.09.02-06.28.55:888][449]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.09.02-06.28.55:890][449]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.09.02-06.28.55:890][449]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.09.02-06.28.55:890][449]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.09.02-06.28.55:890][449]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.09.02-06.28.55:890][449]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.09.02-06.28.55:890][449]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.09.02-06.28.55:890][449]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.09.02-06.28.55:890][449]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.02-06.28.55:890][449]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.02-06.28.55:890][449]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.02-06.28.55:892][449]LogExit: Exiting.
+[2017.09.02-06.28.55:915][449]Log file closed, 09/02/17 15:28:55

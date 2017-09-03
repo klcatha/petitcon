@@ -1,0 +1,432 @@
+﻿Log file open, 09/02/17 13:12:18
+LogInit:Display: Running engine for game: petitcon
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-62286077) SRandInit(-62286077).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074885
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.02-04.12.18:985][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.02-04.12.18:985][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.02-04.12.18:990][  0]LogInit: Computer: DESKTOP-DL1UF1K
+[2017.09.02-04.12.18:990][  0]LogInit: User: kengomaruyama
+[2017.09.02-04.12.18:990][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.02-04.12.18:990][  0]LogInit: High frequency timer resolution =4.101564 MHz
+[2017.09.02-04.12.18:990][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.02-04.12.18:990][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.02-04.12.18:990][  0]LogMemory: Process Physical Memory: 273.34 MB used, 273.34 MB peak
+[2017.09.02-04.12.18:990][  0]LogMemory: Process Virtual Memory: 260.73 MB used, 260.73 MB peak
+[2017.09.02-04.12.18:990][  0]LogMemory: Physical Memory: 8148.16 MB used,  8179.06 MB free, 16327.22 MB total
+[2017.09.02-04.12.18:990][  0]LogMemory: Virtual Memory: 637.83 MB used,  8179.06 MB free, 134217728.00 MB total
+[2017.09.02-04.12.19:044][  0]LogInit: Using OS detected language (ja-JP).
+[2017.09.02-04.12.19:044][  0]LogInit: Using OS detected locale (ja-JP).
+[2017.09.02-04.12.19:045][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2017.09.02-04.12.19:596][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.02-04.12.20:039][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.09.02-04.12.20:039][  0]LogD3D11RHI:       6084/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.02-04.12.20:040][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.02-04.12.20:040][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.02-04.12.20:040][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.02-04.12.20:084][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.02-04.12.20:085][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.02-04.12.20:085][  0]LogWindows: EnumDisplayDevices:
+[2017.09.02-04.12.20:085][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2017.09.02-04.12.20:085][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.09.02-04.12.20:085][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.09.02-04.12.20:086][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.09.02-04.12.20:086][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.02-04.12.20:086][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.09.02-04.12.20:086][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.09.02-04.12.20:086][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.09.02-04.12.20:086][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.02-04.12.20:515][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.02-04.12.20:539][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.02-04.12.20:588][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../../Users/kengo maruyama/petitcon/Intermediate/Shaders/WorkingDirectory/361716/).
+[2017.09.02-04.12.20:588][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kengo maruyama/AppData/Local/Temp/UnrealShaderWorkingDir/467BE171489E3EA0FA39AB83D5DC02A3/'.
+[2017.09.02-04.12.20:588][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.02-04.12.21:302][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.02-04.12.21:338][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.02-04.12.21:373][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.02-04.12.21:409][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.02-04.12.21:445][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.02-04.12.21:481][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.02-04.12.21:518][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.02-04.12.21:554][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.02-04.12.21:585][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.02-04.12.21:620][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.02-04.12.21:655][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.02-04.12.21:691][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.02-04.12.21:726][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.02-04.12.21:761][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.02-04.12.21:797][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.02-04.12.21:867][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.02-04.12.21:867][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.02-04.12.21:895][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.02-04.12.21:968][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.02-04.12.21:990][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.02-04.12.22:025][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.02-04.12.22:060][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.02-04.12.22:095][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.02-04.12.22:131][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.02-04.12.22:131][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.02-04.12.22:490][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.02-04.12.22:561][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.02-04.12.22:561][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.02-04.12.22:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kengo maruyama/petitcon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.02-04.12.22:561][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.02-04.12.22:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kengo maruyama/petitcon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.02-04.12.22:561][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.02-04.12.22:573][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.02-04.12.22:584][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kengo maruyama/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.02-04.12.22:591][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.02-04.12.22:591][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.02-04.12.22:592][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.02-04.12.22:592][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.02-04.12.22:814][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.02-04.12.22:862][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.02-04.12.22:971][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.02-04.12.23:005][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.02-04.12.23:040][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.02-04.12.23:040][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.02-04.12.23:040][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.02-04.12.23:419][  0]LogNetVersion: petitcon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2069337989)
+[2017.09.02-04.12.23:468][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2017.09.02-04.12.23:510][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.023855 seconds
+[2017.09.02-04.12.23:514][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.02-04.12.23:514][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.02-04.12.23:514][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.02-04.12.23:562][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.02-04.12.25:346][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.02-04.12.25:377][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.02-04.12.25:779][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.02-04.12.26:057][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-04.12.26:098][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-04.12.26:131][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-04.12.26:163][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-04.12.26:886][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.02-04.12.27:325][  0]LogEngine: Initializing Engine...
+[2017.09.02-04.12.27:326][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.02-04.12.27:474][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.02-04.12.27:474][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.02-04.12.27:572][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-04.12.27:578][  0]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-04.12.27:589][  0]LogInit: FAudioDevice initialized.
+[2017.09.02-04.12.27:623][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.02-04.12.27:628][  0]LogInit: Texture streaming: Enabled
+[2017.09.02-04.12.27:712][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.02-04.12.27:943][  0]LogInit: Transaction tracking system initialized
+[2017.09.02-04.12.28:178][  0]BlueprintLog: New page: エディタの読み込み
+[2017.09.02-04.12.28:878][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2017.09.02-04.12.29:362][  0]LogConsoleResponse:Display: 
+[2017.09.02-04.12.29:471][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.02-04.12.29:471][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.02-04.12.30:231][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/' took 0.02s
+[2017.09.02-04.12.30:231][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-04.12.30:231][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.02-04.12.30:232][  0]LightingResults: New page: ライティングのビルド
+[2017.09.02-04.12.30:262][  0]MapCheck: New page: マップをチェック
+[2017.09.02-04.12.30:262][  0]LightingResults: New page: <何も選択されていません>
+[2017.09.02-04.12.30:385][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.09.02-04.12.30:385][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.09.02-04.12.30:386][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-04.12.30:386][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-04.12.30:386][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-04.12.30:386][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-04.12.30:399][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.65] Compile of car_blueprint successful, but with 6 Warning(s) [in 23 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-04.12.30:399][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.65] Compile of car_blueprint successful, but with 7 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-04.12.30:399][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.65] Compile of car_blueprint successful, but with 8 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-04.12.30:419][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.09.02-04.12.30:419][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.09.02-04.12.30:421][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-04.12.30:421][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-04.12.30:421][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-04.12.30:421][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-04.12.30:433][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.68] Compile of car_blueprint successful, but with 6 Warning(s) [in 23 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-04.12.30:433][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.68] Compile of car_blueprint successful, but with 7 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-04.12.30:434][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0012.68] Compile of car_blueprint successful, but with 8 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-04.12.30:595][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveForward  に不明な軸 'MoveForward' を参照しています
+[2017.09.02-04.12.30:596][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookUp を取得  にインプット軸参照の不明な軸 'LookUp' を取得
+[2017.09.02-04.12.30:596][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookRight を取得  にインプット軸参照の不明な軸 'LookRight' を取得
+[2017.09.02-04.12.30:596][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveRight  に不明な軸 'MoveRight' を参照しています
+[2017.09.02-04.12.30:602][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0012.85] Compile of VehicleBlueprint successful, but with 4 Warning(s) [in 9 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-04.12.30:602][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0012.85] Compile of VehicleBlueprint successful, but with 5 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-04.12.30:602][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0012.85] Compile of VehicleBlueprint successful, but with 6 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-04.12.30:650][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveForward  に不明な軸 'MoveForward' を参照しています
+[2017.09.02-04.12.30:650][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookUp を取得  にインプット軸参照の不明な軸 'LookUp' を取得
+[2017.09.02-04.12.30:650][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookRight を取得  にインプット軸参照の不明な軸 'LookRight' を取得
+[2017.09.02-04.12.30:650][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveRight  に不明な軸 'MoveRight' を参照しています
+[2017.09.02-04.12.30:657][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0012.90] Compile of VehicleBlueprint successful, but with 4 Warning(s) [in 10 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-04.12.30:657][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0012.90] Compile of VehicleBlueprint successful, but with 5 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-04.12.30:658][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0012.91] Compile of VehicleBlueprint successful, but with 6 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-04.12.31:274][  0]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.09.02-04.12.31:291][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.02-04.12.31:310][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.02-04.12.31:349][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 39.155ミリ秒かかりました。
+[2017.09.02-04.12.31:350][  0]LogFileHelpers: Loading map 'LooptyLoopMap' took 1.118
+[2017.09.02-04.12.31:414][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.09.02-04.12.31:473][  0]LogCollectionManager: Loaded 0 collections in 0.000983 seconds
+[2017.09.02-04.12.31:557][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Saved/Collections/' took 0.01s
+[2017.09.02-04.12.31:557][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/Developers/kengomaruyama/Collections/' took 0.01s
+[2017.09.02-04.12.31:557][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/Collections/' took 0.01s
+[2017.09.02-04.12.31:557][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.09.02-04.12.31:566][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2342 classes and 498 folders.
+[2017.09.02-04.12.31:618][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.02-04.12.31:640][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.02-04.12.31:670][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.02-04.12.31:754][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.02-04.12.31:758][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.02-04.12.31:760][  0]LogSlate: Took 0.001846 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.09.02-04.12.31:761][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.02-04.12.31:762][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.02-04.12.31:826][  0]LogRenderer: Reallocating scene render targets to support 1108x584 NumSamples 1 (Frame:1).
+[2017.09.02-04.12.31:909][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2017.09.02-04.12.31:962][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.02-04.12.31:962][  0]LogLoad: (Engine Initialization) Total time: 14.21 seconds
+[2017.09.02-04.12.31:962][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.31 seconds
+[2017.09.02-04.12.31:962][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.02-04.12.31:975][  0]LogOcInput: OculusInput pre-init called
+[2017.09.02-04.12.31:976][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.09.02-04.12.31:976][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.09.02-04.12.31:976][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.09.02-04.12.31:976][  0]LogRawInputWindows:Warning: Found device 1 devices
+[2017.09.02-04.12.31:976][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.09.02-04.12.31:976][  0]LogHMD: Starting GearVRController plugin
+[2017.09.02-04.12.31:992][  0]LogAssetRegistry: Asset discovery search completed in 8.5457 seconds
+[2017.09.02-04.12.31:994][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.02-04.12.31:994][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2017.09.02-04.12.31:996][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.02-04.12.32:041][  0]LogSlate: Took 0.000088 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.02-04.12.32:989][102]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.02-04.12.45:943][647]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.02-04.12.45:982][647]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-04.12.45:995][647]Cmd: MAP LOAD FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.02-04.12.45:995][647]LightingResults: New page: ライティングのビルド
+[2017.09.02-04.12.45:996][647]LoadErrors: New page: マップをロード中: Untitled.umap
+[2017.09.02-04.12.45:997][647]MapCheck: New page: マップをチェック
+[2017.09.02-04.12.45:997][647]LightingResults: New page: <何も選択されていません>
+[2017.09.02-04.12.46:069][647]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.02-04.12.46:094][647]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.02-04.12.46:133][647]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 39.695ミリ秒かかりました。
+[2017.09.02-04.12.46:133][647]LogFileHelpers: Loading map 'Untitled' took 0.139
+[2017.09.02-04.12.50:572][164]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.09.02-04.14.43:331][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/Untitled" FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.02-04.14.43:480][407]LogSavePackage: Save=137.36ms
+[2017.09.02-04.14.43:480][407]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/Untitled63A980B1461401C9DD7457A098670A59.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap'
+[2017.09.02-04.14.43:483][407]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap
+[2017.09.02-04.14.46:783][794]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2017.09.02-04.15.05:655][ 47]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/Untitled" FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.02-04.15.05:795][ 47]LogSavePackage: Save=130.55ms
+[2017.09.02-04.15.05:795][ 47]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/UntitledE389A16840741CB386EDA19B2D84B840.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap'
+[2017.09.02-04.15.05:797][ 47]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap
+[2017.09.02-04.15.30:668][  1]LogMaterial: Missing cached shader map for material Ground_DryGrassyTrail, compiling. 
+[2017.09.02-04.15.55:008][858]LogMaterial: Missing cached shader map for material road_dirtMasked, compiling. 
+[2017.09.02-04.16.05:944][132]LogMaterial: Missing cached shader map for material Ground_AsphaultOldDry, compiling. 
+[2017.09.02-04.17.06:519][324]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2017.09.02-04.17.15:563][384]LogMaterial: Missing cached shader map for material M_Ground_Moss, compiling. 
+[2017.09.02-04.17.21:125][ 25]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-04.17.21:164][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-04.17.21:164][ 25]PIE: New page: PIEセッション: Untitled (2017/09/02 22:17:21)
+[2017.09.02-04.17.21:164][ 25]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-04.17.21:171][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007636s)
+[2017.09.02-04.17.21:172][ 25]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-04.17.21:172][ 25]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2017.09.02-04.17.21:172][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.008342s)
+[2017.09.02-04.17.21:182][ 25]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-04.17.21:191][ 25]LogInit: FAudioDevice initialized.
+[2017.09.02-04.17.21:255][ 25]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-04.17.21:260][ 25]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-13.17.21
+[2017.09.02-04.17.21:260][ 25]LogWorld: Bringing up level for play took: 0.001639
+[2017.09.02-04.17.21:291][ 25]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.09.02-04.17.21:299][ 25]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled 0.819のプレイ イン エディタの開始時間
+[2017.09.02-04.17.21:348][ 25]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.09.02-04.17.24:764][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/Untitled" FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.02-04.17.24:906][415]LogSavePackage: Save=132.80ms
+[2017.09.02-04.17.24:906][415]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/UntitledB884BB074FBA6ECD8C05DC85602EB21A.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap'
+[2017.09.02-04.17.24:908][415]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap
+[2017.09.02-04.20.40:208][828]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.09.02-04.20.50:617][ 64]Cmd: TRANSACTION UNDO
+[2017.09.02-04.20.50:617][ 64]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.20.51:017][106]Cmd: TRANSACTION UNDO
+[2017.09.02-04.20.51:017][106]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.20.51:391][146]Cmd: TRANSACTION UNDO
+[2017.09.02-04.20.51:391][146]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.20.55:814][666]Cmd: TRANSACTION UNDO
+[2017.09.02-04.20.55:814][666]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.20.58:959][ 35]Cmd: TRANSACTION UNDO
+[2017.09.02-04.20.58:959][ 35]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.21.03:708][590]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2017.09.02-04.21.05:175][762]Cmd: TRANSACTION UNDO
+[2017.09.02-04.21.05:175][762]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.21.05:689][821]Cmd: TRANSACTION UNDO
+[2017.09.02-04.21.05:689][821]LogEditorTransaction: Undo アクタをクリック
+[2017.09.02-04.21.06:280][890]Cmd: TRANSACTION UNDO
+[2017.09.02-04.21.06:280][890]LogEditorTransaction: Undo ランドスケープスプライン制御点を修正
+[2017.09.02-04.21.12:267][598]Cmd: TRANSACTION UNDO
+[2017.09.02-04.21.12:267][598]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.21.15:518][976]Cmd: TRANSACTION UNDO
+[2017.09.02-04.21.15:518][976]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.21.26:316][255]Cmd: TRANSACTION UNDO
+[2017.09.02-04.21.26:316][255]LogEditorTransaction: Undo ランドスケープスプライン制御点を修正
+[2017.09.02-04.21.27:129][347]Cmd: TRANSACTION UNDO
+[2017.09.02-04.21.27:129][347]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.22.02:921][574]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2017.09.02-04.22.04:541][767]Cmd: TRANSACTION UNDO
+[2017.09.02-04.22.04:541][767]LogEditorTransaction: Undo アクタをクリック
+[2017.09.02-04.22.05:391][866]Cmd: TRANSACTION UNDO
+[2017.09.02-04.22.05:391][866]LogEditorTransaction: Undo ランドスケープスプライン制御点を修正
+[2017.09.02-04.22.21:328][730]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape (Landscape1)
+[2017.09.02-04.22.22:544][871]Cmd: TRANSACTION UNDO
+[2017.09.02-04.22.22:544][871]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.22.23:937][ 32]Cmd: TRANSACTION UNDO
+[2017.09.02-04.22.23:937][ 32]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.22.24:582][107]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.09.02-04.22.25:652][234]Cmd: TRANSACTION UNDO
+[2017.09.02-04.22.25:652][234]LogEditorTransaction: Undo アクタをクリック
+[2017.09.02-04.22.26:269][306]Cmd: TRANSACTION UNDO
+[2017.09.02-04.22.26:269][306]LogEditorTransaction: Undo アクタをクリック
+[2017.09.02-04.22.27:769][481]Cmd: TRANSACTION UNDO
+[2017.09.02-04.22.27:769][481]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.22.28:119][521]Cmd: TRANSACTION UNDO
+[2017.09.02-04.22.28:119][521]LogEditorTransaction: Undo ランドスケープスプライン制御点を修正
+[2017.09.02-04.22.43:785][363]Cmd: TRANSACTION UNDO
+[2017.09.02-04.22.43:785][363]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.22.59:284][190]Cmd: TRANSACTION UNDO
+[2017.09.02-04.22.59:284][190]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.23.01:435][440]Cmd: TRANSACTION UNDO
+[2017.09.02-04.23.01:435][440]LogEditorTransaction: Undo ランドスケープスプライン制御点を修正
+[2017.09.02-04.23.14:426][966]Cmd: TRANSACTION UNDO
+[2017.09.02-04.23.14:426][966]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.23.14:801][  5]Cmd: TRANSACTION UNDO
+[2017.09.02-04.23.14:802][  5]LogEditorTransaction: Undo ランドスケープスプライン制御点を修正
+[2017.09.02-04.23.15:435][ 76]Cmd: TRANSACTION UNDO
+[2017.09.02-04.23.15:435][ 76]LogEditorTransaction: Undo ランドスケープスプライン制御点を追加
+[2017.09.02-04.25.15:162][674]Cmd: TRANSACTION UNDO
+[2017.09.02-04.25.15:162][674]LogEditorTransaction: Undo Forward Axis を編集
+[2017.09.02-04.25.15:177][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.RootComponent0) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_74) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_20) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_150) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_21) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_149) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_22) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_151) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_18) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_153) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_152) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_19) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_148) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_17) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_144) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_26) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_145) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_143) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_27) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_23) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_147) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_24) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_146) Component already registered.
+[2017.09.02-04.25.15:178][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_25) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_163) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_7) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_162) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_161) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_166) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_3) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_165) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_6) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_164) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_142) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_156) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_15) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_155) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_16) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_154) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_157) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_159) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_11) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_160) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_158) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_13) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_123) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_124) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_122) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_121) Component already registered.
+[2017.09.02-04.25.15:179][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_127) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_126) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_40) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_125) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_116) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_43) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_115) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_114) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_44) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_117) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_119) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_41) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_120) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_118) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_128) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_138) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_137) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_136) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_31) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_135) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_30) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_140) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_28) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_29) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_139) Component already registered.
+[2017.09.02-04.25.15:180][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_32) Component already registered.
+[2017.09.02-04.25.15:181][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_141) Component already registered.
+[2017.09.02-04.25.15:181][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_130) Component already registered.
+[2017.09.02-04.25.15:181][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_35) Component already registered.
+[2017.09.02-04.25.15:181][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_131) Component already registered.
+[2017.09.02-04.25.15:181][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_129) Component already registered.
+[2017.09.02-04.25.15:181][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_134) Component already registered.
+[2017.09.02-04.25.15:181][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_133) Component already registered.
+[2017.09.02-04.25.15:181][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_132) Component already registered.
+[2017.09.02-04.25.15:181][674]LogActorComponent: ~FComponentReregisterContext: (/Game/VehicleAdvBP/Maps/Untitled.Untitled:PersistentLevel.Landscape_1.SplineMeshComponent_34) Component already registered.

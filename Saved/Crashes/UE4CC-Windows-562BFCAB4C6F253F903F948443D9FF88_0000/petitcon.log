@@ -1,0 +1,500 @@
+﻿Log file open, 09/02/17 12:36:39
+LogInit:Display: Running engine for game: petitcon
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-244344886) SRandInit(-244344886).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074453
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.02-03.36.40:264][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.02-03.36.40:264][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.02-03.36.40:270][  0]LogInit: Computer: DESKTOP-DL1UF1K
+[2017.09.02-03.36.40:270][  0]LogInit: User: kengomaruyama
+[2017.09.02-03.36.40:270][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.02-03.36.40:270][  0]LogInit: High frequency timer resolution =4.101564 MHz
+[2017.09.02-03.36.40:270][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.02-03.36.40:270][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.02-03.36.40:270][  0]LogMemory: Process Physical Memory: 273.38 MB used, 273.38 MB peak
+[2017.09.02-03.36.40:270][  0]LogMemory: Process Virtual Memory: 260.75 MB used, 260.75 MB peak
+[2017.09.02-03.36.40:270][  0]LogMemory: Physical Memory: 8041.00 MB used,  8286.23 MB free, 16327.22 MB total
+[2017.09.02-03.36.40:270][  0]LogMemory: Virtual Memory: 637.83 MB used,  8286.23 MB free, 134217728.00 MB total
+[2017.09.02-03.36.40:324][  0]LogInit: Using OS detected language (ja-JP).
+[2017.09.02-03.36.40:324][  0]LogInit: Using OS detected locale (ja-JP).
+[2017.09.02-03.36.40:326][  0]LogTextLocalizationManager: No specific localization for 'ja-JP' exists, so the 'ja' localization will be used.
+[2017.09.02-03.36.40:898][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.02-03.36.41:323][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.09.02-03.36.41:323][  0]LogD3D11RHI:       6084/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.02-03.36.41:324][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.02-03.36.41:324][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.02-03.36.41:324][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.02-03.36.41:367][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.02-03.36.41:367][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.02-03.36.41:367][  0]LogWindows: EnumDisplayDevices:
+[2017.09.02-03.36.41:367][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2017.09.02-03.36.41:367][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.09.02-03.36.41:367][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.09.02-03.36.41:368][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.09.02-03.36.41:368][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.02-03.36.41:368][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.09.02-03.36.41:368][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.09.02-03.36.41:368][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.09.02-03.36.41:368][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.02-03.36.41:761][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.02-03.36.41:783][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.02-03.36.41:833][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../../../Users/kengo maruyama/petitcon/Intermediate/Shaders/WorkingDirectory/356116/).
+[2017.09.02-03.36.41:833][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kengo maruyama/AppData/Local/Temp/UnrealShaderWorkingDir/DC5C32C64BEFB6B9BC0AD7A27038BA6E/'.
+[2017.09.02-03.36.41:833][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.02-03.36.42:564][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.02-03.36.42:599][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.02-03.36.42:635][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.02-03.36.42:671][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.02-03.36.42:707][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.02-03.36.42:743][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.02-03.36.42:779][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.02-03.36.42:815][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.02-03.36.42:847][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.02-03.36.42:882][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.02-03.36.42:917][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.02-03.36.42:953][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.02-03.36.42:988][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.02-03.36.43:022][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.02-03.36.43:058][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.02-03.36.43:128][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.02-03.36.43:128][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.02-03.36.43:155][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.02-03.36.43:228][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.02-03.36.43:250][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.02-03.36.43:301][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.02-03.36.43:336][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.02-03.36.43:371][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.02-03.36.43:407][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.02-03.36.43:407][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.02-03.36.43:763][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.02-03.36.43:831][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.02-03.36.43:831][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.02-03.36.43:831][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kengo maruyama/petitcon/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.02-03.36.43:831][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.02-03.36.43:831][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kengo maruyama/petitcon/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.02-03.36.43:831][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.02-03.36.43:842][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.02-03.36.43:854][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kengo maruyama/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.02-03.36.43:860][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.02-03.36.43:861][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.02-03.36.43:861][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.02-03.36.43:861][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.02-03.36.44:076][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.02-03.36.44:128][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.02-03.36.44:237][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.02-03.36.44:269][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.02-03.36.44:302][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.02-03.36.44:302][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.02-03.36.44:302][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.02-03.36.44:681][  0]LogNetVersion: petitcon , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2069337989)
+[2017.09.02-03.36.44:732][  0]LogAssetRegistry: FAssetRegistry took 0.0240 seconds to start up
+[2017.09.02-03.36.44:787][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.024381 seconds
+[2017.09.02-03.36.44:791][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.02-03.36.44:791][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.02-03.36.44:791][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.02-03.36.44:838][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.02-03.36.46:519][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.02-03.36.46:550][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.02-03.36.47:039][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.02-03.36.47:314][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-03.36.47:354][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-03.36.47:388][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-03.36.47:421][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-03.36.47:960][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.02-03.36.48:369][  0]LogEngine: Initializing Engine...
+[2017.09.02-03.36.48:370][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.02-03.36.48:515][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.02-03.36.48:515][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.02-03.36.48:606][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.36.48:612][  0]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-03.36.48:623][  0]LogInit: FAudioDevice initialized.
+[2017.09.02-03.36.48:671][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/kengo maruyama/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.02-03.36.48:684][  0]LogInit: Texture streaming: Enabled
+[2017.09.02-03.36.48:757][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.02-03.36.48:954][  0]LogInit: Transaction tracking system initialized
+[2017.09.02-03.36.49:174][  0]BlueprintLog: New page: エディタの読み込み
+[2017.09.02-03.36.49:834][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2017.09.02-03.36.50:313][  0]LogConsoleResponse:Display: 
+[2017.09.02-03.36.50:415][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.02-03.36.50:415][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.02-03.36.50:638][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/' took 0.02s
+[2017.09.02-03.36.51:128][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.09.02-03.36.51:195][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.09.02-03.36.51:221][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.02-03.36.51:223][  0]LogSlate: Took 0.001969 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.09.02-03.36.58:339][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.09.02-03.36.58:343][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.09.02-03.36.59:814][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.09.02-03.36.59:818][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.09.02-03.36.59:826][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/LooptyLoopMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.02-03.36.59:827][  0]LightingResults: New page: ライティングのビルド
+[2017.09.02-03.36.59:859][  0]MapCheck: New page: マップをチェック
+[2017.09.02-03.36.59:859][  0]LightingResults: New page: <何も選択されていません>
+[2017.09.02-03.36.59:985][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.09.02-03.36.59:985][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.09.02-03.36.59:987][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-03.36.59:987][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-03.36.59:987][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-03.36.59:987][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-03.37.00:000][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0020.94] Compile of car_blueprint successful, but with 6 Warning(s) [in 24 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-03.37.00:001][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0020.94] Compile of car_blueprint successful, but with 7 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-03.37.00:001][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0020.94] Compile of car_blueprint successful, but with 8 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-03.37.00:023][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionMin  に不明なアクション 'SlowMotionMin'' を参照しています
+[2017.09.02-03.37.00:023][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション SlowMotionPlus  に不明なアクション 'SlowMotionPlus'' を参照しています
+[2017.09.02-03.37.00:026][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-03.37.00:026][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-03.37.00:026][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Turbo  に不明なアクション 'Turbo'' を参照しています
+[2017.09.02-03.37.00:026][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 インプットアクション イベントは  インプットアクション Reverse  に不明なアクション 'Reverse'' を参照しています
+[2017.09.02-03.37.00:040][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0020.98] Compile of car_blueprint successful, but with 6 Warning(s) [in 26 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-03.37.00:040][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0020.98] Compile of car_blueprint successful, but with 7 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-03.37.00:040][  0]LogBlueprint:Warning: [Compiler car_blueprint] 警告 [0020.98] Compile of car_blueprint successful, but with 8 Warning(s) [in 0 ms] (/Game/PolyCar_Pack/PolyCar/main/car_blueprint.car_blueprint)
+[2017.09.02-03.37.00:199][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveForward  に不明な軸 'MoveForward' を参照しています
+[2017.09.02-03.37.00:199][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookUp を取得  にインプット軸参照の不明な軸 'LookUp' を取得
+[2017.09.02-03.37.00:200][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookRight を取得  にインプット軸参照の不明な軸 'LookRight' を取得
+[2017.09.02-03.37.00:200][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveRight  に不明な軸 'MoveRight' を参照しています
+[2017.09.02-03.37.00:206][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0021.15] Compile of VehicleBlueprint successful, but with 4 Warning(s) [in 9 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-03.37.00:206][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0021.15] Compile of VehicleBlueprint successful, but with 5 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-03.37.00:206][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0021.15] Compile of VehicleBlueprint successful, but with 6 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-03.37.00:254][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveForward  に不明な軸 'MoveForward' を参照しています
+[2017.09.02-03.37.00:254][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookUp を取得  にインプット軸参照の不明な軸 'LookUp' を取得
+[2017.09.02-03.37.00:254][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告  LookRight を取得  にインプット軸参照の不明な軸 'LookRight' を取得
+[2017.09.02-03.37.00:254][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 インプット軸イベントは  インプットAxis MoveRight  に不明な軸 'MoveRight' を参照しています
+[2017.09.02-03.37.00:261][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0021.20] Compile of VehicleBlueprint successful, but with 4 Warning(s) [in 9 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-03.37.00:261][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0021.20] Compile of VehicleBlueprint successful, but with 5 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-03.37.00:262][  0]LogBlueprint:Warning: [Compiler VehicleBlueprint] 警告 [0021.20] Compile of VehicleBlueprint successful, but with 6 Warning(s) [in 0 ms] (/Game/VehicleAdvBP/Blueprints/VehicleBlueprint.VehicleBlueprint)
+[2017.09.02-03.37.00:852][  0]LogAIModule: Creating AISystem for world LooptyLoopMap
+[2017.09.02-03.37.00:868][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.02-03.37.00:886][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.02-03.37.00:925][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 39.644ミリ秒かかりました。
+[2017.09.02-03.37.00:925][  0]LogFileHelpers: Loading map 'LooptyLoopMap' took 1.099
+[2017.09.02-03.37.01:001][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_55c7c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_57f0c_0///####STATCAT_Advanced####
+[2017.09.02-03.37.01:001][  0]LogCollectionManager: Loaded 0 collections in 0.000975 seconds
+[2017.09.02-03.37.01:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Saved/Collections/' took 0.01s
+[2017.09.02-03.37.01:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/Developers/kengomaruyama/Collections/' took 0.01s
+[2017.09.02-03.37.01:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kengo maruyama/petitcon/Content/Collections/' took 0.01s
+[2017.09.02-03.37.01:129][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.09.02-03.37.01:143][  0]LogContentBrowser: Native class hierarchy populated in 0.0146 seconds. Added 2342 classes and 498 folders.
+[2017.09.02-03.37.01:213][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.02-03.37.01:236][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.09.02-03.37.01:266][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.02-03.37.01:350][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.02-03.37.01:355][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.02-03.37.01:356][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.02-03.37.01:428][  0]LogRenderer: Reallocating scene render targets to support 1108x584 NumSamples 1 (Frame:1).
+[2017.09.02-03.37.01:539][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2017.09.02-03.37.01:591][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.02-03.37.01:591][  0]LogLoad: (Engine Initialization) Total time: 22.53 seconds
+[2017.09.02-03.37.01:591][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.29 seconds
+[2017.09.02-03.37.01:591][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.02-03.37.01:602][  0]LogOcInput: OculusInput pre-init called
+[2017.09.02-03.37.01:602][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.09.02-03.37.01:602][  0]LogRawInputWindows:Warning: Found device 0 devices
+[2017.09.02-03.37.01:602][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:4 UsagePage:1
+[2017.09.02-03.37.01:602][  0]LogRawInputWindows:Warning: Found device 1 devices
+[2017.09.02-03.37.01:602][  0]LogRawInputWindows:Warning: Device was registered succesfully but not connected (Usage:5 UsagePage:1
+[2017.09.02-03.37.01:602][  0]LogHMD: Starting GearVRController plugin
+[2017.09.02-03.37.01:619][  0]LogAssetRegistry: Asset discovery search completed in 16.9090 seconds
+[2017.09.02-03.37.01:621][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.09.02-03.37.01:621][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.09.02-03.37.01:622][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.02-03.37.01:656][  0]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.02-03.37.02:617][ 99]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.02-03.37.04:950][373]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.02-03.37.05:201][373]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 112 classes and 0 folders.
+[2017.09.02-03.37.05:625][373]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.02-03.37.05:705][374]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.02-03.37.21:405][ 71]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.37.21:425][ 71]Cmd: MAP LOAD FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.02-03.37.21:425][ 71]LightingResults: New page: ライティングのビルド
+[2017.09.02-03.37.21:425][ 71]LoadErrors: New page: マップをロード中: Untitled.umap
+[2017.09.02-03.37.21:427][ 71]MapCheck: New page: マップをチェック
+[2017.09.02-03.37.21:427][ 71]LightingResults: New page: <何も選択されていません>
+[2017.09.02-03.37.21:513][ 71]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.02-03.37.21:540][ 71]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.02-03.37.21:581][ 71]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 41.194ミリ秒かかりました。
+[2017.09.02-03.37.21:581][ 71]LogFileHelpers: Loading map 'Untitled' took 0.157
+[2017.09.02-03.38.02:627][943]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.09.02-03.44.53:445][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/Untitled" FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.02-03.44.53:468][ 40]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2017.09.02-03.44.53:618][ 40]LogSavePackage: Save=153.18ms
+[2017.09.02-03.44.53:618][ 40]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/Untitled3702C3CF4369490C771144891A3A0E04.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap'
+[2017.09.02-03.44.53:620][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap
+[2017.09.02-03.49.56:257][ 12]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-03.49.56:302][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-03.49.56:302][ 12]PIE: New page: PIEセッション: Untitled (2017/09/02 21:49:56)
+[2017.09.02-03.49.56:302][ 12]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-03.49.56:310][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007748s)
+[2017.09.02-03.49.56:311][ 12]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.49.56:311][ 12]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2017.09.02-03.49.56:311][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.008781s)
+[2017.09.02-03.49.56:343][ 12]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-03.49.56:353][ 12]LogInit: FAudioDevice initialized.
+[2017.09.02-03.49.56:421][ 12]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-03.49.56:427][ 12]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-12.49.56
+[2017.09.02-03.49.56:427][ 12]LogWorld: Bringing up level for play took: 0.001603
+[2017.09.02-03.49.56:457][ 12]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.09.02-03.49.56:465][ 12]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled -0.015のプレイ イン エディタの開始時間
+[2017.09.02-03.49.56:514][ 12]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2017.09.02-03.50.01:701][617]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.02-03.50.10:352][650]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.02-03.50.18:670][642]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.02-03.50.37:625][910]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.02-03.50.38:375][994]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.02-03.50.38:745][ 36]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.02-03.50.49:404][307]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.50.57:856][315]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.51.03:200][949]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.51.06:437][335]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.51.07:576][470]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.51.11:017][879]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.51.12:487][ 53]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.51.13:600][185]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.51.22:090][196]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2017.09.02-03.51.32:731][449]Cmd: TRANSACTION UNDO
+[2017.09.02-03.51.32:731][449]LogEditorTransaction: Undo アクタをクリック
+[2017.09.02-03.51.39:101][201]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.51.42:535][611]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.51.56:306][247]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.52.15:371][525]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.52.19:217][976]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.52.29:916][245]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.52.31:943][486]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.52.32:784][585]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-03.52.32:797][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-03.52.32:797][585]PIE: New page: PIEセッション: Untitled (2017/09/02 21:52:32)
+[2017.09.02-03.52.32:797][585]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-03.52.32:805][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007693s)
+[2017.09.02-03.52.32:805][585]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.52.32:805][585]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2017.09.02-03.52.32:805][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.008388s)
+[2017.09.02-03.52.32:822][585]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-03.52.32:833][585]LogInit: FAudioDevice initialized.
+[2017.09.02-03.52.32:879][585]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-03.52.32:883][585]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-12.52.32
+[2017.09.02-03.52.32:883][585]LogWorld: Bringing up level for play took: 0.001759
+[2017.09.02-03.52.32:890][585]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled 0.41のプレイ イン エディタの開始時間
+[2017.09.02-03.53.06:920][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/Untitled" FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.02-03.53.07:067][645]LogSavePackage: Save=132.85ms
+[2017.09.02-03.53.07:067][645]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/UntitledD81A6BAC4EE06573AB027D8A63FD8EF1.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap'
+[2017.09.02-03.53.07:069][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap
+[2017.09.02-03.54.13:255][555]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.02-03.54.26:402][117]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.54.26:942][180]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.54.30:680][627]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.54.31:876][769]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.54.32:631][858]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-03.54.32:643][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-03.54.32:643][858]PIE: New page: PIEセッション: Untitled (2017/09/02 21:54:32)
+[2017.09.02-03.54.32:643][858]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-03.54.32:651][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007351s)
+[2017.09.02-03.54.32:651][858]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.54.32:651][858]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2017.09.02-03.54.32:651][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.008079s)
+[2017.09.02-03.54.32:667][858]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-03.54.32:674][858]LogInit: FAudioDevice initialized.
+[2017.09.02-03.54.32:722][858]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-03.54.32:726][858]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-12.54.32
+[2017.09.02-03.54.32:726][858]LogWorld: Bringing up level for play took: 0.001798
+[2017.09.02-03.54.32:733][858]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled 0.253のプレイ イン エディタの開始時間
+[2017.09.02-03.54.37:661][432]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.02-03.54.46:291][453]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-03.54.46:302][453]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-03.54.46:302][453]PIE: New page: PIEセッション: Untitled (2017/09/02 21:54:46)
+[2017.09.02-03.54.46:302][453]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-03.54.46:310][453]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007331s)
+[2017.09.02-03.54.46:310][453]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.54.46:310][453]LogPlayLevel: PIE: World Init took: (0.000533s)
+[2017.09.02-03.54.46:310][453]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.008003s)
+[2017.09.02-03.54.46:324][453]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-03.54.46:333][453]LogInit: FAudioDevice initialized.
+[2017.09.02-03.54.46:378][453]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-03.54.46:382][453]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-12.54.46
+[2017.09.02-03.54.46:383][453]LogWorld: Bringing up level for play took: 0.001781
+[2017.09.02-03.54.46:389][453]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled -0.091のプレイ イン エディタの開始時間
+[2017.09.02-03.54.54:653][423]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.02-03.54.56:841][684]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.54.58:169][842]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.00:395][107]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.01:475][235]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.02:597][368]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.03:644][492]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.04:541][598]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.05:887][758]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.06:933][882]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-03.55.06:944][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-03.55.06:945][882]PIE: New page: PIEセッション: Untitled (2017/09/02 21:55:06)
+[2017.09.02-03.55.06:945][882]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-03.55.06:952][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007614s)
+[2017.09.02-03.55.06:953][882]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.55.06:953][882]LogPlayLevel: PIE: World Init took: (0.000497s)
+[2017.09.02-03.55.06:953][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.008252s)
+[2017.09.02-03.55.06:967][882]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-03.55.06:975][882]LogInit: FAudioDevice initialized.
+[2017.09.02-03.55.07:022][882]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-03.55.07:026][882]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-12.55.07
+[2017.09.02-03.55.07:026][882]LogWorld: Bringing up level for play took: 0.001717
+[2017.09.02-03.55.07:033][882]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled 0.553のプレイ イン エディタの開始時間
+[2017.09.02-03.55.15:626][891]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.09.02-03.55.16:583][  1]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.02-03.55.18:628][242]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.19:907][394]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.27:433][283]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.28:766][441]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.29:431][519]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-03.55.29:444][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-03.55.29:444][519]PIE: New page: PIEセッション: Untitled (2017/09/02 21:55:29)
+[2017.09.02-03.55.29:444][519]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-03.55.29:451][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007475s)
+[2017.09.02-03.55.29:452][519]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.55.29:452][519]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2017.09.02-03.55.29:452][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.008137s)
+[2017.09.02-03.55.29:468][519]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-03.55.29:475][519]LogInit: FAudioDevice initialized.
+[2017.09.02-03.55.29:524][519]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-03.55.29:528][519]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-12.55.29
+[2017.09.02-03.55.29:528][519]LogWorld: Bringing up level for play took: 0.001730
+[2017.09.02-03.55.29:529][519]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-24955.000 Y=-24285.000 Z=8850.000] for [car_blueprint_C]
+[2017.09.02-03.55.29:529][519]LogGameMode:Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type car_blueprint_C at Rotation: 0.000000 -0.000000 0.000000 1.000000
+Translation: -24955.000000 -24285.000000 8850.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2017.09.02-03.55.29:535][519]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled 1.055のプレイ イン エディタの開始時間
+[2017.09.02-03.55.42:216][ 18]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.02-03.55.43:144][127]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.44:760][319]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.45:876][451]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-03.55.45:888][451]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-03.55.45:888][451]PIE: New page: PIEセッション: Untitled (2017/09/02 21:55:45)
+[2017.09.02-03.55.45:888][451]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-03.55.45:896][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007540s)
+[2017.09.02-03.55.45:896][451]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.55.45:896][451]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2017.09.02-03.55.45:897][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.008241s)
+[2017.09.02-03.55.45:913][451]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-03.55.45:920][451]LogInit: FAudioDevice initialized.
+[2017.09.02-03.55.45:967][451]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-03.55.45:972][451]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-12.55.45
+[2017.09.02-03.55.45:972][451]LogWorld: Bringing up level for play took: 0.001745
+[2017.09.02-03.55.45:978][451]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled -0.502のプレイ イン エディタの開始時間
+[2017.09.02-03.55.49:672][876]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.02-03.55.54:854][494]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.55.55:988][628]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-03.55.56:000][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-03.55.56:000][628]PIE: New page: PIEセッション: Untitled (2017/09/02 21:55:56)
+[2017.09.02-03.55.56:000][628]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-03.55.56:008][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007943s)
+[2017.09.02-03.55.56:008][628]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.55.56:009][628]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2017.09.02-03.55.56:009][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.008602s)
+[2017.09.02-03.55.56:023][628]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-03.55.56:030][628]LogInit: FAudioDevice initialized.
+[2017.09.02-03.55.56:078][628]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-03.55.56:082][628]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-12.55.56
+[2017.09.02-03.55.56:083][628]LogWorld: Bringing up level for play took: 0.001831
+[2017.09.02-03.55.56:089][628]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled -0.391のプレイ イン エディタの開始時間
+[2017.09.02-03.56.01:643][274]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2017.09.02-03.56.02:641][388]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.02-03.56.08:500][ 84]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.56.09:378][188]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-03.56.09:390][188]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-03.56.09:390][188]PIE: New page: PIEセッション: Untitled (2017/09/02 21:56:09)
+[2017.09.02-03.56.09:390][188]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-03.56.09:397][188]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007033s)
+[2017.09.02-03.56.09:398][188]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.56.09:398][188]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2017.09.02-03.56.09:398][188]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.007802s)
+[2017.09.02-03.56.09:412][188]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-03.56.09:420][188]LogInit: FAudioDevice initialized.
+[2017.09.02-03.56.09:464][188]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-03.56.09:469][188]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-12.56.09
+[2017.09.02-03.56.09:469][188]LogWorld: Bringing up level for play took: 0.001740
+[2017.09.02-03.56.09:475][188]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled 0.995のプレイ イン エディタの開始時間
+[2017.09.02-03.56.14:119][726]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.09.02-03.56.16:958][ 65]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.09.02-03.56.17:953][183]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-03.56.17:965][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-03.56.17:965][183]PIE: New page: PIEセッション: Untitled (2017/09/02 21:56:17)
+[2017.09.02-03.56.17:965][183]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-03.56.17:972][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007050s)
+[2017.09.02-03.56.17:972][183]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.56.17:972][183]LogPlayLevel: PIE: World Init took: (0.000584s)
+[2017.09.02-03.56.17:973][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.007797s)
+[2017.09.02-03.56.17:990][183]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-03.56.18:000][183]LogInit: FAudioDevice initialized.
+[2017.09.02-03.56.18:048][183]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-03.56.18:053][183]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-12.56.18
+[2017.09.02-03.56.18:053][183]LogWorld: Bringing up level for play took: 0.001743
+[2017.09.02-03.56.18:059][183]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled -0.421のプレイ イン エディタの開始時間
+[2017.09.02-03.58.42:368][441]Cmd: TRANSACTION UNDO
+[2017.09.02-03.58.42:368][441]LogEditorTransaction: Undo ランドスケープ編集: 平坦化   
+[2017.09.02-03.58.42:390][441]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2017.09.02-03.58.44:729][713]Cmd: TRANSACTION UNDO
+[2017.09.02-03.58.44:729][713]LogEditorTransaction: Undo ランドスケープ編集: 平坦化   
+[2017.09.02-03.59.00:503][584]LogTemp: Repeting last play command: 新規エディタウィンドウ (PIE)
+[2017.09.02-03.59.00:516][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.02-03.59.00:516][584]PIE: New page: PIEセッション: Untitled (2017/09/02 21:59:00)
+[2017.09.02-03.59.00:516][584]LogPlayLevel: Creating play world package: /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled
+[2017.09.02-03.59.00:523][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007567s)
+[2017.09.02-03.59.00:524][584]LogAIModule: Creating AISystem for world Untitled
+[2017.09.02-03.59.00:524][584]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2017.09.02-03.59.00:524][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VehicleAdvBP/Maps/Untitled.Untitled to /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled (0.008322s)
+[2017.09.02-03.59.00:558][584]LogInit: XAudio2 using 'スピーカー (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.02-03.59.00:566][584]LogInit: FAudioDevice initialized.
+[2017.09.02-03.59.00:614][584]LogLoad: Game class is 'VehicleAdvGameMode_C'
+[2017.09.02-03.59.00:619][584]LogWorld: Bringing World /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2017.09.02-12.59.00
+[2017.09.02-03.59.00:619][584]LogWorld: Bringing up level for play took: 0.001778
+[2017.09.02-03.59.00:626][584]PIE: 情報 /Game/VehicleAdvBP/Maps/UEDPIE_0_Untitled 0.145のプレイ イン エディタの開始時間
+[2017.09.02-04.00.31:897][520]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VehicleAdvBP/Maps/Untitled" FILE="../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.09.02-04.00.31:929][520]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2017.09.02-04.00.32:049][520]LogSavePackage: Save=138.64ms
+[2017.09.02-04.00.32:049][520]LogSavePackage: Moving '../../../../../../Users/kengo maruyama/petitcon/Saved/UntitledC1083AA7446C40C94B1D42B7E3413DF4.tmp' to '../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap'
+[2017.09.02-04.00.32:051][520]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kengo maruyama/petitcon/Content/VehicleAdvBP/Maps/Untitled.umap
+[2017.09.02-04.05.43:546][877]LogMaterial: Missing cached shader map for material AnimeShader, compiling. 
+[2017.09.02-04.05.43:569][877]LogWindows: Windows GetLastError: この操作を正しく終了しました。 (0)
